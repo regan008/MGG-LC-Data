@@ -65,5 +65,8 @@ total.per.loc.byyear <- geocoded.data %>% group_by(publication, year, city, stat
 
 relative.count <- full_join(total.per.year, total.per.loc.byyear)
 relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
+relative.count$geocode.value <-  paste(relative.count$city, ", ", relative.count$state, ", ", relative.count$country, sep="")
+relative.count <- left_join(relative.count, unique_cities, by = "geocode.value")
 write.csv(relative.count, file="relative-data.csv", row.names = FALSE)
+
 # of location in a city / # of location in a year 
