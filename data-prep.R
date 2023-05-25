@@ -1,4 +1,5 @@
 library(tidyverse)
+library(forcats)
 library(ggmap)
 lc.data <- read.csv(file = "spatial-data-lc-05-17-2023.csv")
 mgg.data <- readRDS(file = "mgg-data-cleaned.rds")
@@ -53,3 +54,16 @@ for(i in 1:nrow(unique_cities)) {
 
 write.csv(unique_cities, file="unique_city_list.csv", row.names = FALSE)
 geocoded_df <- left_join(combined_data, unique_cities, by = "geocode.value")
+write.csv(geocoded_df, file ="geocoded_data.csv", row.names = FALSE)
+geocoded.data <- read.csv("geocoded_data.csv")
+
+geocoded.data <- geocoded.data %>% mutate(publication = fct_collapse(geocoded.data$publication, 
+                                            "Lesbian Connection" = c(" Lesbian Connection", "Lesbian Connections")))
+                                            
+total.per.year <- geocoded.data %>% group_by(publication, year) %>% summarize(pub.count = n())
+total.per.loc.byyear <- geocoded.data %>% group_by(publication, year, city, state, country) %>% summarize(count = n())
+
+relative.count <- full_join(total.per.year, total.per.loc.byyear)
+relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
+write.csv(relative.count, file="relative-data.csv", row.names = FALSE)
+# of location in a city / # of location in a year 
