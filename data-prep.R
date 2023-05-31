@@ -70,3 +70,7 @@ relative.count <- left_join(relative.count, unique_cities, by = "geocode.value")
 write.csv(relative.count, file="relative-data.csv", row.names = FALSE)
 
 # of location in a city / # of location in a year 
+
+
+geocoded.w.data <- geocoded.data %>% filter(grepl("(G)", geocoded.data$amenityfeatures, fixed = TRUE) | grepl("(L)", geocoded.data$amenityfeatures, fixed = TRUE)
+                                            
