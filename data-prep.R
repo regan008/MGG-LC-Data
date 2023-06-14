@@ -57,18 +57,20 @@ geocoded_df <- left_join(combined_data, unique_cities, by = "geocode.value")
 write.csv(geocoded_df, file ="geocoded_data.csv", row.names = FALSE)
 geocoded.data <- read.csv("geocoded_data.csv")
 
+#calculating relative values of locations
+geocoded.data <- read.csv("womens-data.csv") #use for just looking at women's locations
 geocoded.data <- geocoded.data %>% mutate(publication = fct_collapse(geocoded.data$publication, 
                                             "Lesbian Connection" = c(" Lesbian Connection", "Lesbian Connections")))
                                             
 total.per.year <- geocoded.data %>% group_by(publication, year) %>% summarize(pub.count = n())
-total.per.loc.byyear <- geocoded.data %>% group_by(publication, year, city, state, country) %>% summarize(count = n())
+total.per.loc.byyear <- geocoded.data %>% group_by(publication, year, city, state, country, geocode.value, lon, lat, geoAddress) %>% summarize(count = n())
 
 relative.count <- full_join(total.per.year, total.per.loc.byyear)
 relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
-relative.count$geocode.value <-  paste(relative.count$city, ", ", relative.count$state, ", ", relative.count$country, sep="")
-relative.count <- left_join(relative.count, unique_cities, by = "geocode.value")
-write.csv(relative.count, file="relative-data.csv", row.names = FALSE)
-
+#relative.count$geocode.value <-  paste(relative.count$city, ", ", relative.count$state, ", ", relative.count$country, sep="")
+#relative.count <- left_join(relative.count, unique_cities, by = "geocode.value")
+#write.csv(relative.count, file="relative-data.csv", row.names = FALSE) #use this for full dataset
+write.csv(relative.count, file="relative-data-womens-data.csv", row.names = FALSE) #use this for just women's data
 # of location in a city / # of location in a year 
 
 
