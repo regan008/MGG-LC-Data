@@ -20,26 +20,35 @@ new.geocode.entries <- unique(gg.geocode.empty$geocode.value) %>% as.data.frame(
 
 register_google(key = Sys.getenv("MGG_GOOGLE_KEY"))
 #geocoding function
-for(i in 1:nrow(unique_cities)) {
+for(i in 1:nrow(new.geocode.entries)) {
   # Print("Working...")
   result <- tryCatch(geocode(new.geocode.entries$geocode.value[i], output = "latlona", source = "google"), warning = function(w) data.frame(lon = NA, lat = NA, address = NA))
   new.geocode.entries$lon[i] <- as.numeric(result[1])
   new.geocode.entries$lat[i] <- as.numeric(result[2])
   new.geocode.entries$geoAddress[i] <- as.character(result[3])
 }
-unique.cities <- rbind(new.geocode, unique.cities)
+#merge into exisiting unique cities first and then into gg.geocode
+unique.cities <- rbind(new.geocode.entries, unique.cities)
 gg.geocode <- left_join(gg.data, unique.cities, by="geocode.value")
+gg.geocode$year <- 1983
 
 
-lc.data <- lc.data %>% select(-"Other.Entities", -"Content.Type", -"Vol..", -"notes", -"Issue..", -"Month", -"ID", -"concat_key", -"orig.lc.lat", -"orig.lc.long")
-lc.data$star.type <- "NA"
-lc.data <- lc.data %>% select(-"notes")
-gg.geocode$amenityfeatures <- "NA"
-gg.geocode$Entity.Type <- "NA"
-gg.geocode$Year <- 1983
-#left off here trying to merge the two dfs. Mandy, comment and clean up the code. 
+combined.data <- read.csv("geocoded_data.csv")
+combined.data <- combined.data %>% filter(year == 1983)
 
-geocoded.data <- read.csv("geocoded_data.csv")
-lc.data <- geocoded.data %>% filter(publication == "Lesbian Connection") %>% filter(year == 1983)
-mgg.data <- geocoded.data %>% filter(publication == "Bob Damron's Address Book") %>% filter(year == 1983)
+#keep Entity.Type, mgg.type from combined LC & MGG data. keep type and star.type from GG.
+gg.geocode$mgg.type <- NA
+gg.geocode$Entity.Type <- NA
+combined.data$type <- NA
+combined.data$star.type <- NA
 
+
+combined.data.names <- names(combined.data)
+gg.data.names <- names(gg.geocode)
+
+common_cols <- intersect(combined.data.names, gg.data.names) 
+print("Column names that are the same in both dataframes:") 
+print(common_cols)
+
+all.data <- merge(combined.data, gg.geocode, by = common_cols, all = TRUE)
+write.csv(all.data, "alldata.csv")
