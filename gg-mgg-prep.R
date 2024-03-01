@@ -2,21 +2,19 @@ library(tidyverse)
 library(forcats)
 library(ggmap)
 
-
-gg.data.pt1 <- read.csv(file ="1983-GG-pt1.csv")
-gg.data.pt2 <- read.csv(file ="1983-GG-pt2.csv")
-gg.data <- rbind(gg.data.pt1, gg.data.pt2)
-
-gg.data$publication <- "Gaia"
-
-
-gg.data <- gg.data %>% select("Name.of.Site.Org", "Site.Type", "City", "State", "Star.Type", "publication", "Description..copy...paste.")
+#load data and add a publication and country column to match the other datasets
+gg.data <- read.csv("gg-1983.csv", header = TRUE)
+gg.data$publication <- "Gaia's Guide"
 gg.data$country <- "United States"
-gg.data <- gg.data %>% rename("title" = "Name.of.Site.Org", "type" = "Site.Type", "city" = "City", "state" = "State", "description" = "Description..copy...paste.", "star.type" = "Star.Type")
+
+#create a geocode value from the city state and country
 gg.data$geocode.value <-  paste(gg.data$city, ", ", gg.data$state, ", ", gg.data$country, sep="")
 
+# read in a list of unique cities (geocode values) from Damron and LC data. Join it with Gaia's guide data.
 unique.cities <- read.csv("unique_city_list.csv")
 gg.geocode <- left_join(gg.data, unique.cities, by="geocode.value")
+
+#find all the empty rows that didn't have a match. 
 gg.geocode.empty <- gg.geocode %>% filter(is.na(lon))
 new.geocode.entries <- unique(gg.geocode.empty$geocode.value) %>% as.data.frame() %>% rename("geocode.value" = ".")
 
@@ -29,9 +27,6 @@ for(i in 1:nrow(unique_cities)) {
   new.geocode.entries$lat[i] <- as.numeric(result[2])
   new.geocode.entries$geoAddress[i] <- as.character(result[3])
 }
-write.csv(new.geocode.entries, "newgeocode.csv")
-new.geocode <- read.csv("newgeocode.csv") 
-new.geocode <- new.geocode %>% select(-X)
 unique.cities <- rbind(new.geocode, unique.cities)
 gg.geocode <- left_join(gg.data, unique.cities, by="geocode.value")
 
