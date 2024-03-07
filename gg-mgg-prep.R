@@ -52,3 +52,7 @@ print(common_cols)
 
 all.data <- merge(combined.data, gg.geocode, by = common_cols, all = TRUE)
 write.csv(all.data, "alldata.csv")
+
+#mgg.L or G only entries
+damron.w.spaces <- all.data %>% filter(publication == "Bob Damron's Address Book") 
+damron.w.spaces <- damron.w.spaces %>% filter(grepl("(G)", damron.w.spaces$amenityfeatures, ignore.case = TRUE) | grepl("(L)", damron.w.spaces$amenityfeatures, ignore.case = TRUE))
