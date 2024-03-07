@@ -59,3 +59,20 @@ damron.w.spaces <- damron.w.spaces %>% filter(grepl("(G)", damron.w.spaces$ameni
 gg.lc.data <- all.data %>% filter(publication == "Lesbian Connection" | publication == "Gaia's Guide")
 all.w.data <- merge(damron.w.spaces, gg.lc.data, by = common_cols, all = TRUE)
 write.csv(all.w.data, "all-w-data.csv")
+
+
+#calculating relative values of locations
+total.per.year <- all.data %>% group_by(publication, year) %>% summarize(pub.count = n())
+total.per.loc.byyear <- all.data %>% group_by(publication, year, city, state, country, geocode.value, lon, lat, geoAddress) %>% summarize(count = n())
+
+relative.count <- full_join(total.per.year, total.per.loc.byyear)
+relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
+write.csv(relative.count, file="relative-data.csv", row.names = FALSE) 
+
+#calculate relative values for data with just Damron G or L
+total.per.year <- all.w.data %>% group_by(publication, year) %>% summarize(pub.count = n())
+total.per.loc.byyear <- all.w.data %>% group_by(publication, year, city, state, country, geocode.value, lon, lat, geoAddress) %>% summarize(count = n())
+
+relative.count <- full_join(total.per.year, total.per.loc.byyear)
+relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
+write.csv(relative.count, file="relative-data-womens.csv", row.names = FALSE) #use this for just women's data
