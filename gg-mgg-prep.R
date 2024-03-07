@@ -56,3 +56,6 @@ write.csv(all.data, "alldata.csv")
 #mgg.L or G only entries
 damron.w.spaces <- all.data %>% filter(publication == "Bob Damron's Address Book") 
 damron.w.spaces <- damron.w.spaces %>% filter(grepl("(G)", damron.w.spaces$amenityfeatures, ignore.case = TRUE) | grepl("(L)", damron.w.spaces$amenityfeatures, ignore.case = TRUE))
+gg.lc.data <- all.data %>% filter(publication == "Lesbian Connection" | publication == "Gaia's Guide")
+all.w.data <- merge(damron.w.spaces, gg.lc.data, by = common_cols, all = TRUE)
+write.csv(all.w.data, "all-w-data.csv")
