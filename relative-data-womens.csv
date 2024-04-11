@@ -244,438 +244,440 @@
 "Bob Damron's Address Book",1983,452,"Worcester","MA","United States","Worcester, MA, United States",-71.8022934,42.2625932,"worcester, ma, usa",1,0.221238938053097
 "Bob Damron's Address Book",1983,452,"Yonkers","NY","United States","Yonkers, NY, United States",-73.8987469,40.9312099,"yonkers, ny, usa",1,0.221238938053097
 "Bob Damron's Address Book",1983,452,"York","PA","United States","York, PA, United States",-76.727745,39.9625984,"york, pa, usa",2,0.442477876106195
-"Gaia's Guide",1983,1997,"","CT","United States",", CT, United States",-73.087749,41.6032207,"connecticut, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"","FL","United States",", FL, United States",-81.5157535,27.6648274,"florida, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"","MD","United States",", MD, United States",-76.6412712,39.0457549,"maryland, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"","MT","United States",", MT, United States",-110.3625658,46.8796822,"montana, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"","NC","United States",", NC, United States",-79.0192997,35.7595731,"north carolina, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"","NJ","United States",", NJ, United States",-74.4056612,40.0583238,"new jersey, usa",8,0.400600901352028
-"Gaia's Guide",1983,1997,"","NM","United States",", NM, United States",-105.0323635,34.9727305,"new mexico, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"","OR","United States",", OR, United States",-120.5542012,43.8041334,"oregon, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"","PA","United States",", PA, United States",-77.1945247,41.2033216,"pennsylvania, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"","SD","United States",", SD, United States",-99.9018131,43.9695148,"south dakota, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"","TN","United States",", TN, United States",-86.5804473,35.5174913,"tennessee, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"","TX","United States",", TX, United States",-99.9018131,31.9685988,"texas, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"","VI","United States",", VI, United States",NA,NA,"NA",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Abilene","TX","United States","Abilene, TX, United States",-99.7331439,32.4487364,"abilene, tx, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Akron","OH","United States","Akron, OH, United States",-81.5190053,41.0814447,"akron, oh, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Albany","NY","United States","Albany, NY, United States",-73.7562317,42.6525793,"albany, ny, usa",7,0.350525788683025
-"Gaia's Guide",1983,1997,"Albion","CA","United States","Albion, CA, United States",-123.7680598,39.2232406,"albion, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Albuquerque","NM","United States","Albuquerque, NM, United States",-106.650422,35.0843859,"albuquerque, nm, usa",9,0.450676014021032
-"Gaia's Guide",1983,1997,"Alexandria","LA","United States","Alexandria, LA, United States",-92.4451371,31.3112936,"alexandria, la, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Allentown","PA","United States","Allentown, PA, United States",-75.4714098,40.6022939,"allentown, pa, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Allston","MA","United States","Allston, MA, United States",-71.1328247,42.3555087,"allston, boston, ma, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Altoona","PA","United States","Altoona, PA, United States",-78.3947359,40.5186809,"altoona, pa, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Amarillo","TX","United States","Amarillo, TX, United States",-101.8312969,35.2219971,"amarillo, tx, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Ann Arbor","MI","United States","Ann Arbor, MI, United States",-83.7430378,42.2808256,"ann arbor, mi, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Appletown","WI","United States","Appletown, WI, United States",-88.4153847,44.2619309,"appleton, wi, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Asbury Park ","NJ","United States","Asbury Park , NJ, United States",-74.0120817,40.2203907,"asbury park, nj 07712, usa",6,0.300450676014021
-"Gaia's Guide",1983,1997,"Asheville","NC","United States","Asheville, NC, United States",-82.5514869,35.5950581,"asheville, nc, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Ashland","OR","United States","Ashland, OR, United States",-122.7094767,42.1945758,"ashland, or 97520, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Athol","NY","United States","Athol, NY, United States",-73.8429001,43.4925679,"athol, ny 12810, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Atlanta","GA","United States","Atlanta, GA, United States",-84.3876845,33.748752,"atlanta, ga, usa",19,0.951427140711067
-"Gaia's Guide",1983,1997,"Atlantic City","NJ","United States","Atlantic City, NJ, United States",-74.4229266,39.3642834,"atlantic city, nj, usa",7,0.350525788683025
-"Gaia's Guide",1983,1997,"Augusta","GA","United States","Augusta, GA, United States",-82.0105148,33.4734978,"augusta, ga, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Austin","TX","United States","Austin, TX, United States",-97.7430608,30.267153,"austin, tx, usa",9,0.450676014021032
-"Gaia's Guide",1983,1997,"Bailey","CO","United States","Bailey, CO, United States",-105.4786412,39.4060536,"bailey, co 80421, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Bakersfield","CA","United States","Bakersfield, CA, United States",-119.0187125,35.3732921,"bakersfield, ca, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Baltimore","MD","United States","Baltimore, MD, United States",-76.6121893,39.2903848,"baltimore, md, usa",20,1.00150225338007
-"Gaia's Guide",1983,1997,"Bar Harbor","ME","United States","Bar Harbor, ME, United States",-68.2039123,44.3876119,"bar harbor, me, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Baton Rouge","LA","United States","Baton Rouge, LA, United States",-91.1871466,30.4514677,"baton rouge, la, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Beaumont","TX","United States","Beaumont, TX, United States",-94.1265562,30.080174,"beaumont, tx, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Belfast","ME","United States","Belfast, ME, United States",-69.0064234,44.4259092,"belfast, me 04915, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Bellingham","WA","United States","Bellingham, WA, United States",-122.4786854,48.7519112,"bellingham, wa, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Bellows Falls","VT","United States","Bellows Falls, VT, United States",-72.4439772,43.133411,"bellows falls, town of rockingham, vt 05101, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Beloit","WI","United States","Beloit, WI, United States",-89.0317765,42.5083482,"beloit, wi 53511, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Berea","OH","United States","Berea, OH, United States",-81.8543026,41.3661614,"berea, oh 44017, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Berkeley","CA","United States","Berkeley, CA, United States",-122.273042,37.8715226,"berkeley, ca, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Berkely/Oakland","CA","United States","Berkely/Oakland, CA, United States",-122.2594606,37.870151,"university avenue and, oxford st, berkeley, ca 94720, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Bethany Beach","DE","United States","Bethany Beach, DE, United States",-75.0551806,38.5395564,"bethany beach, de, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Bethesda","MD","United States","Bethesda, MD, United States",-77.0947092,38.984652,"bethesda, md, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Beverly Hills","CA","United States","Beverly Hills, CA, United States",-118.4003563,34.0736204,"beverly hills, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Billings","MT","United States","Billings, MT, United States",-108.5006904,45.7832856,"billings, mt, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Biloxi ","MS","United States","Biloxi , MS, United States",-88.8853078,30.3960318,"biloxi, ms, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Binghamton","NY","United States","Binghamton, NY, United States",-75.9179738,42.0986867,"binghamton, ny, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"Birmingham","AL","United States","Birmingham, AL, United States",-86.8103567,33.5185892,"birmingham, al, usa",7,0.350525788683025
-"Gaia's Guide",1983,1997,"Bismarck","ND","United States","Bismarck, ND, United States",-100.7876931,46.8054947,"bismarck, nd, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Bloomington","IN","United States","Bloomington, IN, United States",-86.5263857,39.165325,"bloomington, in, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Boise","ID","United States","Boise, ID, United States",-116.2023137,43.6150186,"boise, id, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Bossier City","LA","United States","Bossier City, LA, United States",-93.7321228,32.5159852,"bossier city, la, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Boston","MA","United States","Boston, MA, United States",-71.0588801,42.3600825,"boston, ma, usa",39,1.95292939409114
-"Gaia's Guide",1983,1997,"Boulder","CO","United States","Boulder, CO, United States",-105.2705456,40.0149856,"boulder, co, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Bozeman","MT","United States","Bozeman, MT, United States",-111.0319925,45.6814733,"bozeman, mt, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Brattleboro","VT","United States","Brattleboro, VT, United States",-72.5578678,42.8509152,"brattleboro, vt 05301, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Bridgeport","CT","United States","Bridgeport, CT, United States",-73.1894384,41.1792258,"bridgeport, ct, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Bronx","NY","United States","Bronx, NY, United States",-73.8648268,40.8447819,"bronx, ny, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Brooklyn","NY","United States","Brooklyn, NY, United States",-73.9441579,40.6781784,"brooklyn, ny, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Broward County","FL","United States","Broward County, FL, United States",-80.365865,26.190096,"broward county, fl, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Buffalo","NY","United States","Buffalo, NY, United States",-78.8783689,42.8864468,"buffalo, ny, usa",8,0.400600901352028
-"Gaia's Guide",1983,1997,"Burlington","VT","United States","Burlington, VT, United States",-73.212072,44.4758825,"burlington, vt, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Calais","ME","United States","Calais, ME, United States",-67.2786038,45.1889633,"calais, me, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Calumet City","IL","United States","Calumet City, IL, United States",-87.5294871,41.6155909,"calumet city, il, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Cambridge","MA","United States","Cambridge, MA, United States",-71.1097335,42.3736158,"cambridge, ma, usa",15,0.751126690035053
-"Gaia's Guide",1983,1997,"Camden","NJ","United States","Camden, NJ, United States",-75.1196199,39.9259463,"camden, nj, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Canoga Park","CA","United States","Canoga Park, CA, United States",-118.6058609,34.208254,"canoga park, los angeles, ca, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Canton","OH","United States","Canton, OH, United States",-81.378447,40.7989473,"canton, oh, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Cedar Rapids","IA","United States","Cedar Rapids, IA, United States",-91.6656232,41.9778795,"cedar rapids, ia, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Champaign","IL","United States","Champaign, IL, United States",-88.2433829,40.1164204,"champaign, il, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Chapel Hill","NC","United States","Chapel Hill, NC, United States",-79.0558445,35.9131996,"chapel hill, nc, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Charlestown","SC","United States","Charlestown, SC, United States",-79.9319664,32.7833163,"charleston, sc, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Charlestown","WV","United States","Charlestown, WV, United States",-77.8597175,39.2889903,"charles town, wv 25414, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"Charlotte","NC","United States","Charlotte, NC, United States",-80.8431267,35.2270869,"charlotte, nc, usa",10,0.500751126690035
-"Gaia's Guide",1983,1997,"Charlottesville","VI","United States","Charlottesville, VI, United States",-78.4766781,38.0293059,"charlottesville, va, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Chatanooga","TN","United States","Chatanooga, TN, United States",-85.3093995,35.0457984,"chattanooga, tn, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Chicago","IL","United States","Chicago, IL, United States",-87.6297982,41.8781136,"chicago, il, usa",48,2.40360540811217
-"Gaia's Guide",1983,1997,"Cincinnati","OH","United States","Cincinnati, OH, United States",-84.5120196,39.1031182,"cincinnati, oh, usa",15,0.751126690035053
-"Gaia's Guide",1983,1997,"Clearwater","FL","United States","Clearwater, FL, United States",-82.8001026,27.9658533,"clearwater, fl, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Cleveland","OH","United States","Cleveland, OH, United States",-81.6943605,41.49932,"cleveland, oh, usa",14,0.701051577366049
-"Gaia's Guide",1983,1997,"Cocoa Beach","FL","United States","Cocoa Beach, FL, United States",-80.6075513,28.3200067,"cocoa beach, fl 32931, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Coconut Grove","FL","United States","Coconut Grove, FL, United States",-80.2377186,25.7355248,"coconut grove, miami, fl, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Colorado Springs","CO","United States","Colorado Springs, CO, United States",-104.8213634,38.8338816,"colorado springs, co, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Columbia","MO","United States","Columbia, MO, United States",-92.3340724,38.9517053,"columbia, mo, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Columbia","SC","United States","Columbia, SC, United States",-81.0348144,34.0007104,"columbia, sc, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Columbus","OH","United States","Columbus, OH, United States",-82.9987942,39.9611755,"columbus, oh, usa",10,0.500751126690035
-"Gaia's Guide",1983,1997,"Columbus ","GA","United States","Columbus , GA, United States",-84.9877094,32.4609764,"columbus, ga, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Concord","NH","United States","Concord, NH, United States",-71.5375718,43.2081366,"concord, nh, usa",7,0.350525788683025
-"Gaia's Guide",1983,1997,"Contoocook","NH","United States","Contoocook, NH, United States",-71.7139655,43.2220234,"contoocook, hopkinton, nh 03229, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Coral Gables","FL","United States","Coral Gables, FL, United States",-80.2635411,25.7491968,"coral gables, fl, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Costa Mesa","CA","United States","Costa Mesa, CA, United States",-117.9047429,33.6638439,"costa mesa, ca, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Covina","CA","United States","Covina, CA, United States",-117.8903397,34.0900091,"covina, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Covington","KY","United States","Covington, KY, United States",-84.5085536,39.0836712,"covington, ky, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Culver City","CA","United States","Culver City, CA, United States",-118.3964665,34.0211224,"culver city, ca, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Dade County","FL","United States","Dade County, FL, United States",-80.6326916,25.5516034,"miami-dade county, fl, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Dahlonega","GA","United States","Dahlonega, GA, United States",-83.9843953,34.5261465,"dahlonega, ga 30533, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Dallas","TX","United States","Dallas, TX, United States",-96.7969879,32.7766642,"dallas, tx, usa",7,0.350525788683025
-"Gaia's Guide",1983,1997,"Danbury","CT","United States","Danbury, CT, United States",-73.4540111,41.394817,"danbury, ct, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Davenport","IA","United States","Davenport, IA, United States",-90.5776367,41.5236437,"davenport, ia, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Davis","CA","United States","Davis, CA, United States",-121.7405167,38.5449065,"davis, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Dayton","OH","United States","Dayton, OH, United States",-84.1916069,39.7589478,"dayton, oh, usa",12,0.600901352028042
-"Gaia's Guide",1983,1997,"Daytona","FL","United States","Daytona, FL, United States",-81.0228331,29.2108147,"daytona beach, fl, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Denver","CO","United States","Denver, CO, United States",-104.990251,39.7392358,"denver, co, usa",29,1.4521782674011
-"Gaia's Guide",1983,1997,"Detroit","MI","United States","Detroit, MI, United States",-83.0457538,42.331427,"detroit, mi, usa",13,0.650976464697046
-"Gaia's Guide",1983,1997,"Dover","NJ","United States","Dover, NJ, United States",-74.5621025,40.883988,"dover, nj, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Durham","NC","United States","Durham, NC, United States",-78.898619,35.9940329,"durham, nc, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Durham","NH","United States","Durham, NH, United States",-70.9264393,43.1339545,"durham, nh 03824, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"East Barnet","VT","United States","East Barnet, VT, United States",-72.0493779,44.2968323,"barnet, vt, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"East Orange","NJ","United States","East Orange, NJ, United States",-74.2048677,40.767323,"east orange, nj, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"East St Louis","IL","United States","East St Louis, IL, United States",-90.1506465,38.624514,"east st louis, il, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"East Stroudsberg","PA","United States","East Stroudsberg, PA, United States",-75.1817547,41.0030522,"east stroudsburg, pa 18301, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"El Monte","CA","United States","El Monte, CA, United States",-118.0275667,34.0686206,"el monte, ca, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"El Paso","TX","United States","El Paso, TX, United States",-106.4850217,31.7618778,"el paso, tx, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Elgin","IL","United States","Elgin, IL, United States",-88.2825668,42.0354084,"elgin, il, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Erie","PA","United States","Erie, PA, United States",-80.085059,42.1292241,"erie, pa, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Eugene","OR","United States","Eugene, OR, United States",-123.0867536,44.0520691,"eugene, or, usa",18,0.901352028042063
-"Gaia's Guide",1983,1997,"Eureka","CA","United States","Eureka, CA, United States",-124.1636729,40.8020712,"eureka, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Evanston","IL","United States","Evanston, IL, United States",-87.6876969,42.0450722,"evanston, il, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Evansville","IN","United States","Evansville, IN, United States",-87.5710898,37.9715592,"evansville, in, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Fairfield","CT","United States","Fairfield, CT, United States",-73.2612615,41.1408363,"fairfield, ct, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Falls Village","CT","United States","Falls Village, CT, United States",-73.3650579,41.9550202,"falls village, canaan, ct 06031, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Fargo","ND","United States","Fargo, ND, United States",-96.7898034,46.8771863,"fargo, nd, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Fayetteville","AR","United States","Fayetteville, AR, United States",-94.1605839,36.0626579,"fayetteville, ar, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Fayetteville","NC","United States","Fayetteville, NC, United States",-78.8783774,35.0523673,"fayetteville, nc, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Flagstaff","AZ","United States","Flagstaff, AZ, United States",-111.651302,35.1982836,"flagstaff, az, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Flint","MI","United States","Flint, MI, United States",-83.6874562,43.0125274,"flint, mi, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Forest Park","IL","United States","Forest Park, IL, United States",-87.81367,41.8794758,"forest park, il, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Forestville","CA","United States","Forestville, CA, United States",-122.8902721,38.4735237,"forestville, ca 95436, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Fort Lauderdale","FL","United States","Fort Lauderdale, FL, United States",-80.1373174,26.1224386,"fort lauderdale, fl, usa",16,0.801201802704056
-"Gaia's Guide",1983,1997,"Fort Myers","FL","United States","Fort Myers, FL, United States",-81.8723084,26.640628,"fort myers, fl, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Fort Wayne","IN","United States","Fort Wayne, IN, United States",-85.1393513,41.079273,"fort wayne, in, usa",11,0.550826239359039
-"Gaia's Guide",1983,1997,"Fort Worth","TX","United States","Fort Worth, TX, United States",-97.3307658,32.7554883,"fort worth, tx, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"Fresno","CA","United States","Fresno, CA, United States",-119.7871247,36.7377981,"fresno, ca, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Gainesville","FL","United States","Gainesville, FL, United States",-82.3248262,29.6516344,"gainesville, fl, usa",6,0.300450676014021
-"Gaia's Guide",1983,1997,"Galveston","TX","United States","Galveston, TX, United States",-94.7976958,29.3013479,"galveston, tx, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Garden Grove","CA","United States","Garden Grove, CA, United States",-117.9379952,33.7742692,"garden grove, ca, usa",6,0.300450676014021
-"Gaia's Guide",1983,1997,"Glenrose","TX","United States","Glenrose, TX, United States",-97.7554986,32.2346721,"glen rose, tx, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Grand Rapids","MI","United States","Grand Rapids, MI, United States",-85.6680863,42.9633599,"grand rapids, mi, usa",9,0.450676014021032
-"Gaia's Guide",1983,1997,"Grants Pass","OR","United States","Grants Pass, OR, United States",-123.3283925,42.4390069,"grants pass, or, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Great Falls","MT","United States","Great Falls, MT, United States",-111.3007715,47.5052849,"great falls, mt, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Greeley","CO","United States","Greeley, CO, United States",-104.7091322,40.4233142,"greeley, co, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Green Bay","WI","United States","Green Bay, WI, United States",-88.0132958,44.5133188,"green bay, wi, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Greenfield","MA","United States","Greenfield, MA, United States",-72.5994104,42.587915,"greenfield, ma 01301, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Greensboro","NC","United States","Greensboro, NC, United States",-79.7919754,36.0726354,"greensboro, nc, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Greensburg","PA","United States","Greensburg, PA, United States",-79.5389289,40.3014581,"greensburg, pa 15601, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Greenville","SC","United States","Greenville, SC, United States",-82.3940104,34.8526176,"greenville, sc, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Guerneville","CA","United States","Guerneville, CA, United States",-122.9961102,38.5018575,"guerneville, ca 95446, usa",7,0.350525788683025
-"Gaia's Guide",1983,1997,"Gulfport","MS","United States","Gulfport, MS, United States",-89.0928155,30.3674198,"gulfport, ms, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Hagerstown","MD","United States","Hagerstown, MD, United States",-77.7199932,39.6417629,"hagerstown, md, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Hammond","IN","United States","Hammond, IN, United States",-87.5000412,41.5833688,"hammond, in, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Hanover","NH","United States","Hanover, NH, United States",-72.2895526,43.7022451,"hanover, nh, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Harper","KS","United States","Harper, KS, United States",-98.0258945,37.2866863,"harper, ks 67058, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Harrisburg","PA","United States","Harrisburg, PA, United States",-76.8867008,40.2731911,"harrisburg, pa, usa",6,0.300450676014021
-"Gaia's Guide",1983,1997,"Hartford","CT","United States","Hartford, CT, United States",-72.6733723,41.7658043,"hartford, ct, usa",8,0.400600901352028
-"Gaia's Guide",1983,1997,"Hattiesburg","MS","United States","Hattiesburg, MS, United States",-89.2903392,31.3271189,"hattiesburg, ms, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Hayward","CA","United States","Hayward, CA, United States",-122.0809964,37.6687665,"hayward, ca, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Hazleton","PA","United States","Hazleton, PA, United States",-75.9746472,40.9584181,"hazleton, pa, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Helena","MT","United States","Helena, MT, United States",-112.0391057,46.5891452,"helena, mt, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Hollywood","CA","United States","Hollywood, CA, United States",-118.3286614,34.0928092,"hollywood, los angeles, ca, usa",11,0.550826239359039
-"Gaia's Guide",1983,1997,"Hollywood","FL","United States","Hollywood, FL, United States",-80.1494901,26.0112014,"hollywood, fl, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Honolulu","HI","United States","Honolulu, HI, United States",-157.8581401,21.3098845,"honolulu, hi, usa",9,0.450676014021032
-"Gaia's Guide",1983,1997,"Hopland/Talmadge","CA","United States","Hopland/Talmadge, CA, United States",NA,NA,"NA",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Hot Springs","AR","United States","Hot Springs, AR, United States",-93.0546003,34.5077615,"hot springs, ar, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Houston","TX","United States","Houston, TX, United States",-95.3698028,29.7604267,"houston, tx, usa",6,0.300450676014021
-"Gaia's Guide",1983,1997,"Hummelstown","PA","United States","Hummelstown, PA, United States",-76.7083033,40.2653681,"hummelstown, pa 17036, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Huntington","WV","United States","Huntington, WV, United States",-82.445154,38.4192496,"huntington, wv, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Hyannis","MA","United States","Hyannis, MA, United States",-70.2881124,41.6524911,"hyannis, barnstable, ma 02601, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Indianapolis","IN","United States","Indianapolis, IN, United States",-86.158068,39.768403,"indianapolis, in, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Inglewood","CA","United States","Inglewood, CA, United States",-118.3531311,33.9616801,"inglewood, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Iowa City","IA","United States","Iowa City, IA, United States",-91.5346169,41.6578257,"iowa city, ia, usa",6,0.300450676014021
-"Gaia's Guide",1983,1997,"Irvine","CA","United States","Irvine, CA, United States",-117.8265049,33.6845673,"irvine, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Irvington","NJ","United States","Irvington, NJ, United States",-74.2286435,40.7263249,"irvington, nj 07111, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Ithaca","NY","United States","Ithaca, NY, United States",-76.5018807,42.4439614,"ithaca, ny, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Jackson","MS","United States","Jackson, MS, United States",-90.1848103,32.2987573,"jackson, ms, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"Jacksonville","FL","United States","Jacksonville, FL, United States",-81.655651,30.3321838,"jacksonville, fl, usa",7,0.350525788683025
-"Gaia's Guide",1983,1997,"Jacksonville","NC","United States","Jacksonville, NC, United States",-77.4302414,34.7540524,"jacksonville, nc, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Jersey City","NJ","United States","Jersey City, NJ, United States",-74.0431435,40.7177545,"jersey city, nj, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Johnson City","TN","United States","Johnson City, TN, United States",-82.3534727,36.3134397,"johnson city, tn, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Johnstown","PA","United States","Johnstown, PA, United States",-78.9219698,40.3267407,"johnstown, pa, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Joliet","IL","United States","Joliet, IL, United States",-88.0817251,41.525031,"joliet, il, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Kalamazoo","MI","United States","Kalamazoo, MI, United States",-85.5872286,42.2917069,"kalamazoo, mi, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Kansas City","KS","United States","Kansas City, KS, United States",-94.6267873,39.1155314,"kansas city, ks, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Kansas City","MO","United States","Kansas City, MO, United States",-94.5785667,39.0997265,"kansas city, mo, usa",22,1.10165247871808
-"Gaia's Guide",1983,1997,"Kettering","OH","United States","Kettering, OH, United States",-84.1688274,39.6895036,"kettering, oh, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Key West","FL","United States","Key West, FL, United States",-81.7841722,24.5554183,"key west, florida 33040, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"Klamath Falls","OR","United States","Klamath Falls, OR, United States",-121.7816704,42.224867,"klamath falls, or, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Knoxville","TN","United States","Knoxville, TN, United States",-83.9207392,35.9606384,"knoxville, tn, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"La Crosse","WI","United States","La Crosse, WI, United States",-91.2519017,43.8137751,"la crosse, wi, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"La Grande","OR","United States","La Grande, OR, United States",-118.0877188,45.3245771,"la grande, or 97850, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Laguna Beach","CA","United States","Laguna Beach, CA, United States",-117.7853568,33.5427189,"laguna beach, ca, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Lake Arrowhead","CA","United States","Lake Arrowhead, CA, United States",-117.1892078,34.2483396,"lake arrowhead, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Lake George","NY","United States","Lake George, NY, United States",-73.7123408,43.4261809,"lake george, ny 12845, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Lake Hoptacong","NJ","United States","Lake Hoptacong, NJ, United States",NA,NA,"NA",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Lake Tahoe","CA","United States","Lake Tahoe, CA, United States",-120.0323507,39.0968493,"lake tahoe, united states",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Lake Worth","FL","United States","Lake Worth, FL, United States",-80.0684479,26.6167555,"lake worth, fl, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Lakeland","FL","United States","Lakeland, FL, United States",-81.9498042,28.0394654,"lakeland, fl, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Lambertville","NJ","United States","Lambertville, NJ, United States",-74.9429448,40.3659394,"lambertville, nj 08530, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Lancaster","PA","United States","Lancaster, PA, United States",-76.3055144,40.0378755,"lancaster, pa, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Lansing","MI","United States","Lansing, MI, United States",-84.5555347,42.732535,"lansing, mi, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Las Vegas","NV","United States","Las Vegas, NV, United States",-115.1391009,36.171563,"las vegas, nv, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"Lawrence","KS","United States","Lawrence, KS, United States",-95.2352501,38.9716689,"lawrence, ks, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Lebanon","NH","United States","Lebanon, NH, United States",-72.2517569,43.6422934,"lebanon, nh, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Lewiston","ME","United States","Lewiston, ME, United States",-70.2147764,44.100351,"lewiston, me, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Lexington","KY","United States","Lexington, KY, United States",-84.5037164,38.0405837,"lexington, ky, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Lima","OH","United States","Lima, OH, United States",-84.1052256,40.742551,"lima, oh, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Lincoln","NE","United States","Lincoln, NE, United States",-96.7025955,40.813616,"lincoln, ne, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Little Rock","AR","United States","Little Rock, AR, United States",-92.2880157,34.7444618,"little rock, ar, usa",6,0.300450676014021
-"Gaia's Guide",1983,1997,"Long Beach","CA","United States","Long Beach, CA, United States",-118.1937395,33.7700504,"long beach, ca, usa",11,0.550826239359039
-"Gaia's Guide",1983,1997,"Long Island","NY","United States","Long Island, NY, United States",-73.134961,40.789142,"long island, new york, usa",22,1.10165247871808
-"Gaia's Guide",1983,1997,"Lorain","OH","United States","Lorain, OH, United States",-82.1823746,41.452819,"lorain, oh, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Los Altos","CA","United States","Los Altos, CA, United States",-122.1141298,37.3852183,"los altos, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Los Angeles","CA","United States","Los Angeles, CA, United States",-118.2436849,34.0522342,"los angeles, ca, usa",65,3.25488232348523
-"Gaia's Guide",1983,1997,"Louisville","KY","United States","Louisville, KY, United States",-85.7584557,38.2526647,"louisville, ky, usa",6,0.300450676014021
-"Gaia's Guide",1983,1997,"Lubbock","TX","United States","Lubbock, TX, United States",-101.8456417,33.5845617,"lubbock, tx, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Lynn","MA","United States","Lynn, MA, United States",-70.9494938,42.466763,"lynn, ma, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Madeira Beach","FL","United States","Madeira Beach, FL, United States",-82.7973247,27.7980814,"madeira beach, fl, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Madison","WI","United States","Madison, WI, United States",-89.4007501,43.0721661,"madison, wi, usa",13,0.650976464697046
-"Gaia's Guide",1983,1997,"Manchester","NH","United States","Manchester, NH, United States",-71.4547891,42.9956397,"manchester, nh, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"Manhattan","NY","United States","Manhattan, NY, United States",-73.9712488,40.7830603,"manhattan, new york, ny, usa",43,2.15322984476715
-"Gaia's Guide",1983,1997,"Mansfield","OH","United States","Mansfield, OH, United States",-82.5154471,40.75839,"mansfield, oh, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Marietta","PA","United States","Marietta, PA, United States",-76.5521882,40.0570411,"marietta, pa 17547, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Maui Island","HI","United States","Maui Island, HI, United States",-156.3319253,20.7983626,"maui, hawaii, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Medford","OR","United States","Medford, OR, United States",-122.8755949,42.3265152,"medford, or, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Melbourne","FL","United States","Melbourne, FL, United States",-80.6081089,28.0836269,"melbourne, fl, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Memphis","TN","United States","Memphis, TN, United States",-90.0489801,35.1495343,"memphis, tn, usa",8,0.400600901352028
-"Gaia's Guide",1983,1997,"Miami","FL","United States","Miami, FL, United States",-80.1917902,25.7616798,"miami, fl, usa",9,0.450676014021032
-"Gaia's Guide",1983,1997,"Mill Valley","CA","United States","Mill Valley, CA, United States",-122.5449763,37.9060368,"mill valley, ca 94941, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Milwaukee","WI","United States","Milwaukee, WI, United States",-87.9064736,43.0389025,"milwaukee, wi, usa",13,0.650976464697046
-"Gaia's Guide",1983,1997,"Minneapolis/St Paul","MN","United States","Minneapolis/St Paul, MN, United States",-93.2009998,44.9374831,"twin cities, mn, usa",20,1.00150225338007
-"Gaia's Guide",1983,1997,"Missoula","MT","United States","Missoula, MT, United States",-113.9940314,46.8721284,"missoula, mt, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Modesto","CA","United States","Modesto, CA, United States",-120.9970014,37.6392595,"modesto, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Monroe","LA","United States","Monroe, LA, United States",-92.1193012,32.5093109,"monroe, la, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Montclaire","PA","United States","Montclaire, PA, United States",-75.502411,40.1389933,"mont clare, pa 19453, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Montgomery","AL","United States","Montgomery, AL, United States",-86.3077368,32.3792233,"montgomery, al, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Montgomery","MD","United States","Montgomery, MD, United States",-77.2405153,39.1547426,"montgomery county, md, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Montpelier","VT","United States","Montpelier, VT, United States",-72.5753869,44.2600593,"montpelier, vt 05602, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Morgantown","WV","United States","Morgantown, WV, United States",-79.9558968,39.629526,"morgantown, wv, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Morristown ","NJ","United States","Morristown , NJ, United States",-74.4815438,40.7967667,"morristown, nj 07960, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Mountain View","CA","United States","Mountain View, CA, United States",-122.0838511,37.3860517,"mountain view, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Mt Clemens","MI","United States","Mt Clemens, MI, United States",-82.8779754,42.5972563,"mt clemens, mi, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Muncie","IN","United States","Muncie, IN, United States",-85.3863599,40.1933767,"muncie, in, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Myrtle Beach","SC","United States","Myrtle Beach, SC, United States",-78.8866943,33.6890603,"myrtle beach, sc, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Myrtle Creek","OR","United States","Myrtle Creek, OR, United States",-123.2931205,43.0201173,"myrtle creek, or 97457, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Napa","CA","United States","Napa, CA, United States",-122.286865,38.2975381,"napa, ca, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Nashua","NH","United States","Nashua, NH, United States",-71.467566,42.7653662,"nashua, nh, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Nashville","TN","United States","Nashville, TN, United States",-86.7816016,36.1626638,"nashville, tn, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"New Bedford","MA","United States","New Bedford, MA, United States",-70.934205,41.6362152,"new bedford, ma, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"New Britain","CT","United States","New Britain, CT, United States",-72.7795419,41.6612104,"new britain, ct, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"New Brunswick","NJ","United States","New Brunswick, NJ, United States",-74.4518188,40.4862157,"new brunswick, nj, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"New Haven","CT","United States","New Haven, CT, United States",-72.9278835,41.308274,"new haven, ct, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"New Hope","PA","United States","New Hope, PA, United States",-74.9512785,40.3642728,"new hope, pa 18938, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"New London","CT","United States","New London, CT, United States",-72.0995209,41.3556539,"new london, ct, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"New Orleans","LA","United States","New Orleans, LA, United States",-90.0715323,29.9510658,"new orleans, la, usa",22,1.10165247871808
-"Gaia's Guide",1983,1997,"New Town","IL","United States","New Town, IL, United States",NA,NA,"NA",6,0.300450676014021
-"Gaia's Guide",1983,1997,"New York City ","NY","United States","New York City , NY, United States",-74.0059728,40.7127753,"new york, ny, usa",98,4.90736104156234
-"Gaia's Guide",1983,1997,"Newark","DE","United States","Newark, DE, United States",-75.7496572,39.6837226,"newark, de, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Newark","NJ","United States","Newark, NJ, United States",-74.1723667,40.735657,"newark, nj, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Newport","RI","United States","Newport, RI, United States",-71.3128285,41.4901024,"newport, ri, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Newton","NJ","United States","Newton, NJ, United States",-74.7526651,41.0581527,"newton, nj 07860, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Norfolk","VI","United States","Norfolk, VI, United States",-76.2858726,36.8507689,"norfolk, va, usa",6,0.300450676014021
-"Gaia's Guide",1983,1997,"Northhampton","MA","United States","Northhampton, MA, United States",-72.6412013,42.3250896,"northampton, ma, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"Nyack","NY","United States","Nyack, NY, United States",-73.9179146,41.0906519,"nyack, ny 10960, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Oak Bluffs","MA","United States","Oak Bluffs, MA, United States",-70.5619724,41.4542793,"oak bluffs, ma, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Oak Park","IL","United States","Oak Park, IL, United States",-87.7845025,41.8850317,"oak park, il, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Oakhurst","CA","United States","Oakhurst, CA, United States",-119.6493154,37.3279997,"oakhurst, ca 93644, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Oakland","CA","United States","Oakland, CA, United States",-122.2711639,37.8043514,"oakland, ca, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Ocean Park Beach","CA","United States","Ocean Park Beach, CA, United States",-119.4179324,36.778261,"california, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Odessa","TX","United States","Odessa, TX, United States",-102.3676431,31.8456816,"odessa, tx, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Ogunquit","ME","United States","Ogunquit, ME, United States",-70.5986223,43.2468352,"ogunquit, me, usa",9,0.450676014021032
-"Gaia's Guide",1983,1997,"Oklahoma City","OK","United States","Oklahoma City, OK, United States",-97.5164276,35.4675602,"oklahoma city, ok, usa",7,0.350525788683025
-"Gaia's Guide",1983,1997,"Old Westbury","NY","United States","Old Westbury, NY, United States",-73.5995717,40.7887113,"old westbury, ny, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Olympia","WA","United States","Olympia, WA, United States",-122.9006951,47.0378741,"olympia, wa, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Omaha","NE","United States","Omaha, NE, United States",-95.9345034,41.2565369,"omaha, ne, usa",6,0.300450676014021
-"Gaia's Guide",1983,1997,"Orange","NJ","United States","Orange, NJ, United States",-74.2326478,40.7706187,"city of orange, nj 07050, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Orange County","CA","United States","Orange County, CA, United States",-117.8311428,33.7174708,"orange county, ca, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Orlando","FL","United States","Orlando, FL, United States",-81.3789269,28.5383832,"orlando, fl, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"Oswego","NY","United States","Oswego, NY, United States",-76.5104973,43.4553461,"oswego, ny, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Painesville","OH","United States","Painesville, OH, United States",-81.245657,41.7244885,"painesville, oh 44077, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Palm Springs","CA","United States","Palm Springs, CA, United States",-116.5452921,33.8302961,"palm springs, ca, usa",7,0.350525788683025
-"Gaia's Guide",1983,1997,"Palo Alto","CA","United States","Palo Alto, CA, United States",-122.1430195,37.4418834,"palo alto, ca, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Panama City","FL","United States","Panama City, FL, United States",-85.6602058,30.1588129,"panama city, fl, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Parkersburg","WV","United States","Parkersburg, WV, United States",-81.5615135,39.2667418,"parkersburg, wv, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Pasadena","CA","United States","Pasadena, CA, United States",-118.1445155,34.1477849,"pasadena, ca, usa",6,0.300450676014021
-"Gaia's Guide",1983,1997,"Paterson","NJ","United States","Paterson, NJ, United States",-74.171811,40.9167654,"paterson, nj, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"Pawtucket","RI","United States","Pawtucket, RI, United States",-71.3825558,41.878711,"pawtucket, ri, usa",11,0.550826239359039
-"Gaia's Guide",1983,1997,"Penacook","NH","United States","Penacook, NH, United States",-71.5990999,43.2801927,"penacook, concord, nh 03303, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Pensacola","FL","United States","Pensacola, FL, United States",-87.2169149,30.421309,"pensacola, fl, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Peoria","IL","United States","Peoria, IL, United States",-89.5889864,40.6936488,"peoria, il, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Philadelphia","PA","United States","Philadelphia, PA, United States",-75.1652215,39.9525839,"philadelphia, pa, usa",32,1.60240360540811
-"Gaia's Guide",1983,1997,"Phoenix","AZ","United States","Phoenix, AZ, United States",-112.0740373,33.4483771,"phoenix, az, usa",10,0.500751126690035
-"Gaia's Guide",1983,1997,"Pittsburgh","PA","United States","Pittsburgh, PA, United States",-79.9958864,40.4406248,"pittsburgh, pa, usa",9,0.450676014021032
-"Gaia's Guide",1983,1997,"Plainsboro","NJ","United States","Plainsboro, NJ, United States",-74.615308,40.3570497,"plainsboro township, nj, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Plattsburgh","NY","United States","Plattsburgh, NY, United States",-73.4529124,44.6994873,"plattsburgh, ny, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Plymouth","MA","United States","Plymouth, MA, United States",-70.6672621,41.9584457,"plymouth, ma, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Plymouth","MI","United States","Plymouth, MI, United States",-83.4702132,42.3714253,"plymouth, mi 48170, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Pocatello","ID","United States","Pocatello, ID, United States",-112.4506191,42.8621042,"pocatello, id, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Pomona","CA","United States","Pomona, CA, United States",-117.7499909,34.055103,"pomona, ca, usa",6,0.300450676014021
-"Gaia's Guide",1983,1997,"Pontiac","MI","United States","Pontiac, MI, United States",-83.2910468,42.6389216,"pontiac, mi, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Portland","ME","United States","Portland, ME, United States",-70.2568189,43.6590993,"portland, me, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Portland","OR","United States","Portland, OR, United States",-122.6783853,45.515232,"portland, or, usa",30,1.50225338007011
-"Gaia's Guide",1983,1997,"Portsmouth","ME","United States","Portsmouth, ME, United States",-70.78821,43.0417715,"united states",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Portsmouth","NH","United States","Portsmouth, NH, United States",-70.7625532,43.0717552,"portsmouth, nh 03801, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Poughkeepsie","NY","United States","Poughkeepsie, NY, United States",-73.9209701,41.7003713,"poughkeepsie, ny, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Princeton","NJ","United States","Princeton, NJ, United States",-74.6672226,40.3572976,"princeton, nj, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Provincetown","MA","United States","Provincetown, MA, United States",-70.1846012,42.0547136,"provincetown, ma, usa",34,1.70255383074612
-"Gaia's Guide",1983,1997,"Pueblo","CO","United States","Pueblo, CO, United States",-104.6091409,38.2544472,"pueblo, co, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Queens","NY","United States","Queens, NY, United States",-73.7948516,40.7282239,"queens, ny, usa",7,0.350525788683025
-"Gaia's Guide",1983,1997,"Raleigh","NC","United States","Raleigh, NC, United States",-78.6381787,35.7795897,"raleigh, nc, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Rancho Mirage","CA","United States","Rancho Mirage, CA, United States",-116.41279,33.739744,"rancho mirage, ca 92270, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Redding","CA","United States","Redding, CA, United States",-122.3916754,40.5865396,"redding, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Redwood City","CA","United States","Redwood City, CA, United States",-122.228141,37.4847955,"redwood city, ca, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Reheboth Beach","DE","United States","Reheboth Beach, DE, United States",-75.0760137,38.7209454,"rehoboth beach, de, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Reno","NV","United States","Reno, NV, United States",-119.8142691,39.529919,"reno, nv, usa",7,0.350525788683025
-"Gaia's Guide",1983,1997,"Richmond","VI","United States","Richmond, VI, United States",-77.4360481,37.5407246,"richmond, va, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Roanoke","VI","United States","Roanoke, VI, United States",-79.9414266,37.2709704,"roanoke, va, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Rochester","NY","United States","Rochester, NY, United States",-77.6088465,43.1565779,"rochester, ny, usa",15,0.751126690035053
-"Gaia's Guide",1983,1997,"Rock Island","IL","United States","Rock Island, IL, United States",-90.5787476,41.5094771,"rock island, il, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Rockford","IL","United States","Rockford, IL, United States",-89.0939952,42.2711311,"rockford, il, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Rockland","NY","United States","Rockland, NY, United States",NA,NA,"NA",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Rockport","ME","United States","Rockport, ME, United States",-69.079469,44.1910592,"rockport, me, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Ronan","MT","United States","Ronan, MT, United States",-114.1015013,47.5288233,"ronan, mt 59864, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Russian River","CA","United States","Russian River, CA, United States",-123.011048270873,38.9116324986166,"russian river, california, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Rutland","VT","United States","Rutland, VT, United States",-72.9726065,43.6106237,"rutland, vt 05701, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Sacramento","CA","United States","Sacramento, CA, United States",-121.4943996,38.5815719,"sacramento, ca, usa",24,1.20180270405608
-"Gaia's Guide",1983,1997,"Saint Croix","Virgin Islands","United States","Saint Croix, Virgin Islands, United States",-64.8347992,17.7245968,"st croix, usvi",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Salem","OR","United States","Salem, OR, United States",-123.0350963,44.9428975,"salem, or, usa",7,0.350525788683025
-"Gaia's Guide",1983,1997,"Salt Lake City","UT","United States","Salt Lake City, UT, United States",-111.8910474,40.7607793,"salt lake city, ut, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"San Antonio","TX","United States","San Antonio, TX, United States",-98.4945922,29.4251905,"san antonio, tx, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"San Bernardino","CA","United States","San Bernardino, CA, United States",-117.2897652,34.1083449,"san bernardino, ca, usa",8,0.400600901352028
-"Gaia's Guide",1983,1997,"San Diego","CA","United States","San Diego, CA, United States",-117.1610838,32.715738,"san diego, ca, usa",43,2.15322984476715
-"Gaia's Guide",1983,1997,"San Francisco","CA","United States","San Francisco, CA, United States",-122.4194155,37.7749295,"san francisco, ca, usa",81,4.05608412618928
-"Gaia's Guide",1983,1997,"San Jose","CA","United States","San Jose, CA, United States",-121.8852525,37.33874,"san jose, ca, usa",12,0.600901352028042
-"Gaia's Guide",1983,1997,"San Juan","PR","United States","San Juan, PR, United States",-95.712891,37.09024,"united states",11,0.550826239359039
-"Gaia's Guide",1983,1997,"San Luis Obispo","CA","United States","San Luis Obispo, CA, United States",-120.6596156,35.2827524,"san luis obispo, ca, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"San Mateo","CA","United States","San Mateo, CA, United States",-122.3255254,37.5629917,"san mateo, ca, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"San Rafael","CA","United States","San Rafael, CA, United States",-122.5310874,37.9735346,"san rafael, ca, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Santa Ana","CA","United States","Santa Ana, CA, United States",-117.867653,33.7454725,"santa ana, ca, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Santa Barbara","CA","United States","Santa Barbara, CA, United States",-119.6981901,34.4208305,"santa barbara, ca, usa",9,0.450676014021032
-"Gaia's Guide",1983,1997,"Santa Cruz","CA","United States","Santa Cruz, CA, United States",-122.0307963,36.9741171,"santa cruz, ca, usa",9,0.450676014021032
-"Gaia's Guide",1983,1997,"Santa Fe","NM","United States","Santa Fe, NM, United States",-105.937799,35.6869752,"santa fe, nm, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Santa Monica","CA","United States","Santa Monica, CA, United States",-118.4911912,34.0194543,"santa monica, ca, usa",8,0.400600901352028
-"Gaia's Guide",1983,1997,"Santa Rosa","CA","United States","Santa Rosa, CA, United States",-122.7140548,38.440429,"santa rosa, ca, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Sarasota","FL","United States","Sarasota, FL, United States",-82.5310117,27.336465,"sarasota, fl, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Saugatuck","MI","United States","Saugatuck, MI, United States",-86.2019825,42.6550248,"saugatuck, mi 49453, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Sausalito","CA","United States","Sausalito, CA, United States",-122.4852507,37.8590937,"sausalito, ca 94965, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Savannah","GA","United States","Savannah, GA, United States",-81.091203,32.0808989,"savannah, ga, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Schenectady","NY","United States","Schenectady, NY, United States",-73.9395687,42.8142432,"schenectady, ny, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Schenley","PA","United States","Schenley, PA, United States",-79.6617143,40.6845096,"schenley, pa 15682, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Scottsdale","AZ","United States","Scottsdale, AZ, United States",-111.9260519,33.4941704,"scottsdale, az, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Seattle","WA","United States","Seattle, WA, United States",-122.3320708,47.6062095,"seattle, wa, usa",32,1.60240360540811
-"Gaia's Guide",1983,1997,"Sherman Oaks","CA","United States","Sherman Oaks, CA, United States",-118.451357,34.1489719,"sherman oaks, los angeles, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Shreveport","LA","United States","Shreveport, LA, United States",-93.7501789,32.5251516,"shreveport, la, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Silverlake","CA","United States","Silverlake, CA, United States",-118.2702036,34.0869409,"silver lake, los angeles, ca, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Sioux Falls","SD","United States","Sioux Falls, SD, United States",-96.731265,43.5460223,"sioux falls, sd, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Smithfield","RI","United States","Smithfield, RI, United States",-71.5495101,41.9220496,"smithfield, ri, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Somerville","MA","United States","Somerville, MA, United States",-71.0994968,42.3875968,"somerville, ma, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"South Bend","IN","United States","South Bend, IN, United States",-86.2519898,41.6763545,"south bend, in, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"South Hadley","MA","United States","South Hadley, MA, United States",-72.5747934,42.2591729,"south hadley, ma 01075, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"South River","NJ","United States","South River, NJ, United States",-74.3859831,40.446495,"south river, nj, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Southington","CT","United States","Southington, CT, United States",-72.8776013,41.5964869,"southington, ct, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Spokane","WA","United States","Spokane, WA, United States",-117.4260466,47.6587802,"spokane, wa, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Springfield","IL","United States","Springfield, IL, United States",-89.6501481,39.7817213,"springfield, il, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Springfield","MA","United States","Springfield, MA, United States",-72.589811,42.1014831,"springfield, ma, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Springfield","MO","United States","Springfield, MO, United States",-93.2922989,37.2089572,"springfield, mo, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Springfield","OH","United States","Springfield, OH, United States",-83.8088171,39.9242266,"springfield, oh, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"St Augustine's","FL","United States","St Augustine's, FL, United States",-81.3139313,29.8921835,"st. augustine, fl, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"St Louis","MO","United States","St Louis, MO, United States",-90.1994042,38.6270025,"st. louis, mo, usa",20,1.00150225338007
-"Gaia's Guide",1983,1997,"St Petersburg","FL","United States","St Petersburg, FL, United States",-82.6402915,27.7676008,"st. petersburg, fl, usa",7,0.350525788683025
-"Gaia's Guide",1983,1997,"St Thomas","Virgin Islands","United States","St Thomas, Virgin Islands, United States",-64.8940946,18.3380965,"st thomas, 00802, usvi",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"State College","PA","United States","State College, PA, United States",-77.8600012,40.7933949,"state college, pa, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Staten Island","NY","United States","Staten Island, NY, United States",-74.1502007,40.5795317,"staten island, ny, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Steubenville","OH","United States","Steubenville, OH, United States",-80.6339638,40.3697905,"steubenville, oh, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Stockton","CA","United States","Stockton, CA, United States",-121.2907796,37.9577016,"stockton, ca, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Stonington","ME","United States","Stonington, ME, United States",-68.6666926,44.156192,"stonington, me 04681, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Stroudsburg","PA","United States","Stroudsburg, PA, United States",-75.1946248,40.9867609,"stroudsburg, pa 18360, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Studio City","CA","United States","Studio City, CA, United States",-118.3870991,34.1395597,"studio city, los angeles, ca, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"Sunnyvale","CA","United States","Sunnyvale, CA, United States",-122.0363496,37.36883,"sunnyvale, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Syracuse","NY","United States","Syracuse, NY, United States",-76.1474244,43.0481221,"syracuse, ny, usa",9,0.450676014021032
-"Gaia's Guide",1983,1997,"Tacoma","WA","United States","Tacoma, WA, United States",-122.4442906,47.2528768,"tacoma, wa, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Tallahassee","FL","United States","Tallahassee, FL, United States",-84.2807329,30.4382559,"tallahassee, fl, usa",4,0.200300450676014
-"Gaia's Guide",1983,1997,"Tampa","FL","United States","Tampa, FL, United States",-82.4571776,27.950575,"tampa, fl, usa",8,0.400600901352028
-"Gaia's Guide",1983,1997,"Teaneck","NJ","United States","Teaneck, NJ, United States",-74.0116536,40.8932469,"teaneck, nj, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Tempe","AZ","United States","Tempe, AZ, United States",-111.9400054,33.4255104,"tempe, az, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Toledo","OH","United States","Toledo, OH, United States",-83.5378674,41.6528052,"toledo, oh, usa",6,0.300450676014021
-"Gaia's Guide",1983,1997,"Topanga","CA","United States","Topanga, CA, United States",-118.6021321,34.0919452,"topanga, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Topeka","KS","United States","Topeka, KS, United States",-95.6751576,39.0473451,"topeka, ks, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Towson","MD","United States","Towson, MD, United States",-76.6019125,39.4014955,"towson, md, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Trenton","NJ","United States","Trenton, NJ, United States",-74.759717,40.2205824,"trenton, nj, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Tri-Cities","WA","United States","Tri-Cities, WA, United States",-119.2233014,46.2349999,"tri-cities, wa, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Tucson","AZ","United States","Tucson, AZ, United States",-110.9741769,32.2539787,"tucson, az, usa",15,0.751126690035053
-"Gaia's Guide",1983,1997,"Tulsa","OK","United States","Tulsa, OK, United States",-95.992775,36.1539816,"tulsa, ok, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Tyngsboro","MA","United States","Tyngsboro, MA, United States",-71.4244224,42.6766696,"tyngsborough, ma, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Union","NJ","United States","Union, NJ, United States",-74.2631635,40.6975898,"union, nj, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Upper Darby","PA","United States","Upper Darby, PA, United States",-75.2878235,39.9593175,"upper darby, pa, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Urbana","IL","United States","Urbana, IL, United States",-88.2072697,40.1105875,"urbana, il, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Utica","NY","United States","Utica, NY, United States",-75.232664,43.100903,"utica, ny, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Vallejo","CA","United States","Vallejo, CA, United States",-122.2566367,38.1040864,"vallejo, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Van Nuys","CA","United States","Van Nuys, CA, United States",-118.451357,34.1898566,"van nuys, los angeles, ca, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Venice","CA","United States","Venice, CA, United States",-118.4694832,33.9850469,"venice, los angeles, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Ventura","CA","United States","Ventura, CA, United States",-119.2945199,34.2804923,"ventura, ca, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Virginia Beach","FL","United States","Virginia Beach, FL, United States",NA,NA,"NA",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Waco","TX","United States","Waco, TX, United States",-97.1466695,31.549333,"waco, tx, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Waldport","OR","United States","Waldport, OR, United States",-124.0687302,44.426786,"waldport, or 97394, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Walnut Creek","CA","United States","Walnut Creek, CA, United States",-122.0651819,37.9100783,"walnut creek, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Washington","DC","United States","Washington, DC, United States",-77.0368707,38.9071923,"washington, dc, usa",37,1.85277916875313
-"Gaia's Guide",1983,1997,"Waterbury","CT","United States","Waterbury, CT, United States",-73.0514965,41.5581525,"waterbury, ct, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Wayne","NJ","United States","Wayne, NJ, United States",-74.2765441,40.9253725,"wayne, nj 07470, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"West Palm Beach","FL","United States","West Palm Beach, FL, United States",-80.0533746,26.7153424,"west palm beach, fl, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"West Park","NY","United States","West Park, NY, United States",-73.9602803,41.7926988,"west park, ny, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Westport","CT","United States","Westport, CT, United States",-73.3579049,41.1414717,"westport, ct, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Whidbey Island","WA","United States","Whidbey Island, WA, United States",-122.4395026,47.9982761,"whidbey island, washington, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Wichita","KS","United States","Wichita, KS, United States",-97.330053,37.6871761,"wichita, ks, usa",5,0.250375563345018
-"Gaia's Guide",1983,1997,"Wichita Falls","TX","United States","Wichita Falls, TX, United States",-98.4933873,33.9137085,"wichita falls, tx, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Willits","CA","United States","Willits, CA, United States",-123.3555656,39.4096079,"willits, ca 95490, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Wilmington","DE","United States","Wilmington, DE, United States",-75.5483909,39.744655,"wilmington, de, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Wilmington","NC","United States","Wilmington, NC, United States",-77.8868117,34.2103894,"wilmington, nc, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Winston-Salem","NC","United States","Winston-Salem, NC, United States",-80.244216,36.0998596,"winston-salem, nc, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Winter Park","FL","United States","Winter Park, FL, United States",-81.3392352,28.5999998,"winter park, fl, usa",2,0.100150225338007
-"Gaia's Guide",1983,1997,"Wolf Creek","OR","United States","Wolf Creek, OR, United States",-123.3953424,42.6953954,"wolf creek, or 97497, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Woodacre","CA","United States","Woodacre, CA, United States",-122.645261,38.0127006,"woodacre, ca, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Woodstock","NY","United States","Woodstock, NY, United States",-74.1181971,42.0409247,"woodstock, ny, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Worcester","MA","United States","Worcester, MA, United States",-71.8022934,42.2625932,"worcester, ma, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Yachats","OR","United States","Yachats, OR, United States",-124.1048418,44.3112312,"yachats, or, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Yellow Springs","OH","United States","Yellow Springs, OH, United States",-83.886874,39.8064486,"yellow springs, oh 45387, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"Yonkers","NY","United States","Yonkers, NY, United States",-73.8987469,40.9312099,"yonkers, ny, usa",1,0.0500751126690035
-"Gaia's Guide",1983,1997,"York","PA","United States","York, PA, United States",-76.727745,39.9625984,"york, pa, usa",3,0.150225338007011
-"Gaia's Guide",1983,1997,"Yorkville","NY","United States","Yorkville, NY, United States",-75.2709991,43.1128475,"yorkville, ny, usa",1,0.0500751126690035
+"Gaia's Guide",1983,2016,"","CT","United States",", CT, United States",-73.087749,41.6032207,"connecticut, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"","FL","United States",", FL, United States",-81.5157535,27.6648274,"florida, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"","MD","United States",", MD, United States",-76.6412712,39.0457549,"maryland, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"","MT","United States",", MT, United States",-110.3625658,46.8796822,"montana, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"","NC","United States",", NC, United States",-79.0192997,35.7595731,"north carolina, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"","NJ","United States",", NJ, United States",-74.4056612,40.0583238,"new jersey, usa",8,0.396825396825397
+"Gaia's Guide",1983,2016,"","NM","United States",", NM, United States",-105.0323635,34.9727305,"new mexico, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"","OR","United States",", OR, United States",-120.5542012,43.8041334,"oregon, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"","PA","United States",", PA, United States",-77.1945247,41.2033216,"pennsylvania, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"","SD","United States",", SD, United States",NA,NA,"NA",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"","TN","United States",", TN, United States",-86.5804473,35.5174913,"tennessee, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"","TX","United States",", TX, United States",-99.9018131,31.9685988,"texas, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"","VI","United States",", VI, United States",NA,NA,"NA",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Abilene","TX","United States","Abilene, TX, United States",-99.7331439,32.4487364,"abilene, tx, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Akron","OH","United States","Akron, OH, United States",-81.5190053,41.0814447,"akron, oh, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Albany","CA","United States","Albany, CA, United States",-122.2977557,37.886704,"albany, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Albany","NY","United States","Albany, NY, United States",-73.7562317,42.6525793,"albany, ny, usa",7,0.347222222222222
+"Gaia's Guide",1983,2016,"Albion","CA","United States","Albion, CA, United States",-123.7680598,39.2232406,"albion, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Albuquerque","NM","United States","Albuquerque, NM, United States",-106.650422,35.0843859,"albuquerque, nm, usa",9,0.446428571428571
+"Gaia's Guide",1983,2016,"Alexandria","LA","United States","Alexandria, LA, United States",-92.4451371,31.3112936,"alexandria, la, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Allentown","PA","United States","Allentown, PA, United States",-75.4714098,40.6022939,"allentown, pa, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Allston","MA","United States","Allston, MA, United States",-71.1328247,42.3555087,"allston, boston, ma, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Altoona","PA","United States","Altoona, PA, United States",-78.3947359,40.5186809,"altoona, pa, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Amarillo","TX","United States","Amarillo, TX, United States",-101.8312969,35.2219971,"amarillo, tx, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Ann Arbor","MI","United States","Ann Arbor, MI, United States",-83.7430378,42.2808256,"ann arbor, mi, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Appletown","WI","United States","Appletown, WI, United States",-88.4153847,44.2619309,"appleton, wi, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Asbury Park ","NJ","United States","Asbury Park , NJ, United States",-74.0120817,40.2203907,"asbury park, nj 07712, usa",6,0.297619047619048
+"Gaia's Guide",1983,2016,"Asheville","NC","United States","Asheville, NC, United States",-82.5514869,35.5950581,"asheville, nc, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Ashland","OR","United States","Ashland, OR, United States",-122.7094767,42.1945758,"ashland, or 97520, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Athol","NY","United States","Athol, NY, United States",-73.8429001,43.4925679,"athol, ny 12810, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Atlanta","GA","United States","Atlanta, GA, United States",-84.3876845,33.748752,"atlanta, ga, usa",19,0.942460317460317
+"Gaia's Guide",1983,2016,"Atlantic City","NJ","United States","Atlantic City, NJ, United States",-74.4229266,39.3642834,"atlantic city, nj, usa",7,0.347222222222222
+"Gaia's Guide",1983,2016,"Augusta","GA","United States","Augusta, GA, United States",-82.0105148,33.4734978,"augusta, ga, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Austin","TX","United States","Austin, TX, United States",-97.7430608,30.267153,"austin, tx, usa",9,0.446428571428571
+"Gaia's Guide",1983,2016,"Bailey","CO","United States","Bailey, CO, United States",-105.4786412,39.4060536,"bailey, co 80421, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Bakersfield","CA","United States","Bakersfield, CA, United States",-119.0187125,35.3732921,"bakersfield, ca, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Baltimore","MD","United States","Baltimore, MD, United States",-76.6121893,39.2903848,"baltimore, md, usa",20,0.992063492063492
+"Gaia's Guide",1983,2016,"Bar Harbor","ME","United States","Bar Harbor, ME, United States",-68.2039123,44.3876119,"bar harbor, me, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Baton Rouge","LA","United States","Baton Rouge, LA, United States",-91.1871466,30.4514677,"baton rouge, la, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Beaumont","TX","United States","Beaumont, TX, United States",-94.1265562,30.080174,"beaumont, tx, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Belfast","ME","United States","Belfast, ME, United States",-69.0064234,44.4259092,"belfast, me 04915, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Bellingham","WA","United States","Bellingham, WA, United States",-122.4786854,48.7519112,"bellingham, wa, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Bellows Falls","VT","United States","Bellows Falls, VT, United States",-72.4439772,43.133411,"bellows falls, town of rockingham, vt 05101, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Beloit","WI","United States","Beloit, WI, United States",-89.0317765,42.5083482,"beloit, wi 53511, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Berea","OH","United States","Berea, OH, United States",-81.8543026,41.3661614,"berea, oh 44017, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Berkeley","CA","United States","Berkeley, CA, United States",-122.273042,37.8715226,"berkeley, ca, usa",13,0.64484126984127
+"Gaia's Guide",1983,2016,"Bethany Beach","DE","United States","Bethany Beach, DE, United States",-75.0551806,38.5395564,"bethany beach, de, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Bethesda","MD","United States","Bethesda, MD, United States",-77.0947092,38.984652,"bethesda, md, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Beverly Hills","CA","United States","Beverly Hills, CA, United States",-118.4003563,34.0736204,"beverly hills, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Billings","MT","United States","Billings, MT, United States",-108.5006904,45.7832856,"billings, mt, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Biloxi ","MS","United States","Biloxi , MS, United States",-88.8853078,30.3960318,"biloxi, ms, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Binghamton","NY","United States","Binghamton, NY, United States",-75.9179738,42.0986867,"binghamton, ny, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"Birmingham","AL","United States","Birmingham, AL, United States",-86.8103567,33.5185892,"birmingham, al, usa",7,0.347222222222222
+"Gaia's Guide",1983,2016,"Bismarck","ND","United States","Bismarck, ND, United States",-100.7876931,46.8054947,"bismarck, nd, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Bloomington","IN","United States","Bloomington, IN, United States",-86.5263857,39.165325,"bloomington, in, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Boise","ID","United States","Boise, ID, United States",-116.2023137,43.6150186,"boise, id, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Bossier City","LA","United States","Bossier City, LA, United States",-93.7321228,32.5159852,"bossier city, la, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Boston","MA","United States","Boston, MA, United States",-71.0588801,42.3600825,"boston, ma, usa",39,1.93452380952381
+"Gaia's Guide",1983,2016,"Boulder","CO","United States","Boulder, CO, United States",-105.2705456,40.0149856,"boulder, co, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Bozeman","MT","United States","Bozeman, MT, United States",-111.0319925,45.6814733,"bozeman, mt, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Brattleboro","VT","United States","Brattleboro, VT, United States",-72.5578678,42.8509152,"brattleboro, vt 05301, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Bridgeport","CT","United States","Bridgeport, CT, United States",-73.1894384,41.1792258,"bridgeport, ct, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Bronx","NY","United States","Bronx, NY, United States",-73.8648268,40.8447819,"bronx, ny, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Brooklyn","NY","United States","Brooklyn, NY, United States",-73.9441579,40.6781784,"brooklyn, ny, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Broward County","FL","United States","Broward County, FL, United States",-80.365865,26.190096,"broward county, fl, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Buffalo","NY","United States","Buffalo, NY, United States",-78.8783689,42.8864468,"buffalo, ny, usa",8,0.396825396825397
+"Gaia's Guide",1983,2016,"Burlington","VT","United States","Burlington, VT, United States",-73.212072,44.4758825,"burlington, vt, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Calais","ME","United States","Calais, ME, United States",-67.2786038,45.1889633,"calais, me, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Calumet City","IL","United States","Calumet City, IL, United States",-87.5294871,41.6155909,"calumet city, il, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Cambridge","MA","United States","Cambridge, MA, United States",-71.1097335,42.3736158,"cambridge, ma, usa",15,0.744047619047619
+"Gaia's Guide",1983,2016,"Camden","NJ","United States","Camden, NJ, United States",-75.1196199,39.9259463,"camden, nj, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Canoga Park","CA","United States","Canoga Park, CA, United States",-118.6058609,34.208254,"canoga park, los angeles, ca, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Canton","OH","United States","Canton, OH, United States",-81.378447,40.7989473,"canton, oh, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Cedar Rapids","IA","United States","Cedar Rapids, IA, United States",-91.6656232,41.9778795,"cedar rapids, ia, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Champaign","IL","United States","Champaign, IL, United States",-88.2433829,40.1164204,"champaign, il, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Chapel Hill","NC","United States","Chapel Hill, NC, United States",-79.0558445,35.9131996,"chapel hill, nc, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Charlestown","SC","United States","Charlestown, SC, United States",-79.9319664,32.7833163,"charleston, sc, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Charlestown","WV","United States","Charlestown, WV, United States",-77.8597175,39.2889903,"charles town, wv 25414, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"Charlotte","NC","United States","Charlotte, NC, United States",-80.8431267,35.2270869,"charlotte, nc, usa",10,0.496031746031746
+"Gaia's Guide",1983,2016,"Charlottesville","VI","United States","Charlottesville, VI, United States",-78.4766781,38.0293059,"charlottesville, va, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Chatanooga","TN","United States","Chatanooga, TN, United States",-85.3093995,35.0457984,"chattanooga, tn, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Chicago","IL","United States","Chicago, IL, United States",-87.6297982,41.8781136,"chicago, il, usa",48,2.38095238095238
+"Gaia's Guide",1983,2016,"Cincinnati","OH","United States","Cincinnati, OH, United States",-84.5120196,39.1031182,"cincinnati, oh, usa",15,0.744047619047619
+"Gaia's Guide",1983,2016,"Clearwater","FL","United States","Clearwater, FL, United States",-82.8001026,27.9658533,"clearwater, fl, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Cleveland","OH","United States","Cleveland, OH, United States",-81.6943605,41.49932,"cleveland, oh, usa",14,0.694444444444444
+"Gaia's Guide",1983,2016,"Cocoa Beach","FL","United States","Cocoa Beach, FL, United States",-80.6075513,28.3200067,"cocoa beach, fl 32931, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Coconut Grove","FL","United States","Coconut Grove, FL, United States",-80.2377186,25.7355248,"coconut grove, miami, fl, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Colorado Springs","CO","United States","Colorado Springs, CO, United States",-104.8213634,38.8338816,"colorado springs, co, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Columbia","MO","United States","Columbia, MO, United States",-92.3340724,38.9517053,"columbia, mo, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Columbia","SC","United States","Columbia, SC, United States",-81.0348144,34.0007104,"columbia, sc, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Columbus","OH","United States","Columbus, OH, United States",-82.9987942,39.9611755,"columbus, oh, usa",10,0.496031746031746
+"Gaia's Guide",1983,2016,"Columbus ","GA","United States","Columbus , GA, United States",-84.9877094,32.4609764,"columbus, ga, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Concord","NH","United States","Concord, NH, United States",-71.5375718,43.2081366,"concord, nh, usa",7,0.347222222222222
+"Gaia's Guide",1983,2016,"Contoocook","NH","United States","Contoocook, NH, United States",-71.7139655,43.2220234,"contoocook, hopkinton, nh 03229, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Coral Gables","FL","United States","Coral Gables, FL, United States",-80.2635411,25.7491968,"coral gables, fl, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Costa Mesa","CA","United States","Costa Mesa, CA, United States",-117.9047429,33.6638439,"costa mesa, ca, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Covina","CA","United States","Covina, CA, United States",-117.8903397,34.0900091,"covina, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Covington","KY","United States","Covington, KY, United States",-84.5085536,39.0836712,"covington, ky, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Culver City","CA","United States","Culver City, CA, United States",-118.3964665,34.0211224,"culver city, ca, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Dade County","FL","United States","Dade County, FL, United States",-80.6326916,25.5516034,"miami-dade county, fl, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Dahlonega","GA","United States","Dahlonega, GA, United States",-83.9843953,34.5261465,"dahlonega, ga 30533, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Dallas","TX","United States","Dallas, TX, United States",-96.7969879,32.7766642,"dallas, tx, usa",7,0.347222222222222
+"Gaia's Guide",1983,2016,"Danbury","CT","United States","Danbury, CT, United States",-73.4540111,41.394817,"danbury, ct, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Davenport","IA","United States","Davenport, IA, United States",-90.5776367,41.5236437,"davenport, ia, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Davis","CA","United States","Davis, CA, United States",-121.7405167,38.5449065,"davis, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Dayton","OH","United States","Dayton, OH, United States",-84.1916069,39.7589478,"dayton, oh, usa",12,0.595238095238095
+"Gaia's Guide",1983,2016,"Daytona","FL","United States","Daytona, FL, United States",-81.0228331,29.2108147,"daytona beach, fl, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Denver","CO","United States","Denver, CO, United States",-104.990251,39.7392358,"denver, co, usa",29,1.43849206349206
+"Gaia's Guide",1983,2016,"Detroit","MI","United States","Detroit, MI, United States",-83.0457538,42.331427,"detroit, mi, usa",13,0.64484126984127
+"Gaia's Guide",1983,2016,"Dover","NJ","United States","Dover, NJ, United States",-74.5621025,40.883988,"dover, nj, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Durham","NC","United States","Durham, NC, United States",-78.898619,35.9940329,"durham, nc, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Durham","NH","United States","Durham, NH, United States",-70.9264393,43.1339545,"durham, nh 03824, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"East Barnet","VT","United States","East Barnet, VT, United States",-72.0493779,44.2968323,"barnet, vt, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"East Orange","NJ","United States","East Orange, NJ, United States",-74.2048677,40.767323,"east orange, nj, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"East St Louis","IL","United States","East St Louis, IL, United States",-90.1506465,38.624514,"east st louis, il, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"East Stroudsberg","PA","United States","East Stroudsberg, PA, United States",-75.1817547,41.0030522,"east stroudsburg, pa 18301, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"El Monte","CA","United States","El Monte, CA, United States",-118.0275667,34.0686206,"el monte, ca, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"El Paso","TX","United States","El Paso, TX, United States",-106.4850217,31.7618778,"el paso, tx, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Elgin","IL","United States","Elgin, IL, United States",-88.2825668,42.0354084,"elgin, il, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Erie","PA","United States","Erie, PA, United States",-80.085059,42.1292241,"erie, pa, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Eugene","OR","United States","Eugene, OR, United States",-123.0867536,44.0520691,"eugene, or, usa",18,0.892857142857143
+"Gaia's Guide",1983,2016,"Eureka","CA","United States","Eureka, CA, United States",-124.1636729,40.8020712,"eureka, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Evanston","IL","United States","Evanston, IL, United States",-87.6876969,42.0450722,"evanston, il, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Evansville","IN","United States","Evansville, IN, United States",-87.5710898,37.9715592,"evansville, in, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Fairfield","CT","United States","Fairfield, CT, United States",-73.2612615,41.1408363,"fairfield, ct, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Falls Village","CT","United States","Falls Village, CT, United States",-73.3650579,41.9550202,"falls village, canaan, ct 06031, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Fargo","ND","United States","Fargo, ND, United States",-96.7898034,46.8771863,"fargo, nd, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Fayetteville","AR","United States","Fayetteville, AR, United States",-94.1605839,36.0626579,"fayetteville, ar, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Fayetteville","NC","United States","Fayetteville, NC, United States",-78.8783774,35.0523673,"fayetteville, nc, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Flagstaff","AZ","United States","Flagstaff, AZ, United States",-111.651302,35.1982836,"flagstaff, az, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Flint","MI","United States","Flint, MI, United States",-83.6874562,43.0125274,"flint, mi, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Forest Park","IL","United States","Forest Park, IL, United States",-87.81367,41.8794758,"forest park, il, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Forestville","CA","United States","Forestville, CA, United States",-122.8902721,38.4735237,"forestville, ca 95436, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Fort Lauderdale","FL","United States","Fort Lauderdale, FL, United States",-80.1373174,26.1224386,"fort lauderdale, fl, usa",16,0.793650793650794
+"Gaia's Guide",1983,2016,"Fort Myers","FL","United States","Fort Myers, FL, United States",-81.8723084,26.640628,"fort myers, fl, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Fort Wayne","IN","United States","Fort Wayne, IN, United States",-85.1393513,41.079273,"fort wayne, in, usa",11,0.545634920634921
+"Gaia's Guide",1983,2016,"Fort Worth","TX","United States","Fort Worth, TX, United States",-97.3307658,32.7554883,"fort worth, tx, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"Fresno","CA","United States","Fresno, CA, United States",-119.7871247,36.7377981,"fresno, ca, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Gainesville","FL","United States","Gainesville, FL, United States",-82.3248262,29.6516344,"gainesville, fl, usa",6,0.297619047619048
+"Gaia's Guide",1983,2016,"Galveston","TX","United States","Galveston, TX, United States",-94.7976958,29.3013479,"galveston, tx, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Garden Grove","CA","United States","Garden Grove, CA, United States",-117.9379952,33.7742692,"garden grove, ca, usa",6,0.297619047619048
+"Gaia's Guide",1983,2016,"Glenrose","TX","United States","Glenrose, TX, United States",-97.7554986,32.2346721,"glen rose, tx, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Grand Rapids","MI","United States","Grand Rapids, MI, United States",-85.6680863,42.9633599,"grand rapids, mi, usa",9,0.446428571428571
+"Gaia's Guide",1983,2016,"Grants Pass","OR","United States","Grants Pass, OR, United States",-123.3283925,42.4390069,"grants pass, or, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Great Falls","MT","United States","Great Falls, MT, United States",-111.3007715,47.5052849,"great falls, mt, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Greeley","CO","United States","Greeley, CO, United States",-104.7091322,40.4233142,"greeley, co, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Green Bay","WI","United States","Green Bay, WI, United States",-88.0132958,44.5133188,"green bay, wi, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Greenfield","MA","United States","Greenfield, MA, United States",-72.5994104,42.587915,"greenfield, ma 01301, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Greensboro","NC","United States","Greensboro, NC, United States",-79.7919754,36.0726354,"greensboro, nc, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Greensburg","PA","United States","Greensburg, PA, United States",-79.5389289,40.3014581,"greensburg, pa 15601, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Greenville","SC","United States","Greenville, SC, United States",-82.3940104,34.8526176,"greenville, sc, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Guerneville","CA","United States","Guerneville, CA, United States",-122.9961102,38.5018575,"guerneville, ca 95446, usa",7,0.347222222222222
+"Gaia's Guide",1983,2016,"Gulfport","MS","United States","Gulfport, MS, United States",-89.0928155,30.3674198,"gulfport, ms, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Hagerstown","MD","United States","Hagerstown, MD, United States",-77.7199932,39.6417629,"hagerstown, md, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Hammond","IN","United States","Hammond, IN, United States",-87.5000412,41.5833688,"hammond, in, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Hanover","NH","United States","Hanover, NH, United States",-72.2895526,43.7022451,"hanover, nh, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Harper","KS","United States","Harper, KS, United States",-98.0258945,37.2866863,"harper, ks 67058, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Harrisburg","PA","United States","Harrisburg, PA, United States",-76.8867008,40.2731911,"harrisburg, pa, usa",6,0.297619047619048
+"Gaia's Guide",1983,2016,"Hartford","CT","United States","Hartford, CT, United States",-72.6733723,41.7658043,"hartford, ct, usa",8,0.396825396825397
+"Gaia's Guide",1983,2016,"Hattiesburg","MS","United States","Hattiesburg, MS, United States",-89.2903392,31.3271189,"hattiesburg, ms, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Hayward","CA","United States","Hayward, CA, United States",-122.0809964,37.6687665,"hayward, ca, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Hazleton","PA","United States","Hazleton, PA, United States",-75.9746472,40.9584181,"hazleton, pa, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Helena","MT","United States","Helena, MT, United States",-112.0391057,46.5891452,"helena, mt, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Hollywood","CA","United States","Hollywood, CA, United States",-118.3286614,34.0928092,"hollywood, los angeles, ca, usa",11,0.545634920634921
+"Gaia's Guide",1983,2016,"Hollywood","FL","United States","Hollywood, FL, United States",-80.1494901,26.0112014,"hollywood, fl, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Honolulu","HI","United States","Honolulu, HI, United States",-157.8581401,21.3098845,"honolulu, hi, usa",9,0.446428571428571
+"Gaia's Guide",1983,2016,"Hopland/Talmadge","CA","United States","Hopland/Talmadge, CA, United States",NA,NA,"NA",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Hot Springs","AR","United States","Hot Springs, AR, United States",-93.0546003,34.5077615,"hot springs, ar, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Houston","TX","United States","Houston, TX, United States",-95.3698028,29.7604267,"houston, tx, usa",6,0.297619047619048
+"Gaia's Guide",1983,2016,"Hummelstown","PA","United States","Hummelstown, PA, United States",-76.7083033,40.2653681,"hummelstown, pa 17036, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Huntington","WV","United States","Huntington, WV, United States",-82.445154,38.4192496,"huntington, wv, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Hyannis","MA","United States","Hyannis, MA, United States",-70.2881124,41.6524911,"hyannis, barnstable, ma 02601, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Indianapolis","IN","United States","Indianapolis, IN, United States",-86.158068,39.768403,"indianapolis, in, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Inglewood","CA","United States","Inglewood, CA, United States",-118.3531311,33.9616801,"inglewood, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Iowa City","IA","United States","Iowa City, IA, United States",-91.5346169,41.6578257,"iowa city, ia, usa",6,0.297619047619048
+"Gaia's Guide",1983,2016,"Irvine","CA","United States","Irvine, CA, United States",-117.8265049,33.6845673,"irvine, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Irvington","NJ","United States","Irvington, NJ, United States",-74.2286435,40.7263249,"irvington, nj 07111, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Ithaca","NY","United States","Ithaca, NY, United States",-76.5018807,42.4439614,"ithaca, ny, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Jackson","MS","United States","Jackson, MS, United States",-90.1848103,32.2987573,"jackson, ms, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"Jacksonville","FL","United States","Jacksonville, FL, United States",-81.655651,30.3321838,"jacksonville, fl, usa",7,0.347222222222222
+"Gaia's Guide",1983,2016,"Jacksonville","NC","United States","Jacksonville, NC, United States",-77.4302414,34.7540524,"jacksonville, nc, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Jersey City","NJ","United States","Jersey City, NJ, United States",-74.0431435,40.7177545,"jersey city, nj, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Johnson City","TN","United States","Johnson City, TN, United States",-82.3534727,36.3134397,"johnson city, tn, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Johnstown","PA","United States","Johnstown, PA, United States",-78.9219698,40.3267407,"johnstown, pa, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Joliet","IL","United States","Joliet, IL, United States",-88.0817251,41.525031,"joliet, il, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Kalamazoo","MI","United States","Kalamazoo, MI, United States",-85.5872286,42.2917069,"kalamazoo, mi, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Kansas City","KS","United States","Kansas City, KS, United States",-94.6267873,39.1155314,"kansas city, ks, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Kansas City","MO","United States","Kansas City, MO, United States",-94.5785667,39.0997265,"kansas city, mo, usa",22,1.09126984126984
+"Gaia's Guide",1983,2016,"Kettering","OH","United States","Kettering, OH, United States",-84.1688274,39.6895036,"kettering, oh, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Key West","FL","United States","Key West, FL, United States",-81.7841722,24.5554183,"key west, florida 33040, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"Klamath Falls","OR","United States","Klamath Falls, OR, United States",-121.7816704,42.224867,"klamath falls, or, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Knoxville","TN","United States","Knoxville, TN, United States",-83.9207392,35.9606384,"knoxville, tn, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"La Crosse","WI","United States","La Crosse, WI, United States",-91.2519017,43.8137751,"la crosse, wi, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"La Grande","OR","United States","La Grande, OR, United States",-118.0877188,45.3245771,"la grande, or 97850, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Laguna Beach","CA","United States","Laguna Beach, CA, United States",-117.7853568,33.5427189,"laguna beach, ca, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Lake Arrowhead","CA","United States","Lake Arrowhead, CA, United States",-117.1892078,34.2483396,"lake arrowhead, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Lake George","NY","United States","Lake George, NY, United States",-73.7123408,43.4261809,"lake george, ny 12845, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Lake Hoptacong","NJ","United States","Lake Hoptacong, NJ, United States",NA,NA,"NA",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Lake Tahoe","CA","United States","Lake Tahoe, CA, United States",-120.0323507,39.0968493,"lake tahoe, united states",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Lake Worth","FL","United States","Lake Worth, FL, United States",-80.0684479,26.6167555,"lake worth, fl, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Lakeland","FL","United States","Lakeland, FL, United States",-81.9498042,28.0394654,"lakeland, fl, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Lambertville","NJ","United States","Lambertville, NJ, United States",-74.9429448,40.3659394,"lambertville, nj 08530, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Lancaster","PA","United States","Lancaster, PA, United States",-76.3055144,40.0378755,"lancaster, pa, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Lansing","MI","United States","Lansing, MI, United States",-84.5555347,42.732535,"lansing, mi, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Las Vegas","NV","United States","Las Vegas, NV, United States",-115.1391009,36.171563,"las vegas, nv, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"Lawrence","KS","United States","Lawrence, KS, United States",-95.2352501,38.9716689,"lawrence, ks, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Lebanon","NH","United States","Lebanon, NH, United States",-72.2517569,43.6422934,"lebanon, nh, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Lewiston","ME","United States","Lewiston, ME, United States",-70.2147764,44.100351,"lewiston, me, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Lexington","KY","United States","Lexington, KY, United States",-84.5037164,38.0405837,"lexington, ky, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Lima","OH","United States","Lima, OH, United States",-84.1052256,40.742551,"lima, oh, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Lincoln","NE","United States","Lincoln, NE, United States",-96.7025955,40.813616,"lincoln, ne, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Little Rock","AR","United States","Little Rock, AR, United States",-92.2880157,34.7444618,"little rock, ar, usa",6,0.297619047619048
+"Gaia's Guide",1983,2016,"Long Beach","CA","United States","Long Beach, CA, United States",-118.1937395,33.7700504,"long beach, ca, usa",11,0.545634920634921
+"Gaia's Guide",1983,2016,"Long Island","NY","United States","Long Island, NY, United States",-73.134961,40.789142,"long island, new york, usa",22,1.09126984126984
+"Gaia's Guide",1983,2016,"Lorain","OH","United States","Lorain, OH, United States",-82.1823746,41.452819,"lorain, oh, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Los Altos","CA","United States","Los Altos, CA, United States",-122.1141298,37.3852183,"los altos, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Los Angeles","CA","United States","Los Angeles, CA, United States",-118.2436849,34.0522342,"los angeles, ca, usa",65,3.22420634920635
+"Gaia's Guide",1983,2016,"Louisville","KY","United States","Louisville, KY, United States",-85.7584557,38.2526647,"louisville, ky, usa",6,0.297619047619048
+"Gaia's Guide",1983,2016,"Lubbock","TX","United States","Lubbock, TX, United States",-101.8456417,33.5845617,"lubbock, tx, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Lynn","MA","United States","Lynn, MA, United States",-70.9494938,42.466763,"lynn, ma, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Madeira Beach","FL","United States","Madeira Beach, FL, United States",-82.7973247,27.7980814,"madeira beach, fl, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Madison","WI","United States","Madison, WI, United States",-89.4007501,43.0721661,"madison, wi, usa",13,0.64484126984127
+"Gaia's Guide",1983,2016,"Manchester","NH","United States","Manchester, NH, United States",-71.4547891,42.9956397,"manchester, nh, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"Manhattan","NY","United States","Manhattan, NY, United States",-73.9712488,40.7830603,"manhattan, new york, ny, usa",43,2.13293650793651
+"Gaia's Guide",1983,2016,"Mansfield","OH","United States","Mansfield, OH, United States",-82.5154471,40.75839,"mansfield, oh, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Marietta","PA","United States","Marietta, PA, United States",-76.5521882,40.0570411,"marietta, pa 17547, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Maui Island","HI","United States","Maui Island, HI, United States",-156.3319253,20.7983626,"maui, hawaii, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Medford","OR","United States","Medford, OR, United States",-122.8755949,42.3265152,"medford, or, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Melbourne","FL","United States","Melbourne, FL, United States",-80.6081089,28.0836269,"melbourne, fl, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Memphis","TN","United States","Memphis, TN, United States",-90.0489801,35.1495343,"memphis, tn, usa",8,0.396825396825397
+"Gaia's Guide",1983,2016,"Miami","FL","United States","Miami, FL, United States",-80.1917902,25.7616798,"miami, fl, usa",9,0.446428571428571
+"Gaia's Guide",1983,2016,"Mill Valley","CA","United States","Mill Valley, CA, United States",-122.5449763,37.9060368,"mill valley, ca 94941, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Milwaukee","WI","United States","Milwaukee, WI, United States",-87.9064736,43.0389025,"milwaukee, wi, usa",13,0.64484126984127
+"Gaia's Guide",1983,2016,"Minneapolis","MN","United States","Minneapolis, MN, United States",-93.2650108,44.977753,"minneapolis, mn, usa",18,0.892857142857143
+"Gaia's Guide",1983,2016,"Missoula","MT","United States","Missoula, MT, United States",-113.9940314,46.8721284,"missoula, mt, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Modesto","CA","United States","Modesto, CA, United States",-120.9970014,37.6392595,"modesto, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Monroe","LA","United States","Monroe, LA, United States",-92.1193012,32.5093109,"monroe, la, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Montclaire","PA","United States","Montclaire, PA, United States",-75.502411,40.1389933,"mont clare, pa 19453, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Montgomery","AL","United States","Montgomery, AL, United States",-86.3077368,32.3792233,"montgomery, al, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Montgomery","MD","United States","Montgomery, MD, United States",-77.2405153,39.1547426,"montgomery county, md, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Montpelier","VT","United States","Montpelier, VT, United States",-72.5753869,44.2600593,"montpelier, vt 05602, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Morgantown","WV","United States","Morgantown, WV, United States",-79.9558968,39.629526,"morgantown, wv, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Morristown ","NJ","United States","Morristown , NJ, United States",-74.4815438,40.7967667,"morristown, nj 07960, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Mountain View","CA","United States","Mountain View, CA, United States",-122.0838511,37.3860517,"mountain view, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Mt Clemens","MI","United States","Mt Clemens, MI, United States",-82.8779754,42.5972563,"mt clemens, mi, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Muncie","IN","United States","Muncie, IN, United States",-85.3863599,40.1933767,"muncie, in, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Myrtle Beach","SC","United States","Myrtle Beach, SC, United States",-78.8866943,33.6890603,"myrtle beach, sc, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Myrtle Creek","OR","United States","Myrtle Creek, OR, United States",-123.2931205,43.0201173,"myrtle creek, or 97457, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Napa","CA","United States","Napa, CA, United States",-122.286865,38.2975381,"napa, ca, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Nashua","NH","United States","Nashua, NH, United States",-71.467566,42.7653662,"nashua, nh, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Nashville","TN","United States","Nashville, TN, United States",-86.7816016,36.1626638,"nashville, tn, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"New Bedford","MA","United States","New Bedford, MA, United States",-70.934205,41.6362152,"new bedford, ma, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"New Britain","CT","United States","New Britain, CT, United States",-72.7795419,41.6612104,"new britain, ct, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"New Brunswick","NJ","United States","New Brunswick, NJ, United States",-74.4518188,40.4862157,"new brunswick, nj, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"New Haven","CT","United States","New Haven, CT, United States",-72.9278835,41.308274,"new haven, ct, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"New Hope","PA","United States","New Hope, PA, United States",-74.9512785,40.3642728,"new hope, pa 18938, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"New London","CT","United States","New London, CT, United States",-72.0995209,41.3556539,"new london, ct, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"New Orleans","LA","United States","New Orleans, LA, United States",-90.0715323,29.9510658,"new orleans, la, usa",22,1.09126984126984
+"Gaia's Guide",1983,2016,"New Town","IL","United States","New Town, IL, United States",NA,NA,"NA",6,0.297619047619048
+"Gaia's Guide",1983,2016,"New York City ","NY","United States","New York City , NY, United States",-74.0059728,40.7127753,"new york, ny, usa",98,4.86111111111111
+"Gaia's Guide",1983,2016,"Newark","DE","United States","Newark, DE, United States",-75.7496572,39.6837226,"newark, de, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Newark","NJ","United States","Newark, NJ, United States",-74.1723667,40.735657,"newark, nj, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Newport","RI","United States","Newport, RI, United States",-71.3128285,41.4901024,"newport, ri, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Newton","NJ","United States","Newton, NJ, United States",-74.7526651,41.0581527,"newton, nj 07860, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Norfolk","VI","United States","Norfolk, VI, United States",-76.2858726,36.8507689,"norfolk, va, usa",6,0.297619047619048
+"Gaia's Guide",1983,2016,"Northhampton","MA","United States","Northhampton, MA, United States",-72.6412013,42.3250896,"northampton, ma, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"Nyack","NY","United States","Nyack, NY, United States",-73.9179146,41.0906519,"nyack, ny 10960, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Oak Bluffs","MA","United States","Oak Bluffs, MA, United States",-70.5619724,41.4542793,"oak bluffs, ma, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Oak Park","IL","United States","Oak Park, IL, United States",-87.7845025,41.8850317,"oak park, il, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Oakhurst","CA","United States","Oakhurst, CA, United States",-119.6493154,37.3279997,"oakhurst, ca 93644, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Oakland","CA","United States","Oakland, CA, United States",-122.2711639,37.8043514,"oakland, ca, usa",16,0.793650793650794
+"Gaia's Guide",1983,2016,"Ocean Park Beach","CA","United States","Ocean Park Beach, CA, United States",-119.4179324,36.778261,"california, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Odessa","TX","United States","Odessa, TX, United States",-102.3676431,31.8456816,"odessa, tx, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Ogunquit","ME","United States","Ogunquit, ME, United States",-70.5986223,43.2468352,"ogunquit, me, usa",9,0.446428571428571
+"Gaia's Guide",1983,2016,"Oklahoma City","OK","United States","Oklahoma City, OK, United States",-97.5164276,35.4675602,"oklahoma city, ok, usa",7,0.347222222222222
+"Gaia's Guide",1983,2016,"Old Westbury","NY","United States","Old Westbury, NY, United States",-73.5995717,40.7887113,"old westbury, ny, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Olympia","WA","United States","Olympia, WA, United States",-122.9006951,47.0378741,"olympia, wa, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Omaha","NE","United States","Omaha, NE, United States",-95.9345034,41.2565369,"omaha, ne, usa",6,0.297619047619048
+"Gaia's Guide",1983,2016,"Orange","NJ","United States","Orange, NJ, United States",-74.2326478,40.7706187,"city of orange, nj 07050, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Orange County","CA","United States","Orange County, CA, United States",-117.8311428,33.7174708,"orange county, ca, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Orlando","FL","United States","Orlando, FL, United States",-81.3789269,28.5383832,"orlando, fl, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"Oswego","NY","United States","Oswego, NY, United States",-76.5104973,43.4553461,"oswego, ny, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Painesville","OH","United States","Painesville, OH, United States",-81.245657,41.7244885,"painesville, oh 44077, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Palm Springs","CA","United States","Palm Springs, CA, United States",-116.5452921,33.8302961,"palm springs, ca, usa",7,0.347222222222222
+"Gaia's Guide",1983,2016,"Palo Alto","CA","United States","Palo Alto, CA, United States",-122.1430195,37.4418834,"palo alto, ca, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Panama City","FL","United States","Panama City, FL, United States",-85.6602058,30.1588129,"panama city, fl, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Parkersburg","WV","United States","Parkersburg, WV, United States",-81.5615135,39.2667418,"parkersburg, wv, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Pasadena","CA","United States","Pasadena, CA, United States",-118.1445155,34.1477849,"pasadena, ca, usa",6,0.297619047619048
+"Gaia's Guide",1983,2016,"Paterson","NJ","United States","Paterson, NJ, United States",-74.171811,40.9167654,"paterson, nj, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"Pawtucket","RI","United States","Pawtucket, RI, United States",-71.3825558,41.878711,"pawtucket, ri, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Penacook","NH","United States","Penacook, NH, United States",-71.5990999,43.2801927,"penacook, concord, nh 03303, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Pensacola","FL","United States","Pensacola, FL, United States",-87.2169149,30.421309,"pensacola, fl, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Peoria","IL","United States","Peoria, IL, United States",-89.5889864,40.6936488,"peoria, il, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Philadelphia","PA","United States","Philadelphia, PA, United States",-75.1652215,39.9525839,"philadelphia, pa, usa",32,1.58730158730159
+"Gaia's Guide",1983,2016,"Phoenix","AZ","United States","Phoenix, AZ, United States",-112.0740373,33.4483771,"phoenix, az, usa",10,0.496031746031746
+"Gaia's Guide",1983,2016,"Pittsburgh","PA","United States","Pittsburgh, PA, United States",-79.9958864,40.4406248,"pittsburgh, pa, usa",9,0.446428571428571
+"Gaia's Guide",1983,2016,"Plainsboro","NJ","United States","Plainsboro, NJ, United States",-74.615308,40.3570497,"plainsboro township, nj, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Plattsburgh","NY","United States","Plattsburgh, NY, United States",-73.4529124,44.6994873,"plattsburgh, ny, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Plymouth","MA","United States","Plymouth, MA, United States",-70.6672621,41.9584457,"plymouth, ma, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Plymouth","MI","United States","Plymouth, MI, United States",-83.4702132,42.3714253,"plymouth, mi 48170, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Pocatello","ID","United States","Pocatello, ID, United States",-112.4506191,42.8621042,"pocatello, id, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Pomona","CA","United States","Pomona, CA, United States",-117.7499909,34.055103,"pomona, ca, usa",6,0.297619047619048
+"Gaia's Guide",1983,2016,"Pontiac","MI","United States","Pontiac, MI, United States",-83.2910468,42.6389216,"pontiac, mi, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Portland","ME","United States","Portland, ME, United States",-70.2568189,43.6590993,"portland, me, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Portland","OR","United States","Portland, OR, United States",-122.6783853,45.515232,"portland, or, usa",30,1.48809523809524
+"Gaia's Guide",1983,2016,"Portsmouth","ME","United States","Portsmouth, ME, United States",-70.78821,43.0417715,"united states",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Portsmouth","NH","United States","Portsmouth, NH, United States",-70.7625532,43.0717552,"portsmouth, nh 03801, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Poughkeepsie","NY","United States","Poughkeepsie, NY, United States",-73.9209701,41.7003713,"poughkeepsie, ny, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Princeton","NJ","United States","Princeton, NJ, United States",-74.6672226,40.3572976,"princeton, nj, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Providence","RI","United States","Providence, RI, United States",-71.4128343,41.8239891,"providence, ri, usa",10,0.496031746031746
+"Gaia's Guide",1983,2016,"Provincetown","MA","United States","Provincetown, MA, United States",-70.1846012,42.0547136,"provincetown, ma, usa",34,1.68650793650794
+"Gaia's Guide",1983,2016,"Pueblo","CO","United States","Pueblo, CO, United States",-104.6091409,38.2544472,"pueblo, co, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Queens","NY","United States","Queens, NY, United States",-73.7948516,40.7282239,"queens, ny, usa",7,0.347222222222222
+"Gaia's Guide",1983,2016,"Raleigh","NC","United States","Raleigh, NC, United States",-78.6381787,35.7795897,"raleigh, nc, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Rancho Mirage","CA","United States","Rancho Mirage, CA, United States",-116.41279,33.739744,"rancho mirage, ca 92270, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Redding","CA","United States","Redding, CA, United States",-122.3916754,40.5865396,"redding, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Redwood City","CA","United States","Redwood City, CA, United States",-122.228141,37.4847955,"redwood city, ca, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Reheboth Beach","DE","United States","Reheboth Beach, DE, United States",-75.0760137,38.7209454,"rehoboth beach, de, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Reno","NV","United States","Reno, NV, United States",-119.8142691,39.529919,"reno, nv, usa",7,0.347222222222222
+"Gaia's Guide",1983,2016,"Richmond","VI","United States","Richmond, VI, United States",-77.4360481,37.5407246,"richmond, va, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Roanoke","VI","United States","Roanoke, VI, United States",-79.9414266,37.2709704,"roanoke, va, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Rochester","NY","United States","Rochester, NY, United States",-77.6088465,43.1565779,"rochester, ny, usa",15,0.744047619047619
+"Gaia's Guide",1983,2016,"Rock Island","IL","United States","Rock Island, IL, United States",-90.5787476,41.5094771,"rock island, il, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Rockford","IL","United States","Rockford, IL, United States",-89.0939952,42.2711311,"rockford, il, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Rockland","NY","United States","Rockland, NY, United States",-73.9830029,41.1489458,"rockland county, ny, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Rockport","ME","United States","Rockport, ME, United States",-69.079469,44.1910592,"rockport, me, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Ronan","MT","United States","Ronan, MT, United States",-114.1015013,47.5288233,"ronan, mt 59864, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Russian River","CA","United States","Russian River, CA, United States",-123.011048270873,38.9116324986166,"russian river, california, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Rutland","VT","United States","Rutland, VT, United States",-72.9726065,43.6106237,"rutland, vt 05701, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Sacramento","CA","United States","Sacramento, CA, United States",-121.4943996,38.5815719,"sacramento, ca, usa",24,1.19047619047619
+"Gaia's Guide",1983,2016,"Saint Croix","Virgin Islands","United States","Saint Croix, Virgin Islands, United States",-64.8347992,17.7245968,"st croix, usvi",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Salem","OR","United States","Salem, OR, United States",-123.0350963,44.9428975,"salem, or, usa",7,0.347222222222222
+"Gaia's Guide",1983,2016,"Salt Lake City","UT","United States","Salt Lake City, UT, United States",-111.8910474,40.7607793,"salt lake city, ut, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"San Antonio","TX","United States","San Antonio, TX, United States",-98.4945922,29.4251905,"san antonio, tx, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"San Bernardino","CA","United States","San Bernardino, CA, United States",-117.2897652,34.1083449,"san bernardino, ca, usa",8,0.396825396825397
+"Gaia's Guide",1983,2016,"San Diego","CA","United States","San Diego, CA, United States",-117.1610838,32.715738,"san diego, ca, usa",43,2.13293650793651
+"Gaia's Guide",1983,2016,"San Francisco","CA","United States","San Francisco, CA, United States",-122.4194155,37.7749295,"san francisco, ca, usa",81,4.01785714285714
+"Gaia's Guide",1983,2016,"San Jose","CA","United States","San Jose, CA, United States",-121.8852525,37.33874,"san jose, ca, usa",12,0.595238095238095
+"Gaia's Guide",1983,2016,"San Juan","PR","United States","San Juan, PR, United States",-95.712891,37.09024,"united states",11,0.545634920634921
+"Gaia's Guide",1983,2016,"San Luis Obispo","CA","United States","San Luis Obispo, CA, United States",-120.6596156,35.2827524,"san luis obispo, ca, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"San Mateo","CA","United States","San Mateo, CA, United States",-122.3255254,37.5629917,"san mateo, ca, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"San Rafael","CA","United States","San Rafael, CA, United States",-122.5310874,37.9735346,"san rafael, ca, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Santa Ana","CA","United States","Santa Ana, CA, United States",-117.867653,33.7454725,"santa ana, ca, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Santa Barbara","CA","United States","Santa Barbara, CA, United States",-119.6981901,34.4208305,"santa barbara, ca, usa",9,0.446428571428571
+"Gaia's Guide",1983,2016,"Santa Cruz","CA","United States","Santa Cruz, CA, United States",-122.0307963,36.9741171,"santa cruz, ca, usa",9,0.446428571428571
+"Gaia's Guide",1983,2016,"Santa Fe","NM","United States","Santa Fe, NM, United States",-105.937799,35.6869752,"santa fe, nm, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Santa Monica","CA","United States","Santa Monica, CA, United States",-118.4911912,34.0194543,"santa monica, ca, usa",8,0.396825396825397
+"Gaia's Guide",1983,2016,"Santa Rosa","CA","United States","Santa Rosa, CA, United States",-122.7140548,38.440429,"santa rosa, ca, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Sarasota","FL","United States","Sarasota, FL, United States",-82.5310117,27.336465,"sarasota, fl, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Saugatuck","MI","United States","Saugatuck, MI, United States",-86.2019825,42.6550248,"saugatuck, mi 49453, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Sausalito","CA","United States","Sausalito, CA, United States",-122.4852507,37.8590937,"sausalito, ca 94965, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Savannah","GA","United States","Savannah, GA, United States",-81.091203,32.0808989,"savannah, ga, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Schenectady","NY","United States","Schenectady, NY, United States",-73.9395687,42.8142432,"schenectady, ny, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Schenley","PA","United States","Schenley, PA, United States",-79.6617143,40.6845096,"schenley, pa 15682, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Scottsdale","AZ","United States","Scottsdale, AZ, United States",-111.9260519,33.4941704,"scottsdale, az, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Seattle","WA","United States","Seattle, WA, United States",-122.3320708,47.6062095,"seattle, wa, usa",32,1.58730158730159
+"Gaia's Guide",1983,2016,"Sherman Oaks","CA","United States","Sherman Oaks, CA, United States",-118.451357,34.1489719,"sherman oaks, los angeles, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Shreveport","LA","United States","Shreveport, LA, United States",-93.7501789,32.5251516,"shreveport, la, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Silverlake","CA","United States","Silverlake, CA, United States",-118.2733457,34.082936,"silver lake, los angeles, ca, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Sioux Falls","SD","United States","Sioux Falls, SD, United States",-96.731265,43.5460223,"sioux falls, sd, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Smithfield","RI","United States","Smithfield, RI, United States",-71.5495101,41.9220496,"smithfield, ri, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Somerville","MA","United States","Somerville, MA, United States",-71.0994968,42.3875968,"somerville, ma, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"South Bend","IN","United States","South Bend, IN, United States",-86.2519898,41.6763545,"south bend, in, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"South Hadley","MA","United States","South Hadley, MA, United States",-72.5747934,42.2591729,"south hadley, ma 01075, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"South River","NJ","United States","South River, NJ, United States",-74.3859831,40.446495,"south river, nj, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Southington","CT","United States","Southington, CT, United States",-72.8776013,41.5964869,"southington, ct, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Spokane","WA","United States","Spokane, WA, United States",-117.4260466,47.6587802,"spokane, wa, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Springfield","IL","United States","Springfield, IL, United States",-89.6501481,39.7817213,"springfield, il, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Springfield","MA","United States","Springfield, MA, United States",-72.589811,42.1014831,"springfield, ma, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Springfield","MO","United States","Springfield, MO, United States",-93.2922989,37.2089572,"springfield, mo, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Springfield","OH","United States","Springfield, OH, United States",-83.8088171,39.9242266,"springfield, oh, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"St Augustine's","FL","United States","St Augustine's, FL, United States",-81.3139313,29.8921835,"st. augustine, fl, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"St Louis","MO","United States","St Louis, MO, United States",-90.1994042,38.6270025,"st. louis, mo, usa",20,0.992063492063492
+"Gaia's Guide",1983,2016,"St Petersburg","FL","United States","St Petersburg, FL, United States",-82.6402915,27.7676008,"st. petersburg, fl, usa",7,0.347222222222222
+"Gaia's Guide",1983,2016,"St Thomas","Virgin Islands","United States","St Thomas, Virgin Islands, United States",-64.8940946,18.3380965,"st thomas, 00802, usvi",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"St. Paul","MN","United States","St. Paul, MN, United States",-93.0899578,44.9537029,"st paul, mn, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"State College","PA","United States","State College, PA, United States",-77.8600012,40.7933949,"state college, pa, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Staten Island","NY","United States","Staten Island, NY, United States",-74.1502007,40.5795317,"staten island, ny, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Steubenville","OH","United States","Steubenville, OH, United States",-80.6339638,40.3697905,"steubenville, oh, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Stockton","CA","United States","Stockton, CA, United States",-121.2907796,37.9577016,"stockton, ca, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Stonington","ME","United States","Stonington, ME, United States",-68.6666926,44.156192,"stonington, me 04681, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Stroudsburg","PA","United States","Stroudsburg, PA, United States",-75.1946248,40.9867609,"stroudsburg, pa 18360, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Studio City","CA","United States","Studio City, CA, United States",-118.3870991,34.1395597,"studio city, los angeles, ca, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"Sunnyvale","CA","United States","Sunnyvale, CA, United States",-122.0363496,37.36883,"sunnyvale, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Syracuse","NY","United States","Syracuse, NY, United States",-76.1474244,43.0481221,"syracuse, ny, usa",9,0.446428571428571
+"Gaia's Guide",1983,2016,"Tacoma","WA","United States","Tacoma, WA, United States",-122.4442906,47.2528768,"tacoma, wa, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Tallahassee","FL","United States","Tallahassee, FL, United States",-84.2807329,30.4382559,"tallahassee, fl, usa",4,0.198412698412698
+"Gaia's Guide",1983,2016,"Tampa","FL","United States","Tampa, FL, United States",-82.4571776,27.950575,"tampa, fl, usa",8,0.396825396825397
+"Gaia's Guide",1983,2016,"Teaneck","NJ","United States","Teaneck, NJ, United States",-74.0116536,40.8932469,"teaneck, nj, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Tempe","AZ","United States","Tempe, AZ, United States",-111.9400054,33.4255104,"tempe, az, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Toledo","OH","United States","Toledo, OH, United States",-83.5378674,41.6528052,"toledo, oh, usa",6,0.297619047619048
+"Gaia's Guide",1983,2016,"Topanga","CA","United States","Topanga, CA, United States",-118.6021321,34.0919452,"topanga, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Topeka","KS","United States","Topeka, KS, United States",-95.6751576,39.0473451,"topeka, ks, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Towson","MD","United States","Towson, MD, United States",-76.6019125,39.4014955,"towson, md, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Trenton","NJ","United States","Trenton, NJ, United States",-74.759717,40.2205824,"trenton, nj, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Tri-Cities","WA","United States","Tri-Cities, WA, United States",-119.2233014,46.2349999,"tri-cities, wa, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Tucson","AZ","United States","Tucson, AZ, United States",-110.9741769,32.2539787,"tucson, az, usa",15,0.744047619047619
+"Gaia's Guide",1983,2016,"Tulsa","OK","United States","Tulsa, OK, United States",-95.992775,36.1539816,"tulsa, ok, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Tyngsboro","MA","United States","Tyngsboro, MA, United States",-71.4244224,42.6766696,"tyngsborough, ma, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Union","NJ","United States","Union, NJ, United States",-74.2631635,40.6975898,"union, nj, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Upper Darby","PA","United States","Upper Darby, PA, United States",-75.2878235,39.9593175,"upper darby, pa, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Urbana","IL","United States","Urbana, IL, United States",-88.2072697,40.1105875,"urbana, il, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Utica","NY","United States","Utica, NY, United States",-75.232664,43.100903,"utica, ny, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Vallejo","CA","United States","Vallejo, CA, United States",-122.2566367,38.1040864,"vallejo, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Van Nuys","CA","United States","Van Nuys, CA, United States",-118.451357,34.1898566,"van nuys, los angeles, ca, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Venice","CA","United States","Venice, CA, United States",-118.4694832,33.9850469,"venice, los angeles, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Ventura","CA","United States","Ventura, CA, United States",-119.2945199,34.2804923,"ventura, ca, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Virginia Beach","FL","United States","Virginia Beach, FL, United States",NA,NA,"NA",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Waco","TX","United States","Waco, TX, United States",-97.1466695,31.549333,"waco, tx, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Waldport","OR","United States","Waldport, OR, United States",-124.0687302,44.426786,"waldport, or 97394, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Walnut Creek","CA","United States","Walnut Creek, CA, United States",-122.0651819,37.9100783,"walnut creek, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Washington","DC","United States","Washington, DC, United States",-77.0368707,38.9071923,"washington, dc, usa",37,1.83531746031746
+"Gaia's Guide",1983,2016,"Waterbury","CT","United States","Waterbury, CT, United States",-73.0514965,41.5581525,"waterbury, ct, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Wayne","NJ","United States","Wayne, NJ, United States",-74.2765441,40.9253725,"wayne, nj 07470, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"West Palm Beach","FL","United States","West Palm Beach, FL, United States",-80.0533746,26.7153424,"west palm beach, fl, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"West Park","NY","United States","West Park, NY, United States",-73.9602803,41.7926988,"west park, ny, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Westport","CT","United States","Westport, CT, United States",-73.3579049,41.1414717,"westport, ct, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Whidbey Island","WA","United States","Whidbey Island, WA, United States",-122.4395026,47.9982761,"whidbey island, washington, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Wichita","KS","United States","Wichita, KS, United States",-97.330053,37.6871761,"wichita, ks, usa",5,0.248015873015873
+"Gaia's Guide",1983,2016,"Wichita Falls","TX","United States","Wichita Falls, TX, United States",-98.4933873,33.9137085,"wichita falls, tx, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Willits","CA","United States","Willits, CA, United States",-123.3555656,39.4096079,"willits, ca 95490, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Wilmington","DE","United States","Wilmington, DE, United States",-75.5483909,39.744655,"wilmington, de, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Wilmington","NC","United States","Wilmington, NC, United States",-77.8868117,34.2103894,"wilmington, nc, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Winston-Salem","NC","United States","Winston-Salem, NC, United States",-80.244216,36.0998596,"winston-salem, nc, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Winter Park","FL","United States","Winter Park, FL, United States",-81.3392352,28.5999998,"winter park, fl, usa",2,0.0992063492063492
+"Gaia's Guide",1983,2016,"Wolf Creek","OR","United States","Wolf Creek, OR, United States",-123.3953424,42.6953954,"wolf creek, or 97497, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Woodacre","CA","United States","Woodacre, CA, United States",-122.645261,38.0127006,"woodacre, ca, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Woodstock","NY","United States","Woodstock, NY, United States",-74.1181971,42.0409247,"woodstock, ny, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Worcester","MA","United States","Worcester, MA, United States",-71.8022934,42.2625932,"worcester, ma, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Yachats","OR","United States","Yachats, OR, United States",-124.1048418,44.3112312,"yachats, or, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Yellow Springs","OH","United States","Yellow Springs, OH, United States",-83.886874,39.8064486,"yellow springs, oh 45387, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"Yonkers","NY","United States","Yonkers, NY, United States",-73.8987469,40.9312099,"yonkers, ny, usa",1,0.0496031746031746
+"Gaia's Guide",1983,2016,"York","PA","United States","York, PA, United States",-76.727745,39.9625984,"york, pa, usa",3,0.148809523809524
+"Gaia's Guide",1983,2016,"Yorkville","NY","United States","Yorkville, NY, United States",-75.2709991,43.1128475,"yorkville, ny, usa",1,0.0496031746031746
 "Lesbian Connection",1983,442,"Akron","OH","United States","Akron, OH, United States",-81.5190053,41.0814447,"akron, oh, usa",1,0.226244343891403
 "Lesbian Connection",1983,442,"Albion","CA","United States","Albion, CA, United States",-123.7680598,39.2232406,"albion, ca, usa",1,0.226244343891403
 "Lesbian Connection",1983,442,"Albuquerque","NM","United States","Albuquerque, NM, United States",-106.650422,35.0843859,"albuquerque, nm, usa",3,0.678733031674208
