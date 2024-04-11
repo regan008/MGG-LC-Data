@@ -1,0 +1,65 @@
+---
+title: "Guidebook Geographies Exploration"
+format:
+   html:
+     df-print: paged
+editor: visual
+---
+
+## Mapping Top 25 Cities in all Guidebook Data for 1983
+
+```{r}
+library(ggplot2)
+library(tidyverse)
+
+relative.count <- read.csv("relative-data.csv")
+## Generate Ranked count for data (using all of damron)
+rank <- relative.count %>%  group_by(publication) %>% mutate(rank = rank(-count, ties.method = 'min'))
+rank <- rank %>% filter(rank < 25)
+
+usa <- map_data("state")
+ggplot() + 
+  geom_map( data = usa, map = usa, aes(long, lat, map_id=region)) + borders("state", fill = "white", colour = "grey80") +   coord_fixed(1) +
+  geom_point(data = rank, mapping = aes(x=lon, y=lat, color = publication)) + facet_wrap(~publication, nrow = 2) +  theme(legend.position="bottom")
+
+```
+
+Print city rank in each guide.
+
+```{r}
+gg <- rank %>% filter(publication == "Gaia's Guide") %>% select(publication, city, state, count, rank) %>% arrange(rank)
+gg
+```
+
+```{r}
+dg <- rank %>% filter(publication == "Bob Damron's Address Book") %>% select(publication, city, state, count, rank) %>% arrange(rank)
+dg
+```
+
+```{r}
+lc <- rank %>% filter(publication == "Lesbian Connection") %>% select(publication, city, state, count, rank) %>% arrange(rank)
+lc
+```
+
+## Mapping the Top 25 Cities for Women's Spaces in Guidebooks
+
+The primary difference in this measurement is that we sort the Damron guides to include only spaces that he classified as "(L) for Ladies/Ms OR Lesbians, but not exclusively unless noted."
+
+```{r}
+relative.w.count <- read.csv("relative-data-womens.csv")
+## Generate Ranked count for data (using all of damron)
+rank.w <- relative.w.count %>%  group_by(publication) %>% mutate(rank = rank(-count, ties.method = 'min'))
+rank.w <- rank.w %>% filter(rank < 25)
+
+usa <- map_data("state")
+ggplot() + 
+  geom_map( data = usa, map = usa, aes(long, lat, map_id=region)) + borders("state", fill = "white", colour = "grey80") +   coord_fixed(1) +
+  geom_point(data = rank.w, mapping = aes(x=lon, y=lat, color = publication)) + facet_wrap(~publication, nrow = 2) +  theme(legend.position="bottom")
+```
+
+The only dataset that is different here is the Damron dataset
+
+```{r}
+dg.w <- rank.w %>% filter(publication == "Bob Damron's Address Book") %>% select(publication, city, state, count, rank) %>% arrange(rank)
+dg.w
+```

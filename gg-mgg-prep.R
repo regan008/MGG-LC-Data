@@ -1,6 +1,7 @@
 library(tidyverse)
 library(forcats)
 library(ggmap)
+library(ggplot2)
 
 #load data and add a publication and country column to match the other datasets
 gg.data <- read.csv("gg-1983.csv", header = TRUE)
@@ -76,3 +77,14 @@ total.per.loc.byyear <- all.w.data %>% group_by(publication, year, city, state, 
 relative.count <- full_join(total.per.year, total.per.loc.byyear)
 relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
 write.csv(relative.count, file="relative-data-womens.csv", row.names = FALSE) #use this for just women's data
+
+
+## Generate Ranked count for data (using all of damron)
+rank <- relative.count %>%  group_by(publication) %>% mutate(rank = rank(-count, ties.method = 'min'))
+rank <- rank %>% filter(rank < 25)
+
+usa <- map_data("state")
+ggplot() + 
+  geom_map( data = usa, map = usa, aes(long, lat, map_id=region)) + borders("state", fill = "white", colour = "grey80") +
+  geom_point(data = rank, mapping = aes(x=lon, y=lat, color = publication)) + facet_wrap(~publication, nrow = 3)
+                                                                                         
