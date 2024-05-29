@@ -52,14 +52,14 @@ print("Column names that are the same in both dataframes:")
 print(common_cols)
 
 all.data <- merge(combined.data, gg.geocode, by = common_cols, all = TRUE)
-write.csv(all.data, "alldata.csv")
+write.csv(all.data, "gg-mgg-alldata.csv")
 
 #mgg.L or G only entries
 damron.w.spaces <- all.data %>% filter(publication == "Bob Damron's Address Book") 
 damron.w.spaces <- damron.w.spaces %>% filter(grepl("(G)", damron.w.spaces$amenityfeatures, ignore.case = TRUE) | grepl("(L)", damron.w.spaces$amenityfeatures, ignore.case = TRUE))
 gg.lc.data <- all.data %>% filter(publication == "Lesbian Connection" | publication == "Gaia's Guide")
 all.w.data <- merge(damron.w.spaces, gg.lc.data, by = common_cols, all = TRUE)
-write.csv(all.w.data, "all-w-data.csv")
+write.csv(all.w.data, "gg-mgg-all-w-data.csv")
 
 
 #calculating relative values of locations
@@ -68,7 +68,7 @@ total.per.loc.byyear <- all.data %>% group_by(publication, year, city, state, co
 
 relative.count <- full_join(total.per.year, total.per.loc.byyear)
 relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
-write.csv(relative.count, file="relative-data.csv", row.names = FALSE) 
+write.csv(relative.count, file="gg-mgg-alldata-relative.csv", row.names = FALSE) 
 
 #calculate relative values for data with just Damron G or L
 total.per.year <- all.w.data %>% group_by(publication, year) %>% summarize(pub.count = n())
@@ -76,7 +76,7 @@ total.per.loc.byyear <- all.w.data %>% group_by(publication, year, city, state, 
 
 relative.count <- full_join(total.per.year, total.per.loc.byyear)
 relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
-write.csv(relative.count, file="relative-data-womens.csv", row.names = FALSE) #use this for just women's data
+write.csv(relative.count, file="gg-mgg-relative-all-w-data.csv", row.names = FALSE) #use this for just women's data
 
 
 ## Generate Ranked count for data (using all of damron)
