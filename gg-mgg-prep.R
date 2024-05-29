@@ -3,35 +3,52 @@ library(forcats)
 library(ggmap)
 library(ggplot2)
 
-#load data and add a publication and country column to match the other datasets
-gg.data <- read.csv("gg-1983.csv", header = TRUE)
-gg.data$publication <- "Gaia's Guide"
-gg.data$country <- "United States"
 
-#create a geocode value from the city state and country
-gg.data$geocode.value <-  paste(gg.data$city, ", ", gg.data$state, ", ", gg.data$country, sep="")
+gg.geocode <- function (year) {
+  gg.filename <- paste("GG-Data/gg-", year, ".csv", sep = "")
+  print(paste("Reading in ", gg.filename, sep = ""))
+  
+  #load data and add a publication and country column to match the other datasets
+  gg.data <- read.csv(gg.filename, header = TRUE)
+  gg.data$publication <- "Gaia's Guide"
+  gg.data$country <- "United States"
+  
+  #create a geocode value from the city state and country
+  gg.data$geocode.value <-  paste(gg.data$city, ", ", gg.data$state, ", ", gg.data$country, sep="")
+  
+  # read in a list of unique cities (geocode values) from Damron and LC data. Join it with Gaia's guide data.
+  unique.cities <- read.csv("unique_city_list.csv")
+  gg.geocode <- left_join(gg.data, unique.cities, by="geocode.value")
+  
+  #find all the empty rows that didn't have a match. 
+  gg.geocode.empty <- gg.geocode %>% filter(is.na(lon))
+  new.geocode.entries <<- unique(gg.geocode.empty$geocode.value) %>% as.data.frame() %>% rename("geocode.value" = ".")
+  print(paste(length(new.geocode.entries$geocode.value), " entries unmatched in unique values. Will now be geocoded.", sep = ""))
+  
+  #Register api key and geocode entries with no entry in unique city list
+  register_google(key = Sys.getenv("GOOGLE_KEY"))
+  #geocoding function
+  for(i in 1:nrow(new.geocode.entries)) {
+    # Print("Working...")
+    result <- tryCatch(geocode(new.geocode.entries$geocode.value[i], output = "latlona", source = "google"), warning = function(w) data.frame(lon = NA, lat = NA, address = NA))
+    new.geocode.entries$lon[i] <- as.numeric(result[1])
+    new.geocode.entries$lat[i] <- as.numeric(result[2])
+    new.geocode.entries$geoAddress[i] <- as.character(result[3])
+  }
+  print(colnames(new.geocode.entries))
+  print(colnames(unique.cities))
+  #merge into existing unique cities first and then into gg.geocode. Write new unique cities to csv list.
+  unique.cities <- rbind(new.geocode.entries, unique.cities)
+  write.csv(unique.cities, "unique_city_list.csv", row.names = FALSE)
+  
+  gg.geocode <<- left_join(gg.data, unique.cities, by="geocode.value")
+  if (!"year" %in% colnames(gg.geocode)){ gg.geocode$year <<- year }
+  write.csv(gg.geocode, paste("GG-Data/gg-geocoded-", year, ".csv", sep = ""))
+  } #END FUNCTION
+gg.geocode(1981)
 
-# read in a list of unique cities (geocode values) from Damron and LC data. Join it with Gaia's guide data.
-unique.cities <- read.csv("unique_city_list.csv")
-gg.geocode <- left_join(gg.data, unique.cities, by="geocode.value")
+##Note that a many to many error will occur if this is re-run on a year that has already been run through this function.
 
-#find all the empty rows that didn't have a match. 
-gg.geocode.empty <- gg.geocode %>% filter(is.na(lon))
-new.geocode.entries <- unique(gg.geocode.empty$geocode.value) %>% as.data.frame() %>% rename("geocode.value" = ".")
-
-register_google(key = Sys.getenv("MGG_GOOGLE_KEY"))
-#geocoding function
-for(i in 1:nrow(new.geocode.entries)) {
-  # Print("Working...")
-  result <- tryCatch(geocode(new.geocode.entries$geocode.value[i], output = "latlona", source = "google"), warning = function(w) data.frame(lon = NA, lat = NA, address = NA))
-  new.geocode.entries$lon[i] <- as.numeric(result[1])
-  new.geocode.entries$lat[i] <- as.numeric(result[2])
-  new.geocode.entries$geoAddress[i] <- as.character(result[3])
-}
-#merge into exisiting unique cities first and then into gg.geocode
-unique.cities <- rbind(new.geocode.entries, unique.cities)
-gg.geocode <- left_join(gg.data, unique.cities, by="geocode.value")
-gg.geocode$year <- 1983
 
 
 combined.data <- read.csv("geocoded_data.csv")
