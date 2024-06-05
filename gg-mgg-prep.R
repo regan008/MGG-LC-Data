@@ -3,8 +3,7 @@ library(forcats)
 library(ggmap)
 library(ggplot2)
 
-
-gg.geocode <- function (year) {
+gg.geocode <- function (year, google_key) {
   gg.filename <- paste("GG-Data/gg-", year, ".csv", sep = "")
   print(paste("Reading in ", gg.filename, sep = ""))
   
@@ -26,7 +25,8 @@ gg.geocode <- function (year) {
   print(paste(length(new.geocode.entries$geocode.value), " entries unmatched in unique values. Will now be geocoded.", sep = ""))
   
   #Register api key and geocode entries with no entry in unique city list
-  register_google(key = Sys.getenv("GOOGLE_KEY"))
+  #register_google(key = Sys.getenv("GOOGLE_KEY"))
+  register_google(key = google_key)
   #geocoding function
   for(i in 1:nrow(new.geocode.entries)) {
     # Print("Working...")
@@ -45,7 +45,10 @@ gg.geocode <- function (year) {
   if (!"year" %in% colnames(gg.geocode)){ gg.geocode$year <<- year }
   write.csv(gg.geocode, paste("GG-Data/gg-geocoded-", year, ".csv", sep = ""))
   } #END FUNCTION
-gg.geocode(1981)
+
+google_key <- readline(prompt="Please enter your Google API key: ")
+print(google_key)
+gg.geocode(1981, google_key)
 
 ##Note that a many to many error will occur if this is re-run on a year that has already been run through this function.
 
