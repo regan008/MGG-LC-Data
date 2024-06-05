@@ -3,7 +3,10 @@ library(forcats)
 library(ggmap)
 library(ggplot2)
 
-gg.geocode <- function (year, google_key) {
+google_key <- readline(prompt="Please enter your Google API key: ")
+print(google_key)
+
+gg.geocode.function <- function (year, google_key) {
   gg.filename <- paste("GG-Data/gg-", year, ".csv", sep = "")
   print(paste("Reading in ", gg.filename, sep = ""))
   
@@ -46,13 +49,20 @@ gg.geocode <- function (year, google_key) {
   write.csv(gg.geocode, paste("GG-Data/gg-geocoded-", year, ".csv", sep = ""))
   } #END FUNCTION
 
-google_key <- readline(prompt="Please enter your Google API key: ")
-print(google_key)
-gg.geocode(1981, google_key)
+
+# Get a list of files in the GG-Data subfolder that match the "gg-XXXX.csv" pattern
+files <- list.files(path = "GG-Data", pattern = "gg-\\d{4}\\.csv$", full.names = FALSE)
+years <- gsub("gg-(\\d{4})\\.csv", "\\1", files) # Extract the year from each filename
+years <- as.numeric(years) # Convert the years to numeric
+completed_years <- unique(years) # Get a list of unique years
+# Loop through each unique year in the subfolder and run the gg.geocode.function
+for (year in completed_years) {
+  gg.geocode.function(year, google_key)
+}
+
+#gg.geocode(1983, google_key)
 
 ##Note that a many to many error will occur if this is re-run on a year that has already been run through this function.
-
-
 
 combined.data <- read.csv("geocoded_data.csv")
 combined.data <- combined.data %>% filter(year == 1983)
