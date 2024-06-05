@@ -89,3 +89,5 @@ mgg.data$publication <- c("Bob Damron's Address Book")
 mgg.data$country <- c("United States")
 
 saveRDS(mgg.data, file="mgg-data-cleaned.rds")
+
+

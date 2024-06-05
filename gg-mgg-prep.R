@@ -28,7 +28,7 @@ gg.geocode.function <- function (year, google_key) {
   print(paste(length(new.geocode.entries$geocode.value), " entries unmatched in unique values. Will now be geocoded.", sep = ""))
   
   #Register api key and geocode entries with no entry in unique city list
-  #register_google(key = Sys.getenv("GOOGLE_KEY"))
+ # register_google(key = Sys.getenv("GOOGLE_KEY"))
   register_google(key = google_key)
   #geocoding function
   for(i in 1:nrow(new.geocode.entries)) {
@@ -46,7 +46,7 @@ gg.geocode.function <- function (year, google_key) {
   
   gg.geocode <<- left_join(gg.data, unique.cities, by="geocode.value")
   if (!"year" %in% colnames(gg.geocode)){ gg.geocode$year <<- year }
-  write.csv(gg.geocode, paste("GG-Data/gg-geocoded-", year, ".csv", sep = ""))
+  write.csv(gg.geocode, paste("GG-Data/gg-geocoded-", year, ".csv", sep = ""),row.names = FALSE)
   } #END FUNCTION
 
 
@@ -64,14 +64,26 @@ for (year in completed_years) {
 
 ##Note that a many to many error will occur if this is re-run on a year that has already been run through this function.
 
-combined.data <- read.csv("geocoded_data.csv")
-combined.data <- combined.data %>% filter(year %in% completed_years)
+merge.data <- function() {
+  source("MGG-Data/mgg-prep.R")
+  require(dplyr)
+  require(readr)
+  pull.matching.mggdata()
+  mgg.data <<- read.csv("MGG-Data/mgg-data.csv")
+  mgg.data <- mgg.data %>% rename(mgg.type = type)
+  gg.data <<- list.files(path = "GG-Data", pattern = "gg-geocoded-\\d{4}\\.csv$", full.names = TRUE) %>% 
+    lapply(read_csv) %>% 
+    bind_rows 
+  gg.data$mgg.type <- NA
+  mgg.data$type <- NA
+  mgg.data$star.type <- NA
+  
+}
+merge.data()
+
 
 #keep Entity.Type, mgg.type from combined LC & MGG data. keep type and star.type from GG.
-gg.geocode$mgg.type <- NA
-gg.geocode$Entity.Type <- NA
-combined.data$type <- NA
-combined.data$star.type <- NA
+
 
 
 combined.data.names <- names(combined.data)
