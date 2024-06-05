@@ -40,8 +40,8 @@ gg.geocode.function <- function (year, google_key) {
   }
   print(colnames(new.geocode.entries))
   print(colnames(unique.cities))
-  #merge into existing unique cities first and then into gg.geocode. Write new unique cities to csv list.
-  unique.cities <- rbind(new.geocode.entries, unique.cities)
+  #merge into existing unique cities first and then into gg.geocode. Write new unique cities to csv list as long as they didn't return an NA value
+  unique.cities <- rbind(new.geocode.entries[!is.na(new.geocode.entries$lon), ], unique.cities)
   write.csv(unique.cities, "unique_city_list.csv", row.names = FALSE)
   
   gg.geocode <<- left_join(gg.data, unique.cities, by="geocode.value")
@@ -65,7 +65,7 @@ for (year in completed_years) {
 ##Note that a many to many error will occur if this is re-run on a year that has already been run through this function.
 
 combined.data <- read.csv("geocoded_data.csv")
-combined.data <- combined.data %>% filter(year == 1983)
+combined.data <- combined.data %>% filter(year %in% completed_years)
 
 #keep Entity.Type, mgg.type from combined LC & MGG data. keep type and star.type from GG.
 gg.geocode$mgg.type <- NA
