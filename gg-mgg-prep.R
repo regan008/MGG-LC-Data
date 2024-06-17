@@ -69,54 +69,53 @@ merge.data <- function() {
   require(dplyr)
   require(readr)
   #pull.matching.mggdata()
-  mgg.data <<- read.csv("MGG-Data/mgg-data.csv")
+  mgg.data <- read.csv("MGG-Data/mgg-data.csv")
   mgg.data <- mgg.data %>% rename(mgg.type = type)
   unique.cities <- read.csv("unique_city_list.csv")
   mgg.data$geocode.value <-  paste(mgg.data$city, ", ", mgg.data$state, ", ", mgg.data$country, sep="")
   mgg.geocode <- left_join(mgg.data, unique.cities, by="geocode.value")
   
-  gg.data <<- list.files(path = "GG-Data", pattern = "gg-geocoded-\\d{4}\\.csv$", full.names = TRUE) %>% 
-    lapply(read_csv) 
-
-  
-    bind_rows 
+  gg.data <- list.files(path = "GG-Data", pattern = "gg-geocoded-\\d{4}\\.csv$", full.names = TRUE) %>% 
+    lapply(read_csv) %>% bind_rows 
   gg.data$mgg.type <- NA
-  mgg.data$type <- NA
-  mgg.data$star.type <- NA
-  gg.data <<- gg.data %>% select(title, type, address, city, state, description, publication, country, geocode.value, lon, lat)
-  mgg.data <<- mgg.data %>% select()
+  mgg.geocode$type <- NA
+  mgg.geocode$star.type <- NA
+  if ("X" %in% colnames(mgg.geocode)) { mgg.geocode <- mgg.geocode %>% select(-X)}
+  gg.data <- gg.data %>% select(title, type, mgg.type, star.type, city, state, description, publication, country, geocode.value, lon, lat, year)
+  mgg.geocode <- mgg.geocode %>% rename("year" = "Year") 
+  mgg.geocode <- mgg.geocode %>% select(title, mgg.type, type, star.type, city, state, description, publication, country, geocode.value, lon, lat, year) 
+  alldata <- rbind(mgg.geocode, gg.data)
+  combined.data <<- alldata
+  write.csv(combined.data, "all-data.csv", row.names = FALSE)
   }
 merge.data()
 
 
-#keep Entity.Type, mgg.type from combined LC & MGG data. keep type and star.type from GG.
 
-combined.data.names <- names(combined.data)
-gg.data.names <- names(gg.geocode)
 
-common_cols <- intersect(combined.data.names, gg.data.names) 
-print("Column names that are the same in both dataframes:") 
-print(common_cols)
-
-all.data <- merge(combined.data, gg.geocode, by = common_cols, all = TRUE)
-write.csv(all.data, "gg-mgg-alldata.csv")
 
 #mgg.L or G only entries
-damron.w.spaces <- all.data %>% filter(publication == "Bob Damron's Address Book") 
-damron.w.spaces <- damron.w.spaces %>% filter(grepl("(G)", damron.w.spaces$amenityfeatures, ignore.case = TRUE) | grepl("(L)", damron.w.spaces$amenityfeatures, ignore.case = TRUE))
-gg.lc.data <- all.data %>% filter(publication == "Lesbian Connection" | publication == "Gaia's Guide")
-all.w.data <- merge(damron.w.spaces, gg.lc.data, by = common_cols, all = TRUE)
-write.csv(all.w.data, "gg-mgg-all-w-data.csv")
+#damron.w.spaces <- all.data %>% filter(publication == "Bob Damron's Address Book") 
+#damron.w.spaces <- damron.w.spaces %>% filter(grepl("(G)", damron.w.spaces$amenityfeatures, ignore.case = TRUE) | grepl("(L)", damron.w.spaces$amenityfeatures, ignore.case = TRUE))
+#gg.lc.data <- all.data %>% filter(publication == "Lesbian Connection" | publication == "Gaia's Guide")
+#all.w.data <- merge(damron.w.spaces, gg.lc.data, by = common_cols, all = TRUE)
+#write.csv(all.w.data, "gg-mgg-all-w-data.csv")
 
+relative.data <- function(){
+  all.data <- read.csv(file = "all-data.csv")
+  
+  #calculating relative values of locations
+  total.per.year <- alldata %>% group_by(publication, year) %>% summarize(pub.count = n())
+  total.per.loc.byyear <- alldata %>% group_by(publication, year, geocode.value, lon, lat) %>% summarize(count = n())
+  relative.count <- full_join(total.per.year, total.per.loc.byyear)
+  relative.count <<- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
+  
+  write.csv(relative.count, file="gg-mgg-alldata-relative.csv", row.names = FALSE) 
+}
+relative.data()
 
-#calculating relative values of locations
-total.per.year <- all.data %>% group_by(publication, year) %>% summarize(pub.count = n())
-total.per.loc.byyear <- all.data %>% group_by(publication, year, city, state, country, geocode.value, lon, lat, geoAddress) %>% summarize(count = n())
-
-relative.count <- full_join(total.per.year, total.per.loc.byyear)
-relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
-write.csv(relative.count, file="gg-mgg-alldata-relative.csv", row.names = FALSE) 
-
+relative.w.data <- function() {
+all.w.data <- read.csv(file = "all-data.csv")
 #calculate relative values for data with just Damron G or L
 total.per.year <- all.w.data %>% group_by(publication, year) %>% summarize(pub.count = n())
 total.per.loc.byyear <- all.w.data %>% group_by(publication, year, city, state, country, geocode.value, lon, lat, geoAddress) %>% summarize(count = n())
@@ -124,7 +123,7 @@ total.per.loc.byyear <- all.w.data %>% group_by(publication, year, city, state, 
 relative.count <- full_join(total.per.year, total.per.loc.byyear)
 relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
 write.csv(relative.count, file="gg-mgg-relative-all-w-data.csv", row.names = FALSE) #use this for just women's data
-
+}
 
 ## Generate Ranked count for data (using all of damron)
 rank <- relative.count %>%  group_by(publication) %>% mutate(rank = rank(-count, ties.method = 'min'))
