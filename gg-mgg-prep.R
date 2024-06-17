@@ -65,26 +65,31 @@ for (year in completed_years) {
 ##Note that a many to many error will occur if this is re-run on a year that has already been run through this function.
 
 merge.data <- function() {
-  source("MGG-Data/mgg-prep.R")
+  #source("MGG-Data/mgg-prep.R")
   require(dplyr)
   require(readr)
-  pull.matching.mggdata()
+  #pull.matching.mggdata()
   mgg.data <<- read.csv("MGG-Data/mgg-data.csv")
   mgg.data <- mgg.data %>% rename(mgg.type = type)
+  unique.cities <- read.csv("unique_city_list.csv")
+  mgg.data$geocode.value <-  paste(mgg.data$city, ", ", mgg.data$state, ", ", mgg.data$country, sep="")
+  mgg.geocode <- left_join(mgg.data, unique.cities, by="geocode.value")
+  
   gg.data <<- list.files(path = "GG-Data", pattern = "gg-geocoded-\\d{4}\\.csv$", full.names = TRUE) %>% 
-    lapply(read_csv) %>% 
+    lapply(read_csv) 
+
+  
     bind_rows 
   gg.data$mgg.type <- NA
   mgg.data$type <- NA
   mgg.data$star.type <- NA
-  
-}
+  gg.data <<- gg.data %>% select(title, type, address, city, state, description, publication, country, geocode.value, lon, lat)
+  mgg.data <<- mgg.data %>% select()
+  }
 merge.data()
 
 
 #keep Entity.Type, mgg.type from combined LC & MGG data. keep type and star.type from GG.
-
-
 
 combined.data.names <- names(combined.data)
 gg.data.names <- names(gg.geocode)
