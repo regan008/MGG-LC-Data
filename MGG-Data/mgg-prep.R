@@ -14,7 +14,7 @@ create.unique.city.list <- function() {
     new.geocode.entries$lat[i] <- as.numeric(result[2])
     new.geocode.entries$geoAddress[i] <- as.character(result[3])
   }
-  write.csv(new.geocode.entries, "unique_city_list.csv")
+  write.csv(new.geocode.entries, "unique_city_list.csv", rownames=FALSE)
 }
 create.unique.city.list()
 
