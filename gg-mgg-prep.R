@@ -114,6 +114,7 @@ relative.data <- function(){
 }
 relative.data()
 
+#TO DO: FIX SO THAT THE ALL DATA FUNCTION INCLUDES AMENTIY FEATURES IN DATASET. NECESSARY TO FILTER BY WOMEN'S SPACES. 
 relative.w.data <- function() {
 all.w.data <- read.csv(file = "all-data.csv")
 #calculate relative values for data with just Damron G or L
@@ -125,12 +126,19 @@ relative.count <- relative.count %>% mutate(relative.percentage = count/pub.coun
 write.csv(relative.count, file="gg-mgg-relative-all-w-data.csv", row.names = FALSE) #use this for just women's data
 }
 
+ranked.data <- function(){
+relative.count <- read.csv(file = "gg-mgg-alldata-relative.csv")
 ## Generate Ranked count for data (using all of damron)
-rank <- relative.count %>%  group_by(publication) %>% mutate(rank = rank(-count, ties.method = 'min'))
-rank <- rank %>% filter(rank < 25)
+rank <- relative.count %>%  group_by(year, publication) %>% mutate(rank = rank(-count, ties.method = 'min'))
+write.csv(rank, "ranked-data.csv")
+}
+ranked.data()
 
+map.ranked.cites <- function(pubyear) {
 usa <- map_data("state")
+rank <- read.csv(file = "ranked-data.csv") %>% filter(year == pubyear)
 ggplot() + 
   geom_map( data = usa, map = usa, aes(long, lat, map_id=region)) + borders("state", fill = "white", colour = "grey80") +
   geom_point(data = rank, mapping = aes(x=lon, y=lat, color = publication)) + facet_wrap(~publication, nrow = 3)
-                                                                                         
+}     
+map.ranked.cites(1981)
