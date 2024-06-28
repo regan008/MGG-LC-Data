@@ -24,7 +24,7 @@ gg.geocode.function <- function (year, google_key) {
   
   #find all the empty rows that didn't have a match. 
   gg.geocode.empty <- gg.geocode %>% filter(is.na(lon))
-  new.geocode.entries <<- unique(gg.geocode.empty$geocode.value) %>% as.data.frame() %>% rename("geocode.value" = ".")
+  new.geocode.entries <- unique(gg.geocode.empty$geocode.value) %>% as.data.frame() %>% rename("geocode.value" = ".")
   print(paste(length(new.geocode.entries$geocode.value), " entries unmatched in unique values. Will now be geocoded.", sep = ""))
   
   #Register api key and geocode entries with no entry in unique city list
@@ -108,7 +108,6 @@ relative.data <- function(){
   total.per.loc.byyear <- all.data %>% group_by(publication, year, geocode.value, lon, lat) %>% summarize(count = n())
   relative.count <- full_join(total.per.year, total.per.loc.byyear)
   relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
-  print(head(relative.count))
   
   write.csv(relative.count, file="gg-mgg-alldata-relative.csv", row.names = FALSE) 
 }
