@@ -103,12 +103,12 @@ merge.data()
 
 relative.data <- function(){
   all.data <- read.csv(file = "all-data.csv")
-  
   #calculating relative values of locations
-  total.per.year <- alldata %>% group_by(publication, year) %>% summarize(pub.count = n())
-  total.per.loc.byyear <- alldata %>% group_by(publication, year, geocode.value, lon, lat) %>% summarize(count = n())
+  total.per.year <- all.data %>% group_by(publication, year) %>% summarize(pub.count = n())
+  total.per.loc.byyear <- all.data %>% group_by(publication, year, geocode.value, lon, lat) %>% summarize(count = n())
   relative.count <- full_join(total.per.year, total.per.loc.byyear)
-  relative.count <<- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
+  relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
+  print(head(relative.count))
   
   write.csv(relative.count, file="gg-mgg-alldata-relative.csv", row.names = FALSE) 
 }
