@@ -115,49 +115,48 @@ write.csv(updated_existing_geocoded_lookup, "unique-locations-geocoded.csv", row
 
 # Merge the geocoded locations with the entire dataframe of all location records
 all.data.cleaned.geocoded <- left_join(all.data.cleaned, updated_existing_geocoded_lookup, by = "geocode.value")
-write.csv(all.data.cleaned.geocoded, "all-data-cleaned-geocoded.csv", row.names = FALSE)
+output_folder <- "final-output-data"
+write.csv(all.data.cleaned.geocoded, file.path(output_folder, "all-data-cleaned-geocoded.csv"), row.names = FALSE)
 
 ### RELATIVE DATA CALCULATIONS
 
 ## Exporting a csv file that contains relative data for locations in each publication on year by year basis
 relative.data.by.year <- function(){
-  all.data <- read.csv(file = "all-data-cleaned-geocoded.csv")
+  all.data <- read.csv(file = file.path(output_folder, "all-data-cleaned-geocoded.csv"))
   #calculating relative values of locations on a year by year basis
   total.per.year <- all.data %>% group_by(publication, year) %>% summarize(pub.count = n())
   total.per.loc.byyear <- all.data %>% group_by(publication, year, geocode.value, lon, lat) %>% summarize(count = n())
   relative.count <- full_join(total.per.year, total.per.loc.byyear)
   relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
-  write.csv(relative.count, file="relative-location-data-by-year.csv", row.names = FALSE) 
+  write.csv(relative.count, file=file.path(output_folder, "relative-location-data-by-year.csv"), row.names = FALSE) 
 }
 relative.data.by.year()
 
-# relative_data<- read.csv(file = "relative-location-data-by-year.csv", stringsAsFactors = FALSE)
-
 ## Exporting a csv file that contains relative data for locations in each publication, with all years aggregated together
 relative.data.all.years <- function(){
-  all.data <- read.csv(file = "all-data-cleaned-geocoded.csv")
+  all.data <- read.csv(file = file.path(output_folder, "all-data-cleaned-geocoded.csv"))
   #calculating relative values of locations on a year by year basis
   total <- all.data %>% group_by(publication) %>% summarize(pub.count = n())
   total.per.loc <- all.data %>% group_by(publication, geocode.value, lon, lat) %>% summarize(count = n())
   relative.count <- full_join(total, total.per.loc)
   relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
-  write.csv(relative.count, file="relative-location-data-all-years.csv", row.names = FALSE) 
+  write.csv(relative.count, file=file.path(output_folder, "relative-location-data-all-years.csv"), row.names = FALSE) 
 }
 relative.data.all.years()
 
 ## Ranked Locations by Year
 ranked.locations.by.year <- function(){
-  relative.count <- read.csv(file = "relative-location-data-by-year.csv")
+  relative.count <- read.csv(file = file.path(output_folder, "relative-location-data-by-year.csv"))
   rank <- relative.count %>%  group_by(year, publication) %>% mutate(rank = rank(-count, ties.method = 'min'))
-  write.csv(rank, "ranked-locations-by-year.csv")
+  write.csv(rank, file=file.path(output_folder, "ranked-locations-by-year.csv"))
 }
 ranked.locations.by.year()
 
 ## Ranked Locations for All Years
 
 ranked.locations.all.years <- function(){
-  relative.count <- read.csv(file = "relative-location-data-all-years.csv")
+  relative.count <- read.csv(file = file.path(output_folder, "relative-location-data-all-years.csv"))
   rank <- relative.count %>%  group_by(publication) %>% mutate(rank = rank(-count, ties.method = 'min'))
-  write.csv(rank, "ranked-locations-all-years.csv")
+  write.csv(rank, file.path(output_folder, "ranked-locations-all-years.csv"))
 }
 ranked.locations.all.years()
