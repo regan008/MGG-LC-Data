@@ -165,11 +165,12 @@ merge_geocode <- function(unique.locations.to.geocode, all.data.cleaned) {
   return(all.data.cleaned.geocoded)
 }
 
+# call the geocoding functions
 all.data.cleaned <- read.csv(file.path(data_cleaning_folder, "all-data-cleaned.csv"))
 geocoding_folder <- "geocoding-files"
 unique.locations.to.geocode <- prep_geocode(all.data.cleaned, geocoding_folder)
 unique.locations.to.geocode <- geocoding_function(unique.locations.to.geocode, geocoding_folder)
-all.data.cleaned.geocoded<-merge_geocode(unique.locations.to.geocode, all.data.cleaned)
+all.data.cleaned.geocoded <- merge_geocode(unique.locations.to.geocode, all.data.cleaned)
 
 ### RELATIVE DATA CALCULATIONS
 
