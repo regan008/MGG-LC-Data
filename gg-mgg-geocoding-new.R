@@ -3,7 +3,7 @@ library(forcats)
 library(ggmap)
 library(ggplot2)
 
-### Read in Datasets
+### DATA PREPARATION FUNCTIONS
 
 ## Initialize an empty dataframe to store all data
 empty.df <- data.frame(
@@ -107,7 +107,9 @@ unique_cities <- generate_unique_cities_list(all.data, data_cleaning_folder)
 replacements <- read_and_merge_replacements(unique_cities, data_cleaning_folder)
 all.data.cleaned <- apply_replacements(all.data, replacements)
 
-### GEOCODING
+
+
+### GEOCODING FUNCTIONS
 
 # getting google API key and registering with the service
 getGoogleAPI <- function() {
@@ -117,8 +119,7 @@ getGoogleAPI <- function() {
 }
 getGoogleAPI()
 
-## Geocoding function
-
+# Checking for existing geocoded locations, and preparing a list of unique locations to geocode
 prep_geocode <- function(data, geocoding_folder) {
   data$geocode.value <- paste(data$city, ", ", data$state, ", ", data$country, sep="") #create a column for geocoding
   unique_geocode_values <- unique(data$geocode.value) # Generate a unique list of values you want geocoded
@@ -134,8 +135,8 @@ prep_geocode <- function(data, geocoding_folder) {
   #unique.locations.to.geocode <- unique.locations.to.geocode %>% sample_n(5)
   print(paste(length(unique.locations.to.geocode$geocode.value), " entries unmatched in unique values that need to be geocoded.", sep = ""))
   return(unique.locations.to.geocode)
-}
 
+# Function to geocode unique locations that haven't already been geocoded using Google API
 geocoding_function <- function(unique.locations.to.geocode, geocoding_folder) {
   for(i in 1:nrow(unique.locations.to.geocode)) {
   result <- tryCatch(geocode(unique.locations.to.geocode$geocode.value[i], output = "latlona", source = "google"), warning = function(w) data.frame(lon = NA, lat = NA, address = NA))
@@ -149,6 +150,7 @@ geocoding_function <- function(unique.locations.to.geocode, geocoding_folder) {
   return(unique.locations.to.geocode)
 }
 
+# Merging the geocoded unique locations with the main dataframe, update the geocoded lookup file, and write the final dataframe to a csv
 merge_geocode <- function(unique.locations.to.geocode, all.data.cleaned) {
   # Take succesffully newly geocoded locations and append them to the dataframe of already geocoded lookup locations
   successful_geocode <- unique.locations.to.geocode %>% filter(!is.na(lon))
@@ -172,8 +174,10 @@ unique.locations.to.geocode <- prep_geocode(all.data.cleaned, geocoding_folder)
 unique.locations.to.geocode <- geocoding_function(unique.locations.to.geocode, geocoding_folder)
 all.data.cleaned.geocoded <- merge_geocode(unique.locations.to.geocode, all.data.cleaned)
 
+
 ### RELATIVE DATA CALCULATIONS
 
+output_folder <- "final-output-data"
 ## Exporting a csv file that contains relative data for locations in each publication on year by year basis
 relative.data.by.year <- function(){
   all.data <- read.csv(file = file.path(output_folder, "all-data-cleaned-geocoded.csv"))
