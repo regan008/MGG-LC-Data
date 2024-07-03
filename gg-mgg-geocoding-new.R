@@ -19,7 +19,7 @@ empty.df <- data.frame(
   stringsAsFactors = FALSE # This ensures that string data does not get converted to factors
 )
 columns <- colnames(empty.df)
-years <- c(1981, 1983)
+years <- c(1975, 1977, 1981, 1983) ## ADD MORE YEARS AS NEEDED DEPENDING ON WHICH DATA IS COMPLETE
 
 ## Read in Gaia's Guide data
 load_gg_data <- function(df, columns, years) {
@@ -135,7 +135,7 @@ prep_geocode <- function(data, geocoding_folder) {
   #unique.locations.to.geocode <- unique.locations.to.geocode %>% sample_n(5)
   print(paste(length(unique.locations.to.geocode$geocode.value), " entries unmatched in unique values that need to be geocoded.", sep = ""))
   return(unique.locations.to.geocode)
-
+}
 # Function to geocode unique locations that haven't already been geocoded using Google API
 geocoding_function <- function(unique.locations.to.geocode, geocoding_folder) {
   for(i in 1:nrow(unique.locations.to.geocode)) {
