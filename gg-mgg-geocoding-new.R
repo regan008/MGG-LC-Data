@@ -95,8 +95,8 @@ apply_replacements <- function(data, replacements) {
     left_join(replacements, by = c("city", "state", "country")) %>%
     mutate(city = if_else(!is.na(new.city), new.city, city)) %>%
     select(-new.city)
-  return(data.cleaned)
   write.csv(data.cleaned, file.path(data_cleaning_folder, "all-data-cleaned.csv"), row.names = FALSE)
+  return(data.cleaned)
 }
 
 ## call all data cleaning functions
