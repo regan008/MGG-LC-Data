@@ -195,12 +195,13 @@ output_folder <- "final-output-data"
 ## Exporting a csv file that contains relative data for locations in each publication on year by year basis
 relative.data.by.year <- function(){
   all.data <- read.csv(file = file.path(output_folder, "all-data-cleaned-geocoded.csv"))
+  #strip out all variations of cruising areas from MGG types.
   all.data <- all.data %>% filter(!grepl(",Cruising Areas", all.data$type, fixed = TRUE) & 
                             !grepl("Cruising Areas,", all.data$type, fixed = TRUE) & 
                             !grepl("Cruising Areas", all.data$type, fixed = TRUE) & 
                             !grepl("Cruisy Areas", all.data$type, fixed = TRUE) &
                             !grepl("Crusiy Areas", all.data$type, fixed = TRUE))
-  )#calculating relative values of locations on a year by year basis
+  #calculating relative values of locations on a year by year basis
   total.per.year <- all.data %>% group_by(publication, year) %>% summarize(pub.count = n())
   total.per.loc.byyear <- all.data %>% group_by(publication, year, geocode.value, lon, lat) %>% summarize(count = n())
   relative.count <- full_join(total.per.year, total.per.loc.byyear)
@@ -212,6 +213,12 @@ relative.data.by.year()
 ## Exporting a csv file that contains relative data for locations in each publication, with all years aggregated together
 relative.data.all.years <- function(){
   all.data <- read.csv(file = file.path(output_folder, "all-data-cleaned-geocoded.csv"))
+  #strip out all variations of cruising areas from MGG types.
+  all.data <- all.data %>% filter(!grepl(",Cruising Areas", all.data$type, fixed = TRUE) & 
+                            !grepl("Cruising Areas,", all.data$type, fixed = TRUE) & 
+                            !grepl("Cruising Areas", all.data$type, fixed = TRUE) & 
+                            !grepl("Cruisy Areas", all.data$type, fixed = TRUE) &
+                            !grepl("Crusiy Areas", all.data$type, fixed = TRUE))
   #calculating relative values of locations on a year by year basis
   total <- all.data %>% group_by(publication) %>% summarize(pub.count = n())
   total.per.loc <- all.data %>% group_by(publication, geocode.value, lon, lat) %>% summarize(count = n())
