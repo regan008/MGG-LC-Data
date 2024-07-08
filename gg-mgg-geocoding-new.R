@@ -117,6 +117,7 @@ getGoogleAPI <- function() {
   print(google_key)
   register_google(key = google_key)
 }
+getGoogleAPI()
 
 # Checking for existing geocoded locations, and preparing a list of unique locations to geocode
 prep_geocode <- function(data, geocoding_folder) {
@@ -151,13 +152,13 @@ geocoding_function <- function(unique.locations.to.geocode, geocoding_folder) {
 }
 
 # Merging the geocoded unique locations with the main dataframe, update the geocoded lookup file, and write the final dataframe to a csv
-merge_geocode <- function(unique.locations.to.geocode, all.data.cleaned, output_folder) {
+merge_geocode <- function(unique.locations.to.geocode, all.data.cleaned, geocoding_folder, output_folder) {
   # Take succesffully newly geocoded locations and append them to the dataframe of already geocoded lookup locations
   successful_geocode <- unique.locations.to.geocode %>% filter(!is.na(lon))
   existing_geocoded_lookup <- read.csv(file.path(geocoding_folder, "unique-locations-geocoded.csv"), stringsAsFactors = FALSE)
   new_entries <- anti_join(successful_geocode, existing_geocoded_lookup, by = "geocode.value")
   updated_existing_geocoded_lookup <- bind_rows(existing_geocoded_lookup, new_entries)
-  write.csv(updated_existing_geocoded_lookup, "unique-locations-geocoded.csv", row.names = FALSE)
+  write.csv(updated_existing_geocoded_lookup, file.path(geocoding_folder, "unique-locations-geocoded.csv"), row.names = FALSE)
 
   # Merge the geocoded locations with the entire dataframe of all location records
   all.data.cleaned$geocode.value <- paste(all.data.cleaned$city, ", ", all.data.cleaned$state, ", ", all.data.cleaned$country, sep="") #create a column for geocoding
@@ -180,13 +181,12 @@ documentation_function <- function(csvFile, markdownFile, output_folder) {
 }
 
 # call the geocoding functions
-getGoogleAPI()
 geocoding_folder <- "geocoding-files"
 output_folder <- "final-output-data"
 all.data.cleaned <- read.csv(file.path(data_cleaning_folder, "all-data-cleaned.csv"))
 unique.locations.to.geocode <- prep_geocode(all.data.cleaned, geocoding_folder)
 unique.locations.to.geocode <- geocoding_function(unique.locations.to.geocode, geocoding_folder)
-all.data.cleaned.geocoded <- merge_geocode(unique.locations.to.geocode, all.data.cleaned, output_folder)
+all.data.cleaned.geocoded <- merge_geocode(unique.locations.to.geocode, all.data.cleaned, geocoding_folder, output_folder)
 documentation_function("all-data-cleaned-geocoded.csv", "completed_years.md", output_folder)
 
 ### RELATIVE DATA CALCULATIONS
