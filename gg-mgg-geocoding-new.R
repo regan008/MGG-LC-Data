@@ -19,7 +19,7 @@ empty.df <- data.frame(
   stringsAsFactors = FALSE # This ensures that string data does not get converted to factors
 )
 columns <- colnames(empty.df)
-years <- c(1975, 1977, 1981, 1983) ## ADD MORE YEARS AS NEEDED DEPENDING ON WHICH DATA IS COMPLETE
+years <- c(1975, 1977, 1979, 1981, 1983) ## CHANGE THIS TO ADD MORE YEARS AS NEEDED DEPENDING ON WHICH DATA IS COMPLETE
 
 ## Read in Gaia's Guide data
 load_gg_data <- function(df, columns, years) {
@@ -55,7 +55,8 @@ load_mgg_data<- function(columns){
 gg.data <- load_gg_data(empty.df, columns, years)
 mgg.data<-load_mgg_data(columns) %>%
   filter(year %in% years)
-all.data <- rbind(gg.data, mgg.data)
+all.data <- rbind(gg.data, mgg.data) %>% 
+  filter(title != "" | description != "" | city != "" | state != "")
 write.csv(all.data, file.path("data-processing-files", "all-data-precleaned.csv"), row.names = FALSE)
 
 ### Data Cleaning and Processing
@@ -89,6 +90,7 @@ read_and_merge_replacements <- function(unique_cities, output_folder) {
   write.csv(all_replacements, file.path(output_folder, "unique-cities-replacements.csv"), row.names = FALSE)
   return(all_replacements)
 }
+
 # take the lookup data with replacement names for cities and apply them to the main data
 apply_replacements <- function(data, replacements) {
   data.cleaned <- data %>%
@@ -107,8 +109,6 @@ unique_cities <- generate_unique_cities_list(all.data, data_cleaning_folder)
 replacements <- read_and_merge_replacements(unique_cities, data_cleaning_folder)
 all.data.cleaned <- apply_replacements(all.data, replacements)
 
-
-
 ### GEOCODING FUNCTIONS
 
 # getting google API key and registering with the service
@@ -117,7 +117,6 @@ getGoogleAPI <- function() {
   print(google_key)
   register_google(key = google_key)
 }
-getGoogleAPI()
 
 # Checking for existing geocoded locations, and preparing a list of unique locations to geocode
 prep_geocode <- function(data, geocoding_folder) {
@@ -136,6 +135,7 @@ prep_geocode <- function(data, geocoding_folder) {
   print(paste(length(unique.locations.to.geocode$geocode.value), " entries unmatched in unique values that need to be geocoded.", sep = ""))
   return(unique.locations.to.geocode)
 }
+
 # Function to geocode unique locations that haven't already been geocoded using Google API
 geocoding_function <- function(unique.locations.to.geocode, geocoding_folder) {
   for(i in 1:nrow(unique.locations.to.geocode)) {
@@ -151,7 +151,7 @@ geocoding_function <- function(unique.locations.to.geocode, geocoding_folder) {
 }
 
 # Merging the geocoded unique locations with the main dataframe, update the geocoded lookup file, and write the final dataframe to a csv
-merge_geocode <- function(unique.locations.to.geocode, all.data.cleaned) {
+merge_geocode <- function(unique.locations.to.geocode, all.data.cleaned, output_folder) {
   # Take succesffully newly geocoded locations and append them to the dataframe of already geocoded lookup locations
   successful_geocode <- unique.locations.to.geocode %>% filter(!is.na(lon))
   existing_geocoded_lookup <- read.csv(file.path(geocoding_folder, "unique-locations-geocoded.csv"), stringsAsFactors = FALSE)
@@ -162,18 +162,32 @@ merge_geocode <- function(unique.locations.to.geocode, all.data.cleaned) {
   # Merge the geocoded locations with the entire dataframe of all location records
   all.data.cleaned$geocode.value <- paste(all.data.cleaned$city, ", ", all.data.cleaned$state, ", ", all.data.cleaned$country, sep="") #create a column for geocoding
   all.data.cleaned.geocoded <- left_join(all.data.cleaned, updated_existing_geocoded_lookup, by = "geocode.value")
-  output_folder <- "final-output-data"
   write.csv(all.data.cleaned.geocoded, file.path(output_folder, "all-data-cleaned-geocoded.csv"), row.names = FALSE)
   return(all.data.cleaned.geocoded)
 }
 
+#Generating a documentation file to list out completed years
+documentation_function <- function(csvFile, markdownFile, output_folder) {
+  data <- read.csv(file.path(output_folder, csvFile))
+  unique_years <- data %>% distinct(year) %>% arrange(year) %>% pull(year)
+  md_file <- file(file.path(output_folder, markdownFile), "w")
+  writeLines("# Completed Years\n", md_file)
+  writeLines("This document lists all the years for which data cleaning and geocoding have been completed.\n", md_file)
+  for(year in unique_years) {
+    writeLines(sprintf("- %s", year), md_file)
+  }
+  close(md_file)
+}
+
 # call the geocoding functions
-all.data.cleaned <- read.csv(file.path(data_cleaning_folder, "all-data-cleaned.csv"))
+getGoogleAPI()
 geocoding_folder <- "geocoding-files"
+output_folder <- "final-output-data"
+all.data.cleaned <- read.csv(file.path(data_cleaning_folder, "all-data-cleaned.csv"))
 unique.locations.to.geocode <- prep_geocode(all.data.cleaned, geocoding_folder)
 unique.locations.to.geocode <- geocoding_function(unique.locations.to.geocode, geocoding_folder)
-all.data.cleaned.geocoded <- merge_geocode(unique.locations.to.geocode, all.data.cleaned)
-
+all.data.cleaned.geocoded <- merge_geocode(unique.locations.to.geocode, all.data.cleaned, output_folder)
+documentation_function("all-data-cleaned-geocoded.csv", "completed_years.md", output_folder)
 
 ### RELATIVE DATA CALCULATIONS
 
