@@ -1,0 +1,52 @@
+GISJOIN,YEAR,STATE,STATEA,COUNTYA,CTY_SUBA,PLACEA,ELECPRCTA,TRACTA,BLOCKA,BLCK_GRPA,ENUMDISTA,AREANAME,C6W001
+"G010","1980","Alabama","01",,,,,,,,,"Alabama",3890061
+"G020","1980","Alaska","02",,,,,,,,,"Alaska",400481
+"G040","1980","Arizona","04",,,,,,,,,"Arizona",2717866
+"G050","1980","Arkansas","05",,,,,,,,,"Arkansas",2285513
+"G060","1980","California","06",,,,,,,,,"California",23668562
+"G080","1980","Colorado","08",,,,,,,,,"Colorado",2888834
+"G090","1980","Connecticut","09",,,,,,,,,"Connecticut",3107576
+"G100","1980","Delaware","10",,,,,,,,,"Delaware",595225
+"G110","1980","District Of Columbia","11",,,,,,,,,"District of Columbia",637651
+"G120","1980","Florida","12",,,,,,,,,"Florida",9739992
+"G130","1980","Georgia","13",,,,,,,,,"Georgia",5464265
+"G150","1980","Hawaii","15",,,,,,,,,"Hawaii",965000
+"G160","1980","Idaho","16",,,,,,,,,"Idaho",943935
+"G170","1980","Illinois","17",,,,,,,,,"Illinois",11418461
+"G180","1980","Indiana","18",,,,,,,,,"Indiana",5490179
+"G190","1980","Iowa","19",,,,,,,,,"Iowa",2913387
+"G200","1980","Kansas","20",,,,,,,,,"Kansas",2363208
+"G210","1980","Kentucky","21",,,,,,,,,"Kentucky",3661433
+"G220","1980","Louisiana","22",,,,,,,,,"Louisiana",4203972
+"G230","1980","Maine","23",,,,,,,,,"Maine",1124660
+"G240","1980","Maryland","24",,,,,,,,,"Maryland",4216446
+"G250","1980","Massachusetts","25",,,,,,,,,"Massachusetts",5737037
+"G260","1980","Michigan","26",,,,,,,,,"Michigan",9258344
+"G270","1980","Minnesota","27",,,,,,,,,"Minnesota",4077148
+"G280","1980","Mississippi","28",,,,,,,,,"Mississippi",2520638
+"G290","1980","Missouri","29",,,,,,,,,"Missouri",4917444
+"G300","1980","Montana","30",,,,,,,,,"Montana",786690
+"G310","1980","Nebraska","31",,,,,,,,,"Nebraska",1570006
+"G320","1980","Nevada","32",,,,,,,,,"Nevada",799184
+"G330","1980","New Hampshire","33",,,,,,,,,"New Hampshire",920610
+"G340","1980","New Jersey","34",,,,,,,,,"New Jersey",7364158
+"G350","1980","New Mexico","35",,,,,,,,,"New Mexico",1299968
+"G360","1980","New York","36",,,,,,,,,"New York",17557288
+"G370","1980","North Carolina","37",,,,,,,,,"North Carolina",5874429
+"G380","1980","North Dakota","38",,,,,,,,,"North Dakota",652695
+"G390","1980","Ohio","39",,,,,,,,,"Ohio",10797419
+"G400","1980","Oklahoma","40",,,,,,,,,"Oklahoma",3025266
+"G410","1980","Oregon","41",,,,,,,,,"Oregon",2632663
+"G420","1980","Pennsylvania","42",,,,,,,,,"Pennsylvania",11866728
+"G440","1980","Rhode Island","44",,,,,,,,,"Rhode Island",947154
+"G450","1980","South Carolina","45",,,,,,,,,"South Carolina",3119208
+"G460","1980","South Dakota","46",,,,,,,,,"South Dakota",690178
+"G470","1980","Tennessee","47",,,,,,,,,"Tennessee",4590750
+"G480","1980","Texas","48",,,,,,,,,"Texas",14228383
+"G490","1980","Utah","49",,,,,,,,,"Utah",1461037
+"G500","1980","Vermont","50",,,,,,,,,"Vermont",511456
+"G510","1980","Virginia","51",,,,,,,,,"Virginia",5346279
+"G530","1980","Washington","53",,,,,,,,,"Washington",4130163
+"G540","1980","West Virginia","54",,,,,,,,,"West Virginia",1949644
+"G550","1980","Wisconsin","55",,,,,,,,,"Wisconsin",4705335
+"G560","1980","Wyoming","56",,,,,,,,,"Wyoming",470816
