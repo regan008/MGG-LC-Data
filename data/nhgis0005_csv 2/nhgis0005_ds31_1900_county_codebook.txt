@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Codebook for NHGIS data file 'nhgis0001_ds116_1980_state'
+Codebook for NHGIS data file 'nhgis0005_ds31_1900_county'
 --------------------------------------------------------------------------------
  
 Contents
@@ -14,18 +14,18 @@ Additional documentation on NHGIS data sources is available at:
 Data Summary
 --------------------------------------------------------------------------------
  
-Year:             1980
-Geographic level: State
-Dataset:          1980 Census: PL 94-171 Population Counts
-   NHGIS code:    1980_PL94171
-   NHGIS ID:      ds116
+Year:             1900
+Geographic level: County (by State)
+Dataset:          1900 Census: Population, Housing, Agriculture & Manufacturing Data [US, States & Counties]
+   NHGIS code:    1900_cPHAM
+   NHGIS ID:      ds31
  
 Tables:
  
-1. Population
+1. Nativity by Sex
    Universe:    Persons
-   Source code: NT001
-   NHGIS code:  C6W
+   Source code: NT4
+   NHGIS code:  AZF
  
 --------------------------------------------------------------------------------
 Data Dictionary
@@ -36,21 +36,20 @@ Context Fields
     YEAR:        Data File Year
     STATE:       State Name
     STATEA:      State Code
+    COUNTY:      County Name
     COUNTYA:     County Code
-    CTY_SUBA:    County Subdivision Code
-    PLACEA:      Place Code
-    ELECPRCTA:   Election Precinct Code
-    TRACTA:      Census Tract Code
-    BLOCKA:      Block Code
-    BLCK_GRPA:   Block Group Code
-    ENUMDISTA:   Enumeration District Code
-    AREANAME:    Area Name
+    AREANAME:    Area name
+    STATEICP:    ICPSR State Code
+    COUNTYICP:   ICPSR County Code
  
-Table 1:     Population
+Table 1:     Nativity by Sex
 Universe:    Persons
-Source code: NT001
-NHGIS code:  C6W
-    C6W001:      Total
+Source code: NT4
+NHGIS code:  AZF
+    AZF001:      Native-born >> Male
+    AZF002:      Native-born >> Female
+    AZF003:      Foreign-born >> Male
+    AZF004:      Foreign-born >> Female
  
 --------------------------------------------------------------------------------
 Citation and Use of NHGIS Data
@@ -70,10 +69,10 @@ accompanying data, subject to the following conditions:
     * Publications and research reports employing NHGIS data (either tabular or GIS) 
       should include the following citation:
 
-        Steven Manson, Jonathan Schroeder, David Van Riper, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles.
-        IPUMS National Historical Geographic Information System: Version 18.0 
-        [dataset]. Minneapolis, MN: IPUMS. 2023.
-        http://doi.org/10.18128/D050.V18.0
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 17.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2022. 
+        http://doi.org/10.18128/D050.V17.0
 
     * For policy briefs, online resources, or articles in the popular press, we 
       recommend that you cite the use of NHGIS data as follows:

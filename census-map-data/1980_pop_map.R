@@ -1,32 +1,26 @@
-# Install necessary packages if not already installed
-if (!requireNamespace("sf", quietly = TRUE)) install.packages("sf")
-if (!requireNamespace("ggplot2", quietly = TRUE)) install.packages("ggplot2")
-if (!requireNamespace("dplyr", quietly = TRUE)) install.packages("dplyr")
-
-# Load libraries
+library(readr) #you may have to install it using `install.packages()`. 
 library(sf)
-library(ggplot2)
-library(dplyr)
+library(ipumsr)
+library(tidyverse)
 
-# Define the paths to the shapefile and population data CSV
-shapefile_path <- "~/Documents/MGG-LC-Data/simple_US_county_1980/simple_US_county_1980.shp"
-population_data_path <- "~/Documents/MGG-LC-Data/nhgis0001_csv/nhgis0001_ds116_1980_county.csv"
 
-# Read the files
-counties <- st_read(shapefile_path)
-population_data <- read.csv(population_data_path)
 
-# join data
-counties <- left_join(counties, population_data, by = "GISJOIN")
+# Change these filepaths to the filepaths of your downloaded extract
+nhgis_csv_file <- "census-map-data/nhgis-1980-county-data/nhgis0001_ds116_1980_county.csv"
+nhgis_shp_file <- "census-map-data/US_county_1980_conflated.zip"
 
-# Subset the dataframe to include only the year 1980
-population_data_1980 <- counties %>% filter(YEAR == 1980)
+#load the shape file and then the data file into read_nhgis_sf
+nhgis_shp <- read_ipums_sf(
+  shape_file = nhgis_shp_file, bind_multiple = TRUE
+)
+nhgis_data <- read_nhgis(nhgis_csv_file)
 
-# map data
-ggplot(data = population_data_1980) +
-  geom_sf(aes(fill = C6W001)) +
-  scale_fill_viridis_c(option = "viridis", name = "Population") +
-  theme_minimal() +
-  labs(title = "County-level Population Map",
-       subtitle = "Total Population by County",
-       caption = "Source: NHGIS")
+#Use the ipums join file to join both the data and shape file together.
+nhgis <- ipums_shape_full_join(nhgis_data, nhgis_shp, by = "GISJOIN")
+
+#filter nhgis so that the map focuses on the 48 contiguous states. 
+nhgis <- nhgis %>% filter(STATE != "Alaska Territory" & STATE != "Hawaii Territory")
+
+#plot 
+ggplot(data = nhgis, aes(fill = C6W001)) +
+  geom_sf() 
