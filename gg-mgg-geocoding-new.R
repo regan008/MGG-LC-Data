@@ -260,3 +260,13 @@ ranked.locations.all.years <- function() {
   write.csv(rank, file.path(output_folder, "ranked-locations-all-years.csv"))
 }
 ranked.locations.all.years()
+
+ranked.csv.annelise <- function() {
+  data <- read.csv("final-output-data/ranked-locations-all-years.csv")
+  gg.ranks <- filter(data, publication == "Gaia's Guide") %>%
+    arrange(rank)
+  bd.ranks <- filter(data, publication == "Bob Damron's Address Book") %>% arrange(rank)
+  write.csv(gg.ranks, "final-output-data/gg-ranks.csv")
+  write.csv(bd.ranks, "final-output-data/bd-ranks.csv")
+}
+ranked.csv.annelise()

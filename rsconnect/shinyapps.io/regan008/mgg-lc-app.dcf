@@ -1,0 +1,13 @@
+name: mgg-lc-app
+title: mgg-lc-app
+username: regan008
+account: regan008
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12276597
+bundleId: 8902522
+url: https://regan008.shinyapps.io/mgg-lc-app/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: data-processing-files/all-data-cleaned.csv|data-processing-files/all-data-precleaned.csv|data-processing-files/unique-cities-cleaning.csv|data-processing-files/unique-cities-replacements-new.csv|data-processing-files/unique-cities-replacements.csv|failed-geocode.csv|geocoded_data.csv|geocoding-files/failed-geocode.csv|geocoding-files/unique-locations-geocoded.csv|gg-mgg-all-w-data.csv|gg-mgg-alldata-relative.csv|gg-mgg-alldata.csv|gg-mgg-geocoding-new.R|gg-mgg-prep.R|gg-mgg-relative-all-w-data.csv|Guidebook Geographies Exploration.qmd|LC-Data/spatial-data-lc-05-17-2023.csv|lc-mgg-data-prep.R|README.md|unique_city_list.csv|unique-cities-replacements.csv|womens-data.csv|GG-Data|MGG-Data
