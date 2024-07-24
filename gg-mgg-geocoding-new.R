@@ -263,10 +263,19 @@ ranked.locations.all.years()
 
 ranked.csv.annelise <- function() {
   data <- read.csv("final-output-data/ranked-locations-all-years.csv")
+
+  # Filtering and arranging for Gaia's Guide
   gg.ranks <- filter(data, publication == "Gaia's Guide") %>%
-    arrange(rank)
-  bd.ranks <- filter(data, publication == "Bob Damron's Address Book") %>% arrange(rank)
-  write.csv(gg.ranks, "final-output-data/gg-ranks.csv")
-  write.csv(bd.ranks, "final-output-data/bd-ranks.csv")
+    arrange(rank) %>%
+    select(geocode.value, rank, `raw count` = count, relative.percentage)
+
+  # Filtering and arranging for Bob Damron's Address Book
+  bd.ranks <- filter(data, publication == "Bob Damron's Address Book") %>%
+    arrange(rank) %>%
+    select(geocode.value, rank, `raw count` = count, relative.percentage)
+
+  # Writing the filtered and selected data to CSV files
+  write.csv(gg.ranks, "final-output-data/gg-ranks.csv", row.names = FALSE)
+  write.csv(bd.ranks, "final-output-data/bd-ranks.csv", row.names = FALSE)
 }
 ranked.csv.annelise()
