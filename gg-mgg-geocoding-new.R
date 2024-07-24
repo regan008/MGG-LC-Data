@@ -10,6 +10,7 @@ empty.df <- data.frame(
   title = character(),
   description = character(),
   type = character(),
+  address = character(),
   city = character(),
   state = character(),
   country = character(),
@@ -19,21 +20,21 @@ empty.df <- data.frame(
   stringsAsFactors = FALSE # This ensures that string data does not get converted to factors
 )
 columns <- colnames(empty.df)
-years <- c(1975, 1977, 1979, 1981, 1983) ## CHANGE THIS TO ADD MORE YEARS AS NEEDED DEPENDING ON WHICH DATA IS COMPLETE
+years <- c(1975, 1977, 1979, 1981, 1983, 1989) ## CHANGE THIS TO ADD MORE YEARS AS NEEDED DEPENDING ON WHICH DATA IS COMPLETE
 
 ## Read in Gaia's Guide data
 load_gg_data <- function(df, columns, years) {
   # Get a list of files in the GG-Data subfolder that match the "gg-XXXX.csv" pattern
-  #files <- list.files(path = "GG-Data", pattern = "gg-\\d{4}\\.csv$", full.names = FALSE)
-  #years <- gsub("gg-(\\d{4})\\.csv", "\\1", files) # Extract the year from each filename
-  #years <- as.numeric(years) # Convert the years to numeric
-  #years <- unique(years) # Get a list of unique years
+  # files <- list.files(path = "GG-Data", pattern = "gg-\\d{4}\\.csv$", full.names = FALSE)
+  # years <- gsub("gg-(\\d{4})\\.csv", "\\1", files) # Extract the year from each filename
+  # years <- as.numeric(years) # Convert the years to numeric
+  # years <- unique(years) # Get a list of unique years
 
   # Loop through each unique year in the subfolder to open them
   for (year in years) {
     gg.filename <- file.path("GG-Data", paste("gg-", year, ".csv", sep = ""))
     print(paste("Reading in ", gg.filename, sep = ""))
-    #load data and add a publication and country column to match the other datasets
+    # load data and add a publication and country column to match the other datasets
     gg.data <- read.csv(gg.filename, header = TRUE)
     gg.data$publication <- "Gaia's Guide"
     gg.data$country <- "United States"
@@ -44,7 +45,7 @@ load_gg_data <- function(df, columns, years) {
 }
 
 ## Read in MGG Data, filter it by year to match the years in the Gaia's Guide data
-load_mgg_data<- function(columns){
+load_mgg_data <- function(columns) {
   mgg.data <- readRDS(file.path("MGG-Data", "mgg-data-cleaned.rds"))
   mgg.data <- mgg.data %>% rename(year = Year)
   mgg.data <- select(mgg.data, intersect(columns, names(mgg.data)))
@@ -53,9 +54,9 @@ load_mgg_data<- function(columns){
 
 ## call all data loading functions
 gg.data <- load_gg_data(empty.df, columns, years)
-mgg.data<-load_mgg_data(columns) %>%
+mgg.data <- load_mgg_data(columns) %>%
   filter(year %in% years)
-all.data <- rbind(gg.data, mgg.data) %>% 
+all.data <- rbind(gg.data, mgg.data) %>%
   filter(title != "" | description != "" | city != "" | state != "")
 write.csv(all.data, file.path("data-processing-files", "all-data-precleaned.csv"), row.names = FALSE)
 
@@ -64,7 +65,7 @@ write.csv(all.data, file.path("data-processing-files", "all-data-precleaned.csv"
 # Trim whitespace from all columns in all.data
 trim_all_columns <- function(data) {
   data %>%
-    mutate(across(everything(), ~str_trim(.)))
+    mutate(across(everything(), ~ str_trim(.)))
 }
 
 # get a list of unique locations from all the data
@@ -113,7 +114,7 @@ all.data.cleaned <- apply_replacements(all.data, replacements)
 
 # getting google API key and registering with the service
 getGoogleAPI <- function() {
-  google_key <- readline(prompt="Please enter your Google API key: ")
+  google_key <- readline(prompt = "Please enter your Google API key: ")
   print(google_key)
   register_google(key = google_key)
 }
@@ -121,30 +122,30 @@ getGoogleAPI()
 
 # Checking for existing geocoded locations, and preparing a list of unique locations to geocode
 prep_geocode <- function(data, geocoding_folder) {
-  data$geocode.value <- paste(data$city, ", ", data$state, ", ", data$country, sep="") #create a column for geocoding
+  data$geocode.value <- paste(data$city, ", ", data$state, ", ", data$country, sep = "") # create a column for geocoding
   unique_geocode_values <- unique(data$geocode.value) # Generate a unique list of values you want geocoded
   existing_geocoded_lookup <- read.csv(file.path(geocoding_folder, "unique-locations-geocoded.csv"), stringsAsFactors = FALSE)
   # Create dataframes of unique locations that have already been geocoded and unique lcoations that need to be geocoded
   unique.locations.all <- data.frame(geocode.value = unique_geocode_values)
   unique.locations.all <- unique.locations.all %>%
     left_join(existing_geocoded_lookup, by = "geocode.value")
-  unique.locations.already.geocoded <- unique.locations.all %>% 
+  unique.locations.already.geocoded <- unique.locations.all %>%
     filter(!is.na(lon))
-  unique.locations.to.geocode <- unique.locations.all %>% 
+  unique.locations.to.geocode <- unique.locations.all %>%
     filter(is.na(lon))
-  #unique.locations.to.geocode <- unique.locations.to.geocode %>% sample_n(5)
+  # unique.locations.to.geocode <- unique.locations.to.geocode %>% sample_n(5)
   print(paste(length(unique.locations.to.geocode$geocode.value), " entries unmatched in unique values that need to be geocoded.", sep = ""))
   return(unique.locations.to.geocode)
 }
 
 # Function to geocode unique locations that haven't already been geocoded using Google API
 geocoding_function <- function(unique.locations.to.geocode, geocoding_folder) {
-  for(i in 1:nrow(unique.locations.to.geocode)) {
-  result <- tryCatch(geocode(unique.locations.to.geocode$geocode.value[i], output = "latlona", source = "google"), warning = function(w) data.frame(lon = NA, lat = NA, address = NA))
-  unique.locations.to.geocode$lon[i] <- as.numeric(result[1])
-  unique.locations.to.geocode$lat[i] <- as.numeric(result[2])
-  unique.locations.to.geocode$geoAddress[i] <- as.character(result[3])
-  print(paste("Result: ", toString(result)))
+  for (i in 1:nrow(unique.locations.to.geocode)) {
+    result <- tryCatch(geocode(unique.locations.to.geocode$geocode.value[i], output = "latlona", source = "google"), warning = function(w) data.frame(lon = NA, lat = NA, address = NA))
+    unique.locations.to.geocode$lon[i] <- as.numeric(result[1])
+    unique.locations.to.geocode$lat[i] <- as.numeric(result[2])
+    unique.locations.to.geocode$geoAddress[i] <- as.character(result[3])
+    print(paste("Result: ", toString(result)))
   }
   failed_geocode <- unique.locations.to.geocode %>% filter(is.na(lon))
   write.csv(failed_geocode, file.path(geocoding_folder, "failed-geocode.csv"), row.names = FALSE)
@@ -161,20 +162,23 @@ merge_geocode <- function(unique.locations.to.geocode, all.data.cleaned, geocodi
   write.csv(updated_existing_geocoded_lookup, file.path(geocoding_folder, "unique-locations-geocoded.csv"), row.names = FALSE)
 
   # Merge the geocoded locations with the entire dataframe of all location records
-  all.data.cleaned$geocode.value <- paste(all.data.cleaned$city, ", ", all.data.cleaned$state, ", ", all.data.cleaned$country, sep="") #create a column for geocoding
+  all.data.cleaned$geocode.value <- paste(all.data.cleaned$city, ", ", all.data.cleaned$state, ", ", all.data.cleaned$country, sep = "") # create a column for geocoding
   all.data.cleaned.geocoded <- left_join(all.data.cleaned, updated_existing_geocoded_lookup, by = "geocode.value")
   write.csv(all.data.cleaned.geocoded, file.path(output_folder, "all-data-cleaned-geocoded.csv"), row.names = FALSE)
   return(all.data.cleaned.geocoded)
 }
 
-#Generating a documentation file to list out completed years
+# Generating a documentation file to list out completed years
 documentation_function <- function(csvFile, markdownFile, output_folder) {
   data <- read.csv(file.path(output_folder, csvFile))
-  unique_years <- data %>% distinct(year) %>% arrange(year) %>% pull(year)
+  unique_years <- data %>%
+    distinct(year) %>%
+    arrange(year) %>%
+    pull(year)
   md_file <- file(file.path(output_folder, markdownFile), "w")
   writeLines("# Completed Years\n", md_file)
   writeLines("This document lists all the years for which data cleaning and geocoding have been completed.\n", md_file)
-  for(year in unique_years) {
+  for (year in unique_years) {
     writeLines(sprintf("- %s", year), md_file)
   }
   close(md_file)
@@ -193,54 +197,66 @@ documentation_function("all-data-cleaned-geocoded.csv", "completed_years.md", ou
 
 output_folder <- "final-output-data"
 ## Exporting a csv file that contains relative data for locations in each publication on year by year basis
-relative.data.by.year <- function(){
+relative.data.by.year <- function() {
   all.data <- read.csv(file = file.path(output_folder, "all-data-cleaned-geocoded.csv"))
-  #strip out all variations of cruising areas from MGG types.
-  all.data <- all.data %>% filter(!grepl(",Cruising Areas", all.data$type, fixed = TRUE) & 
-                            !grepl("Cruising Areas,", all.data$type, fixed = TRUE) & 
-                            !grepl("Cruising Areas", all.data$type, fixed = TRUE) & 
-                            !grepl("Cruisy Areas", all.data$type, fixed = TRUE) &
-                            !grepl("Crusiy Areas", all.data$type, fixed = TRUE))
-  #calculating relative values of locations on a year by year basis
-  total.per.year <- all.data %>% group_by(publication, year) %>% summarize(pub.count = n())
-  total.per.loc.byyear <- all.data %>% group_by(publication, year, geocode.value, lon, lat) %>% summarize(count = n())
+  # strip out all variations of cruising areas from MGG types.
+  all.data <- all.data %>% filter(!grepl(",Cruising Areas", all.data$type, fixed = TRUE) &
+    !grepl("Cruising Areas,", all.data$type, fixed = TRUE) &
+    !grepl("Cruising Areas", all.data$type, fixed = TRUE) &
+    !grepl("Cruisy Areas", all.data$type, fixed = TRUE) &
+    !grepl("Crusiy Areas", all.data$type, fixed = TRUE))
+  # calculating relative values of locations on a year by year basis
+  total.per.year <- all.data %>%
+    group_by(publication, year) %>%
+    summarize(pub.count = n())
+  total.per.loc.byyear <- all.data %>%
+    group_by(publication, year, geocode.value, lon, lat) %>%
+    summarize(count = n())
   relative.count <- full_join(total.per.year, total.per.loc.byyear)
-  relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
-  write.csv(relative.count, file=file.path(output_folder, "relative-location-data-by-year.csv"), row.names = FALSE) 
+  relative.count <- relative.count %>% mutate(relative.percentage = count / pub.count * 100)
+  write.csv(relative.count, file = file.path(output_folder, "relative-location-data-by-year.csv"), row.names = FALSE)
 }
 relative.data.by.year()
 
 ## Exporting a csv file that contains relative data for locations in each publication, with all years aggregated together
-relative.data.all.years <- function(){
+relative.data.all.years <- function() {
   all.data <- read.csv(file = file.path(output_folder, "all-data-cleaned-geocoded.csv"))
-  #strip out all variations of cruising areas from MGG types.
-  all.data <- all.data %>% filter(!grepl(",Cruising Areas", all.data$type, fixed = TRUE) & 
-                            !grepl("Cruising Areas,", all.data$type, fixed = TRUE) & 
-                            !grepl("Cruising Areas", all.data$type, fixed = TRUE) & 
-                            !grepl("Cruisy Areas", all.data$type, fixed = TRUE) &
-                            !grepl("Crusiy Areas", all.data$type, fixed = TRUE))
-  #calculating relative values of locations on a year by year basis
-  total <- all.data %>% group_by(publication) %>% summarize(pub.count = n())
-  total.per.loc <- all.data %>% group_by(publication, geocode.value, lon, lat) %>% summarize(count = n())
+  # strip out all variations of cruising areas from MGG types.
+  all.data <- all.data %>% filter(!grepl(",Cruising Areas", all.data$type, fixed = TRUE) &
+    !grepl("Cruising Areas,", all.data$type, fixed = TRUE) &
+    !grepl("Cruising Areas", all.data$type, fixed = TRUE) &
+    !grepl("Cruisy Areas", all.data$type, fixed = TRUE) &
+    !grepl("Crusiy Areas", all.data$type, fixed = TRUE))
+  # calculating relative values of locations on a year by year basis
+  total <- all.data %>%
+    group_by(publication) %>%
+    summarize(pub.count = n())
+  total.per.loc <- all.data %>%
+    group_by(publication, geocode.value, lon, lat) %>%
+    summarize(count = n())
   relative.count <- full_join(total, total.per.loc)
-  relative.count <- relative.count %>% mutate(relative.percentage = count/pub.count * 100)
-  write.csv(relative.count, file=file.path(output_folder, "relative-location-data-all-years.csv"), row.names = FALSE) 
+  relative.count <- relative.count %>% mutate(relative.percentage = count / pub.count * 100)
+  write.csv(relative.count, file = file.path(output_folder, "relative-location-data-all-years.csv"), row.names = FALSE)
 }
 relative.data.all.years()
 
 ## Ranked Locations by Year
-ranked.locations.by.year <- function(){
+ranked.locations.by.year <- function() {
   relative.count <- read.csv(file = file.path(output_folder, "relative-location-data-by-year.csv"))
-  rank <- relative.count %>%  group_by(year, publication) %>% mutate(rank = rank(-count, ties.method = 'min'))
-  write.csv(rank, file=file.path(output_folder, "ranked-locations-by-year.csv"))
+  rank <- relative.count %>%
+    group_by(year, publication) %>%
+    mutate(rank = rank(-count, ties.method = "min"))
+  write.csv(rank, file = file.path(output_folder, "ranked-locations-by-year.csv"))
 }
 ranked.locations.by.year()
 
 ## Ranked Locations for All Years
 
-ranked.locations.all.years <- function(){
+ranked.locations.all.years <- function() {
   relative.count <- read.csv(file = file.path(output_folder, "relative-location-data-all-years.csv"))
-  rank <- relative.count %>%  group_by(publication) %>% mutate(rank = rank(-count, ties.method = 'min'))
+  rank <- relative.count %>%
+    group_by(publication) %>%
+    mutate(rank = rank(-count, ties.method = "min"))
   write.csv(rank, file.path(output_folder, "ranked-locations-all-years.csv"))
 }
 ranked.locations.all.years()
