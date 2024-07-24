@@ -93,4 +93,4 @@ mgg.data$publication <- c("Bob Damron's Address Book")
 mgg.data$country <- c("United States")
 mgg.data <- rename(mgg.data, address = streetaddress)
 
-saveRDS(mgg.data, file = "mgg-data-cleaned.rds")
+saveRDS(mgg.data, file = "MGG-Data/mgg-data-cleaned.rds")
