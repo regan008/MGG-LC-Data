@@ -141,15 +141,17 @@ prep_geocode <- function(data, geocoding_folder) {
 # Function to geocode unique locations that haven't already been geocoded using Google API
 geocoding_function <- function(unique.locations.to.geocode, geocoding_folder) {
   for (i in 1:nrow(unique.locations.to.geocode)) {
-    result <- tryCatch(geocode(unique.locations.to.geocode$geocode.value[i], output = "latlona", source = "google"), warning = function(w) data.frame(lon = NA, lat = NA, address = NA))
-    unique.locations.to.geocode$lon[i] <- as.numeric(result[1])
-    unique.locations.to.geocode$lat[i] <- as.numeric(result[2])
-    unique.locations.to.geocode$geoAddress[i] <- as.character(result[3])
-    print(paste("Result: ", toString(result)))
+    for (i in 1:nrow(unique.locations.to.geocode)) {
+      result <- tryCatch(geocode(unique.locations.to.geocode$geocode.value[i], output = "latlona", source = "google"), error = function(w) data.frame(lon = NA, lat = NA, address = NA))
+      unique.locations.to.geocode$lon[i] <- as.numeric(result[1])
+      unique.locations.to.geocode$lat[i] <- as.numeric(result[2])
+      unique.locations.to.geocode$geoAddress[i] <- as.character(result[3])
+      print(paste("Result: ", toString(result)))
+    }
+    failed_geocode <- unique.locations.to.geocode %>% filter(is.na(lon))
+    write.csv(failed_geocode, file.path(geocoding_folder, "failed-geocode.csv"), row.names = FALSE)
+    return(unique.locations.to.geocode)
   }
-  failed_geocode <- unique.locations.to.geocode %>% filter(is.na(lon))
-  write.csv(failed_geocode, file.path(geocoding_folder, "failed-geocode.csv"), row.names = FALSE)
-  return(unique.locations.to.geocode)
 }
 
 # Merging the geocoded unique locations with the main dataframe, update the geocoded lookup file, and write the final dataframe to a csv
