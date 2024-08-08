@@ -20,7 +20,7 @@ empty.df <- data.frame(
   stringsAsFactors = FALSE # This ensures that string data does not get converted to factors
 )
 columns <- colnames(empty.df)
-years <- c(1975, 1977, 1979, 1981, 1983, 1987, 1989) ## CHANGE THIS TO ADD MORE YEARS AS NEEDED DEPENDING ON WHICH DATA IS COMPLETE
+years <- c(1975, 1977, 1979, 1981, 1983, 1985, 1987, 1989) ## CHANGE THIS TO ADD MORE YEARS AS NEEDED DEPENDING ON WHICH DATA IS COMPLETE
 
 ## Read in Gaia's Guide data
 load_gg_data <- function(df, columns, years) {

@@ -1,1064 +1,1110 @@
 "geocode.value","rank","raw count","relative.percentage"
-"Chicago, IL, United States",1,274,2.36921746649373
-"San Francisco, CA, United States",2,255,2.20492866407263
-"Manhattan, NY, United States",3,254,2.19628188499784
-"Los Angeles, CA, United States",4,229,1.98011240812797
-"Seattle, WA, United States",5,220,1.90229139645482
-"Philadelphia, PA, United States",6,195,1.68612191958495
-"San Diego, CA, United States",7,162,1.40077821011673
-"Portland, OR, United States",8,152,1.31431041936879
-"Boston, MA, United States",9,147,1.27107652399481
-"Denver, CO, United States",10,145,1.25378296584522
-"New Orleans, LA, United States",11,142,1.22784262862084
-"Provincetown, MA, United States",11,142,1.22784262862084
-"New York, NY, United States",13,141,1.21919584954604
-"Washington, DC, United States",14,138,1.19325551232166
-"Baltimore, MD, United States",15,126,1.08949416342412
-"Atlanta, GA, United States",16,124,1.07220060527454
-"Eugene, OR, United States",17,105,0.907911802853437
-"St. Louis, MO, United States",18,102,0.881971465629053
-"Cleveland, OH, United States",19,101,0.873324686554259
-"Milwaukee, WI, United States",20,99,0.856031128404669
-"Memphis, TN, United States",21,93,0.804150453955901
-"Minneapolis, MN, United States",22,87,0.752269779507134
-"Kansas City, MO, United States",23,84,0.72632944228275
-"Pittsburgh, PA, United States",23,84,0.72632944228275
-"Cambridge, MA, United States",25,82,0.70903588413316
-"Dallas, TX, United States",26,81,0.700389105058366
-"Phoenix, AZ, United States",27,80,0.691742325983571
-"Sacramento, CA, United States",27,80,0.691742325983571
-"Houston, TX, United States",29,79,0.683095546908776
-"Cincinnati, OH, United States",30,78,0.674448767833982
-"Fort Lauderdale, FL, United States",31,77,0.665801988759187
-"Detroit, MI, United States",32,76,0.657155209684393
-"Madison, WI, United States",32,76,0.657155209684393
-"Tampa, FL, United States",34,75,0.648508430609598
-"Austin, TX, United States",35,70,0.605274535235625
-"Oakland, CA, United States",35,70,0.605274535235625
-"Long Beach, CA, United States",37,69,0.59662775616083
-"Oklahoma City, OK, United States",38,68,0.587980977086035
-"Rochester, NY, United States",38,68,0.587980977086035
-"Key West, FL, United States",40,67,0.579334198011241
-"Indianapolis, IN, United States",41,65,0.562040639861652
-"Albuquerque, NM, United States",42,63,0.544747081712062
-"Tucson, AZ, United States",42,63,0.544747081712062
-"Syracuse, NY, United States",44,61,0.527453523562473
-"Berkeley, CA, United States",45,60,0.518806744487678
-"Columbus, OH, United States",45,60,0.518806744487678
-"Honolulu, HI, United States",47,57,0.492866407263294
-"Portland, ME, United States",48,56,0.4842196281885
-"Providence, RI, United States",48,56,0.4842196281885
-"Louisville, KY, United States",50,54,0.46692607003891
-"Buffalo, NY, United States",51,53,0.458279290964116
-"Dayton, OH, United States",52,51,0.440985732814527
-"Charlotte, NC, United States",53,50,0.432338953739732
-"Hartford, CT, United States",53,50,0.432338953739732
-"Miami, FL, United States",53,50,0.432338953739732
-"Garden Grove, CA, United States",56,43,0.371811500216169
-"Anchorage, AK, United States",57,41,0.35451794206658
-"Birmingham, AL, United States",57,41,0.35451794206658
-"Laguna Beach, CA, United States",57,41,0.35451794206658
-"Orlando, FL, United States",57,41,0.35451794206658
-"San Juan, PR, United States",57,41,0.35451794206658
-"Fort Worth, TX, United States",62,40,0.345871162991786
-"Hollywood, CA, United States",62,40,0.345871162991786
-"Wichita, KS, United States",62,40,0.345871162991786
-"New Haven, CT, United States",65,39,0.337224383916991
-"Queens, NY, United States",66,38,0.328577604842196
-"Atlantic City, NJ, United States",67,37,0.319930825767402
-"Nashville, TN, United States",67,37,0.319930825767402
-"Omaha, NE, United States",69,36,0.311284046692607
-"Palm Springs, CA, United States",69,36,0.311284046692607
-"San Antonio, TX, United States",69,36,0.311284046692607
-"Washington, D.C., Washington, D.C., United States",69,36,0.311284046692607
-"Las Vegas, NV, United States",73,35,0.302637267617812
-"Reno, NV, United States",73,35,0.302637267617812
-"Richmond, VA, United States",73,35,0.302637267617812
-"Ann Arbor, MI, United States",76,34,0.293990488543018
-"Long Island, NY, United States",77,33,0.285343709468223
-"Salt Lake City, UT, United States",77,33,0.285343709468223
-"Gainesville, FL, United States",79,32,0.276696930393428
-"Harrisburg, PA, United States",79,32,0.276696930393428
-"Jacksonville, FL, United States",79,32,0.276696930393428
-"Lincoln, NE, United States",79,32,0.276696930393428
-"Norfolk, VA, United States",79,32,0.276696930393428
-"Northampton, MA, United States",79,32,0.276696930393428
-"Toledo, OH, United States",79,32,0.276696930393428
-"Akron, OH, United States",86,31,0.268050151318634
-"Albany, NY, United States",86,31,0.268050151318634
-"Fort Wayne, IN, United States",86,31,0.268050151318634
-"San Jose, CA, United States",86,31,0.268050151318634
-"Santa Monica, CA, United States",86,31,0.268050151318634
-"Tulsa, OK, United States",86,31,0.268050151318634
-"Burlington, VT, United States",92,30,0.259403372243839
-"Iowa City, IA, United States",92,30,0.259403372243839
-"Ithaca, NY, United States",92,30,0.259403372243839
-"Ogunquit, ME, United States",92,30,0.259403372243839
-"Spokane, WA, United States",92,30,0.259403372243839
-"St. Petersburg, FL, United States",92,30,0.259403372243839
-"Grand Rapids, MI, United States",98,29,0.250756593169045
-"Amherst, MA, United States",99,28,0.24210981409425
-"Fresno, CA, United States",99,28,0.24210981409425
-"Little Rock, AR, United States",99,28,0.24210981409425
-"Santa Cruz, CA, United States",102,27,0.233463035019455
-"Springfield, MA, United States",102,27,0.233463035019455
-"Columbia, SC, United States",104,26,0.224816255944661
-"Binghamton, NY, United States",105,25,0.216169476869866
-"El Paso, TX, United States",105,25,0.216169476869866
-"Jackson, MS, United States",105,25,0.216169476869866
-"New Hope, PA, United States",105,25,0.216169476869866
-"Topeka, KS, United States",105,25,0.216169476869866
-"Asbury Park, NJ, United States",110,24,0.207522697795071
-"Bloomington, IN, United States",110,24,0.207522697795071
-"Des Moines, IA, United States",110,24,0.207522697795071
-"Fort Myers, FL, United States",113,23,0.198875918720277
-"Pasadena, CA, United States",113,23,0.198875918720277
-"Pomona, CA, United States",113,23,0.198875918720277
-"San Rafael, CA, United States",113,23,0.198875918720277
-"Santa Barbara, CA, United States",113,23,0.198875918720277
-"Sarasota, FL, United States",113,23,0.198875918720277
-"Baton Rouge, LA, United States",119,22,0.190229139645482
-"Brooklyn, NY, United States",119,22,0.190229139645482
-"Santa Rosa, CA, United States",119,22,0.190229139645482
-"Calumet City, IL, United States",122,21,0.181582360570687
-"Colorado Springs, CO, United States",122,21,0.181582360570687
-"Durham, NC, United States",122,21,0.181582360570687
-"Greensboro, NC, United States",122,21,0.181582360570687
-"Knoxville, TN, United States",122,21,0.181582360570687
-"Boulder, CO, United States",127,20,0.172935581495893
-"Fire Island, NY, United States",127,20,0.172935581495893
-"Guerneville, CA, United States",127,20,0.172935581495893
-"Mobile, AL, United States",127,20,0.172935581495893
-"North Hollywood, CA, United States",127,20,0.172935581495893
-"Tallahassee, FL, United States",127,20,0.172935581495893
-", NJ, United States",133,19,0.164288802421098
-"Lubbock, TX, United States",133,19,0.164288802421098
-"Missoula, MT, United States",133,19,0.164288802421098
-"Pensacola, FL, United States",133,19,0.164288802421098
-"Raleigh, NC, United States",133,19,0.164288802421098
-"Rockford, IL, United States",133,19,0.164288802421098
-"Salem, OR, United States",133,19,0.164288802421098
-"San Bernardino, CA, United States",133,19,0.164288802421098
-"Tacoma, WA, United States",133,19,0.164288802421098
-"Columbia, MO, United States",142,18,0.155642023346304
-"Concord, NH, United States",142,18,0.155642023346304
-"Palo Alto, CA, United States",142,18,0.155642023346304
-"Paterson, NJ, United States",142,18,0.155642023346304
-"Trenton, NJ, United States",142,18,0.155642023346304
-"Boise, ID, United States",147,17,0.146995244271509
-"Erie, PA, United States",147,17,0.146995244271509
-"Hollywood, FL, United States",147,17,0.146995244271509
-"Lancaster, PA, United States",147,17,0.146995244271509
-"Lexington, KY, United States",147,17,0.146995244271509
-"Manhatten, NY, United States",147,17,0.146995244271509
-"Miami Beach, FL, United States",147,17,0.146995244271509
-"Wilmington, DE, United States",147,17,0.146995244271509
-"Champaign, IL, United States",155,16,0.138348465196714
-"Hayward, CA, United States",155,16,0.138348465196714
-"Joplin, MO, United States",155,16,0.138348465196714
-"Kalamazoo, MI, United States",155,16,0.138348465196714
-"New Brunswick, NJ, United States",155,16,0.138348465196714
-"West Palm Beach, FL, United States",155,16,0.138348465196714
-"Chattanooga, TN, United States",161,15,0.12970168612192
-"Daytona Beach, FL, United States",161,15,0.12970168612192
-"Flint, MI, United States",161,15,0.12970168612192
-"Greenville, SC, United States",161,15,0.12970168612192
-"Kansas City, KS, United States",161,15,0.12970168612192
-"Newport, RI, United States",161,15,0.12970168612192
-"St. Paul, MN, United States",161,15,0.12970168612192
-"Woodstock, NY, United States",161,15,0.12970168612192
-"Bakersfield, CA, United States",169,14,0.121054907047125
-"Charlestown, SC, United States",169,14,0.121054907047125
-"Cheyenne, WY, United States",169,14,0.121054907047125
-"Fayetteville, AR, United States",169,14,0.121054907047125
-"Hollywood & North Hollywood, CA, United States",169,14,0.121054907047125
-"Lawrence, KS, United States",169,14,0.121054907047125
-"Manchester, NH, United States",169,14,0.121054907047125
-"Montgomery, AL, United States",169,14,0.121054907047125
-"Saint Louis, MO, United States",169,14,0.121054907047125
-"Staten Island, NY, United States",169,14,0.121054907047125
-"Youngstown, OH, United States",169,14,0.121054907047125
-"miami, FL, United States",169,14,0.121054907047125
-"Bellingham, WA, United States",181,13,0.11240812797233
-"Chapel Hill, NC, United States",181,13,0.11240812797233
-"Dunedin, FL, United States",181,13,0.11240812797233
-"Lansing, MI, United States",181,13,0.11240812797233
-"Maui Island, HI, United States",181,13,0.11240812797233
-"Morristown, NJ, United States",181,13,0.11240812797233
-"Racine, WI, United States",181,13,0.11240812797233
-"Redwood City, CA, United States",181,13,0.11240812797233
-"Santa Fe, NM, United States",181,13,0.11240812797233
-"Sioux Falls, SD, United States",181,13,0.11240812797233
-"Springfield, IL, United States",181,13,0.11240812797233
-"Clearwater, FL, United States",192,12,0.103761348897536
-"Culver City, CA, United States",192,12,0.103761348897536
-"East St. Louis, IL, United States",192,12,0.103761348897536
-"Green Bay, WI, United States",192,12,0.103761348897536
-"Helena, MT, United States",192,12,0.103761348897536
-"Lynn, MA, United States",192,12,0.103761348897536
-"Olympia, WA, United States",192,12,0.103761348897536
-"Pittsfield, MA, United States",192,12,0.103761348897536
-"Portsmouth, NH, United States",192,12,0.103761348897536
-"South Bend, IN, United States",192,12,0.103761348897536
-"State College, PA, United States",192,12,0.103761348897536
-"Stockton, CA, United States",192,12,0.103761348897536
-"Yellow Springs, OH, United States",192,12,0.103761348897536
-"Allentown, PA, United States",205,11,0.095114569822741
-"Amarillo, TX, United States",205,11,0.095114569822741
-"Augusta, GA, United States",205,11,0.095114569822741
-"Cedar Rapids, IA, United States",205,11,0.095114569822741
-"Clear Lake, CA, United States",205,11,0.095114569822741
-"Covington, KY, United States",205,11,0.095114569822741
-"Easthampton, NY, United States",205,11,0.095114569822741
-"Galveston, TX, United States",205,11,0.095114569822741
-"Muncie, IN, United States",205,11,0.095114569822741
-"Rehoboth Beach, DE, United States",205,11,0.095114569822741
-"West Hollywood, CA, United States",205,11,0.095114569822741
-"Worcester, MA, United States",205,11,0.095114569822741
-"Billings, MT, United States",217,10,0.0864677907479464
-"Brattleboro, VT, United States",217,10,0.0864677907479464
-"Bridgeport, CT, United States",217,10,0.0864677907479464
-"Daytona, FL, United States",217,10,0.0864677907479464
-"Huntington, WV, United States",217,10,0.0864677907479464
-"Joliet, IL, United States",217,10,0.0864677907479464
-"Miami/Miami Beach, FL, United States",217,10,0.0864677907479464
-"Morgantown, WV, United States",217,10,0.0864677907479464
-"New London, CT, United States",217,10,0.0864677907479464
-"Peoria, IL, United States",217,10,0.0864677907479464
-"Pontiac, MI, United States",217,10,0.0864677907479464
-"Shreveport, LA, United States",217,10,0.0864677907479464
-"Springfield, MO, United States",217,10,0.0864677907479464
-"Springfield, OH, United States",217,10,0.0864677907479464
-"Warren, OH, United States",217,10,0.0864677907479464
-"Allston, MA, United States",232,9,0.0778210116731518
-"Canton, OH, United States",232,9,0.0778210116731518
-"Charleston, WV, United States",232,9,0.0778210116731518
-"Danbury, CT, United States",232,9,0.0778210116731518
-"Denton, TX, United States",232,9,0.0778210116731518
-"Fort Collins, CO, United States",232,9,0.0778210116731518
-"Gardena, CA, United States",232,9,0.0778210116731518
-"Greenfield, MA, United States",232,9,0.0778210116731518
-"Johnson City, TN, United States",232,9,0.0778210116731518
-"Lafayette, LA, United States",232,9,0.0778210116731518
-"Lorain, OH, United States",232,9,0.0778210116731518
-"Newark, NJ, United States",232,9,0.0778210116731518
-"Olean, NY, United States",232,9,0.0778210116731518
-"Panama City, FL, United States",232,9,0.0778210116731518
-"Rock Island, IL, United States",232,9,0.0778210116731518
-"Saugatuck, MI, United States",232,9,0.0778210116731518
-"Scranton, PA, United States",232,9,0.0778210116731518
-"St Augustin's, FL, United States",232,9,0.0778210116731518
-"Studio City, CA, United States",232,9,0.0778210116731518
-"Tempe, AZ, United States",232,9,0.0778210116731518
-"Union, NJ, United States",232,9,0.0778210116731518
-"Van Nuys, CA, United States",232,9,0.0778210116731518
-"West Hempstead, NY, United States",232,9,0.0778210116731518
-"Westport, CT, United States",232,9,0.0778210116731518
-"Wilmington, NC, United States",232,9,0.0778210116731518
-"York, PA, United States",232,9,0.0778210116731518
-", HI, United States",258,8,0.0691742325983571
-"Alexandria, LA, United States",258,8,0.0691742325983571
-"Charlestown, WV, United States",258,8,0.0691742325983571
-"Columbus, GA, United States",258,8,0.0691742325983571
-"East Orange, NJ, United States",258,8,0.0691742325983571
-"Eureka, CA, United States",258,8,0.0691742325983571
-"Evansville, IN, United States",258,8,0.0691742325983571
-"Greensburg, PA, United States",258,8,0.0691742325983571
-"Huntsville, AL, United States",258,8,0.0691742325983571
-"Macon, GA, United States",258,8,0.0691742325983571
-"Mansfield, OH, United States",258,8,0.0691742325983571
-"Moscow, ID, United States",258,8,0.0691742325983571
-"Orono, ME, United States",258,8,0.0691742325983571
-"Riverside, CA, United States",258,8,0.0691742325983571
-"Roanoke, VA, United States",258,8,0.0691742325983571
-"San Mateo, CA, United States",258,8,0.0691742325983571
-"Sausalito, CA, United States",258,8,0.0691742325983571
-"Somerville, MA, United States",258,8,0.0691742325983571
-"Upper Darby, PA, United States",258,8,0.0691742325983571
-"Waikiki, HI, United States",258,8,0.0691742325983571
-"Ashbury Park, NJ, United States",278,7,0.0605274535235625
-"Asheville, NC, United States",278,7,0.0605274535235625
-"Athens, GA, United States",278,7,0.0605274535235625
-"Bangor, ME, United States",278,7,0.0605274535235625
-"Beloit, WI, United States",278,7,0.0605274535235625
-"Champaign / Urbana, IL, United States",278,7,0.0605274535235625
-"Contoocook, NH, United States",278,7,0.0605274535235625
-"Costa Mesa, CA, United States",278,7,0.0605274535235625
-"Fargo, ND, United States",278,7,0.0605274535235625
-"Hallendale, FL, United States",278,7,0.0605274535235625
-"La Crosse, WI, United States",278,7,0.0605274535235625
-"Lake Ronkonkoma, NY, United States",278,7,0.0605274535235625
-"Martha's Vineyard Island, MA, United States",278,7,0.0605274535235625
-"Modesto, CA, United States",278,7,0.0605274535235625
-"Mt. Clemens, MI, United States",278,7,0.0605274535235625
-"Nashua, NH, United States",278,7,0.0605274535235625
-"Poughkeepsie, NY, United States",278,7,0.0605274535235625
-"Princeton, NJ, United States",278,7,0.0605274535235625
-"Rapid City, SD, United States",278,7,0.0605274535235625
-"Roseburg, OR, United States",278,7,0.0605274535235625
-"Saginaw, MI, United States",278,7,0.0605274535235625
-"Salt Lake City, TX, United States",278,7,0.0605274535235625
-"Santa Ana, CA, United States",278,7,0.0605274535235625
-"Savannah, GA, United States",278,7,0.0605274535235625
-"Sayville, NY, United States",278,7,0.0605274535235625
-"South River, NJ, United States",278,7,0.0605274535235625
-"Tyngsboro, MA, United States",278,7,0.0605274535235625
-"Urbana, IL, United States",278,7,0.0605274535235625
-"Winston-Salem, NC, United States",278,7,0.0605274535235625
-"Winter Park, FL, United States",278,7,0.0605274535235625
-"Albany, CA, United States",308,6,0.0518806744487678
-"Ashland, OR, United States",308,6,0.0518806744487678
-"Babylon, NY, United States",308,6,0.0518806744487678
-"Beaumont, TX, United States",308,6,0.0518806744487678
-"Bethany Beach, DE, United States",308,6,0.0518806744487678
-"Camden, NJ, United States",308,6,0.0518806744487678
-"Cathedral City, CA, United States",308,6,0.0518806744487678
-"Cherry Hill, NJ, United States",308,6,0.0518806744487678
-"Coconut Grove, FL, United States",308,6,0.0518806744487678
-"Corpus Christi, TX, United States",308,6,0.0518806744487678
-"Davenport, IA, United States",308,6,0.0518806744487678
-"Eureka Springs, AR, United States",308,6,0.0518806744487678
-"Evanston, IL, United States",308,6,0.0518806744487678
-"Forest Park, IL, United States",308,6,0.0518806744487678
-"Forestville, CA, United States",308,6,0.0518806744487678
-"Hagerstown, MD, United States",308,6,0.0518806744487678
-"Hyannis, MA, United States",308,6,0.0518806744487678
-"Lakeland, FL, United States",308,6,0.0518806744487678
-"Lewiston, ME, United States",308,6,0.0518806744487678
-"Lima, OH, United States",308,6,0.0518806744487678
-"Muskegon, MI, United States",308,6,0.0518806744487678
-"Napa, CA, United States",308,6,0.0518806744487678
-"New Town, IL, United States",308,6,0.0518806744487678
-"Nyack, NY, United States",308,6,0.0518806744487678
-"Oberlin, OH, United States",308,6,0.0518806744487678
-"Quincy, IL, United States",308,6,0.0518806744487678
-"Reading, PA, United States",308,6,0.0518806744487678
-"Redding, CA, United States",308,6,0.0518806744487678
-"Rutland, VT, United States",308,6,0.0518806744487678
-"Sandusky, OH, United States",308,6,0.0518806744487678
-"Terre Haute, IN, United States",308,6,0.0518806744487678
-"Tuscaloosa, AL, United States",308,6,0.0518806744487678
-"Utica, NY, United States",308,6,0.0518806744487678
-"Venice, CA, United States",308,6,0.0518806744487678
-"Woonsocket, RI, United States",308,6,0.0518806744487678
-", CA, United States",343,5,0.0432338953739732
-"Albion, CA, United States",343,5,0.0432338953739732
-"Appletown, WI, United States",343,5,0.0432338953739732
-"Arlington, VA, United States",343,5,0.0432338953739732
-"Augusta, ME, United States",343,5,0.0432338953739732
-"Bath, ME, United States",343,5,0.0432338953739732
-"Biloxi, MS, United States",343,5,0.0432338953739732
-"Boca Raton, FL, United States",343,5,0.0432338953739732
-"Branford, CT, United States",343,5,0.0432338953739732
-"Bronx, NY, United States",343,5,0.0432338953739732
-"Charleston, SC, United States",343,5,0.0432338953739732
-"Cresson, PA, United States",343,5,0.0432338953739732
-"Davis, CA, United States",343,5,0.0432338953739732
-"Durham, NH, United States",343,5,0.0432338953739732
-"East Hampton, NY, United States",343,5,0.0432338953739732
-"Elmira, NY, United States",343,5,0.0432338953739732
-"Evanstown, IL, United States",343,5,0.0432338953739732
-"Fairbanks, AK, United States",343,5,0.0432338953739732
-"Fayatteville, AR, United States",343,5,0.0432338953739732
-"Fayetteville, NC, United States",343,5,0.0432338953739732
-"Great Falls, MT, United States",343,5,0.0432338953739732
-"Grover City, CA, United States",343,5,0.0432338953739732
-"Gulfport, MS, United States",343,5,0.0432338953739732
-"Jersey City, NJ, United States",343,5,0.0432338953739732
-"Klamath Falls, OR, United States",343,5,0.0432338953739732
-"Lake George, NY, United States",343,5,0.0432338953739732
-"Lake Worth, FL, United States",343,5,0.0432338953739732
-"Lebanon, NH, United States",343,5,0.0432338953739732
-"Mendocino, CA, United States",343,5,0.0432338953739732
-"Monterey, CA, United States",343,5,0.0432338953739732
-"Mountain View, CA, United States",343,5,0.0432338953739732
-"New Bedford, MA, United States",343,5,0.0432338953739732
-"Newark, DE, United States",343,5,0.0432338953739732
-"Oak Park, IL, United States",343,5,0.0432338953739732
-"Odessa, TX, United States",343,5,0.0432338953739732
-"Parkersburg, WV, United States",343,5,0.0432338953739732
-"Port Huron, MI, United States",343,5,0.0432338953739732
-"Saint Paul, MN, United States",343,5,0.0432338953739732
-"San Luis Obispo, CA, United States",343,5,0.0432338953739732
-"Superior, WI, United States",343,5,0.0432338953739732
-"The Bronx, NY, United States",343,5,0.0432338953739732
-"Union City, NJ, United States",343,5,0.0432338953739732
-"Waterbury, CT, United States",343,5,0.0432338953739732
-"Waterloo, IA, United States",343,5,0.0432338953739732
-"Wheeling, WV, United States",343,5,0.0432338953739732
-"Wichita Falls, TX, United States",343,5,0.0432338953739732
-"Wolf Creek, OR, United States",343,5,0.0432338953739732
-", ME, United States",390,4,0.0345871162991786
-"Abilene, TX, United States",390,4,0.0345871162991786
-"Ames, IA, United States",390,4,0.0345871162991786
-"Athol, NY, United States",390,4,0.0345871162991786
-"Belfast, ME, United States",390,4,0.0345871162991786
-"Bellmore, NY, United States",390,4,0.0345871162991786
-"Bellows Falls, VT, United States",390,4,0.0345871162991786
-"Bozeman, MT, United States",390,4,0.0345871162991786
-"Brunswick, ME, United States",390,4,0.0345871162991786
-"Carbondale, IL, United States",390,4,0.0345871162991786
-"Central Falls, RI, United States",390,4,0.0345871162991786
-"Chico, CA, United States",390,4,0.0345871162991786
-"Clarksville, TN, United States",390,4,0.0345871162991786
-"Cleveland Heights, OH, United States",390,4,0.0345871162991786
-"Columbia, MD, United States",390,4,0.0345871162991786
-"Cupertino, CA, United States",390,4,0.0345871162991786
-"Decatur, GA, United States",390,4,0.0345871162991786
-"Dover, NJ, United States",390,4,0.0345871162991786
-"Duluth, MN, United States",390,4,0.0345871162991786
-"East Stroudsburg, PA, United States",390,4,0.0345871162991786
-"El Monte, CA, United States",390,4,0.0345871162991786
-"Elizabeth, NJ, United States",390,4,0.0345871162991786
-"Floral Park, NY, United States",390,4,0.0345871162991786
-"Fort Lee, NJ, United States",390,4,0.0345871162991786
-"Fort Smith, AR, United States",390,4,0.0345871162991786
-"Fullerton, CA, United States",390,4,0.0345871162991786
-"Guernewood Park, CA, United States",390,4,0.0345871162991786
-"Harper, KS, United States",390,4,0.0345871162991786
-"Hempstead, NY, United States",390,4,0.0345871162991786
-"Isla Vista, CA, United States",390,4,0.0345871162991786
-"Jackson Heights, NY, United States",390,4,0.0345871162991786
-"Lake Tahoe, CA, United States",390,4,0.0345871162991786
-"Lambertville, NJ, United States",390,4,0.0345871162991786
-"Lindenhurst, NY, United States",390,4,0.0345871162991786
-"Manhattan Beach, CA, United States",390,4,0.0345871162991786
-"Marietta, PA, United States",390,4,0.0345871162991786
-"Metaire, LA, United States",390,4,0.0345871162991786
-"Monroe, LA, United States",390,4,0.0345871162991786
-"Monte Rio, CA, United States",390,4,0.0345871162991786
-"Newton, NJ, United States",390,4,0.0345871162991786
-"Niagara Falls, NY, United States",390,4,0.0345871162991786
-"Oak Bluffs, MA, United States",390,4,0.0345871162991786
-"Old Roslyn Village, NY, United States",390,4,0.0345871162991786
-"Orange County, CA, United States",390,4,0.0345871162991786
-"Oswego, NY, United States",390,4,0.0345871162991786
-"Painesville, OH, United States",390,4,0.0345871162991786
-"Plainsboro, NJ, United States",390,4,0.0345871162991786
-"Randolph, MA, United States",390,4,0.0345871162991786
-"Redondo Beach, CA, United States",390,4,0.0345871162991786
-"Santa Clara, CA, United States",390,4,0.0345871162991786
-"Schenectady, NY, United States",390,4,0.0345871162991786
-"Schenley, PA, United States",390,4,0.0345871162991786
-"Scottsdale, AZ, United States",390,4,0.0345871162991786
-"Silverlake, CA, United States",390,4,0.0345871162991786
-"Smithfield, RI, United States",390,4,0.0345871162991786
-"South Hadley, MA, United States",390,4,0.0345871162991786
-"St. Augustine, FL, United States",390,4,0.0345871162991786
-"St. Joseph, MO, United States",390,4,0.0345871162991786
-"St. Petersburgh, FL, United States",390,4,0.0345871162991786
-"Steubenville, OH, United States",390,4,0.0345871162991786
-"Storrs, CT, United States",390,4,0.0345871162991786
-"Waco, TX, United States",390,4,0.0345871162991786
-"Walnut Creek, CA, United States",390,4,0.0345871162991786
-"Willits, CA, United States",390,4,0.0345871162991786
-", NY, United States",454,3,0.0259403372243839
-", VA, United States",454,3,0.0259403372243839
-"Altoona, PA, United States",454,3,0.0259403372243839
-"Ashville, NC, United States",454,3,0.0259403372243839
-"Aspen, CO, United States",454,3,0.0259403372243839
-"Auburn, AL, United States",454,3,0.0259403372243839
-"Aurora, IL, United States",454,3,0.0259403372243839
-"Bar Harbor, ME, United States",454,3,0.0259403372243839
-"Battle Creek, MI, United States",454,3,0.0259403372243839
-"Belleville, NJ, United States",454,3,0.0259403372243839
-"Bethesda, MD, United States",454,3,0.0259403372243839
-"Bloomington, IL, United States",454,3,0.0259403372243839
-"Bridgeport, PA, United States",454,3,0.0259403372243839
-"Broward County, FL, United States",454,3,0.0259403372243839
-"Casper, WY, United States",454,3,0.0259403372243839
-"Congers, NY, United States",454,3,0.0259403372243839
-"Dahlonega, GA, United States",454,3,0.0259403372243839
-"Dania, FL, United States",454,3,0.0259403372243839
-"Days Creek, OR, United States",454,3,0.0259403372243839
-"Deer Park, NY, United States",454,3,0.0259403372243839
-"Dewey Beach, DE, United States",454,3,0.0259403372243839
-"Dubuque, IA, United States",454,3,0.0259403372243839
-"Duncansville, PA, United States",454,3,0.0259403372243839
-"East Lansing, MI, United States",454,3,0.0259403372243839
-"Easton, PA, United States",454,3,0.0259403372243839
-"Flagstaff, AZ, United States",454,3,0.0259403372243839
-"Fontana, CA, United States",454,3,0.0259403372243839
-"Fox Valley, WI, United States",454,3,0.0259403372243839
-"Geneseo, NY, United States",454,3,0.0259403372243839
-"Genessee, NY, United States",454,3,0.0259403372243839
-"Greenwich, CT, United States",454,3,0.0259403372243839
-"Hialeah, FL, United States",454,3,0.0259403372243839
-"Highland Park, NJ, United States",454,3,0.0259403372243839
-"Hot Springs, AR, United States",454,3,0.0259403372243839
-"Houma, LA, United States",454,3,0.0259403372243839
-"Huntington, NY, United States",454,3,0.0259403372243839
-"Jacksonville Beach, FL, United States",454,3,0.0259403372243839
-"Jacksonville, NC, United States",454,3,0.0259403372243839
-"Jamestown, NY, United States",454,3,0.0259403372243839
-"Johnstown, PA, United States",454,3,0.0259403372243839
-"Kent, OH, United States",454,3,0.0259403372243839
-"Lake Charles, LA, United States",454,3,0.0259403372243839
-"Lake Ronkonoma, NY, United States",454,3,0.0259403372243839
-"Lancaster, MA, United States",454,3,0.0259403372243839
-"Las Vegas, NE, United States",454,3,0.0259403372243839
-"Lexington, KT, United States",454,3,0.0259403372243839
-"Louisville, KT, United States",454,3,0.0259403372243839
-"Lowell, MA, United States",454,3,0.0259403372243839
-"Manchester, CT, United States",454,3,0.0259403372243839
-"Manfield, OH, United States",454,3,0.0259403372243839
-"Mankato, MN, United States",454,3,0.0259403372243839
-"Melbourne, FL, United States",454,3,0.0259403372243839
-"Menlo Park, CA, United States",454,3,0.0259403372243839
-"Middletown, CT, United States",454,3,0.0259403372243839
-"Midway City, CA, United States",454,3,0.0259403372243839
-"Montclaire, PA, United States",454,3,0.0259403372243839
-"Myrtle Creek, OR, United States",454,3,0.0259403372243839
-"Neptune Beach, FL, United States",454,3,0.0259403372243839
-"New Bedford, CT, United States",454,3,0.0259403372243839
-"North Salem, NY, United States",454,3,0.0259403372243839
-"Northwood, NH, United States",454,3,0.0259403372243839
-"Pawtucket, RI, United States",454,3,0.0259403372243839
-"Penacook, NH, United States",454,3,0.0259403372243839
-"Perth Amboy, NJ, United States",454,3,0.0259403372243839
-"Phillipsburg, NJ, United States",454,3,0.0259403372243839
-"Piqua, OH, United States",454,3,0.0259403372243839
-"Plattsburg, NY, United States",454,3,0.0259403372243839
-"Pocatello, ID, United States",454,3,0.0259403372243839
-"Pompano Beach, FL, United States",454,3,0.0259403372243839
-"Pullman, WA, United States",454,3,0.0259403372243839
-"Reno, NE, United States",454,3,0.0259403372243839
-"Ronan, MT, United States",454,3,0.0259403372243839
-"Russian River, CA, United States",454,3,0.0259403372243839
-"Santa Monica Beach, CA, United States",454,3,0.0259403372243839
-"Seaford, NY, United States",454,3,0.0259403372243839
-"Sherman Oaks, CA, United States",454,3,0.0259403372243839
-"Stonington, ME, United States",454,3,0.0259403372243839
-"Stroudsburg, PA, United States",454,3,0.0259403372243839
-"Suffolk County, NY, United States",454,3,0.0259403372243839
-"Sunnyvale, CA, United States",454,3,0.0259403372243839
-"The Hamptons, NY, United States",454,3,0.0259403372243839
-"Troy, MI, United States",454,3,0.0259403372243839
-"Vallejo, CA, United States",454,3,0.0259403372243839
-"Ventura, CA, United States",454,3,0.0259403372243839
-"Virginia Beach, FL, United States",454,3,0.0259403372243839
-"Waikiki Beach, HI, United States",454,3,0.0259403372243839
-"Whidbey Island, WA, United States",454,3,0.0259403372243839
-"Winston, NC, United States",454,3,0.0259403372243839
-"Yachats, OR, United States",454,3,0.0259403372243839
-"Ybor City, FL, United States",454,3,0.0259403372243839
-"Yonkers, NY, United States",454,3,0.0259403372243839
-", AR, United States",545,2,0.0172935581495893
-", AZ, United States",545,2,0.0172935581495893
-", FL, United States",545,2,0.0172935581495893
-", MA, United States",545,2,0.0172935581495893
-", NM, United States",545,2,0.0172935581495893
-", PA, United States",545,2,0.0172935581495893
-", SD, United States",545,2,0.0172935581495893
-"Aguas Buenas, PR, United States",545,2,0.0172935581495893
-"Amagansett, NY, United States",545,2,0.0172935581495893
-"Anderson, IN, United States",545,2,0.0172935581495893
-"Annapolis, MD, United States",545,2,0.0172935581495893
-"Appleton, WI, United States",545,2,0.0172935581495893
-"Ashland Village, NH, United States",545,2,0.0172935581495893
-"Barberton, OH, United States",545,2,0.0172935581495893
-"Bayville, NY, United States",545,2,0.0172935581495893
-"Bellevue, WA, United States",545,2,0.0172935581495893
-"Bethlehem, NH, United States",545,2,0.0172935581495893
-"Binghampton, NY, United States",545,2,0.0172935581495893
-"Bismarck, ND, United States",545,2,0.0172935581495893
-"Black Rock, CT, United States",545,2,0.0172935581495893
-"Boca Grande, FL, United States",545,2,0.0172935581495893
-"Bowie, MD, United States",545,2,0.0172935581495893
-"Breckenridge, CO, United States",545,2,0.0172935581495893
-"Canoga Park, CA, United States",545,2,0.0172935581495893
-"Cape Coral, FL, United States",545,2,0.0172935581495893
-"Caribou, ME, United States",545,2,0.0172935581495893
-"Charlottesville, VA, United States",545,2,0.0172935581495893
-"Cherry Grove, NY, United States",545,2,0.0172935581495893
-"Claremont, CA, United States",545,2,0.0172935581495893
-"Clarksburg, VA, United States",545,2,0.0172935581495893
-"Clarksburg, WV, United States",545,2,0.0172935581495893
-"Cocoa, FL, United States",545,2,0.0172935581495893
-"Columbus, IN, United States",545,2,0.0172935581495893
-"Condado, PR, United States",545,2,0.0172935581495893
-"Conneaut Lake, PA, United States",545,2,0.0172935581495893
-"Copiaque, NY, United States",545,2,0.0172935581495893
-"Coral Gables, FL, United States",545,2,0.0172935581495893
-"Corte Madera, CA, United States",545,2,0.0172935581495893
-"Corvallis, OR, United States",545,2,0.0172935581495893
-"Counce, TN, United States",545,2,0.0172935581495893
-"De Kalb, IL, United States",545,2,0.0172935581495893
-"Dekalb, IL, United States",545,2,0.0172935581495893
-"Dothan, AL, United States",545,2,0.0172935581495893
-"Douglas, MI, United States",545,2,0.0172935581495893
-"Doylestown, PA, United States",545,2,0.0172935581495893
-"Driggs, ID, United States",545,2,0.0172935581495893
-"East Barnet, VT, United States",545,2,0.0172935581495893
-"East Lancing, MI, United States",545,2,0.0172935581495893
-"East Meadow, NY, United States",545,2,0.0172935581495893
-"East St Louis, IL, United States",545,2,0.0172935581495893
-"El Dorado, AR, United States",545,2,0.0172935581495893
-"Elgin, IL, United States",545,2,0.0172935581495893
-"Elizabeth, PA, United States",545,2,0.0172935581495893
-"Encino, CA, United States",545,2,0.0172935581495893
-"Englewood, NJ, United States",545,2,0.0172935581495893
-"Evansville, IL, United States",545,2,0.0172935581495893
-"Fairfax, CA, United States",545,2,0.0172935581495893
-"Fanwood, NJ, United States",545,2,0.0172935581495893
-"Fayetteville, AK, United States",545,2,0.0172935581495893
-"Ferndale, MI, United States",545,2,0.0172935581495893
-"Florence, MA, United States",545,2,0.0172935581495893
-"Fort Smith, AK, United States",545,2,0.0172935581495893
-"Fort Walton Beach, FL, United States",545,2,0.0172935581495893
-"Fremont, OH, United States",545,2,0.0172935581495893
-"Gaithersburg, MD, United States",545,2,0.0172935581495893
-"Garwood, NJ, United States",545,2,0.0172935581495893
-"Glendale, CA, United States",545,2,0.0172935581495893
-"Glenford, OH, United States",545,2,0.0172935581495893
-"Gloucester, MA, United States",545,2,0.0172935581495893
-"Grant's Pass, OR, United States",545,2,0.0172935581495893
-"Greenland, NH, United States",545,2,0.0172935581495893
-"Greenville, DE, United States",545,2,0.0172935581495893
-"Hackensack, NJ, United States",545,2,0.0172935581495893
-"Hamilton, OH, United States",545,2,0.0172935581495893
-"Harmonie Park, MI, United States",545,2,0.0172935581495893
-"Hathaway Pines/Murphy's, CA, United States",545,2,0.0172935581495893
-"Haverhill, MA, United States",545,2,0.0172935581495893
-"Hawthorne, CA, United States",545,2,0.0172935581495893
-"Hermiston, OR, United States",545,2,0.0172935581495893
-"Hickory, NC, United States",545,2,0.0172935581495893
-"Hicksville, NY, United States",545,2,0.0172935581495893
-"Highland, NY, United States",545,2,0.0172935581495893
-"Holland, MI, United States",545,2,0.0172935581495893
-"Hutchinson, KS, United States",545,2,0.0172935581495893
-"Ipswich, MA, United States",545,2,0.0172935581495893
-"Jackson, MI, United States",545,2,0.0172935581495893
-"Kenosha, WI, United States",545,2,0.0172935581495893
-"Kettering, OH, United States",545,2,0.0172935581495893
-"Lakewood, OH, United States",545,2,0.0172935581495893
-"Landisville, NJ, United States",545,2,0.0172935581495893
-"Landisville, PA, United States",545,2,0.0172935581495893
-"Largo, MD, United States",545,2,0.0172935581495893
-"Latham, NY, United States",545,2,0.0172935581495893
-"Laurel, MD, United States",545,2,0.0172935581495893
-"Lennox, MA, United States",545,2,0.0172935581495893
-"Little River, CA, United States",545,2,0.0172935581495893
-"Little Rock, AK, United States",545,2,0.0172935581495893
-"Littleton, NH, United States",545,2,0.0172935581495893
-"Liverpool, NY, United States",545,2,0.0172935581495893
-"Louisville, CO, United States",545,2,0.0172935581495893
-"Lynchburg, VA, United States",545,2,0.0172935581495893
-"Madeira Beach, FL, United States",545,2,0.0172935581495893
-"McAllen, TX, United States",545,2,0.0172935581495893
-"Medeira Beach, FL, United States",545,2,0.0172935581495893
-"Monroe, OH, United States",545,2,0.0172935581495893
-"Montebello, CA, United States",545,2,0.0172935581495893
-"Montgomery, NJ, United States",545,2,0.0172935581495893
-"Morris County, NJ, United States",545,2,0.0172935581495893
-"Morris Township, NJ, United States",545,2,0.0172935581495893
-"Mt. Pleasant, MI, United States",545,2,0.0172935581495893
-"Nanuet, NY, United States",545,2,0.0172935581495893
-"Narragansett, RI, United States",545,2,0.0172935581495893
-"Natrona Heights, PA, United States",545,2,0.0172935581495893
-"New Milford, CT, United States",545,2,0.0172935581495893
-"Nimitz, WV, United States",545,2,0.0172935581495893
-"Normal, IL, United States",545,2,0.0172935581495893
-"Norman, OK, United States",545,2,0.0172935581495893
-"North Conway, NH, United States",545,2,0.0172935581495893
-"North Quincy, MA, United States",545,2,0.0172935581495893
-"Norwalk, WI, United States",545,2,0.0172935581495893
-"Oakland, PA, United States",545,2,0.0172935581495893
-"Ocean Park Beach, CA, United States",545,2,0.0172935581495893
-"Ogden, TX, United States",545,2,0.0172935581495893
-"Ogden, UT, United States",545,2,0.0172935581495893
-"Ontario, CA, United States",545,2,0.0172935581495893
-"Orange, NJ, United States",545,2,0.0172935581495893
-"Owendale, MI, United States",545,2,0.0172935581495893
-"Paducah, KY, United States",545,2,0.0172935581495893
-"Parksburg, WV, United States",545,2,0.0172935581495893
-"Penn Hills, PA, United States",545,2,0.0172935581495893
-"Penobscot, ME, United States",545,2,0.0172935581495893
-"Petaluma, CA, United States",545,2,0.0172935581495893
-"Piermont, NY, United States",545,2,0.0172935581495893
-"Pineland, FL, United States",545,2,0.0172935581495893
-"Pinellas Park, FL, United States",545,2,0.0172935581495893
-"Plainfield, NJ, United States",545,2,0.0172935581495893
-"Plattsburgh, NY, United States",545,2,0.0172935581495893
-"Pleasant Hill, CA, United States",545,2,0.0172935581495893
-"Plymouth, MA, United States",545,2,0.0172935581495893
-"Portsmouth, ME, United States",545,2,0.0172935581495893
-"Pueblo, CO, United States",545,2,0.0172935581495893
-"Punta Gorda, FL, United States",545,2,0.0172935581495893
-"Reseda, CA, United States",545,2,0.0172935581495893
-"Rockbridge, OH, United States",545,2,0.0172935581495893
-"Rockland, ME, United States",545,2,0.0172935581495893
-"Roselle, NJ, United States",545,2,0.0172935581495893
-"San Bernadino, CA, United States",545,2,0.0172935581495893
-"Sandy, OR, United States",545,2,0.0172935581495893
-"Scotrun, PA, United States",545,2,0.0172935581495893
-"Shohola, PA, United States",545,2,0.0172935581495893
-"Skillman, NJ, United States",545,2,0.0172935581495893
-"Smithsfield, RI, United States",545,2,0.0172935581495893
-"Somerville, NJ, United States",545,2,0.0172935581495893
-"Sonoma County, CA, United States",545,2,0.0172935581495893
-"Sonora, CA, United States",545,2,0.0172935581495893
-"Stanford, CA, United States",545,2,0.0172935581495893
-"Sunny Valley, OR, United States",545,2,0.0172935581495893
-"Sylvan Beach, NY, United States",545,2,0.0172935581495893
-"Tenants Harbor, ME, United States",545,2,0.0172935581495893
-"Texarkana, AR, United States",545,2,0.0172935581495893
-"The Pines, NY, United States",545,2,0.0172935581495893
-"Topanga, CA, United States",545,2,0.0172935581495893
-"Towson, MD, United States",545,2,0.0172935581495893
-"Traverse City, MI, United States",545,2,0.0172935581495893
-"Traverse, MI, United States",545,2,0.0172935581495893
-"Tri-Cities, WA, United States",545,2,0.0172935581495893
-"Uniondale, NY, United States",545,2,0.0172935581495893
-"Van Nuys - Sherman Oaks, CA, United States",545,2,0.0172935581495893
-"Venice Beach, CA, United States",545,2,0.0172935581495893
-"Vineyard Haven, MA, United States",545,2,0.0172935581495893
-"Walden, VT, United States",545,2,0.0172935581495893
-"Waldport, OR, United States",545,2,0.0172935581495893
-"Wallington, NJ, United States",545,2,0.0172935581495893
-"Ware, MA, United States",545,2,0.0172935581495893
-"Wayne, NJ, United States",545,2,0.0172935581495893
-"Wells, ME, United States",545,2,0.0172935581495893
-"West Lafayette, IN, United States",545,2,0.0172935581495893
-"Wheaton, MD, United States",545,2,0.0172935581495893
-"Whitestone, NY, United States",545,2,0.0172935581495893
-"Wilkes-Barre, PA, United States",545,2,0.0172935581495893
-"Winchester, VA, United States",545,2,0.0172935581495893
-"Winooski, VT, United States",545,2,0.0172935581495893
-"Woodland Hills, CA, United States",545,2,0.0172935581495893
-", AK, United States",728,1,0.00864677907479464
-", CT, United States",728,1,0.00864677907479464
-", GA, United States",728,1,0.00864677907479464
-", LA, United States",728,1,0.00864677907479464
-", MD, United States",728,1,0.00864677907479464
-", MT, United States",728,1,0.00864677907479464
-", NC, United States",728,1,0.00864677907479464
-", OR, United States",728,1,0.00864677907479464
-", TN, United States",728,1,0.00864677907479464
-", TX, United States",728,1,0.00864677907479464
-", WY, United States",728,1,0.00864677907479464
-"Aberdeen, SD, United States",728,1,0.00864677907479464
-"Ada, OK, United States",728,1,0.00864677907479464
-"Albany, GA, United States",728,1,0.00864677907479464
-"Altadena, CA, United States",728,1,0.00864677907479464
-"Anaheim, CA, United States",728,1,0.00864677907479464
-"Angels Camp, CA, United States",728,1,0.00864677907479464
-"Annandale-On-Hudson, NY, United States",728,1,0.00864677907479464
-"Antioch, IL, United States",728,1,0.00864677907479464
-"Arlington, TX, United States",728,1,0.00864677907479464
-"Ascutney Valley, VT, United States",728,1,0.00864677907479464
-"Ashby, MA, United States",728,1,0.00864677907479464
-"Ashford-Medford-Grants Pass, OR, United States",728,1,0.00864677907479464
-"Athens, OH, United States",728,1,0.00864677907479464
-"Athens, VT, United States",728,1,0.00864677907479464
-"Auberry, CA, United States",728,1,0.00864677907479464
-"Aubrun, AL, United States",728,1,0.00864677907479464
-"Augusta, FL, United States",728,1,0.00864677907479464
-"Aurora, CO, United States",728,1,0.00864677907479464
-"Bailey, CO, United States",728,1,0.00864677907479464
-"Barrington, NH, United States",728,1,0.00864677907479464
-"Bayshore, NY, United States",728,1,0.00864677907479464
-"Belluve, NE, United States",728,1,0.00864677907479464
-"Belmont, MA, United States",728,1,0.00864677907479464
-"Benecia, CA, United States",728,1,0.00864677907479464
-"Berea, OH, United States",728,1,0.00864677907479464
-"Berkeley Springs, WV, United States",728,1,0.00864677907479464
-"Beverly Hills, CA, United States",728,1,0.00864677907479464
-"Big Horn Basis, WY, United States",728,1,0.00864677907479464
-"Bishop, CA, United States",728,1,0.00864677907479464
-"Boonville, CA, United States",728,1,0.00864677907479464
-"Bossier City, LA, United States",728,1,0.00864677907479464
-"Bowling Green, OH, United States",728,1,0.00864677907479464
-"Bradenton, FL, United States",728,1,0.00864677907479464
-"Bradford, OH, United States",728,1,0.00864677907479464
-"Bridgehampton, NY, United States",728,1,0.00864677907479464
-"Brockton, MA, United States",728,1,0.00864677907479464
-"Broome County, NY, United States",728,1,0.00864677907479464
-"Calais, ME, United States",728,1,0.00864677907479464
-"Campbell, CA, United States",728,1,0.00864677907479464
-"Cape Cod Area, MA, United States",728,1,0.00864677907479464
-"Central Fall, RI, United States",728,1,0.00864677907479464
-"Central Islip, NY, United States",728,1,0.00864677907479464
-"Ceour d'Alene, ID, United States",728,1,0.00864677907479464
-"Chambersburg, PA, United States",728,1,0.00864677907479464
-"Chester, PA, United States",728,1,0.00864677907479464
-"Chicopee, MA, United States",728,1,0.00864677907479464
-"Chittango, NY, United States",728,1,0.00864677907479464
-"Chittenango, NY, United States",728,1,0.00864677907479464
-"Clarence Center, NY, United States",728,1,0.00864677907479464
-"Clayton, MO, United States",728,1,0.00864677907479464
-"Cle Elum, WA, United States",728,1,0.00864677907479464
-"Clyde, OH, United States",728,1,0.00864677907479464
-"Coca, FL, United States",728,1,0.00864677907479464
-"Cocoa Beach, FL, United States",728,1,0.00864677907479464
-"Coeur d'Alene, ID, United States",728,1,0.00864677907479464
-"College Park, MD, United States",728,1,0.00864677907479464
-"Concord, CA, United States",728,1,0.00864677907479464
-"Convent Station, NJ, United States",728,1,0.00864677907479464
-"Coos Bay, OR, United States",728,1,0.00864677907479464
-"Corrales, NM, United States",728,1,0.00864677907479464
-"Covelo, CA, United States",728,1,0.00864677907479464
-"Covina, CA, United States",728,1,0.00864677907479464
-"Craryville, NY, United States",728,1,0.00864677907479464
-"Cresson, OR, United States",728,1,0.00864677907479464
-"Dade County, FL, United States",728,1,0.00864677907479464
-"Daly CIty, CA, United States",728,1,0.00864677907479464
-"Dorchester, MA, United States",728,1,0.00864677907479464
-"Douglas, WY, United States",728,1,0.00864677907479464
-"Dover, NH, United States",728,1,0.00864677907479464
-"Dumont, NJ, United States",728,1,0.00864677907479464
-"Duncansville, OR, United States",728,1,0.00864677907479464
-"Durham, CA, United States",728,1,0.00864677907479464
-"Eagle River, AK, United States",728,1,0.00864677907479464
-"East Stroudsberg, PA, United States",728,1,0.00864677907479464
-"East Worcester, NY, United States",728,1,0.00864677907479464
-"Easthampton, MA, United States",728,1,0.00864677907479464
-"El Sobrante, CA, United States",728,1,0.00864677907479464
-"Ellensburg, WA, United States",728,1,0.00864677907479464
-"Ellicott City, MD, United States",728,1,0.00864677907479464
-"Ellsworth, ME, United States",728,1,0.00864677907479464
-"Elmwood Park, NJ, United States",728,1,0.00864677907479464
-"Elyria, OH, United States",728,1,0.00864677907479464
-"Emeryville, CA, United States",728,1,0.00864677907479464
-"Erie, OR, United States",728,1,0.00864677907479464
-"Estacada, OR, United States",728,1,0.00864677907479464
-"Eureka Springs, AK, United States",728,1,0.00864677907479464
-"Fairfield, CA, United States",728,1,0.00864677907479464
-"Fairfield, CT, United States",728,1,0.00864677907479464
-"Falls Village, CT, United States",728,1,0.00864677907479464
-"Farmingdale, NY, United States",728,1,0.00864677907479464
-"Farmingville, NY, United States",728,1,0.00864677907479464
-"Fernandina Beach, FL, United States",728,1,0.00864677907479464
-"Fitchburg, MA, United States",728,1,0.00864677907479464
-"Flushing, NY, United States",728,1,0.00864677907479464
-"Fond-Du-Lac, WI, United States",728,1,0.00864677907479464
-"Forest Hills, NY, United States",728,1,0.00864677907479464
-"Fort Bragg, CA, United States",728,1,0.00864677907479464
-"Fort Collins, WY, United States",728,1,0.00864677907479464
-"Fort Myers Beach, FL, United States",728,1,0.00864677907479464
-"Franklin, NC, United States",728,1,0.00864677907479464
-"Gadsden, AL, United States",728,1,0.00864677907479464
-"Gainsville, FL, United States",728,1,0.00864677907479464
-"Galisteo, NM, United States",728,1,0.00864677907479464
-"Gallup, NM, United States",728,1,0.00864677907479464
-"Genesee Valley, NY, United States",728,1,0.00864677907479464
-"Germantown, OR, United States",728,1,0.00864677907479464
-"Glassboro, NJ, United States",728,1,0.00864677907479464
-"Glen Ellen, CA, United States",728,1,0.00864677907479464
-"Glenrose, TX, United States",728,1,0.00864677907479464
-"Grand Forks, ND, United States",728,1,0.00864677907479464
-"Grand Junction, CO, United States",728,1,0.00864677907479464
-"Grandisland, NE, United States",728,1,0.00864677907479464
-"Grants Pass, OR, United States",728,1,0.00864677907479464
-"Greeley, CO, United States",728,1,0.00864677907479464
-"Greenville, NC, United States",728,1,0.00864677907479464
-"Guttenberg, NJ, United States",728,1,0.00864677907479464
-"Hallandale, FL, United States",728,1,0.00864677907479464
-"Hammond, IN, United States",728,1,0.00864677907479464
-"Hanover, NH, United States",728,1,0.00864677907479464
-"Hattiesburg, MS, United States",728,1,0.00864677907479464
-"Hazelton, PA, United States",728,1,0.00864677907479464
-"Hazleton, PA, United States",728,1,0.00864677907479464
-"Highland Park, MI, United States",728,1,0.00864677907479464
-"Hilton Head, SC, United States",728,1,0.00864677907479464
-"Holden, NC, United States",728,1,0.00864677907479464
-"Honor, MI, United States",728,1,0.00864677907479464
-"Hopland/Talmadge, CA, United States",728,1,0.00864677907479464
-"Hot Springs, AK, United States",728,1,0.00864677907479464
-"Huachuca, AZ, United States",728,1,0.00864677907479464
-"Hummelstown, PA, United States",728,1,0.00864677907479464
-"Huntington Sation, NY, United States",728,1,0.00864677907479464
-"Idaho Falls, ID, United States",728,1,0.00864677907479464
-"Inglewood, CA, United States",728,1,0.00864677907479464
-"Irvine, CA, United States",728,1,0.00864677907479464
-"Irvington, NJ, United States",728,1,0.00864677907479464
-"Islip, NY, United States",728,1,0.00864677907479464
-"Jackson, WY, United States",728,1,0.00864677907479464
-"Jefferson Township, NJ, United States",728,1,0.00864677907479464
-"Juneau, AK, United States",728,1,0.00864677907479464
-"Kanab, UT, United States",728,1,0.00864677907479464
-"Kauia, HI, United States",728,1,0.00864677907479464
-"Kingston, NJ, United States",728,1,0.00864677907479464
-"Klamath Fall, OR, United States",728,1,0.00864677907479464
-"Kurtistown, HI, United States",728,1,0.00864677907479464
-"La Grande, OR, United States",728,1,0.00864677907479464
-"Lafayette, IN, United States",728,1,0.00864677907479464
-"Lake Arrowhead, CA, United States",728,1,0.00864677907479464
-"Lake Hoptacong, NJ, United States",728,1,0.00864677907479464
-"Lake Monroe, NY, United States",728,1,0.00864677907479464
-"Lake Ronkonkona, NY, United States",728,1,0.00864677907479464
-"Lancaster, CA, United States",728,1,0.00864677907479464
-"Lancing, MI, United States",728,1,0.00864677907479464
-"Laramie, WY, United States",728,1,0.00864677907479464
-"Larkspur, CA, United States",728,1,0.00864677907479464
-"Lebanon, VT, United States",728,1,0.00864677907479464
-"Leominster, MA, United States",728,1,0.00864677907479464
-"Lewiston, ID, United States",728,1,0.00864677907479464
-"Lewsiton, ME, United States",728,1,0.00864677907479464
-"Lincoln City, OR, United States",728,1,0.00864677907479464
-"Lithia, FL, United States",728,1,0.00864677907479464
-"Little Rock, WA, United States",728,1,0.00864677907479464
-"Littletown, NH, United States",728,1,0.00864677907479464
-"Livonia, MI, United States",728,1,0.00864677907479464
-"Los Altos, CA, United States",728,1,0.00864677907479464
-"Macomb, IL, United States",728,1,0.00864677907479464
-"Magset, ME, United States",728,1,0.00864677907479464
-"Mahwah, NJ, United States",728,1,0.00864677907479464
-"Maplewood, NJ, United States",728,1,0.00864677907479464
-"March's Hook, OR, United States",728,1,0.00864677907479464
-"Marin County, CA, United States",728,1,0.00864677907479464
-"Marrietta, PA, United States",728,1,0.00864677907479464
-"Matthews, CA, United States",728,1,0.00864677907479464
-"Maywood, NJ, United States",728,1,0.00864677907479464
-"McLeansville, NC, United States",728,1,0.00864677907479464
-"Medford, OR, United States",728,1,0.00864677907479464
-"Melrose Park, IL, United States",728,1,0.00864677907479464
-"Menasha, WI, United States",728,1,0.00864677907479464
-"Mesa, AZ, United States",728,1,0.00864677907479464
-"Mill Valley, CA, United States",728,1,0.00864677907479464
-"Mississippi, MS, United States",728,1,0.00864677907479464
-"Monroe, NY, United States",728,1,0.00864677907479464
-"Montclair, NJ, United States",728,1,0.00864677907479464
-"Montgomery County, MD, United States",728,1,0.00864677907479464
-"Montgomery, MD, United States",728,1,0.00864677907479464
-"Montpelier, VT, United States",728,1,0.00864677907479464
-"Mount Pleasant, MI, United States",728,1,0.00864677907479464
-"Myrtle Beach, SC, United States",728,1,0.00864677907479464
-"Narbeth, PA, United States",728,1,0.00864677907479464
-"Navarro, CA, United States",728,1,0.00864677907479464
-"Nazareth, OR, United States",728,1,0.00864677907479464
-"Nevada City, CA, United States",728,1,0.00864677907479464
-"New Britain, CT, United States",728,1,0.00864677907479464
-"New Hope, OR, United States",728,1,0.00864677907479464
-"New Paltz, NY, United States",728,1,0.00864677907479464
-"Newport Beach, CA, United States",728,1,0.00864677907479464
-"North Adams, MA, United States",728,1,0.00864677907479464
-"North Dartmouth, MA, United States",728,1,0.00864677907479464
-"North Hudson, NY, United States",728,1,0.00864677907479464
-"North Merrick, NY, United States",728,1,0.00864677907479464
-"North Plymouth, MA, United States",728,1,0.00864677907479464
-"North Smithfield, RI, United States",728,1,0.00864677907479464
-"Northridge, CA, United States",728,1,0.00864677907479464
-"Norwalk, CT, United States",728,1,0.00864677907479464
-"O'Brien, OR, United States",728,1,0.00864677907479464
-"Oak Ridge Farm, TN, United States",728,1,0.00864677907479464
-"Oakhurst, CA, United States",728,1,0.00864677907479464
-"Oakland, NJ, United States",728,1,0.00864677907479464
-"Oaklyn, NJ, United States",728,1,0.00864677907479464
-"Oceanside, CA, United States",728,1,0.00864677907479464
-"Odessa, NY, United States",728,1,0.00864677907479464
-"Old Town, ME, United States",728,1,0.00864677907479464
-"Old Westbury, NY, United States",728,1,0.00864677907479464
-"Oneonta, NY, United States",728,1,0.00864677907479464
-"Opa-Locka, FL, United States",728,1,0.00864677907479464
-"Orange, CA, United States",728,1,0.00864677907479464
-"Owensboro, KY, United States",728,1,0.00864677907479464
-"Oxnard, CA, United States",728,1,0.00864677907479464
-"Oxon Hill, MD, United States",728,1,0.00864677907479464
-"Pahala, HI, United States",728,1,0.00864677907479464
-"Pahoa, HI, United States",728,1,0.00864677907479464
-"Parma Heights, OH, United States",728,1,0.00864677907479464
-"Passaic, NJ, United States",728,1,0.00864677907479464
-"Phoenixville, PA, United States",728,1,0.00864677907479464
-"Pinellas County, FL, United States",728,1,0.00864677907479464
-"Pittsburgh, OH, United States",728,1,0.00864677907479464
-"Plainwell, MI, United States",728,1,0.00864677907479464
-"Plymouth, MI, United States",728,1,0.00864677907479464
-"Point Richmond, CA, United States",728,1,0.00864677907479464
-"Port Costa, CA, United States",728,1,0.00864677907479464
-"Portola Valley, CA, United States",728,1,0.00864677907479464
-"Prescott, AZ, United States",728,1,0.00864677907479464
-"Putney, VT, United States",728,1,0.00864677907479464
-"Rancho Mirage, CA, United States",728,1,0.00864677907479464
-"Randallstown, MD, United States",728,1,0.00864677907479464
-"Readfield, ME, United States",728,1,0.00864677907479464
-"Red Bank, NJ, United States",728,1,0.00864677907479464
-"Redlands, CA, United States",728,1,0.00864677907479464
-"Rendondo Beach, CA, United States",728,1,0.00864677907479464
-"Richmond, IN, United States",728,1,0.00864677907479464
-"Ringwood, NJ, United States",728,1,0.00864677907479464
-"Riveredge, NJ, United States",728,1,0.00864677907479464
-"Rockland, NY, United States",728,1,0.00864677907479464
-"Rockport, ME, United States",728,1,0.00864677907479464
-"Rogersville, TN, United States",728,1,0.00864677907479464
-"Rogue River, OR, United States",728,1,0.00864677907479464
-"Ronkonkona, NY, United States",728,1,0.00864677907479464
-"Roxbury, MA, United States",728,1,0.00864677907479464
-"Royal Oak, MI, United States",728,1,0.00864677907479464
-"Rubdoux, CA, United States",728,1,0.00864677907479464
-"Rubidoux, CA, United States",728,1,0.00864677907479464
-"Saint Croix, Virgin Islands, United States",728,1,0.00864677907479464
-"Salem, MA, United States",728,1,0.00864677907479464
-"Salem, OH, United States",728,1,0.00864677907479464
-"Salute Ste. Marie, MI, United States",728,1,0.00864677907479464
-"San Gabrael, CA, United States",728,1,0.00864677907479464
-"San Juan Pueblo, NM, United States",728,1,0.00864677907479464
-"Santa Anna, CA, United States",728,1,0.00864677907479464
-"Santurce, PR, United States",728,1,0.00864677907479464
-"Saratoga Springs, NY, United States",728,1,0.00864677907479464
-"Saulte Ste. Marie, MI, United States",728,1,0.00864677907479464
-"Sayerville, NJ, United States",728,1,0.00864677907479464
-"Sayreville, NJ, United States",728,1,0.00864677907479464
-"Seaview, WA, United States",728,1,0.00864677907479464
-"Selden, NY, United States",728,1,0.00864677907479464
-"Seneca Falls, NY, United States",728,1,0.00864677907479464
-"Sepulveda, CA, United States",728,1,0.00864677907479464
-"Shaftesbury, VT, United States",728,1,0.00864677907479464
-"Shelburne Falls, MA, United States",728,1,0.00864677907479464
-"Simpson, MD, United States",728,1,0.00864677907479464
-"Sioux City, IA, United States",728,1,0.00864677907479464
-"Smithtown, NY, United States",728,1,0.00864677907479464
-"Sonoma, CA, United States",728,1,0.00864677907479464
-"South Amherst, MA, United States",728,1,0.00864677907479464
-"South Beach, NY, United States",728,1,0.00864677907479464
-"South Haven, MI, United States",728,1,0.00864677907479464
-"South Padre Island, TX, United States",728,1,0.00864677907479464
-"Southfield, MI, United States",728,1,0.00864677907479464
-"Southington, CT, United States",728,1,0.00864677907479464
-"Springfield, PA, United States",728,1,0.00864677907479464
-"St. Huntington, NY, United States",728,1,0.00864677907479464
-"St. Paul, AZ, United States",728,1,0.00864677907479464
-"St. Thomas, Virgin Islands, United States",728,1,0.00864677907479464
-"Stateline, NV, United States",728,1,0.00864677907479464
-"Statewide, CO, United States",728,1,0.00864677907479464
-"Streamwood, IL, United States",728,1,0.00864677907479464
-"Stroundsburg, PA, United States",728,1,0.00864677907479464
-"Suffern, NY, United States",728,1,0.00864677907479464
-"Susquehanna, PA, United States",728,1,0.00864677907479464
-"Taos, NM, United States",728,1,0.00864677907479464
-"Teaneck, NJ, United States",728,1,0.00864677907479464
-"Torrance, CA, United States",728,1,0.00864677907479464
-"Troy, NY, United States",728,1,0.00864677907479464
-"Tuscalloosa, AL, United States",728,1,0.00864677907479464
-"Tynesboro, MA, United States",728,1,0.00864677907479464
-"Urbaba, IL, United States",728,1,0.00864677907479464
-"Uxen Hill, MD, United States",728,1,0.00864677907479464
-"Vail, AZ, United States",728,1,0.00864677907479464
-"Valley Stream, NY, United States",728,1,0.00864677907479464
-"Vancouver, WA, United States",728,1,0.00864677907479464
-"Wainscott, NY, United States",728,1,0.00864677907479464
-"Wakefield, MA, United States",728,1,0.00864677907479464
-"Walhala, MI, United States",728,1,0.00864677907479464
-"Waltham, MA, United States",728,1,0.00864677907479464
-"Wascott, WI, United States",728,1,0.00864677907479464
-"Washington, NJ, United States",728,1,0.00864677907479464
-"Waterford, CT, United States",728,1,0.00864677907479464
-"Waterville, ME, United States",728,1,0.00864677907479464
-"Wausau, WI, United States",728,1,0.00864677907479464
-"West Babylon, NY, United States",728,1,0.00864677907479464
-"West Park, NY, United States",728,1,0.00864677907479464
-"West Wainscott, NY, United States",728,1,0.00864677907479464
-"Westchester, NY, United States",728,1,0.00864677907479464
-"Western Michigan University, MI, United States",728,1,0.00864677907479464
-"White Haven, PA, United States",728,1,0.00864677907479464
-"White Plains, NY, United States",728,1,0.00864677907479464
-"White-Plains, NY, United States",728,1,0.00864677907479464
-"Willingboro, NJ, United States",728,1,0.00864677907479464
-"Windham, NY, United States",728,1,0.00864677907479464
-"Winooksi, VT, United States",728,1,0.00864677907479464
-"Winter, WI, United States",728,1,0.00864677907479464
-"Woodacre, CA, United States",728,1,0.00864677907479464
-"Woodbridge, NJ, United States",728,1,0.00864677907479464
-"Wyandotte, MI, United States",728,1,0.00864677907479464
-"Wyanotte, MI, United States",728,1,0.00864677907479464
-"Yorkville, NY, United States",728,1,0.00864677907479464
+"Los Angeles, CA, United States",1,352,2.61399079162335
+"Chicago, IL, United States",2,321,2.38378137531561
+"San Francisco, CA, United States",3,301,2.2352591712461
+"Manhattan, NY, United States",4,296,2.19812862022872
+"Seattle, WA, United States",5,259,1.92336254270013
+"Philadelphia, PA, United States",6,219,1.62631813456112
+"San Diego, CA, United States",7,205,1.52235259171246
+"New York, NY, United States",8,188,1.39610871825338
+"Portland, OR, United States",9,175,1.2995692856082
+"Denver, CO, United States",10,172,1.27729095499777
+"Provincetown, MA, United States",10,172,1.27729095499777
+"Washington, DC, United States",12,164,1.21788207336997
+"Boston, MA, United States",13,162,1.20302985296302
+"New Orleans, LA, United States",14,156,1.15847319174217
+"Baltimore, MD, United States",15,148,1.09906431011436
+"Atlanta, GA, United States",16,141,1.04708153869003
+"Eugene, OR, United States",17,119,0.883707114213575
+"Minneapolis, MN, United States",18,116,0.861428783603149
+"Milwaukee, WI, United States",19,115,0.854002673399673
+"Memphis, TN, United States",20,111,0.824298232585772
+"Cleveland, OH, United States",21,110,0.816872122382296
+"Sacramento, CA, United States",22,104,0.772315461161444
+"Dallas, TX, United States",23,103,0.764889350957968
+"St. Louis, MO, United States",24,102,0.757463240754493
+"Houston, TX, United States",25,101,0.750037130551017
+"Phoenix, AZ, United States",25,101,0.750037130551017
+"Kansas City, MO, United States",27,97,0.720332689737116
+"Cambridge, MA, United States",28,96,0.71290657953364
+"Madison, WI, United States",29,94,0.69805435912669
+"Pittsburgh, PA, United States",29,94,0.69805435912669
+"Cincinnati, OH, United States",31,91,0.675776028516263
+"Fort Lauderdale, FL, United States",32,89,0.660923808109312
+"Tampa, FL, United States",32,89,0.660923808109312
+"Key West, FL, United States",34,85,0.631219367295411
+"Detroit, MI, United States",35,84,0.623793257091935
+"Long Beach, CA, United States",36,82,0.608941036684984
+"Oakland, CA, United States",37,81,0.601514926481509
+"Austin, TX, United States",38,80,0.594088816278034
+"Rochester, NY, United States",39,78,0.579236595871083
+"Tucson, AZ, United States",39,78,0.579236595871083
+"Indianapolis, IN, United States",41,75,0.556958265260656
+"Oklahoma City, OK, United States",41,75,0.556958265260656
+"Albuquerque, NM, United States",43,71,0.527253824446755
+"Berkeley, CA, United States",44,68,0.504975493836329
+"Syracuse, NY, United States",45,67,0.497549383632853
+"Honolulu, HI, United States",46,66,0.490123273429378
+"Columbus, OH, United States",47,65,0.482697163225902
+"Portland, ME, United States",48,64,0.475271053022427
+"Hartford, CT, United States",49,62,0.460418832615476
+"Providence, RI, United States",49,62,0.460418832615476
+"Buffalo, NY, United States",51,61,0.452992722412001
+"Dayton, OH, United States",52,60,0.445566612208525
+"Charlotte, NC, United States",53,58,0.430714391801574
+"Louisville, KY, United States",53,58,0.430714391801574
+"Birmingham, AL, United States",55,53,0.393583840784197
+"Garden Grove, CA, United States",56,50,0.371305510173771
+"Miami, FL, United States",56,50,0.371305510173771
+"Anchorage, AK, United States",58,47,0.349027179563345
+"Long Island, NY, United States",58,47,0.349027179563345
+"Nashville, TN, United States",58,47,0.349027179563345
+"Laguna Beach, CA, United States",61,46,0.341601069359869
+"Orlando, FL, United States",61,46,0.341601069359869
+"San Juan, PR, United States",61,46,0.341601069359869
+"Fort Worth, TX, United States",64,45,0.334174959156394
+"New Haven, CT, United States",64,45,0.334174959156394
+"Wichita, KS, United States",64,45,0.334174959156394
+"San Antonio, TX, United States",67,44,0.326748848952919
+"Hollywood, CA, United States",68,43,0.319322738749443
+"Ithaca, NY, United States",68,43,0.319322738749443
+"Atlantic City, NJ, United States",70,42,0.311896628545968
+"Omaha, NE, United States",71,41,0.304470518342492
+"Gainesville, FL, United States",72,40,0.297044408139017
+"Boston/Cambridge, MA, United States",73,39,0.289618297935541
+"Norfolk, VA, United States",73,39,0.289618297935541
+"Ann Arbor, MI, United States",75,38,0.282192187732066
+"Harrisburg, PA, United States",75,38,0.282192187732066
+"Jacksonville, FL, United States",75,38,0.282192187732066
+"Las Vegas, NV, United States",75,38,0.282192187732066
+"Queens, NY, United States",75,38,0.282192187732066
+"Richmond, VA, United States",75,38,0.282192187732066
+"Salt Lake City, UT, United States",75,38,0.282192187732066
+"Lincoln, NE, United States",82,37,0.27476607752859
+"Palm Springs, CA, United States",82,37,0.27476607752859
+"Grand Rapids, MI, United States",84,36,0.267339967325115
+"Little Rock, AR, United States",84,36,0.267339967325115
+"Santa Cruz, CA, United States",84,36,0.267339967325115
+"St. Petersburg, FL, United States",84,36,0.267339967325115
+"Washington, D.C., Washington, D.C., United States",84,36,0.267339967325115
+"Fresno, CA, United States",89,35,0.25991385712164
+"Ogunquit, ME, United States",89,35,0.25991385712164
+"Reno, NV, United States",89,35,0.25991385712164
+"Akron, OH, United States",92,34,0.252487746918164
+"Albany, NY, United States",92,34,0.252487746918164
+"Burlington, VT, United States",92,34,0.252487746918164
+"Fort Wayne, IN, United States",92,34,0.252487746918164
+"Toledo, OH, United States",92,34,0.252487746918164
+"Iowa City, IA, United States",97,33,0.245061636714689
+"San Jose, CA, United States",97,33,0.245061636714689
+"Spokane, WA, United States",97,33,0.245061636714689
+"Northampton, MA, United States",100,32,0.237635526511213
+"Jackson, MS, United States",101,31,0.230209416307738
+"Santa Monica, CA, United States",101,31,0.230209416307738
+"Tulsa, OK, United States",101,31,0.230209416307738
+"Binghamton, NY, United States",104,30,0.222783306104263
+"New Hope, PA, United States",104,30,0.222783306104263
+"Santa Barbara, CA, United States",104,30,0.222783306104263
+"Topeka, KS, United States",104,30,0.222783306104263
+"Asbury Park, NJ, United States",108,29,0.215357195900787
+"Knoxville, TN, United States",108,29,0.215357195900787
+"Pomona, CA, United States",108,29,0.215357195900787
+"Sarasota, FL, United States",108,29,0.215357195900787
+"Amherst, MA, United States",112,28,0.207931085697312
+"El Paso, TX, United States",112,28,0.207931085697312
+"San Bernardino, CA, United States",112,28,0.207931085697312
+"Columbia, SC, United States",115,27,0.200504975493836
+"Santa Rosa, CA, United States",115,27,0.200504975493836
+"Springfield, MA, United States",115,27,0.200504975493836
+"Miami/Miami Beach, FL, United States",118,26,0.193078865290361
+"Pasadena, CA, United States",118,26,0.193078865290361
+"Saint Louis, MO, United States",118,26,0.193078865290361
+"Bloomington, IN, United States",121,25,0.185652755086885
+"Colorado Springs, CO, United States",121,25,0.185652755086885
+"Des Moines, IA, United States",121,25,0.185652755086885
+"Fort Myers, FL, United States",121,25,0.185652755086885
+"Kalamazoo, MI, United States",121,25,0.185652755086885
+"Tallahassee, FL, United States",121,25,0.185652755086885
+"Greensboro, NC, United States",127,24,0.17822664488341
+"Mobile, AL, United States",127,24,0.17822664488341
+"Boulder, CO, United States",129,23,0.170800534679935
+"Brooklyn, NY, United States",129,23,0.170800534679935
+"Champaign, IL, United States",129,23,0.170800534679935
+"Durham, NC, United States",129,23,0.170800534679935
+"North Hollywood, CA, United States",129,23,0.170800534679935
+"San Rafael, CA, United States",129,23,0.170800534679935
+"Baton Rouge, LA, United States",135,22,0.163374424476459
+"Tacoma, WA, United States",135,22,0.163374424476459
+", NJ, United States",137,21,0.155948314272984
+"Calumet City, IL, United States",137,21,0.155948314272984
+"Missoula, MT, United States",137,21,0.155948314272984
+"Palo Alto, CA, United States",137,21,0.155948314272984
+"Pensacola, FL, United States",137,21,0.155948314272984
+"Raleigh, NC, United States",137,21,0.155948314272984
+"Trenton, NJ, United States",137,21,0.155948314272984
+"West Palm Beach, FL, United States",137,21,0.155948314272984
+"Wilmington, DE, United States",137,21,0.155948314272984
+"Boise, ID, United States",146,20,0.148522204069508
+"Fire Island, NY, United States",146,20,0.148522204069508
+"Guerneville, CA, United States",146,20,0.148522204069508
+"Paterson, NJ, United States",146,20,0.148522204069508
+"Salem, OR, United States",146,20,0.148522204069508
+"Erie, PA, United States",151,19,0.141096093866033
+"Fayetteville, AR, United States",151,19,0.141096093866033
+"Flint, MI, United States",151,19,0.141096093866033
+"Hayward, CA, United States",151,19,0.141096093866033
+"Lexington, KY, United States",151,19,0.141096093866033
+"Lubbock, TX, United States",151,19,0.141096093866033
+"Rockford, IL, United States",151,19,0.141096093866033
+"Columbia, MO, United States",158,18,0.133669983662558
+"Concord, NH, United States",158,18,0.133669983662558
+"Hollywood, FL, United States",158,18,0.133669983662558
+"Lancaster, PA, United States",158,18,0.133669983662558
+"Newport, RI, United States",158,18,0.133669983662558
+"Woodstock, NY, United States",158,18,0.133669983662558
+"Bakersfield, CA, United States",164,17,0.126243873459082
+"Bellingham, WA, United States",164,17,0.126243873459082
+"Chattanooga, TN, United States",164,17,0.126243873459082
+"Joplin, MO, United States",164,17,0.126243873459082
+"Kansas City, KS, United States",164,17,0.126243873459082
+"Lawrence, KS, United States",164,17,0.126243873459082
+"Manchester, NH, United States",164,17,0.126243873459082
+"Manhatten, NY, United States",164,17,0.126243873459082
+"Miami Beach, FL, United States",164,17,0.126243873459082
+"Montgomery, AL, United States",164,17,0.126243873459082
+"New Brunswick, NJ, United States",164,17,0.126243873459082
+"Olympia, WA, United States",164,17,0.126243873459082
+"Charlestown, SC, United States",176,16,0.118817763255607
+"Greenville, SC, United States",176,16,0.118817763255607
+"St. Paul, MN, United States",176,16,0.118817763255607
+"Yellow Springs, OH, United States",176,16,0.118817763255607
+"Chapel Hill, NC, United States",180,15,0.111391653052131
+"Cheyenne, WY, United States",180,15,0.111391653052131
+"Daytona Beach, FL, United States",180,15,0.111391653052131
+"Racine, WI, United States",180,15,0.111391653052131
+"Redwood City, CA, United States",180,15,0.111391653052131
+"Sioux Falls, SD, United States",180,15,0.111391653052131
+"Staten Island, NY, United States",180,15,0.111391653052131
+"Youngstown, OH, United States",180,15,0.111391653052131
+"Augusta, GA, United States",188,14,0.103965542848656
+"Clearwater, FL, United States",188,14,0.103965542848656
+"Daytona, FL, United States",188,14,0.103965542848656
+"Dunedin, FL, United States",188,14,0.103965542848656
+"Galveston, TX, United States",188,14,0.103965542848656
+"Hollywood & North Hollywood, CA, United States",188,14,0.103965542848656
+"Morgantown, WV, United States",188,14,0.103965542848656
+"Morristown, NJ, United States",188,14,0.103965542848656
+"Portsmouth, NH, United States",188,14,0.103965542848656
+"Santa Fe, NM, United States",188,14,0.103965542848656
+"South Bend, IN, United States",188,14,0.103965542848656
+"Stockton, CA, United States",188,14,0.103965542848656
+"miami, FL, United States",188,14,0.103965542848656
+"Billings, MT, United States",201,13,0.0965394326451805
+"Lansing, MI, United States",201,13,0.0965394326451805
+"Maui Island, HI, United States",201,13,0.0965394326451805
+"Muncie, IN, United States",201,13,0.0965394326451805
+"Springfield, IL, United States",201,13,0.0965394326451805
+"West Hollywood, CA, United States",201,13,0.0965394326451805
+"Brattleboro, VT, United States",207,12,0.089113322441705
+"Bridgeport, CT, United States",207,12,0.089113322441705
+"Charlestown, WV, United States",207,12,0.089113322441705
+"Culver City, CA, United States",207,12,0.089113322441705
+"East St. Louis, IL, United States",207,12,0.089113322441705
+"Green Bay, WI, United States",207,12,0.089113322441705
+"Helena, MT, United States",207,12,0.089113322441705
+"Huntington, WV, United States",207,12,0.089113322441705
+"Huntsville, AL, United States",207,12,0.089113322441705
+"Joliet, IL, United States",207,12,0.089113322441705
+"Lynn, MA, United States",207,12,0.089113322441705
+"New London, CT, United States",207,12,0.089113322441705
+"Peoria, IL, United States",207,12,0.089113322441705
+"Pittsfield, MA, United States",207,12,0.089113322441705
+"Rehoboth Beach, DE, United States",207,12,0.089113322441705
+"State College, PA, United States",207,12,0.089113322441705
+"Allentown, PA, United States",223,11,0.0816872122382296
+"Amarillo, TX, United States",223,11,0.0816872122382296
+"Asheville, NC, United States",223,11,0.0816872122382296
+"Cedar Rapids, IA, United States",223,11,0.0816872122382296
+"Clear Lake, CA, United States",223,11,0.0816872122382296
+"Covington, KY, United States",223,11,0.0816872122382296
+"Danbury, CT, United States",223,11,0.0816872122382296
+"Easthampton, NY, United States",223,11,0.0816872122382296
+"Fort Collins, CO, United States",223,11,0.0816872122382296
+"Lafayette, LA, United States",223,11,0.0816872122382296
+"Panama City, FL, United States",223,11,0.0816872122382296
+"Shreveport, LA, United States",223,11,0.0816872122382296
+"Springfield, MO, United States",223,11,0.0816872122382296
+"Springfield, OH, United States",223,11,0.0816872122382296
+"Worcester, MA, United States",223,11,0.0816872122382296
+"Denton, TX, United States",238,10,0.0742611020347542
+"East Orange, NJ, United States",238,10,0.0742611020347542
+"Eureka, CA, United States",238,10,0.0742611020347542
+"Evansville, IN, United States",238,10,0.0742611020347542
+"Greensburg, PA, United States",238,10,0.0742611020347542
+"Macon, GA, United States",238,10,0.0742611020347542
+"Pontiac, MI, United States",238,10,0.0742611020347542
+"San Mateo, CA, United States",238,10,0.0742611020347542
+"Savannah, GA, United States",238,10,0.0742611020347542
+"Tempe, AZ, United States",238,10,0.0742611020347542
+"Upper Darby, PA, United States",238,10,0.0742611020347542
+"Warren, OH, United States",238,10,0.0742611020347542
+"Westport, CT, United States",238,10,0.0742611020347542
+"York, PA, United States",238,10,0.0742611020347542
+"Alexandria, LA, United States",252,9,0.0668349918312788
+"Allston, MA, United States",252,9,0.0668349918312788
+"Beloit, WI, United States",252,9,0.0668349918312788
+"Bloomington, IL, United States",252,9,0.0668349918312788
+"Canton, OH, United States",252,9,0.0668349918312788
+"Charleston, WV, United States",252,9,0.0668349918312788
+"Columbus, GA, United States",252,9,0.0668349918312788
+"Fargo, ND, United States",252,9,0.0668349918312788
+"Gardena, CA, United States",252,9,0.0668349918312788
+"Greenfield, MA, United States",252,9,0.0668349918312788
+"Johnson City, TN, United States",252,9,0.0668349918312788
+"Lorain, OH, United States",252,9,0.0668349918312788
+"Mansfield, OH, United States",252,9,0.0668349918312788
+"Nashua, NH, United States",252,9,0.0668349918312788
+"Newark, NJ, United States",252,9,0.0668349918312788
+"Olean, NY, United States",252,9,0.0668349918312788
+"Orono, ME, United States",252,9,0.0668349918312788
+"Princeton, NJ, United States",252,9,0.0668349918312788
+"Quincy, IL, United States",252,9,0.0668349918312788
+"Roanoke, VA, United States",252,9,0.0668349918312788
+"Rock Island, IL, United States",252,9,0.0668349918312788
+"Santa Ana, CA, United States",252,9,0.0668349918312788
+"Saugatuck, MI, United States",252,9,0.0668349918312788
+"Scranton, PA, United States",252,9,0.0668349918312788
+"Somerville, MA, United States",252,9,0.0668349918312788
+"St Augustin's, FL, United States",252,9,0.0668349918312788
+"Studio City, CA, United States",252,9,0.0668349918312788
+"Union, NJ, United States",252,9,0.0668349918312788
+"Van Nuys, CA, United States",252,9,0.0668349918312788
+"West Hempstead, NY, United States",252,9,0.0668349918312788
+"Wilmington, NC, United States",252,9,0.0668349918312788
+"Winter Park, FL, United States",252,9,0.0668349918312788
+", HI, United States",284,8,0.0594088816278034
+"Costa Mesa, CA, United States",284,8,0.0594088816278034
+"Davenport, IA, United States",284,8,0.0594088816278034
+"La Crosse, WI, United States",284,8,0.0594088816278034
+"Moscow, ID, United States",284,8,0.0594088816278034
+"Poughkeepsie, NY, United States",284,8,0.0594088816278034
+"Riverside, CA, United States",284,8,0.0594088816278034
+"Sausalito, CA, United States",284,8,0.0594088816278034
+"Terre Haute, IN, United States",284,8,0.0594088816278034
+"Tuscaloosa, AL, United States",284,8,0.0594088816278034
+"Waikiki, HI, United States",284,8,0.0594088816278034
+"Albany, CA, United States",295,7,0.0519827714243279
+"Ashbury Park, NJ, United States",295,7,0.0519827714243279
+"Athens, GA, United States",295,7,0.0519827714243279
+"Bangor, ME, United States",295,7,0.0519827714243279
+"Beaumont, TX, United States",295,7,0.0519827714243279
+"Bethany Beach, DE, United States",295,7,0.0519827714243279
+"Camden, NJ, United States",295,7,0.0519827714243279
+"Carbondale, IL, United States",295,7,0.0519827714243279
+"Champaign / Urbana, IL, United States",295,7,0.0519827714243279
+"Contoocook, NH, United States",295,7,0.0519827714243279
+"Evanstown, IL, United States",295,7,0.0519827714243279
+"Hallendale, FL, United States",295,7,0.0519827714243279
+"Hyannis, MA, United States",295,7,0.0519827714243279
+"Lake Ronkonkoma, NY, United States",295,7,0.0519827714243279
+"Lima, OH, United States",295,7,0.0519827714243279
+"Martha's Vineyard Island, MA, United States",295,7,0.0519827714243279
+"Modesto, CA, United States",295,7,0.0519827714243279
+"Mt. Clemens, MI, United States",295,7,0.0519827714243279
+"Napa, CA, United States",295,7,0.0519827714243279
+"NorthHampton, MA, United States",295,7,0.0519827714243279
+"Nyack, NY, United States",295,7,0.0519827714243279
+"Rapid City, SD, United States",295,7,0.0519827714243279
+"Roseburg, OR, United States",295,7,0.0519827714243279
+"Rutland, VT, United States",295,7,0.0519827714243279
+"Saginaw, MI, United States",295,7,0.0519827714243279
+"Salt Lake City, TX, United States",295,7,0.0519827714243279
+"Sandusky, OH, United States",295,7,0.0519827714243279
+"Sayville, NY, United States",295,7,0.0519827714243279
+"South River, NJ, United States",295,7,0.0519827714243279
+"Tyngsboro, MA, United States",295,7,0.0519827714243279
+"Urbana, IL, United States",295,7,0.0519827714243279
+"Waterbury, CT, United States",295,7,0.0519827714243279
+"Waterloo, IA, United States",295,7,0.0519827714243279
+"Winston-Salem, NC, United States",295,7,0.0519827714243279
+"Woonsocket, RI, United States",295,7,0.0519827714243279
+", CA, United States",330,6,0.0445566612208525
+"Appletown, WI, United States",330,6,0.0445566612208525
+"Ashland, OR, United States",330,6,0.0445566612208525
+"Babylon, NY, United States",330,6,0.0445566612208525
+"Boca Raton, FL, United States",330,6,0.0445566612208525
+"Cathedral City, CA, United States",330,6,0.0445566612208525
+"Cherry Hill, NJ, United States",330,6,0.0445566612208525
+"Coconut Grove, FL, United States",330,6,0.0445566612208525
+"Corpus Christi, TX, United States",330,6,0.0445566612208525
+"Davis, CA, United States",330,6,0.0445566612208525
+"Duluth, MN, United States",330,6,0.0445566612208525
+"Eureka Springs, AR, United States",330,6,0.0445566612208525
+"Evanston, IL, United States",330,6,0.0445566612208525
+"Fayetteville, NC, United States",330,6,0.0445566612208525
+"Forest Park, IL, United States",330,6,0.0445566612208525
+"Forestville, CA, United States",330,6,0.0445566612208525
+"Great Falls, MT, United States",330,6,0.0445566612208525
+"Hagerstown, MD, United States",330,6,0.0445566612208525
+"Jersey City, NJ, United States",330,6,0.0445566612208525
+"Lake Worth, FL, United States",330,6,0.0445566612208525
+"Lakeland, FL, United States",330,6,0.0445566612208525
+"Lewiston, ME, United States",330,6,0.0445566612208525
+"Muskegon, MI, United States",330,6,0.0445566612208525
+"New Bedford, MA, United States",330,6,0.0445566612208525
+"New Town, IL, United States",330,6,0.0445566612208525
+"Newark, DE, United States",330,6,0.0445566612208525
+"Oberlin, OH, United States",330,6,0.0445566612208525
+"Parkersburg, WV, United States",330,6,0.0445566612208525
+"Reading, PA, United States",330,6,0.0445566612208525
+"Redding, CA, United States",330,6,0.0445566612208525
+"San Luis Obispo, CA, United States",330,6,0.0445566612208525
+"Utica, NY, United States",330,6,0.0445566612208525
+"Venice, CA, United States",330,6,0.0445566612208525
+"Wheeling, WV, United States",330,6,0.0445566612208525
+"Wichita Falls, TX, United States",330,6,0.0445566612208525
+", FL, United States",365,5,0.0371305510173771
+", ME, United States",365,5,0.0371305510173771
+"Abilene, TX, United States",365,5,0.0371305510173771
+"Albion, CA, United States",365,5,0.0371305510173771
+"Arlington, VA, United States",365,5,0.0371305510173771
+"Augusta, ME, United States",365,5,0.0371305510173771
+"Bath, ME, United States",365,5,0.0371305510173771
+"Battle Creek, MI, United States",365,5,0.0371305510173771
+"Belfast, ME, United States",365,5,0.0371305510173771
+"Biloxi, MS, United States",365,5,0.0371305510173771
+"Bozeman, MT, United States",365,5,0.0371305510173771
+"Branford, CT, United States",365,5,0.0371305510173771
+"Bronx, NY, United States",365,5,0.0371305510173771
+"Charleston, SC, United States",365,5,0.0371305510173771
+"Clarksville, TN, United States",365,5,0.0371305510173771
+"Cresson, PA, United States",365,5,0.0371305510173771
+"Durham, NH, United States",365,5,0.0371305510173771
+"East Hampton, NY, United States",365,5,0.0371305510173771
+"Elizabeth, NJ, United States",365,5,0.0371305510173771
+"Elmira, NY, United States",365,5,0.0371305510173771
+"Fairbanks, AK, United States",365,5,0.0371305510173771
+"Fayatteville, AR, United States",365,5,0.0371305510173771
+"Fort Smith, AR, United States",365,5,0.0371305510173771
+"Grover City, CA, United States",365,5,0.0371305510173771
+"Gulfport, MS, United States",365,5,0.0371305510173771
+"Harper, KS, United States",365,5,0.0371305510173771
+"Klamath Falls, OR, United States",365,5,0.0371305510173771
+"Lake George, NY, United States",365,5,0.0371305510173771
+"Lambertville, NJ, United States",365,5,0.0371305510173771
+"Lebanon, NH, United States",365,5,0.0371305510173771
+"Marietta, PA, United States",365,5,0.0371305510173771
+"Mendocino, CA, United States",365,5,0.0371305510173771
+"Metaire, LA, United States",365,5,0.0371305510173771
+"Monterey, CA, United States",365,5,0.0371305510173771
+"Mountain View, CA, United States",365,5,0.0371305510173771
+"Niagara Falls, NY, United States",365,5,0.0371305510173771
+"Oak Bluffs, MA, United States",365,5,0.0371305510173771
+"Oak Park, IL, United States",365,5,0.0371305510173771
+"Odessa, TX, United States",365,5,0.0371305510173771
+"Plainsboro, NJ, United States",365,5,0.0371305510173771
+"Port Huron, MI, United States",365,5,0.0371305510173771
+"Redondo Beach, CA, United States",365,5,0.0371305510173771
+"Saint Paul, MN, United States",365,5,0.0371305510173771
+"Scottsdale, AZ, United States",365,5,0.0371305510173771
+"Smithfield, RI, United States",365,5,0.0371305510173771
+"Superior, WI, United States",365,5,0.0371305510173771
+"The Bronx, NY, United States",365,5,0.0371305510173771
+"Union City, NJ, United States",365,5,0.0371305510173771
+"Walnut Creek, CA, United States",365,5,0.0371305510173771
+"Wolf Creek, OR, United States",365,5,0.0371305510173771
+", KY, United States",415,4,0.0297044408139017
+"Ames, IA, United States",415,4,0.0297044408139017
+"Aspen, CO, United States",415,4,0.0297044408139017
+"Athol, NY, United States",415,4,0.0297044408139017
+"Bellmore, NY, United States",415,4,0.0297044408139017
+"Bellows Falls, VT, United States",415,4,0.0297044408139017
+"Brunswick, ME, United States",415,4,0.0297044408139017
+"Central Falls, RI, United States",415,4,0.0297044408139017
+"Charlottesville, VA, United States",415,4,0.0297044408139017
+"Chico, CA, United States",415,4,0.0297044408139017
+"Cleveland Heights, OH, United States",415,4,0.0297044408139017
+"Columbia, MD, United States",415,4,0.0297044408139017
+"Cupertino, CA, United States",415,4,0.0297044408139017
+"Decatur, GA, United States",415,4,0.0297044408139017
+"Dover, NJ, United States",415,4,0.0297044408139017
+"Dubuque, IA, United States",415,4,0.0297044408139017
+"East Lansing, MI, United States",415,4,0.0297044408139017
+"East Stroudsburg, PA, United States",415,4,0.0297044408139017
+"El Monte, CA, United States",415,4,0.0297044408139017
+"Flagstaff, AZ, United States",415,4,0.0297044408139017
+"Floral Park, NY, United States",415,4,0.0297044408139017
+"Fort Lee, NJ, United States",415,4,0.0297044408139017
+"Fullerton, CA, United States",415,4,0.0297044408139017
+"GreenField, MA, United States",415,4,0.0297044408139017
+"Guernewood Park, CA, United States",415,4,0.0297044408139017
+"Hempstead, NY, United States",415,4,0.0297044408139017
+"Hot Springs, AR, United States",415,4,0.0297044408139017
+"Isla Vista, CA, United States",415,4,0.0297044408139017
+"Jackson Heights, NY, United States",415,4,0.0297044408139017
+"Jacksonville, NC, United States",415,4,0.0297044408139017
+"Johnstown, PA, United States",415,4,0.0297044408139017
+"Lake Charles, LA, United States",415,4,0.0297044408139017
+"Lake Tahoe, CA, United States",415,4,0.0297044408139017
+"Lenox, MA, United States",415,4,0.0297044408139017
+"Lindenhurst, NY, United States",415,4,0.0297044408139017
+"Manhattan Beach, CA, United States",415,4,0.0297044408139017
+"Melbourne, FL, United States",415,4,0.0297044408139017
+"Middletown, CT, United States",415,4,0.0297044408139017
+"Midway City, CA, United States",415,4,0.0297044408139017
+"Monroe, LA, United States",415,4,0.0297044408139017
+"Monte Rio, CA, United States",415,4,0.0297044408139017
+"Myrtle Creek, OR, United States",415,4,0.0297044408139017
+"Newton, NJ, United States",415,4,0.0297044408139017
+"North Salem, NY, United States",415,4,0.0297044408139017
+"Old Roslyn Village, NY, United States",415,4,0.0297044408139017
+"Orange County, CA, United States",415,4,0.0297044408139017
+"Oswego, NY, United States",415,4,0.0297044408139017
+"Painesville, OH, United States",415,4,0.0297044408139017
+"Pawtucket, RI, United States",415,4,0.0297044408139017
+"Perth Amboy, NJ, United States",415,4,0.0297044408139017
+"Randolph, MA, United States",415,4,0.0297044408139017
+"Ronan, MT, United States",415,4,0.0297044408139017
+"Santa Clara, CA, United States",415,4,0.0297044408139017
+"Schenectady, NY, United States",415,4,0.0297044408139017
+"Schenley, PA, United States",415,4,0.0297044408139017
+"Silverlake, CA, United States",415,4,0.0297044408139017
+"South Hadley, MA, United States",415,4,0.0297044408139017
+"St. Augustine, FL, United States",415,4,0.0297044408139017
+"St. Joseph, MO, United States",415,4,0.0297044408139017
+"St. Petersburgh, FL, United States",415,4,0.0297044408139017
+"Steubenville, OH, United States",415,4,0.0297044408139017
+"Stonington, ME, United States",415,4,0.0297044408139017
+"Storrs, CT, United States",415,4,0.0297044408139017
+"Sunnyvale, CA, United States",415,4,0.0297044408139017
+"Tusla, OK, United States",415,4,0.0297044408139017
+"Vallejo, CA, United States",415,4,0.0297044408139017
+"Ventura, CA, United States",415,4,0.0297044408139017
+"Virginia Beach, FL, United States",415,4,0.0297044408139017
+"Waco, TX, United States",415,4,0.0297044408139017
+"Waldport, OR, United States",415,4,0.0297044408139017
+"Willits, CA, United States",415,4,0.0297044408139017
+", AR, United States",486,3,0.0222783306104263
+", AZ, United States",486,3,0.0222783306104263
+", CO, United States",486,3,0.0222783306104263
+", DE, United States",486,3,0.0222783306104263
+", LA, United States",486,3,0.0222783306104263
+", MA, United States",486,3,0.0222783306104263
+", NY, United States",486,3,0.0222783306104263
+", VA, United States",486,3,0.0222783306104263
+"Altoona, PA, United States",486,3,0.0222783306104263
+"Anderson, IN, United States",486,3,0.0222783306104263
+"Ashville, NC, United States",486,3,0.0222783306104263
+"Auburn, AL, United States",486,3,0.0222783306104263
+"Aurora, IL, United States",486,3,0.0222783306104263
+"Bar Harbor, ME, United States",486,3,0.0222783306104263
+"Belleville, NJ, United States",486,3,0.0222783306104263
+"Bethesda, MD, United States",486,3,0.0222783306104263
+"Bethlehem, NH, United States",486,3,0.0222783306104263
+"Bridgeport, PA, United States",486,3,0.0222783306104263
+"Broward County, FL, United States",486,3,0.0222783306104263
+"Caribou, ME, United States",486,3,0.0222783306104263
+"Casper, WY, United States",486,3,0.0222783306104263
+"Congers, NY, United States",486,3,0.0222783306104263
+"Coral Gables, FL, United States",486,3,0.0222783306104263
+"Dahlonega, GA, United States",486,3,0.0222783306104263
+"Dania, FL, United States",486,3,0.0222783306104263
+"Days Creek, OR, United States",486,3,0.0222783306104263
+"Deer Park, NY, United States",486,3,0.0222783306104263
+"Dewey Beach, DE, United States",486,3,0.0222783306104263
+"Dothan, AL, United States",486,3,0.0222783306104263
+"Douglas, MI, United States",486,3,0.0222783306104263
+"Duncansville, PA, United States",486,3,0.0222783306104263
+"East Barnet, VT, United States",486,3,0.0222783306104263
+"Easton, PA, United States",486,3,0.0222783306104263
+"El Dorado, AR, United States",486,3,0.0222783306104263
+"Elgin, IL, United States",486,3,0.0222783306104263
+"Ferndale, MI, United States",486,3,0.0222783306104263
+"Fontana, CA, United States",486,3,0.0222783306104263
+"Fox Valley, WI, United States",486,3,0.0222783306104263
+"Geneseo, NY, United States",486,3,0.0222783306104263
+"Genessee, NY, United States",486,3,0.0222783306104263
+"Glenford, OH, United States",486,3,0.0222783306104263
+"Goshen, MA, United States",486,3,0.0222783306104263
+"Greenwich, CT, United States",486,3,0.0222783306104263
+"Hialeah, FL, United States",486,3,0.0222783306104263
+"Highland Park, NJ, United States",486,3,0.0222783306104263
+"Highland, NY, United States",486,3,0.0222783306104263
+"Houma, LA, United States",486,3,0.0222783306104263
+"Huntington, NY, United States",486,3,0.0222783306104263
+"Jacksonville Beach, FL, United States",486,3,0.0222783306104263
+"Jamestown, NY, United States",486,3,0.0222783306104263
+"Kent, OH, United States",486,3,0.0222783306104263
+"Lake Ronkonoma, NY, United States",486,3,0.0222783306104263
+"Lancaster, MA, United States",486,3,0.0222783306104263
+"Las Vegas, NE, United States",486,3,0.0222783306104263
+"Lexington, KT, United States",486,3,0.0222783306104263
+"Louisville, CO, United States",486,3,0.0222783306104263
+"Louisville, KT, United States",486,3,0.0222783306104263
+"Lowell, MA, United States",486,3,0.0222783306104263
+"Lynchburg, VA, United States",486,3,0.0222783306104263
+"Manchester, CT, United States",486,3,0.0222783306104263
+"Manfield, OH, United States",486,3,0.0222783306104263
+"Mankato, MN, United States",486,3,0.0222783306104263
+"Maui, HI, United States",486,3,0.0222783306104263
+"Menlo Park, CA, United States",486,3,0.0222783306104263
+"Montclaire, PA, United States",486,3,0.0222783306104263
+"Montebello, CA, United States",486,3,0.0222783306104263
+"Mt. Pleasant, MI, United States",486,3,0.0222783306104263
+"Nanuet, NY, United States",486,3,0.0222783306104263
+"Narragansett, RI, United States",486,3,0.0222783306104263
+"Neptune Beach, FL, United States",486,3,0.0222783306104263
+"New Bedford, CT, United States",486,3,0.0222783306104263
+"Normal, IL, United States",486,3,0.0222783306104263
+"Northwood, NH, United States",486,3,0.0222783306104263
+"Norwalk, WI, United States",486,3,0.0222783306104263
+"Ogden, UT, United States",486,3,0.0222783306104263
+"Orange, NJ, United States",486,3,0.0222783306104263
+"Penacook, NH, United States",486,3,0.0222783306104263
+"Phillipsburg, NJ, United States",486,3,0.0222783306104263
+"Pinellas Park, FL, United States",486,3,0.0222783306104263
+"Piqua, OH, United States",486,3,0.0222783306104263
+"Plattsburg, NY, United States",486,3,0.0222783306104263
+"Pocatello, ID, United States",486,3,0.0222783306104263
+"Pompano Beach, FL, United States",486,3,0.0222783306104263
+"Pullman, WA, United States",486,3,0.0222783306104263
+"Reno, NE, United States",486,3,0.0222783306104263
+"Rockland, ME, United States",486,3,0.0222783306104263
+"Roselle, NJ, United States",486,3,0.0222783306104263
+"Russian River, CA, United States",486,3,0.0222783306104263
+"Santa Monica Beach, CA, United States",486,3,0.0222783306104263
+"Seaford, NY, United States",486,3,0.0222783306104263
+"Sherman Oaks, CA, United States",486,3,0.0222783306104263
+"Somerville, NJ, United States",486,3,0.0222783306104263
+"Stroudsburg, PA, United States",486,3,0.0222783306104263
+"Suffolk County, NY, United States",486,3,0.0222783306104263
+"Tenants Harbor, ME, United States",486,3,0.0222783306104263
+"Texarkana, AR, United States",486,3,0.0222783306104263
+"The Hamptons, NY, United States",486,3,0.0222783306104263
+"Troy, MI, United States",486,3,0.0222783306104263
+"Waikiki Beach, HI, United States",486,3,0.0222783306104263
+"Walden, VT, United States",486,3,0.0222783306104263
+"Whidbey Island, WA, United States",486,3,0.0222783306104263
+"Winooski, VT, United States",486,3,0.0222783306104263
+"Winston, NC, United States",486,3,0.0222783306104263
+"Yachats, OR, United States",486,3,0.0222783306104263
+"Ybor City, FL, United States",486,3,0.0222783306104263
+"Yonkers, NY, United States",486,3,0.0222783306104263
+", GA, United States",592,2,0.0148522204069508
+", MD, United States",592,2,0.0148522204069508
+", NM, United States",592,2,0.0148522204069508
+", PA, United States",592,2,0.0148522204069508
+", SD, United States",592,2,0.0148522204069508
+"Aguas Buenas, PR, United States",592,2,0.0148522204069508
+"Amagansett, NY, United States",592,2,0.0148522204069508
+"Annapolis, MD, United States",592,2,0.0148522204069508
+"Appleton, WI, United States",592,2,0.0148522204069508
+"Ashland Village, NH, United States",592,2,0.0148522204069508
+"Bailey, CO, United States",592,2,0.0148522204069508
+"Barberton, OH, United States",592,2,0.0148522204069508
+"Bayville, NY, United States",592,2,0.0148522204069508
+"Bellevue, WA, United States",592,2,0.0148522204069508
+"Berea, OH, United States",592,2,0.0148522204069508
+"Berkley, CA, United States",592,2,0.0148522204069508
+"Berkley/Oakland, CA, United States",592,2,0.0148522204069508
+"Binghampton, NY, United States",592,2,0.0148522204069508
+"Bismarck, ND, United States",592,2,0.0148522204069508
+"Black Rock, CT, United States",592,2,0.0148522204069508
+"Boca Grande, FL, United States",592,2,0.0148522204069508
+"Bossier City, LA, United States",592,2,0.0148522204069508
+"Bowie, MD, United States",592,2,0.0148522204069508
+"Breckenridge, CO, United States",592,2,0.0148522204069508
+"Brookylyn, NY, United States",592,2,0.0148522204069508
+"Calais, ME, United States",592,2,0.0148522204069508
+"Canoga Park, CA, United States",592,2,0.0148522204069508
+"Cape Coral, FL, United States",592,2,0.0148522204069508
+"Cherry Grove, NY, United States",592,2,0.0148522204069508
+"Claremont, CA, United States",592,2,0.0148522204069508
+"Clarksburg, VA, United States",592,2,0.0148522204069508
+"Clarksburg, WV, United States",592,2,0.0148522204069508
+"Cocoa, FL, United States",592,2,0.0148522204069508
+"Columbus, IN, United States",592,2,0.0148522204069508
+"Condado, PR, United States",592,2,0.0148522204069508
+"Conneaut Lake, PA, United States",592,2,0.0148522204069508
+"Copiaque, NY, United States",592,2,0.0148522204069508
+"Corpus Christie, TX, United States",592,2,0.0148522204069508
+"Corte Madera, CA, United States",592,2,0.0148522204069508
+"Corvallis, OR, United States",592,2,0.0148522204069508
+"Counce, TN, United States",592,2,0.0148522204069508
+"Dade County, FL, United States",592,2,0.0148522204069508
+"De Kalb, IL, United States",592,2,0.0148522204069508
+"Dekalb, IL, United States",592,2,0.0148522204069508
+"Doylestown, PA, United States",592,2,0.0148522204069508
+"Driggs, ID, United States",592,2,0.0148522204069508
+"East Lancing, MI, United States",592,2,0.0148522204069508
+"East Meadow, NY, United States",592,2,0.0148522204069508
+"East St Louis, IL, United States",592,2,0.0148522204069508
+"Elizabeth, PA, United States",592,2,0.0148522204069508
+"Encino, CA, United States",592,2,0.0148522204069508
+"Englewood, NJ, United States",592,2,0.0148522204069508
+"Evansville, IL, United States",592,2,0.0148522204069508
+"Fairfax, CA, United States",592,2,0.0148522204069508
+"Fairfield, CA, United States",592,2,0.0148522204069508
+"Falls Village, CT, United States",592,2,0.0148522204069508
+"Fanwood, NJ, United States",592,2,0.0148522204069508
+"Fayetteville, AK, United States",592,2,0.0148522204069508
+"Florence, MA, United States",592,2,0.0148522204069508
+"Fort Smith, AK, United States",592,2,0.0148522204069508
+"Fort Walton Beach, FL, United States",592,2,0.0148522204069508
+"Fremont, OH, United States",592,2,0.0148522204069508
+"Gaithersburg, MD, United States",592,2,0.0148522204069508
+"Galisteo, NM, United States",592,2,0.0148522204069508
+"Garwood, NJ, United States",592,2,0.0148522204069508
+"Glendale, CA, United States",592,2,0.0148522204069508
+"Gloucester, MA, United States",592,2,0.0148522204069508
+"Grand Junction, CO, United States",592,2,0.0148522204069508
+"Grant's Pass, OR, United States",592,2,0.0148522204069508
+"Greenbay, WI, United States",592,2,0.0148522204069508
+"Greenland, NH, United States",592,2,0.0148522204069508
+"Greenville, DE, United States",592,2,0.0148522204069508
+"Hackensack, NJ, United States",592,2,0.0148522204069508
+"Hamilton, OH, United States",592,2,0.0148522204069508
+"Hammond, IN, United States",592,2,0.0148522204069508
+"Harmonie Park, MI, United States",592,2,0.0148522204069508
+"Hathaway Pines/Murphy's, CA, United States",592,2,0.0148522204069508
+"Haverhill, MA, United States",592,2,0.0148522204069508
+"Hawthorne, CA, United States",592,2,0.0148522204069508
+"Hermiston, OR, United States",592,2,0.0148522204069508
+"Hickory, NC, United States",592,2,0.0148522204069508
+"Hicksville, NY, United States",592,2,0.0148522204069508
+"Holland, MI, United States",592,2,0.0148522204069508
+"Hutchinson, KS, United States",592,2,0.0148522204069508
+"Ipswich, MA, United States",592,2,0.0148522204069508
+"Jackson, MI, United States",592,2,0.0148522204069508
+"Juneau, AK, United States",592,2,0.0148522204069508
+"Kenosha, WI, United States",592,2,0.0148522204069508
+"Kettering, OH, United States",592,2,0.0148522204069508
+"Lafayette, IN, United States",592,2,0.0148522204069508
+"Lakewood, OH, United States",592,2,0.0148522204069508
+"Landisville, NJ, United States",592,2,0.0148522204069508
+"Landisville, PA, United States",592,2,0.0148522204069508
+"Largo, MD, United States",592,2,0.0148522204069508
+"Latham, NY, United States",592,2,0.0148522204069508
+"Laurel, MD, United States",592,2,0.0148522204069508
+"Lennox, MA, United States",592,2,0.0148522204069508
+"Little River, CA, United States",592,2,0.0148522204069508
+"Little Rock, AK, United States",592,2,0.0148522204069508
+"Littleton, NH, United States",592,2,0.0148522204069508
+"Liverpool, NY, United States",592,2,0.0148522204069508
+"Madeira Beach, FL, United States",592,2,0.0148522204069508
+"Marin County, CA, United States",592,2,0.0148522204069508
+"McAllen, TX, United States",592,2,0.0148522204069508
+"Medeira Beach, FL, United States",592,2,0.0148522204069508
+"Monroe, OH, United States",592,2,0.0148522204069508
+"Montgomery, NJ, United States",592,2,0.0148522204069508
+"Morris County, NJ, United States",592,2,0.0148522204069508
+"Morris Township, NJ, United States",592,2,0.0148522204069508
+"Natrona Heights, PA, United States",592,2,0.0148522204069508
+"New Milford, CT, United States",592,2,0.0148522204069508
+"Nimitz, WV, United States",592,2,0.0148522204069508
+"Norman, OK, United States",592,2,0.0148522204069508
+"North Conway, NH, United States",592,2,0.0148522204069508
+"North Quincy, MA, United States",592,2,0.0148522204069508
+"Oakland, PA, United States",592,2,0.0148522204069508
+"Ocean Park Beach, CA, United States",592,2,0.0148522204069508
+"Ogden, TX, United States",592,2,0.0148522204069508
+"Ontario, CA, United States",592,2,0.0148522204069508
+"Owendale, MI, United States",592,2,0.0148522204069508
+"Paducah, KY, United States",592,2,0.0148522204069508
+"Parksburg, WV, United States",592,2,0.0148522204069508
+"Penn Hills, PA, United States",592,2,0.0148522204069508
+"Penobscot, ME, United States",592,2,0.0148522204069508
+"Petaluma, CA, United States",592,2,0.0148522204069508
+"Piermont, NY, United States",592,2,0.0148522204069508
+"Pineland, FL, United States",592,2,0.0148522204069508
+"Plainfield, NJ, United States",592,2,0.0148522204069508
+"Plattsburgh, NY, United States",592,2,0.0148522204069508
+"Pleasant Hill, CA, United States",592,2,0.0148522204069508
+"Plymouth, MA, United States",592,2,0.0148522204069508
+"Pocono Mountains, PA, United States",592,2,0.0148522204069508
+"Portsmouth, ME, United States",592,2,0.0148522204069508
+"Pueblo, CO, United States",592,2,0.0148522204069508
+"Punta Gorda, FL, United States",592,2,0.0148522204069508
+"Reseda, CA, United States",592,2,0.0148522204069508
+"Richmond, IN, United States",592,2,0.0148522204069508
+"Rockbridge, OH, United States",592,2,0.0148522204069508
+"San Bernadino, CA, United States",592,2,0.0148522204069508
+"Sandy, OR, United States",592,2,0.0148522204069508
+"Scotrun, PA, United States",592,2,0.0148522204069508
+"Shohola, PA, United States",592,2,0.0148522204069508
+"Skillman, NJ, United States",592,2,0.0148522204069508
+"Smithsfield, RI, United States",592,2,0.0148522204069508
+"Sonoma County, CA, United States",592,2,0.0148522204069508
+"Sonora, CA, United States",592,2,0.0148522204069508
+"Stanford, CA, United States",592,2,0.0148522204069508
+"Sunny Valley, OR, United States",592,2,0.0148522204069508
+"Sylvan Beach, NY, United States",592,2,0.0148522204069508
+"Taos, NM, United States",592,2,0.0148522204069508
+"The Pines, NY, United States",592,2,0.0148522204069508
+"Topanga, CA, United States",592,2,0.0148522204069508
+"Towson, MD, United States",592,2,0.0148522204069508
+"Traverse City, MI, United States",592,2,0.0148522204069508
+"Traverse, MI, United States",592,2,0.0148522204069508
+"Tri-Cities, WA, United States",592,2,0.0148522204069508
+"Uniondale, NY, United States",592,2,0.0148522204069508
+"Van Nuys - Sherman Oaks, CA, United States",592,2,0.0148522204069508
+"Venice Beach, CA, United States",592,2,0.0148522204069508
+"Vineyard Haven, MA, United States",592,2,0.0148522204069508
+"Wallington, NJ, United States",592,2,0.0148522204069508
+"Ware, MA, United States",592,2,0.0148522204069508
+"Wayne, NJ, United States",592,2,0.0148522204069508
+"Wells, ME, United States",592,2,0.0148522204069508
+"West Lafayette, IN, United States",592,2,0.0148522204069508
+"Wheaton, MD, United States",592,2,0.0148522204069508
+"Whitestone, NY, United States",592,2,0.0148522204069508
+"Wilkes-Barre, PA, United States",592,2,0.0148522204069508
+"Winchester, VA, United States",592,2,0.0148522204069508
+"Winter, WI, United States",592,2,0.0148522204069508
+"Woodland Hills, CA, United States",592,2,0.0148522204069508
+", AK, United States",763,1,0.00742611020347542
+", CT, United States",763,1,0.00742611020347542
+", IN, United States",763,1,0.00742611020347542
+", MT, United States",763,1,0.00742611020347542
+", NC, United States",763,1,0.00742611020347542
+", OR, United States",763,1,0.00742611020347542
+", TN, United States",763,1,0.00742611020347542
+", TX, United States",763,1,0.00742611020347542
+", WY, United States",763,1,0.00742611020347542
+"Aberdeen, SD, United States",763,1,0.00742611020347542
+"Ada, OK, United States",763,1,0.00742611020347542
+"Albany, GA, United States",763,1,0.00742611020347542
+"Altadena, CA, United States",763,1,0.00742611020347542
+"Anaheim, CA, United States",763,1,0.00742611020347542
+"Angels Camp, CA, United States",763,1,0.00742611020347542
+"Annandale-On-Hudson, NY, United States",763,1,0.00742611020347542
+"Antioch, IL, United States",763,1,0.00742611020347542
+"Arlington, TX, United States",763,1,0.00742611020347542
+"Armarillo, TX, United States",763,1,0.00742611020347542
+"Ascutney Valley, VT, United States",763,1,0.00742611020347542
+"Ashby, MA, United States",763,1,0.00742611020347542
+"Ashford-Medford-Grants Pass, OR, United States",763,1,0.00742611020347542
+"Athens, OH, United States",763,1,0.00742611020347542
+"Athens, VT, United States",763,1,0.00742611020347542
+"Atoona, PA, United States",763,1,0.00742611020347542
+"Auberry, CA, United States",763,1,0.00742611020347542
+"Aubrun, AL, United States",763,1,0.00742611020347542
+"Augusta, FL, United States",763,1,0.00742611020347542
+"Aurora, CO, United States",763,1,0.00742611020347542
+"Barrington, NH, United States",763,1,0.00742611020347542
+"Bayshore, NY, United States",763,1,0.00742611020347542
+"Belleville, IL, United States",763,1,0.00742611020347542
+"Belluve, NE, United States",763,1,0.00742611020347542
+"Belmont, MA, United States",763,1,0.00742611020347542
+"Benecia, CA, United States",763,1,0.00742611020347542
+"Berkeley Springs, WV, United States",763,1,0.00742611020347542
+"Beverly Hills, CA, United States",763,1,0.00742611020347542
+"Big Horn Basis, WY, United States",763,1,0.00742611020347542
+"Bishop, CA, United States",763,1,0.00742611020347542
+"Boonville, CA, United States",763,1,0.00742611020347542
+"Bowling Green, OH, United States",763,1,0.00742611020347542
+"Bradenton, FL, United States",763,1,0.00742611020347542
+"Bradford, OH, United States",763,1,0.00742611020347542
+"Bridgehampton, NY, United States",763,1,0.00742611020347542
+"Brockton, MA, United States",763,1,0.00742611020347542
+"Broome County, NY, United States",763,1,0.00742611020347542
+"Campbell, CA, United States",763,1,0.00742611020347542
+"Cape Canaveral, FL, United States",763,1,0.00742611020347542
+"Cape Cod Area, MA, United States",763,1,0.00742611020347542
+"Central Fall, RI, United States",763,1,0.00742611020347542
+"Central Islip, NY, United States",763,1,0.00742611020347542
+"Ceour d'Alene, ID, United States",763,1,0.00742611020347542
+"Chambersburg, PA, United States",763,1,0.00742611020347542
+"Chester, PA, United States",763,1,0.00742611020347542
+"Chicopee, MA, United States",763,1,0.00742611020347542
+"Chittango, NY, United States",763,1,0.00742611020347542
+"Chittenango, NY, United States",763,1,0.00742611020347542
+"Clarence Center, NY, United States",763,1,0.00742611020347542
+"Clayton, MO, United States",763,1,0.00742611020347542
+"Cle Elum, WA, United States",763,1,0.00742611020347542
+"Clyde, OH, United States",763,1,0.00742611020347542
+"Coca, FL, United States",763,1,0.00742611020347542
+"Cocoa Beach, FL, United States",763,1,0.00742611020347542
+"Coeur d'Alene, ID, United States",763,1,0.00742611020347542
+"College Park, MD, United States",763,1,0.00742611020347542
+"Concord, CA, United States",763,1,0.00742611020347542
+"Contocook, NH, United States",763,1,0.00742611020347542
+"Convent Station, NJ, United States",763,1,0.00742611020347542
+"Coos Bay, OR, United States",763,1,0.00742611020347542
+"Corrales, NM, United States",763,1,0.00742611020347542
+"Covelo, CA, United States",763,1,0.00742611020347542
+"Covina, CA, United States",763,1,0.00742611020347542
+"Craryville, NY, United States",763,1,0.00742611020347542
+"Cresson, OR, United States",763,1,0.00742611020347542
+"Daly CIty, CA, United States",763,1,0.00742611020347542
+"Dorchester, MA, United States",763,1,0.00742611020347542
+"Douglas, WY, United States",763,1,0.00742611020347542
+"Dover, NH, United States",763,1,0.00742611020347542
+"Dumont, NJ, United States",763,1,0.00742611020347542
+"Duncansville, OR, United States",763,1,0.00742611020347542
+"Durham, CA, United States",763,1,0.00742611020347542
+"Eagle River, AK, United States",763,1,0.00742611020347542
+"East Stroudsberg, PA, United States",763,1,0.00742611020347542
+"East Worcester, NY, United States",763,1,0.00742611020347542
+"Easthampton, MA, United States",763,1,0.00742611020347542
+"El Sobrante, CA, United States",763,1,0.00742611020347542
+"Ellensburg, WA, United States",763,1,0.00742611020347542
+"Ellicott City, MD, United States",763,1,0.00742611020347542
+"Ellsworth, ME, United States",763,1,0.00742611020347542
+"Elmwood Park, NJ, United States",763,1,0.00742611020347542
+"Elyria, OH, United States",763,1,0.00742611020347542
+"Emeryville, CA, United States",763,1,0.00742611020347542
+"Engelwood, NJ, United States",763,1,0.00742611020347542
+"Erie, OR, United States",763,1,0.00742611020347542
+"Estacada, OR, United States",763,1,0.00742611020347542
+"Eureka Springs, AK, United States",763,1,0.00742611020347542
+"Fairfield, CT, United States",763,1,0.00742611020347542
+"Falls River, MA, United States",763,1,0.00742611020347542
+"Farmingdale, NY, United States",763,1,0.00742611020347542
+"Farmingville, NY, United States",763,1,0.00742611020347542
+"Fernandina Beach, FL, United States",763,1,0.00742611020347542
+"Fitchburg, MA, United States",763,1,0.00742611020347542
+"Flushing, NY, United States",763,1,0.00742611020347542
+"Fond-Du-Lac, WI, United States",763,1,0.00742611020347542
+"Forest Hills, NY, United States",763,1,0.00742611020347542
+"Fort Bragg, CA, United States",763,1,0.00742611020347542
+"Fort Collins, WY, United States",763,1,0.00742611020347542
+"Fort Myers Beach, FL, United States",763,1,0.00742611020347542
+"Franklin, NC, United States",763,1,0.00742611020347542
+"Gadsden, AL, United States",763,1,0.00742611020347542
+"Gadsen, AL, United States",763,1,0.00742611020347542
+"Gainsville, FL, United States",763,1,0.00742611020347542
+"Gallup, NM, United States",763,1,0.00742611020347542
+"Genesee Valley, NY, United States",763,1,0.00742611020347542
+"Germantown, OR, United States",763,1,0.00742611020347542
+"Glassboro, NJ, United States",763,1,0.00742611020347542
+"Glen Ellen, CA, United States",763,1,0.00742611020347542
+"Glenrose, TX, United States",763,1,0.00742611020347542
+"Grand Forks, ND, United States",763,1,0.00742611020347542
+"Grandisland, NE, United States",763,1,0.00742611020347542
+"Grants Pass, OR, United States",763,1,0.00742611020347542
+"Greeley, CO, United States",763,1,0.00742611020347542
+"Greenville, NC, United States",763,1,0.00742611020347542
+"Guttenberg, NJ, United States",763,1,0.00742611020347542
+"Hallandale, FL, United States",763,1,0.00742611020347542
+"Hanover, NH, United States",763,1,0.00742611020347542
+"Hattiesburg, MS, United States",763,1,0.00742611020347542
+"Hazelton, PA, United States",763,1,0.00742611020347542
+"Hazleton, PA, United States",763,1,0.00742611020347542
+"Highland Park, MI, United States",763,1,0.00742611020347542
+"Hilton Head, SC, United States",763,1,0.00742611020347542
+"Holden, NC, United States",763,1,0.00742611020347542
+"Honor, MI, United States",763,1,0.00742611020347542
+"Hopland/Talmadge, CA, United States",763,1,0.00742611020347542
+"Hot Springs, AK, United States",763,1,0.00742611020347542
+"Huachuca, AZ, United States",763,1,0.00742611020347542
+"Hummelstown, PA, United States",763,1,0.00742611020347542
+"Huntington Sation, NY, United States",763,1,0.00742611020347542
+"Idaho Falls, ID, United States",763,1,0.00742611020347542
+"Inglewood, CA, United States",763,1,0.00742611020347542
+"Irvine, CA, United States",763,1,0.00742611020347542
+"Irvington, NJ, United States",763,1,0.00742611020347542
+"Islip, NY, United States",763,1,0.00742611020347542
+"Jackson, WY, United States",763,1,0.00742611020347542
+"Jefferson Township, NJ, United States",763,1,0.00742611020347542
+"Kanab, UT, United States",763,1,0.00742611020347542
+"Kauia, HI, United States",763,1,0.00742611020347542
+"Kennewick, WA, United States",763,1,0.00742611020347542
+"Kingston, NJ, United States",763,1,0.00742611020347542
+"Klamath Fall, OR, United States",763,1,0.00742611020347542
+"Kurtistown, HI, United States",763,1,0.00742611020347542
+"La Grande, OR, United States",763,1,0.00742611020347542
+"Lake Arrowhead, CA, United States",763,1,0.00742611020347542
+"Lake Hoptacong, NJ, United States",763,1,0.00742611020347542
+"Lake Monroe, NY, United States",763,1,0.00742611020347542
+"Lake Ronkonkona, NY, United States",763,1,0.00742611020347542
+"Lancaster, CA, United States",763,1,0.00742611020347542
+"Lancing, MI, United States",763,1,0.00742611020347542
+"Laramie, WY, United States",763,1,0.00742611020347542
+"Larkspur, CA, United States",763,1,0.00742611020347542
+"Lebanon, VT, United States",763,1,0.00742611020347542
+"Leominster, MA, United States",763,1,0.00742611020347542
+"Lewiston, ID, United States",763,1,0.00742611020347542
+"Lewsiton, ME, United States",763,1,0.00742611020347542
+"Lincoln City, OR, United States",763,1,0.00742611020347542
+"Lithia, FL, United States",763,1,0.00742611020347542
+"Little Rock, WA, United States",763,1,0.00742611020347542
+"Littletown, NH, United States",763,1,0.00742611020347542
+"Livonia, MI, United States",763,1,0.00742611020347542
+"Loraine, OH, United States",763,1,0.00742611020347542
+"Los Altos, CA, United States",763,1,0.00742611020347542
+"MT Clemens, MI, United States",763,1,0.00742611020347542
+"Macomb, IL, United States",763,1,0.00742611020347542
+"Magset, ME, United States",763,1,0.00742611020347542
+"Mahwah, NJ, United States",763,1,0.00742611020347542
+"Maplewood, NJ, United States",763,1,0.00742611020347542
+"March's Hook, OR, United States",763,1,0.00742611020347542
+"Marrietta, PA, United States",763,1,0.00742611020347542
+"Matthews, CA, United States",763,1,0.00742611020347542
+"Mays Landing, NJ, United States",763,1,0.00742611020347542
+"Maywood, NJ, United States",763,1,0.00742611020347542
+"McLeansville, NC, United States",763,1,0.00742611020347542
+"Medford, OR, United States",763,1,0.00742611020347542
+"Melrose Park, IL, United States",763,1,0.00742611020347542
+"Menasha, WI, United States",763,1,0.00742611020347542
+"Merritt Island, FL, United States",763,1,0.00742611020347542
+"Mesa, AZ, United States",763,1,0.00742611020347542
+"Mill Valley, CA, United States",763,1,0.00742611020347542
+"Mississippi, MS, United States",763,1,0.00742611020347542
+"Monroe, NY, United States",763,1,0.00742611020347542
+"Montclair, NJ, United States",763,1,0.00742611020347542
+"Monteclair, PA, United States",763,1,0.00742611020347542
+"Montgomery County, MD, United States",763,1,0.00742611020347542
+"Montgomery, MD, United States",763,1,0.00742611020347542
+"Montpelier, VT, United States",763,1,0.00742611020347542
+"Mount Pleasant, MI, United States",763,1,0.00742611020347542
+"Myrtle Beach, SC, United States",763,1,0.00742611020347542
+"NM, NM, United States",763,1,0.00742611020347542
+"Narbeth, PA, United States",763,1,0.00742611020347542
+"Navarro, CA, United States",763,1,0.00742611020347542
+"Nazareth, OR, United States",763,1,0.00742611020347542
+"Nevada City, CA, United States",763,1,0.00742611020347542
+"New Britain, CT, United States",763,1,0.00742611020347542
+"New Hope, OR, United States",763,1,0.00742611020347542
+"New Paltz, NY, United States",763,1,0.00742611020347542
+"New Rochelle, NY, United States",763,1,0.00742611020347542
+"Newport Beach, CA, United States",763,1,0.00742611020347542
+"North Adams, MA, United States",763,1,0.00742611020347542
+"North Dartmouth, MA, United States",763,1,0.00742611020347542
+"North Hudson, NY, United States",763,1,0.00742611020347542
+"North Merrick, NY, United States",763,1,0.00742611020347542
+"North Plymouth, MA, United States",763,1,0.00742611020347542
+"North Smithfield, RI, United States",763,1,0.00742611020347542
+"Northridge, CA, United States",763,1,0.00742611020347542
+"Norwalk, CT, United States",763,1,0.00742611020347542
+"O'Brien, OR, United States",763,1,0.00742611020347542
+"Oahu, HI, United States",763,1,0.00742611020347542
+"Oak Ridge Farm, TN, United States",763,1,0.00742611020347542
+"Oakhurst, CA, United States",763,1,0.00742611020347542
+"Oakland, NJ, United States",763,1,0.00742611020347542
+"Oaklyn, NJ, United States",763,1,0.00742611020347542
+"Oceanside, CA, United States",763,1,0.00742611020347542
+"Odessa, NY, United States",763,1,0.00742611020347542
+"Old Town, ME, United States",763,1,0.00742611020347542
+"Old Westbury, NY, United States",763,1,0.00742611020347542
+"Oneonta, NY, United States",763,1,0.00742611020347542
+"Opa-Locka, FL, United States",763,1,0.00742611020347542
+"Orange, CA, United States",763,1,0.00742611020347542
+"Owensboro, KY, United States",763,1,0.00742611020347542
+"Oxnard, CA, United States",763,1,0.00742611020347542
+"Oxon Hill, MD, United States",763,1,0.00742611020347542
+"Pahala, HI, United States",763,1,0.00742611020347542
+"Pahoa, HI, United States",763,1,0.00742611020347542
+"Parma Heights, OH, United States",763,1,0.00742611020347542
+"Passaic, NJ, United States",763,1,0.00742611020347542
+"Phoenixville, PA, United States",763,1,0.00742611020347542
+"Pinellas County, FL, United States",763,1,0.00742611020347542
+"Pique, OH, United States",763,1,0.00742611020347542
+"Pittsburgh, OH, United States",763,1,0.00742611020347542
+"Plainwell, MI, United States",763,1,0.00742611020347542
+"Plymouth, MI, United States",763,1,0.00742611020347542
+"Plymouth, NH, United States",763,1,0.00742611020347542
+"Point Richmond, CA, United States",763,1,0.00742611020347542
+"Port Costa, CA, United States",763,1,0.00742611020347542
+"Portola Valley, CA, United States",763,1,0.00742611020347542
+"Prescott, AZ, United States",763,1,0.00742611020347542
+"Putney, VT, United States",763,1,0.00742611020347542
+"Rancho Mirage, CA, United States",763,1,0.00742611020347542
+"Randallstown, MD, United States",763,1,0.00742611020347542
+"Readfield, ME, United States",763,1,0.00742611020347542
+"Red Bank, NJ, United States",763,1,0.00742611020347542
+"Redlands, CA, United States",763,1,0.00742611020347542
+"Rendondo Beach, CA, United States",763,1,0.00742611020347542
+"Ringwood, NJ, United States",763,1,0.00742611020347542
+"Riveredge, NJ, United States",763,1,0.00742611020347542
+"Rockland, NY, United States",763,1,0.00742611020347542
+"Rockport, ME, United States",763,1,0.00742611020347542
+"Rodchester, NY, United States",763,1,0.00742611020347542
+"Rogersville, TN, United States",763,1,0.00742611020347542
+"Rogue River, OR, United States",763,1,0.00742611020347542
+"Ronkonkona, NY, United States",763,1,0.00742611020347542
+"Rosenburg, OR, United States",763,1,0.00742611020347542
+"Roxbury, MA, United States",763,1,0.00742611020347542
+"Royal Oak, MI, United States",763,1,0.00742611020347542
+"Rubdoux, CA, United States",763,1,0.00742611020347542
+"Rubidoux, CA, United States",763,1,0.00742611020347542
+"Saint Croix, VI, United States",763,1,0.00742611020347542
+"Saint Croix, Virgin Islands, United States",763,1,0.00742611020347542
+"Salem, MA, United States",763,1,0.00742611020347542
+"Salem, OH, United States",763,1,0.00742611020347542
+"Salute Ste. Marie, MI, United States",763,1,0.00742611020347542
+"San Gabrael, CA, United States",763,1,0.00742611020347542
+"San Juan Pueblo, NM, United States",763,1,0.00742611020347542
+"Santa Anna, CA, United States",763,1,0.00742611020347542
+"Santurce, PR, United States",763,1,0.00742611020347542
+"Saratoga Springs, NY, United States",763,1,0.00742611020347542
+"Saulte Ste. Marie, MI, United States",763,1,0.00742611020347542
+"Sayerville, NJ, United States",763,1,0.00742611020347542
+"Sayreville, NJ, United States",763,1,0.00742611020347542
+"Seaview, WA, United States",763,1,0.00742611020347542
+"Selden, NY, United States",763,1,0.00742611020347542
+"Seneca Falls, NY, United States",763,1,0.00742611020347542
+"Sepulveda, CA, United States",763,1,0.00742611020347542
+"Shaftesbury, VT, United States",763,1,0.00742611020347542
+"Shelburne Falls, MA, United States",763,1,0.00742611020347542
+"Simpson, MD, United States",763,1,0.00742611020347542
+"Sioux City, IA, United States",763,1,0.00742611020347542
+"Smithtown, NY, United States",763,1,0.00742611020347542
+"Sonoma, CA, United States",763,1,0.00742611020347542
+"South Amherst, MA, United States",763,1,0.00742611020347542
+"South Beach, NY, United States",763,1,0.00742611020347542
+"South Haven, MI, United States",763,1,0.00742611020347542
+"South Padre Island, TX, United States",763,1,0.00742611020347542
+"Southfield, MI, United States",763,1,0.00742611020347542
+"Southington, CT, United States",763,1,0.00742611020347542
+"Springfield, IN, United States",763,1,0.00742611020347542
+"Springfield, PA, United States",763,1,0.00742611020347542
+"St Joseph, MO, United States",763,1,0.00742611020347542
+"St. Augustin's, FL, United States",763,1,0.00742611020347542
+"St. Huntington, NY, United States",763,1,0.00742611020347542
+"St. Paul, AZ, United States",763,1,0.00742611020347542
+"St. Thomas, VI, United States",763,1,0.00742611020347542
+"St. Thomas, Virgin Islands, United States",763,1,0.00742611020347542
+"Stateline, NV, United States",763,1,0.00742611020347542
+"Statewide, CO, United States",763,1,0.00742611020347542
+"Streamwood, IL, United States",763,1,0.00742611020347542
+"Stroundsburg, PA, United States",763,1,0.00742611020347542
+"Stubenville, OH, United States",763,1,0.00742611020347542
+"Suffern, NY, United States",763,1,0.00742611020347542
+"Susquehanna, PA, United States",763,1,0.00742611020347542
+"Teaneck, NJ, United States",763,1,0.00742611020347542
+"Torrance, CA, United States",763,1,0.00742611020347542
+"Troy, NY, United States",763,1,0.00742611020347542
+"Tuscalloosa, AL, United States",763,1,0.00742611020347542
+"Tynesboro, MA, United States",763,1,0.00742611020347542
+"Urbaba, IL, United States",763,1,0.00742611020347542
+"Uxen Hill, MD, United States",763,1,0.00742611020347542
+"Vail, AZ, United States",763,1,0.00742611020347542
+"Valdosta, GA, United States",763,1,0.00742611020347542
+"Valley Stream, NY, United States",763,1,0.00742611020347542
+"Vancouver, WA, United States",763,1,0.00742611020347542
+"Wainscott, NY, United States",763,1,0.00742611020347542
+"Wakefield, MA, United States",763,1,0.00742611020347542
+"Walhala, MI, United States",763,1,0.00742611020347542
+"Waltham, MA, United States",763,1,0.00742611020347542
+"Wascott, WI, United States",763,1,0.00742611020347542
+"Washington, NJ, United States",763,1,0.00742611020347542
+"Waterford, CT, United States",763,1,0.00742611020347542
+"Waterville, ME, United States",763,1,0.00742611020347542
+"Wausau, WI, United States",763,1,0.00742611020347542
+"West Babylon, NY, United States",763,1,0.00742611020347542
+"West Park, NY, United States",763,1,0.00742611020347542
+"West Wainscott, NY, United States",763,1,0.00742611020347542
+"Westchester, NY, United States",763,1,0.00742611020347542
+"Western Michigan University, MI, United States",763,1,0.00742611020347542
+"White Haven, PA, United States",763,1,0.00742611020347542
+"White Plains, NY, United States",763,1,0.00742611020347542
+"White-Plains, NY, United States",763,1,0.00742611020347542
+"Willingboro, NJ, United States",763,1,0.00742611020347542
+"Willington, NC, United States",763,1,0.00742611020347542
+"Windham, NY, United States",763,1,0.00742611020347542
+"Winooksi, VT, United States",763,1,0.00742611020347542
+"Woodacre, CA, United States",763,1,0.00742611020347542
+"Woodbridge, NJ, United States",763,1,0.00742611020347542
+"Wyandotte, MI, United States",763,1,0.00742611020347542
+"Wyanotte, MI, United States",763,1,0.00742611020347542
+"Yorkville, NY, United States",763,1,0.00742611020347542
