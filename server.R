@@ -78,5 +78,21 @@ function(input, output, session) {
     })
   })
   
- 
-}
+
+observeEvent(event_data("plotly_selected", source = "map"), {
+  # Get the selected points from the map
+  selected_points <- event_data("plotly_selected", source = "map")
+
+  # Check if there are any selected points
+  if (!is.null(selected_points)) {
+    # Extract the necessary data from the selected points
+    selected_data <- selected_points$x
+
+    # Filter the data frame based on the selected data
+    filtered_data <- mgg.gg.data[mgg.gg.data$geocode.value %in% selected_data, ]
+
+    # Update the table with the filtered data frame
+    output$dtable <- renderDT({filtered_data})
+  }
+})
+})
