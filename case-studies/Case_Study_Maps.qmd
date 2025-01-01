@@ -4,95 +4,182 @@ format: html
 editor: visual
 ---
 
-Combined GG and MGG data
-
-``` R
-{r}
-combined_MGG_GG <- readRDS(~/MGG-LC-Data/case-studies/combined_MGG_GG.rds)
-```
-
-Portland
+Full Map: Detroit, Dallas, Portland
 
 ```{r}
 library(dplyr)
 library(leaflet)
 
-combined_MGG_GG
+# Define a custom palette
+custom_colors <- c(
+  "Damron's Guide" = "#82e0aa",
+  "Gaia's Guide" = "#a569bd"
+)
 
+color_palette <- colorFactor(
+  palette = custom_colors,
+  domain = filtered_MGG_GG$publication
+)
+
+
+# Create the map
+map <- leaflet(data = filtered_MGG_GG) %>%
+  addTiles() %>%  # Add default OpenStreetMap tiles
+  addCircleMarkers(
+    ~lon, ~lat,  # Longitude and Latitude
+    color = ~color_palette(publication),  # Circle border color based on publication
+    fillColor = ~color_palette(publication),  # Circle fill color based on publication
+    fillOpacity = 0.7,
+    radius = 8,  # Circle size
+    popup = ~paste(
+      "<b>Title:</b>", title,
+      "<br><b>Type:</b>", type,
+      "<br><b>Address:</b>", address,
+      "<br><b>Publication:</b>", publication,
+      "<br><b>City:</b>", city,
+      "<br><b>State:</b>", state,
+      "<br><b>Latitude:</b>", lat,
+      "<br><b>Longitude:</b>", lon
+    )  # Popup with additional fields
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    pal = color_palette,
+    values = ~publication,
+    title = "Publication",
+    opacity = 0.7
+  )
+
+# Display the map
+map
+
+```
+
+Dallas Map
+
+```{r}
 # Filter by specific city and state
-Portland_data <- combined_MGG_GG %>%
+Dallas_data <- filtered_MGG_GG %>%
+  filter(city == "Dallas", state == "TX")
+
+# Remove duplicate locations (if any)
+Dallas_data_unique <- Dallas_data %>%
+  distinct(lat, lon, .keep_all = TRUE)
+
+# Create the map
+Dallas_map <- leaflet(data = Dallas_data_unique) %>%
+  addTiles() %>%  # Add default OpenStreetMap tiles
+  addCircleMarkers(
+    ~lon, ~lat,  # Longitude and Latitude
+    color = ~color_palette(publication),  # Circle border color based on publication
+    fillColor = ~color_palette(publication),  # Circle fill color based on publication
+    fillOpacity = 0.7,
+    radius = 8,  # Circle size
+    popup = ~paste(
+      "<b>Title:</b>", title,
+      "<br><b>Type:</b>", type,
+      "<br><b>Address:</b>", address,
+      "<br><b>Publication:</b>", publication,
+      "<br><b>City:</b>", city,
+      "<br><b>State:</b>", state,
+      "<br><b>Latitude:</b>", lat,
+      "<br><b>Longitude:</b>", lon
+    )  # Popup with additional fields
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    pal = color_palette,
+    values = ~publication,
+    title = "Publication",
+    opacity = 0.7
+  )
+
+# Display the map
+Dallas_map
+```
+
+Portland Map
+
+```{r}
+# Filter by specific city and state
+Portland_data <- filtered_MGG_GG %>%
   filter(city == "Portland", state == "OR")
 
 # Remove duplicate locations (if any)
 Portland_data_unique <- Portland_data %>%
   distinct(lat, lon, .keep_all = TRUE)
 
-# Create a leaflet map
+# Create the map
 Portland_map <- leaflet(data = Portland_data_unique) %>%
   addTiles() %>%  # Add default OpenStreetMap tiles
   addCircleMarkers(
-    ~lon, ~lat,   # Longitude and latitude for the circles
-    popup = ~title,  # Display location name on click
-    radius = 8,  # Size of the circle
-    color = "blue",  # Circle color
-    fillColor = "lightblue",
-    fillOpacity = 0.7
+    ~lon, ~lat,  # Longitude and Latitude
+    color = ~color_palette(publication),  # Circle border color based on publication
+    fillColor = ~color_palette(publication),  # Circle fill color based on publication
+    fillOpacity = 0.7,
+    radius = 8,  # Circle size
+    popup = ~paste(
+      "<b>Title:</b>", title,
+      "<br><b>Type:</b>", type,
+      "<br><b>Address:</b>", address,
+      "<br><b>Publication:</b>", publication,
+      "<br><b>City:</b>", city,
+      "<br><b>State:</b>", state,
+      "<br><b>Latitude:</b>", lat,
+      "<br><b>Longitude:</b>", lon
+    )  # Popup with additional fields
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    pal = color_palette,
+    values = ~publication,
+    title = "Publication",
+    opacity = 0.7
   )
 
-#view map
-Portland_map
-```
-
-Dallas
-
-```{r}
-# Filter by specific city and state
-Dallas_data <- combined_MGG_GG %>%
-  filter(city == "Dallas", state == "TX")
-
-# Remove duplicate locations (if any)
-Dallas_data_unique <- Portland_data %>%
-  distinct(lat, lon, .keep_all = TRUE)
-
-# Create a leaflet map
-Dallas_map <- leaflet(data = Dallas_data_unique) %>%
-  addTiles() %>%  # Add default OpenStreetMap tiles
-  addCircleMarkers(
-    ~lon, ~lat,   # Longitude and latitude for the circles
-    popup = ~title,  # Display location name on click
-    radius = 8,  # Size of the circle
-    color = "red",  # Circle color
-    fillColor = "pink",
-    fillOpacity = 0.7
-  )
-
-#view map
+# Display the map
 Dallas_map
 ```
 
-Detroit
+Detroit Map
 
 ```{r}
 # Filter by specific city and state
-Detroit_data <- combined_MGG_GG %>%
+Detroit_data <- filtered_MGG_GG %>%
   filter(city == "Detroit", state == "MI")
 
 # Remove duplicate locations (if any)
 Detroit_data_unique <- Detroit_data %>%
   distinct(lat, lon, .keep_all = TRUE)
 
-# Create a leaflet map
+# Create the map
 Detroit_map <- leaflet(data = Detroit_data_unique) %>%
   addTiles() %>%  # Add default OpenStreetMap tiles
   addCircleMarkers(
-    ~lon, ~lat,   # Longitude and latitude for the circles
-    popup = ~title,  # Display location name on click
-    radius = 8,  # Size of the circle
-    color = "green",  # Circle color
-    fillColor = "lightgreen",
-    fillOpacity = 0.7
+    ~lon, ~lat,  # Longitude and Latitude
+    color = ~color_palette(publication),  # Circle border color based on publication
+    fillColor = ~color_palette(publication),  # Circle fill color based on publication
+    fillOpacity = 0.7,
+    radius = 8,  # Circle size
+    popup = ~paste(
+      "<b>Title:</b>", title,
+      "<br><b>Type:</b>", type,
+      "<br><b>Address:</b>", address,
+      "<br><b>Publication:</b>", publication,
+      "<br><b>City:</b>", city,
+      "<br><b>State:</b>", state,
+      "<br><b>Latitude:</b>", lat,
+      "<br><b>Longitude:</b>", lon
+    )  # Popup with additional fields
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    pal = color_palette,
+    values = ~publication,
+    title = "Publication",
+    opacity = 0.7
   )
 
-#view map
+# Display the map
 Detroit_map
 ```

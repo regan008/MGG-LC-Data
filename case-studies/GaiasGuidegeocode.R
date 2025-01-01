@@ -144,20 +144,33 @@ combined_GGdata <- rbind(cleardata.geocoded, uncleardata.geocoded)
 
 
 #add MGG data
+MGdata <- read_csv("~/MGG-LC-Data/MGG-Data/data.csv")
 
-setwd("~/MGG-LC-Data")
-
-MGdata <- read_csv("geocoded_data.csv")
-
+#add publication column
 MGdata <- MGdata %>%
-  mutate(X = row_number())
+  mutate(publication = "Damron's Guide")
 
-MGData <- MGData %>%
-  mutate(X = as.integer(X))
+#rename address column
+MGdata <- MGdata %>%
+  rename(address = streetaddress)
 
-combined_GGdata <- combined_GGdata %>%
-  mutate(X = as.integer(X))
+#filter for case study cities
+states_to_include <- c("TX", "MI", "OR")  
+cities_to_include <- c("Dallas", "Detroit", "Oregon") 
+
+filtered_MGG <- combined_MGG_GG %>%
+  filter(state %in% states_to_include & city %in% cities_to_include)
 
 #combine dataframes
-combined_MGG_GG <- bind_rows(combined_GGdata, MGdata)
+combined_MGG_GG <- bind_rows(combined_GGdata, filtered_MGG)
+
+#filter out unclear addresses
+filtered_MGG_GG <- combined_MGG_GG %>%
+  filter(!is.na(address))
+
+
+# Save dataset as an RDS file
+saveRDS(filtered_MGG_GG, "~/MGG-LC-Data/case-studies/filtered_MGG_GG.rds")
+
+
 
