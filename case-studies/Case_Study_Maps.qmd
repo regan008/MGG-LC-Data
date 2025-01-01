@@ -9,6 +9,7 @@ Full Map: Detroit, Dallas, Portland
 ```{r}
 library(dplyr)
 library(leaflet)
+library(DT)
 
 # Define a custom palette
 custom_colors <- c(
@@ -50,8 +51,21 @@ map <- leaflet(data = filtered_MGG_GG) %>%
     opacity = 0.7
   )
 
-# Display the map
+# Create a paged table for unique titles
+unique_titles <- filtered_MGG_GG %>%
+  distinct(title) %>%
+  arrange(title)
+
+paged_table <- datatable(
+  unique_titles,
+  options = list(pageLength = 10),  # Number of rows per page
+  rownames = FALSE,
+  caption = "All Entries"
+)
+
+# Display both the map and the table (useful for R Markdown or Shiny)
 map
+paged_table
 
 ```
 
@@ -94,8 +108,21 @@ Dallas_map <- leaflet(data = Dallas_data_unique) %>%
     opacity = 0.7
   )
 
-# Display the map
+# Create a paged table for unique titles
+Dallas_unique_titles <- Dallas_data_unique %>%
+  distinct(title) %>%
+  arrange(title)
+
+Dallas_paged_table <- datatable(
+  Dallas_unique_titles,
+  options = list(pageLength = 10),  # Number of rows per page
+  rownames = FALSE,
+  caption = "Dallas Locations"
+)
+
+# Display both the map and the table
 Dallas_map
+Dallas_paged_table
 ```
 
 Portland Map
@@ -137,8 +164,21 @@ Portland_map <- leaflet(data = Portland_data_unique) %>%
     opacity = 0.7
   )
 
-# Display the map
-Dallas_map
+# Create a paged table for unique titles
+Portland_unique_titles <- Portland_data_unique %>%
+  distinct(title) %>%
+  arrange(title)
+
+Portland_paged_table <- datatable(
+  Portland_unique_titles,
+  options = list(pageLength = 10),  # Number of rows per page
+  rownames = FALSE,
+  caption = "Portland Locations"
+)
+
+# Display both the map and the table =
+Portland_map
+Portland_paged_table
 ```
 
 Detroit Map
@@ -180,6 +220,19 @@ Detroit_map <- leaflet(data = Detroit_data_unique) %>%
     opacity = 0.7
   )
 
-# Display the map
+# Create a paged table for unique titles
+Detroit_unique_titles <- Detroit_data_unique %>%
+  distinct(title) %>%
+  arrange(title)
+
+Detroit_paged_table <- datatable(
+  Detroit_unique_titles,
+  options = list(pageLength = 10),  # Number of rows per page
+  rownames = FALSE,
+  caption = "Detroit Locations"
+)
+
+# Display both the map and the table
 Detroit_map
+Detroit_paged_table
 ```
