@@ -11,6 +11,8 @@ library(dplyr)
 library(leaflet)
 library(DT)
 
+filtered_MGG_GG <- read.csv("~/MGG-LC-Data/case-studies/filtered_MGG_GG.csv")
+
 # Define a custom palette
 custom_colors <- c(
   "Damron's Guide" = "#82e0aa",
@@ -56,7 +58,7 @@ unique_titles <- filtered_MGG_GG %>%
   distinct(title, .keep_all = TRUE) %>%
   arrange(title)
 
-table_data <- unique_titles[, c("title", "description", "address")]
+table_data <- unique_titles[, c("title", "publication", "description", "address")]
 
 paged_table <- datatable(
   table_data,
@@ -115,7 +117,7 @@ Dallas_unique_titles <- filtered_MGG_GG %>%
   distinct(title, .keep_all = TRUE) %>%
   arrange(title)
 
-Dallas_table_data <- Dallas_unique_titles[, c("title", "description", "address")]
+Dallas_table_data <- Dallas_unique_titles[, c("title", "publication", "description", "address")]
 
 Dallas_paged_table <- datatable(
   Dallas_table_data,
@@ -174,13 +176,13 @@ Portland_unique_titles <- filtered_MGG_GG %>%
   distinct(title, .keep_all = TRUE) %>%
   arrange(title)
 
-Portland_table_data <- Portland_unique_titles[, c("title", "description", "address")]
+Portland_table_data <- Portland_unique_titles[, c("title", "publication", "description", "address")]
 
 Portland_paged_table <- datatable(
   Portland_table_data,
   options = list(pageLength = 10, scrollX = TRUE),
   rownames = FALSE,
-  caption = "Unique Locations Information"
+  caption = "Portland Locations"
 )
 
 
@@ -233,7 +235,7 @@ Detroit_unique_titles <- filtered_MGG_GG %>%
   distinct(title, .keep_all = TRUE) %>%
   arrange(title)
 
-Detroit_table_data <- Detroit_unique_titles[, c("title", "description", "address")]
+Detroit_table_data <- Detroit_unique_titles[, c("title", "publication", "description", "address")]
 
 Detroit_paged_table <- datatable(
   Detroit_table_data,

@@ -168,9 +168,8 @@ combined_MGG_GG <- bind_rows(combined_GGdata, filtered_MGG)
 filtered_MGG_GG <- combined_MGG_GG %>%
   filter(!is.na(address))
 
-
-# Save dataset as an RDS file
-saveRDS(filtered_MGG_GG, "~/MGG-LC-Data/case-studies/filtered_MGG_GG.rds")
+#save dataset as .csv
+write.csv(filtered_MGG_GG, "~/MGG-LC-Data/case-studies/filtered_MGG_GG.csv", row.names = FALSE)
 
 
 
