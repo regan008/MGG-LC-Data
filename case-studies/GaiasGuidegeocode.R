@@ -142,6 +142,9 @@ uncleardata.geocoded <- geocoding_function(uncleardata)
 
 combined_GGdata <- rbind(cleardata.geocoded, uncleardata.geocoded)
 
+#save dataset as .csv
+write.csv(combined_GGdata, "~/MGG-LC-Data/case-studies/combined_GGdata.csv", row.names = FALSE)
+
 
 #add MGG data
 MGdata <- read_csv("~/MGG-LC-Data/MGG-Data/data.csv")
@@ -171,5 +174,33 @@ filtered_MGG_GG <- combined_MGG_GG %>%
 #save dataset as .csv
 write.csv(filtered_MGG_GG, "~/MGG-LC-Data/case-studies/filtered_MGG_GG.csv", row.names = FALSE)
 
+#filter for Damron's "women" locations
+
+Damron_women <- filtered_MGG_GG %>%
+  filter(amenityfeatures %in% c("(G)", "(L)"))
+
+#add Damron locations to Gaia locations
+
+case_study_locations <- bind_rows(combined_GGdata, Damron_women)
+
+#fix specific locations
+
+case_study_locations <- case_study_locations %>%
+  mutate(
+    lon = ifelse(title == "Casbah", -83.187447, lon),
+    lat = ifelse(title == "Casbah", 42.373071, lat),
+    geoAddress = ifelse(title == "Casbah", "14701 Plymouth Rd, Detroit, MI 48227, USA", geoAddress)
+  )
+
+case_study_locations <- case_study_locations %>%
+  mutate(
+    lon = ifelse(title == "The Casbah", -83.187447, lon),
+    lat = ifelse(title == "The Casbah", 42.373071, lat),
+    geoAddress = ifelse(title == "The Casbah", "14701 Plymouth Rd, Detroit, MI 48227, USA", geoAddress)
+  )
+
+#save csv
+
+write.csv(case_study_locations, "~/MGG-LC-Data/case-studies/case_study_locations.csv", row.names = FALSE)
 
 

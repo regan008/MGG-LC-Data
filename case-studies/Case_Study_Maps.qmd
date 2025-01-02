@@ -11,7 +11,7 @@ library(dplyr)
 library(leaflet)
 library(DT)
 
-filtered_MGG_GG <- read.csv("~/MGG-LC-Data/case-studies/filtered_MGG_GG.csv")
+case_study_locations <- read.csv("~/MGG-LC-Data/case-studies/case_study_locations.csv")
 
 # Define a custom palette
 custom_colors <- c(
@@ -21,12 +21,12 @@ custom_colors <- c(
 
 color_palette <- colorFactor(
   palette = custom_colors,
-  domain = filtered_MGG_GG$publication
+  domain = case_study_locations$publication
 )
 
 
 # Create the map
-map <- leaflet(data = filtered_MGG_GG) %>%
+map <- leaflet(data = case_study_locations) %>%
   addTiles() %>%  # Add default OpenStreetMap tiles
   addCircleMarkers(
     ~lon, ~lat,  # Longitude and Latitude
@@ -49,12 +49,12 @@ map <- leaflet(data = filtered_MGG_GG) %>%
     position = "bottomright",
     pal = color_palette,
     values = ~publication,
-    title = "Publication",
+    title = "Dallas, Detroit, Portland Locations",
     opacity = 0.7
   )
 
 # Create a paged table for unique titles
-unique_titles <- filtered_MGG_GG %>%
+unique_titles <- case_study_locations %>%
   distinct(title, .keep_all = TRUE) %>%
   arrange(title)
 
@@ -77,7 +77,7 @@ Dallas Map
 
 ```{r}
 # Filter by specific city and state
-Dallas_data <- filtered_MGG_GG %>%
+Dallas_data <- case_study_locations %>%
   filter(city == "Dallas", state == "TX")
 
 # Remove duplicate locations (if any)
@@ -136,7 +136,7 @@ Portland Map
 
 ```{r}
 # Filter by specific city and state
-Portland_data <- filtered_MGG_GG %>%
+Portland_data <- case_study_locations %>%
   filter(city == "Portland", state == "OR")
 
 # Remove duplicate locations (if any)
@@ -195,7 +195,7 @@ Detroit Map
 
 ```{r}
 # Filter by specific city and state
-Detroit_data <- filtered_MGG_GG %>%
+Detroit_data <- case_study_locations %>%
   filter(city == "Detroit", state == "MI")
 
 # Remove duplicate locations (if any)
