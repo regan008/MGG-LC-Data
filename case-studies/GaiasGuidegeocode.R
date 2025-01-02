@@ -156,9 +156,9 @@ MGdata <- MGdata %>%
 
 #filter for case study cities
 states_to_include <- c("TX", "MI", "OR")  
-cities_to_include <- c("Dallas", "Detroit", "Oregon") 
+cities_to_include <- c("Dallas", "Detroit", "Portland") 
 
-filtered_MGG <- combined_MGG_GG %>%
+filtered_MGG <- MGdata %>%
   filter(state %in% states_to_include & city %in% cities_to_include)
 
 #combine dataframes

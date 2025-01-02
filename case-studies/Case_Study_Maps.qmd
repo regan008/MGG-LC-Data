@@ -53,17 +53,19 @@ map <- leaflet(data = filtered_MGG_GG) %>%
 
 # Create a paged table for unique titles
 unique_titles <- filtered_MGG_GG %>%
-  distinct(title) %>%
+  distinct(title, .keep_all = TRUE) %>%
   arrange(title)
 
+table_data <- unique_titles[, c("title", "description", "address")]
+
 paged_table <- datatable(
-  unique_titles,
-  options = list(pageLength = 10),  # Number of rows per page
+  table_data,
+  options = list(pageLength = 10, scrollX = TRUE),
   rownames = FALSE,
-  caption = "All Entries"
+  caption = "Dallas, Detroit, Portland Locations"
 )
 
-# Display both the map and the table (useful for R Markdown or Shiny)
+#view map/table
 map
 paged_table
 
@@ -109,16 +111,19 @@ Dallas_map <- leaflet(data = Dallas_data_unique) %>%
   )
 
 # Create a paged table for unique titles
-Dallas_unique_titles <- Dallas_data_unique %>%
-  distinct(title) %>%
+Dallas_unique_titles <- filtered_MGG_GG %>%
+  distinct(title, .keep_all = TRUE) %>%
   arrange(title)
 
+Dallas_table_data <- Dallas_unique_titles[, c("title", "description", "address")]
+
 Dallas_paged_table <- datatable(
-  Dallas_unique_titles,
-  options = list(pageLength = 10),  # Number of rows per page
+  Dallas_table_data,
+  options = list(pageLength = 10, scrollX = TRUE),
   rownames = FALSE,
   caption = "Dallas Locations"
 )
+
 
 # Display both the map and the table
 Dallas_map
@@ -165,16 +170,19 @@ Portland_map <- leaflet(data = Portland_data_unique) %>%
   )
 
 # Create a paged table for unique titles
-Portland_unique_titles <- Portland_data_unique %>%
-  distinct(title) %>%
+Portland_unique_titles <- filtered_MGG_GG %>%
+  distinct(title, .keep_all = TRUE) %>%
   arrange(title)
 
+Portland_table_data <- Portland_unique_titles[, c("title", "description", "address")]
+
 Portland_paged_table <- datatable(
-  Portland_unique_titles,
-  options = list(pageLength = 10),  # Number of rows per page
+  Portland_table_data,
+  options = list(pageLength = 10, scrollX = TRUE),
   rownames = FALSE,
-  caption = "Portland Locations"
+  caption = "Unique Locations Information"
 )
+
 
 # Display both the map and the table =
 Portland_map
@@ -221,15 +229,17 @@ Detroit_map <- leaflet(data = Detroit_data_unique) %>%
   )
 
 # Create a paged table for unique titles
-Detroit_unique_titles <- Detroit_data_unique %>%
-  distinct(title) %>%
+Detroit_unique_titles <- filtered_MGG_GG %>%
+  distinct(title, .keep_all = TRUE) %>%
   arrange(title)
 
+Detroit_table_data <- Detroit_unique_titles[, c("title", "description", "address")]
+
 Detroit_paged_table <- datatable(
-  Detroit_unique_titles,
-  options = list(pageLength = 10),  # Number of rows per page
+  Detroit_table_data,
+  options = list(pageLength = 10, scrollX = TRUE),
   rownames = FALSE,
-  caption = "Detroit Locations"
+  caption = "Unique Locations Information"
 )
 
 # Display both the map and the table
