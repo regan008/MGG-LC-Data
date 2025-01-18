@@ -11,7 +11,7 @@ library(dplyr)
 library(leaflet)
 library(DT)
 
-case_study_locations <- read.csv("~/MGG-LC-Data/case-studies/case_study_locations.csv")
+case_study_locations <- read.csv("~/Documents/MGG-LC-Data/case-studies/case_study_locations.csv") 
 
 # Define a custom palette
 custom_colors <- c(
@@ -113,7 +113,7 @@ Dallas_map <- leaflet(data = Dallas_data_unique) %>%
   )
 
 # Create a paged table for unique titles
-Dallas_unique_titles <- filtered_MGG_GG %>%
+Dallas_unique_titles <- case_study_locations %>%
   distinct(title, .keep_all = TRUE) %>%
   arrange(title)
 
@@ -231,7 +231,7 @@ Detroit_map <- leaflet(data = Detroit_data_unique) %>%
   )
 
 # Create a paged table for unique titles
-Detroit_unique_titles <- filtered_MGG_GG %>%
+Detroit_unique_titles <- case_study_locations %>%
   distinct(title, .keep_all = TRUE) %>%
   arrange(title)
 
