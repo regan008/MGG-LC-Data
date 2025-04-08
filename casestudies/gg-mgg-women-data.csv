@@ -1,0 +1,488 @@
+"title","description","type","address","city","state","publication","year","notes","full.address","lon","lat","geoAddress","amenityfeatures"
+"Cafe Gigi","(near Southfield)-Tel. 831-2604","Bars","16920 West Warren","Detroit","MI","Gaia's Guide",1975,"","16920 West Warren, Detroit, MI",-83.2112501,42.3436482,"16920 w warren ave, detroit, mi 48228, usa",""
+"Palais Bar","","Bars","655 Beaubien","Detroit","MI","Gaia's Guide",1975,"","655 Beaubien, Detroit, MI",-83.0415538,42.3330139,"655 beaubien blvd, detroit, mi 48226, usa",""
+"Conquest Lounge","","Bars","1500 East State Fair","Detroit","MI","Gaia's Guide",1975,"","1500 East State Fair, Detroit, MI",-83.088758,42.4397377,"1500 e state fair ave, detroit, mi 48203, usa",""
+"Barbary Coast","near Lodge Freeway","Bars","2765 Grand River","Detroit","MI","Gaia's Guide",1975,"","2765 Grand River, Detroit, MI",-83.0650955,42.3386991,"2765 grand river ave, detroit, mi 48201, usa",""
+"La Rosa's","","Bars","731 Bates","Detroit","MI","Gaia's Guide",1975,"","731 Bates, Detroit, MI",-83.0446059,42.3322543,"731 bates st, detroit, mi 48226, usa",""
+"Gay Women's Lib","c/o ""A Woman's Place"", 606 S.E. Grand;97214 Tel. (503)223-8362","Organizations","606 S.E. Grand","Portland","OR","Gaia's Guide",1975,"","606 S.E. Grand, Portland, OR",-122.6604691,45.5185737,"606 se grand ave, portland, or 97214, usa",""
+"Portland Gay Lib.","Tel. (503) 287-7894","Organizations","4226 North Montana Ave.","Portland","OR","Gaia's Guide",1975,"","4226 North Montana Ave., Portland, OR",-122.6795583,45.5544249,"4226 n montana ave, portland, or 97217, usa",""
+"Zorba the Greek","","Bars","626 S.W. Park","Portland","OR","Gaia's Guide",1975,"","626 S.W. Park, Portland, OR",-122.6801655,45.5197524,"626 sw park ave, portland, or 97205, usa",""
+"""316""","(formerly 'Tash's')","Bars","316 West Burnside","Portland","OR","Gaia's Guide",1975,"","316 West Burnside, Portland, OR",-122.673696,45.522851,"316 w burnside st, portland, or 97209, usa",""
+"Dema's Tavern","222-5338","Bars","208 NW THird","Portland","OR","Gaia's Guide",1975,"","208 NW THird, Portland, OR",-122.6729315,45.5247845,"208 nw 3rd ave, portland, or 97209, usa",""
+"Magic Garden","224-8472","Bars","217 NW Fourth","Portland","OR","Gaia's Guide",1975,"","217 NW Fourth, Portland, OR",-122.674759,45.524796,"217 nw 4th ave, portland, or 97209, usa",""
+"""T.J's""","326-9368","Bars","3307 Mc Kinney.","Dallas","TX","Gaia's Guide",1975,"","3307 Mc Kinney., Dallas, TX",-96.7962624,32.8094437,"blackburn st, dallas, tx 75204, usa",""
+"""Les Dames Room""","","Bars","2116 N. Field","Dallas","TX","Gaia's Guide",1975,"","2116 N. Field, Dallas, TX",-96.8051518,32.786426,"2116 n field st, dallas, tx 75202, usa",""
+"""Lil Tiff's""","","Bars","2906 N. Henderson","Dallas","TX","Gaia's Guide",1975,"","2906 N. Henderson, Dallas, TX",-96.7845843,32.8204348,"2906 n henderson ave, dallas, tx 75206, usa",""
+"""The Vapors""","823-0372","Bars","5334 Lemmon.","Dallas","TX","Gaia's Guide",1975,"","5334 Lemmon., Dallas, TX",-96.8225658,32.8269061,"5334 lemmon ave, dallas, tx 75209, usa",""
+"""Bev's""","Tel. 526-9036","Bars","4737 Maple.","Dallas","TX","Gaia's Guide",1975,"","4737 Maple., Dallas, TX",-96.8264918,32.8142201,"4737 maple ave, dallas, tx 75219, usa",""
+"""J's""","742-0897","Bars","1800 N. Harvard","Dallas","TX","Gaia's Guide",1975,"","1800 N. Harvard, Dallas, TX",-96.7852337,32.8271884,"1800 harvard ave, dallas, tx 75205, usa",""
+"""Joe's Other Place""","3019 N. Haskell","Bars","3019 N. Haskell","Dallas","TX","Gaia's Guide",1975,"","3019 N. Haskell, Dallas, TX",-96.7936498,32.807254,"3019 n haskell ave., dallas, tx 75204, usa",""
+"The Highland Lounge","Tel. 526-9551","Bars","3018 Monticello.","Dallas","TX","Gaia's Guide",1975,"","3018 Monticello., Dallas, TX",-96.7847478,32.8267724,"3018 monticello ave, dallas, tx 75205, usa",""
+"""Ronsue's""","526-9333","Bars","3236 Mc Kinney.","Dallas","TX","Gaia's Guide",1975,"","3236 Mc Kinney., Dallas, TX",-96.7962624,32.8094437,"blackburn st, dallas, tx 75204, usa",""
+"""Entire Nuit""","(rear door). Tel. 823-0423","Bars","3116 Live Oak","Dallas","TX","Gaia's Guide",1975,"","3116 Live Oak, Dallas, TX",-96.7855669,32.7914102,"3116 live oak st, dallas, tx 75204, usa",""
+"The Castle","","Bars","3019 N. Haskell","Dallas","TX","Gaia's Guide",1975,"","3019 N. Haskell, Dallas, TX",-96.7936498,32.807254,"3019 n haskell ave., dallas, tx 75204, usa",""
+"Feminist Women's Health Clinic","Tel 892 7790 VD Clinic and self help","Clinic","2445 West 8 Mile","Detroit","MI","Gaia's Guide",1977,"","2445 West 8 Mile, Detroit, MI",-83.1274679,42.446095,"2445 eight mile w, highland park, mi 48203, usa",""
+"Dignity","Tel 894 1064","Religious Group","2846 17th Street","Detroit","MI","Gaia's Guide",1977,"","2846 17th Street, Detroit, MI",-83.0817265,42.3343546,"2846 17th st, detroit, mi 48216, usa",""
+"M.C.C.","Tel 868 2122 and 869 8159 Their publication The Way","Religious Group","13100 Woodward Ave","Detroit","MI","Gaia's Guide",1977,"","13100 Woodward Ave, Detroit, MI",-83.0935996,42.4014264,"13100 woodward ave, highland park, mi 48203, usa",""
+"Gayly Speaking","Thursdays at 11:30pm Lesbian Radio. Collective: Tel 867 5764 and 963 7193","Radio and Television","5035 Woodward","Detroit","MI","Gaia's Guide",1977,"","5035 Woodward, Detroit, MI",-83.0646899,42.3570965,"5035 woodward ave, detroit, mi 48202, usa",""
+"Amiga's","","Bar","19326 Conant","Detroit","MI","Gaia's Guide",1977,"","19326 Conant, Detroit, MI",-83.0755854,42.4359017,"19326 conant, detroit, mi 48234, usa",""
+"Gold Coast","Tel 963 7193","Bar","2971 East 7 Mile Road","Detroit","MI","Gaia's Guide",1977,"","2971 East 7 Mile Road, Detroit, MI",-83.0725873,42.4331029,"2971 seven mile e, detroit, mi 48234, usa",""
+"Cafe Gigi","Near Southfield. Tel 831 2604","Bar","16920 West Warren","Detroit","MI","Gaia's Guide",1977,"","16920 West Warren, Detroit, MI",-83.2112501,42.3436482,"16920 w warren ave, detroit, mi 48228, usa",""
+"Palais Bar","Tel 964 8374","Bar","855 Beaubien","Detroit","MI","Gaia's Guide",1977,"","855 Beaubien, Detroit, MI",-83.0419708,42.3337308,"855 beaubien blvd, detroit, mi 48226, usa",""
+"Conquest Lounge","Tel 891 9759","Bar","1500 East State Fair","Detroit","MI","Gaia's Guide",1977,"","1500 East State Fair, Detroit, MI",-83.088758,42.4397377,"1500 e state fair ave, detroit, mi 48203, usa",""
+"Casbah","Tel 837 6379","Bar","14701 Plymouth at Hubble","Detroit","MI","Gaia's Guide",1977,"","14701 Plymouth at Hubble, Detroit, MI",-83.1890252,42.3725875,"14701 plymouth rd, detroit, mi 48227, usa",""
+"George's Inca Room","","Bar","13314 Jenkell","Detroit","MI","Gaia's Guide",1977,"","13314 Jenkell, Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Let's Be An Apple Pie","Tel 517 484 3475 and 353 9488 We now have a pool table a good one.","Organization","427 Spring St","Detroit","MI","Gaia's Guide",1977,"","427 Spring St, Detroit, MI",-82.9689585,42.4280306,"spring garden st, detroit, mi 48205, usa",""
+"Joe Covello's","At Larch. Tel 517 482 4577, Very highly recommended for gay women.","Bar","533 535 East Michigan Ave","Detroit","MI","Gaia's Guide",1977,"","533 535 East Michigan Ave, Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Portland Town Council","room 303 Tel 503 227 2765 Office, library, regular meetings, social and political activities, referrals and education. Their publication ""Gay Rights - 77 free upon request.","Organization","320 SW Stark","Portland","OR","Gaia's Guide",1977,"","320 SW Stark, Portland, OR",-122.6750329,45.5202827,"oregon pioneer building, 320 sw harvey milk st, portland, or 97204, usa",""
+"Women's Place and Resource Center","Tel 503 234 7044 Lesbian rap groups and all woman's school.","Organization","1915 NE Everett","Portland","OR","Gaia's Guide",1977,"","1915 NE Everett, Portland, OR",-122.6460632,45.5252155,"1915 ne everett st, portland, or 97232, usa",""
+"Tash's","","Bar","316 W Burnside","Portland","OR","Gaia's Guide",1977,"","316 W Burnside, Portland, OR",-122.673696,45.522851,"316 w burnside st, portland, or 97209, usa",""
+"Rising Moon","Tel 503 223 0363","Bar","413 W Burnside","Portland","OR","Gaia's Guide",1977,"","413 W Burnside, Portland, OR",-122.6747696,45.5233632,"413 w burnside st, portland, or 97209, usa",""
+"Mountain Moving Cafe","Tel 503 236 7541 Women's nights open 11am-11pm","Feminist Coffeehouse","532 SE 39th","Portland","OR","Gaia's Guide",1977,"","532 SE 39th, Portland, OR",-122.6230627,45.5191352,"532 se 39th ave, portland, or 97214, usa",""
+"The Water Closet","at Washington","Bar","426 SW 4th","Portland","OR","Gaia's Guide",1977,"","426 SW 4th, Portland, OR",-122.6754462,45.5200286,"426 sw 4th ave, portland, or 97204, usa",""
+"Incredble Edibles","Upstairs Great Atmosphere","Restaurants","208 NW Couch","Portland","OR","Gaia's Guide",1977,"","208 NW Couch, Portland, OR",-122.672647,45.523714,"208 nw couch st, portland, or 97209, usa",""
+"Zorba The Greek","Tel 502 227 0867","Bar","626 SW Park","Portland","OR","Gaia's Guide",1977,"","626 SW Park, Portland, OR",-122.6801655,45.5197524,"626 sw park ave, portland, or 97205, usa",""
+"The Barrel","Tel 823 0408","Bar","2406 N Fitzhugh","Dallas","TX","Gaia's Guide",1977,"","2406 N Fitzhugh, Dallas, TX",-96.7822064,32.8115133,"2406 n fitzhugh ave, dallas, tx 75206, usa",""
+"Olive Brance Saloon","Tel 823 0921","Bar","2822 McKinney Ave","Dallas","TX","Gaia's Guide",1977,"","2822 McKinney Ave, Dallas, TX",-96.800729,32.7992913,"2822 mckinney ave, dallas, tx 75204, usa",""
+"T.J.'s","Entertainment pool table and dancing","Bar","3307 McKinney","Dallas","TX","Gaia's Guide",1977,"","3307 McKinney, Dallas, TX",-96.7994944,32.8044838,"3307 mckinney ave, dallas, tx 75204, usa",""
+"Bachelor Quarters","","Bar","1225 Skiles","Dallas","TX","Gaia's Guide",1977,"","1225 Skiles, Dallas, TX",-96.7853102,32.791118,"1225 skiles st, dallas, tx 75204, usa",""
+"Act III","","Bar","3115 Live Oak","Dallas","TX","Gaia's Guide",1977,"","3115 Live Oak, Dallas, TX",-96.7861181,32.7917271,"3115 live oak st, dallas, tx 75204, usa",""
+"Entre Nuit","Tel 823 0423 rear door","Bar","3116 Live Oak","Dallas","TX","Gaia's Guide",1977,"","3116 Live Oak, Dallas, TX",-96.7855669,32.7914102,"3116 live oak st, dallas, tx 75204, usa",""
+"Bon Soir","","Bar","4527 Cole","Dallas","TX","Gaia's Guide",1977,"","4527 Cole, Dallas, TX",-96.7896255,32.8227541,"4527 cole ave, dallas, tx 75205, usa",""
+"Crew Inn","","Bar","3220 Fitzhugh","Dallas","TX","Gaia's Guide",1977,"","3220 Fitzhugh, Dallas, TX",-96.7931082,32.8173322,"3220 n fitzhugh ave, dallas, tx 75204, usa",""
+"Encore","","Bar","4516 McKinney","Dallas","TX","Gaia's Guide",1977,"","4516 McKinney, Dallas, TX",-96.7878538,32.8214877,"4516 mckinney ave, dallas, tx 75205, usa",""
+"Lady Love","48203. ""Extremely pleasant interior, lots of plants and graphics. Small comfortable and very highly recommended."" New in may, 1978.","Bars","5 W 7 Mile Rd","Detroit","MI","Gaia's Guide",1979,"","5 W 7 Mile Rd, Detroit, MI",-83.1025699,42.4321145,"5 seven mile w, detroit, mi 48203, usa",""
+"Amiga's","Tel. 891-9719. Open: 6pm-2am.","Bars","19326 Conant","Detroit","MI","Gaia's Guide",1979,"","19326 Conant, Detroit, MI",-83.0755854,42.4359017,"19326 conant, detroit, mi 48234, usa",""
+"Casbah","48227. Tel. 837-6379. Open: 7pm-2am. Very popular women's bar. Disco on Wednesdays, Fridays and Saturdays. Pool table and other games. very highly recommended.","Bars","14701 Plymouth Rd","Detroit","MI","Gaia's Guide",1979,"","14701 Plymouth Rd, Detroit, MI",-83.1890252,42.3725875,"14701 plymouth rd, detroit, mi 48227, usa",""
+"Gold Coast","Tel. 891-9665. Open: 7pm-2am.","Showbar","2971 E 7 Mile Rd","Detroit","MI","Gaia's Guide",1979,"","2971 E 7 Mile Rd, Detroit, MI",-83.0725873,42.4331029,"2971 seven mile e, detroit, mi 48234, usa",""
+"La Palais Bar","Tel. 964-8374.","Bars","655 Beaubien","Detroit","MI","Gaia's Guide",1979,"","655 Beaubien, Detroit, MI",-83.0415538,42.3330139,"655 beaubien blvd, detroit, mi 48226, usa",""
+"Menjo's","Big disco. Recommended.","Bars","928 W McNichols","Detroit","MI","Gaia's Guide",1979,"","928 W McNichols, Detroit, MI",-83.1153867,42.4178367,"928 w mcnichols rd, detroit, mi 48203, usa",""
+"Hershelf Wimmins Books & Crafts","Highland Park; 48203. Tel. (313) 869-4045. Open: Wed-Sat. 2-7pm; Sun. noon-5pm. "" A collectively-run bookstore of books, posters, publications, records, buttons, t-shirts for and by women. Also, a resource file, newsletter and calendar of local events. Childcare provided for all work and events."" Lesbians are involved in the running of the store and they invite all lesbians to the events they sponsor.","Feminist Bookstore","2 Highland","Detroit","MI","Gaia's Guide",1979,"","2 Highland, Detroit, MI",-83.0919213,42.3979739,"2 highland st, highland park, mi 48203, usa",""
+"Portland Town Counsil","Room 506; 97204. Tel. (503) 227-2765. Office, library, regular meetings, social and political activities, referrals and education. Their publ: 'Gay Rights' free upon request, has monthly events calendar.","Organization and Service","320 SW Stark","Portland","OR","Gaia's Guide",1979,"","320 SW Stark, Portland, OR",-122.6750329,45.5202827,"oregon pioneer building, 320 sw harvey milk st, portland, or 97204, usa",""
+"Women's Place and Resource Center","97232. Tel. (503) 234-7044. Lesbian rap groups and all women school.","Organization and Service","1915 NE Everett","Portland","OR","Gaia's Guide",1979,"","1915 NE Everett, Portland, OR",-122.6460632,45.5252155,"1915 ne everett st, portland, or 97232, usa",""
+"Rising Moon","97209. Tel. 223-0363. Open: 6:30pm-2:30am daily. ""We serve a variety of sandwiches, including a vegie, fruit juices, chips, etc. We have disco dancing Friday and Saturday nites from 9:30pm (50 cent cover charge), 2 pool tables (free pool between 6:30 and 8:30 pm Friday and Saturday nites and all nite Sundays), pin ball, football. We do community benefits, dance marathons and sponsor a softball team. Occasional entertainment. We are a pretty mellow bar during the week and usually crowded at weekends because of the disco. We have a cross-section of women from political to professional. We feel that women can be as comfortable here as they choose to be."" Highly recommended.","Bars","413 W. Burnside","Portland","OR","Gaia's Guide",1979,"","413 W. Burnside, Portland, OR",-122.6747696,45.5233632,"413 w burnside st, portland, or 97209, usa",""
+"Darcelle XV Tavern","Tel. 222-5338. Open: 11am-2:30am Mon-Fri; 4:30pm-2:30am Sat and Sun. Shows.","Bars","208 NW 3rd St","Portland","OR","Gaia's Guide",1979,"","208 NW 3rd St, Portland, OR",-122.7873187,45.5986823,"nw 3rd st, portland, or 97231, usa",""
+"Magic Garden","","Bars","217 NW 4th Ave","Portland","OR","Gaia's Guide",1979,"","217 NW 4th Ave, Portland, OR",-122.674759,45.524796,"217 nw 4th ave, portland, or 97209, usa",""
+"Wilde Oscar's","(Bar/Restaurant), 318 SW 3rd Avenue; 97201. Tel. 223-8620. Open: Mon-Fri: 11am-1am; Sat: Noon-2:30am; Sunday; 4pm-midnite. ""We serve high quality, varied menu. Each order is done individually. Such specialities as French onion soup, English pork pies, beef cornish pasties and hot seafood sandwiches. Pool table. Outdoor courtyard in warm weather. Chequers, chess and cribbage. Wilde Oscar's specializes in good pub-style food mellow music (folk, classical, jazz) and a highly conversational, relaxed atmosphere. We boast a vintage turn-of-the-century oak bar in tasteful ambience."" Gay community minded and very highly recommended.","Restaurants","318 SW 3rd ave","Portland","OR","Gaia's Guide",1979,"","318 SW 3rd ave, Portland, OR",-122.6741189,45.5205558,"318 sw 3rd ave, portland, or 97204, usa",""
+"Rhondee's","","Restaurants","1014 SW Stark","Portland","OR","Gaia's Guide",1979,"","1014 SW Stark, Portland, OR",-122.681617,45.522011,"1014 sw harvey milk st, portland, or 97205, usa",""
+"Dahl & Penne's","(at Alder). Tel. 228-7469. Shows, pin ball, pool table, future plans include stage shows.","Bars","604 SW 2nd","Portland","OR","Gaia's Guide",1979,"","604 SW 2nd, Portland, OR",-122.6742664,45.5185256,"604 sw 2nd ave, portland, or 97204, usa",""
+"Zorba's","97205. Tel. 227-0867. Open: 6pm-2:30am. ""My establishment is mixed gay women and men and that's the way it should be in all gay bars. We are all in this gay life together and we should should work together..."" No full dinners as yet, just sandwiches for now. Dancing, pool table, future plans include stage shows.","Bars","626 SW Park Ave","Portland","OR","Gaia's Guide",1979,"","626 SW Park Ave, Portland, OR",-122.6801655,45.5197524,"626 sw park ave, portland, or 97205, usa",""
+"Mountain Moving Cafe","97215. Tel. 236-7541. Open: Thurs Sun: 11am-11pm; Sunday Brunch: 10am-1pm. ""Nice atmosphere, live music and assorted types of entertainmetn. We welcome gay people- we are a collective of lesbian women."" Vegetarian menu, dancing, films, speakers, poetry kids nite (Fridays).","Feminist Coffeehouse","532 SE 39th St","Portland","OR","Gaia's Guide",1979,"","532 SE 39th St, Portland, OR",-122.6230627,45.5191352,"532 se 39th ave, portland, or 97214, usa",""
+"The Embers","","Restaurants","739 SW Park","Portland","OR","Gaia's Guide",1979,"","739 SW Park, Portland, OR",-122.681,45.519154,"739 sw park ave, portland, or 97205, usa",""
+"A Woman's Place Bookstore","97205. Tel. (503) 226-0848. ""We sell books periodicals, posters, records, buttons, notecards and more. Also, a free lending library; referrals and bulletin board with monthly newsletter, bookvan; space for women to enjoy but since we are a business, law says we cannot turn men away though sometimes we do."" Their newsletter: 'Women's Place', monthly.","Bookstores","1300 SW Washington","Portland","OR","Gaia's Guide",1979,"","1300 SW Washington, Portland, OR",-122.68491,45.52206,"1300 sw washington st, portland, or 97205, usa",""
+"Portland Thrift Center","(S.E. 26th and Clinton). Tel. 232-2699. ""We have a huge supply of clothing, books, albums, small appliances, household items.""","Shop","4609 11 SE Hawthorne","Portland","OR","Gaia's Guide",1979,"","4609 11 SE Hawthorne, Portland, OR",-122.6654605,45.5123972,"11 se hawthorne blvd, portland, or 97214, usa",""
+"T.J.'s","Tel. 526-9368. Entertainment, pool table, dancing.","Bars","3307 McKinney","Dallas","TX","Gaia's Guide",1979,"","3307 McKinney, Dallas, TX",-96.7994944,32.8044838,"3307 mckinney ave, dallas, tx 75204, usa",""
+"The Old Plantation","Tel. (214) 651-1988. A super-disco. Recommended.","Bars","1807 N Hardwood","Dallas","TX","Gaia's Guide",1979,"","1807 N Hardwood, Dallas, TX",-96.800825,32.787807,"1807 n harwood st, dallas, tx 75215, usa",""
+"Sassy's","Recommended.","Bars","4516 McKinney","Dallas","TX","Gaia's Guide",1979,"","4516 McKinney, Dallas, TX",-96.7878538,32.8214877,"4516 mckinney ave, dallas, tx 75205, usa",""
+"Jug's","","Bars","3218 N Fitzhugh","Dallas","TX","Gaia's Guide",1979,"","3218 N Fitzhugh, Dallas, TX",-96.7931565,32.8169322,"3218 n fitzhugh ave, dallas, tx 75204, usa",""
+"Entre Nuit","(rear door). Tel. 823-0423.","Bars","3116 Live Oak","Dallas","TX","Gaia's Guide",1979,"","3116 Live Oak, Dallas, TX",-96.7855669,32.7914102,"3116 live oak st, dallas, tx 75204, usa",""
+"Crews Inn","Tel. 526-9320.","Bars","3220 Fitzhugh","Dallas","TX","Gaia's Guide",1979,"","3220 Fitzhugh, Dallas, TX",-96.7931082,32.8173322,"3220 n fitzhugh ave, dallas, tx 75204, usa",""
+"Bon Soir","","Bars","4527 Cole","Dallas","TX","Gaia's Guide",1979,"","4527 Cole, Dallas, TX",-96.7896255,32.8227541,"4527 cole ave, dallas, tx 75205, usa",""
+"GAYLINE","Tel(313)315-4180.Daily recorded news events.","Services","write, 940 West Mc Nichols","Detroit","MI","Gaia's Guide",1981,"","write, 940 West Mc Nichols, Detroit, MI",-83.115386,42.417851,"940 w mcnichols rd, detroit, mi 48203, usa",""
+"Lady Love","Extremely pleasant interior, lots of plants and graphics. Small, comfortable and highly recommended. Sunday brunch: noon-3pm.","Bars","5, West Seven Mile","Detroit","MI","Gaia's Guide",1981,"","5, West Seven Mile, Detroit, MI",-83.1025699,42.4321145,"5 seven mile w, detroit, mi 48203, usa",""
+"Amigas","","Bars","19326 Conant","Detroit","MI","Gaia's Guide",1981,"","19326 Conant, Detroit, MI",-83.0755854,42.4359017,"19326 conant, detroit, mi 48234, usa",""
+"Escape Disco Lounge","","Bars","15606 Joy","Detroit","MI","Gaia's Guide",1981,"","15606 Joy, Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Gold Coast","","Bars","2971 East 7 Mile Road","Detroit","MI","Gaia's Guide",1981,"","2971 East 7 Mile Road, Detroit, MI",-83.0725873,42.4331029,"2971 seven mile e, detroit, mi 48234, usa",""
+"Hamburger Mary’s","highly recommended good, gay restaurant.","Restaurants","—corner of South West 9th/Taylor","Portland","OR","Gaia's Guide",1981,"","—corner of South West 9th/Taylor, Portland, OR",-122.6880822,45.46095,"sw 9th dr, portland, or 97219, usa",""
+"Dahl & Penne's","Tel.228-7469.","Bars","604 S.W. 2nd (at Adler)","Portland","OR","Gaia's Guide",1981,"","604 S.W. 2nd (at Adler), Portland, OR",-122.6742664,45.5185256,"604 sw 2nd ave, portland, or 97204, usa",""
+"Jonah's","Tel.245-2188.","Restaurants","7425 South West Barbur","Portland","OR","Gaia's Guide",1981,"","7425 South West Barbur, Portland, OR",-122.6862447,45.4714424,"7425 sw barbur blvd, portland, or 97219, usa",""
+"Kachina's","""Mixed drinks/pool
+table/pin-ball — good music and excellent food.""","Bars","1131 South West Stark","Portland","OR","Gaia's Guide",1981,"","1131 South West Stark, Portland, OR",-122.682793,45.522662,"1131 sw harvey milk st, portland, or 97205, usa",""
+"The Embers","Tel.223-8620.","Restaurants","739 S.W. Park","Portland","OR","Gaia's Guide",1981,"","739 S.W. Park, Portland, OR",-122.681,45.519154,"739 sw park ave, portland, or 97205, usa",""
+"Wildes Oscar's","Tel. 223-8620.Open air theater plus women’s groups.","Restaurants","318 S.W. 3rd Avenue, 97201","Portland","OR","Gaia's Guide",1981,"","318 S.W. 3rd Avenue, 97201, Portland, OR",-122.6741189,45.5205558,"318 sw 3rd ave, portland, or 97204, usa",""
+"Portland Town Council","Tel. (503) 277-2765. The emphasis is on the political: gay civil rights/military and veterans rights included. Their publiction is OREGON GAY RIGHTS REPORT Membership 1s $20.00 per year or just $5.00 for the publication.","Organisation and Services","320 S.W. Stark, 97204","Portland","OR","Gaia's Guide",1981,"","320 S.W. Stark, 97204, Portland, OR",-122.6750329,45.5202827,"oregon pioneer building, 320 sw harvey milk st, portland, or 97204, usa",""
+"Aaron's Place","Tel. 232-7839. Lunch/dlnner/fireplace and pool tables. Disco 9pm- 2:30am. Gay women and men. Recommended. After hours dancing and","Bar/Restaurant","South East 35th Place and Division","Portland","OR","Gaia's Guide",1981,"","South East 35th Place and Division, Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Women's Place & Resource Centre","Tel.(503)234-7044.","Organisation and Services","1915 N.E. Everett, 97323","Portland","OR","Gaia's Guide",1981,"","1915 N.E. Everett, 97323, Portland, OR",-122.6460632,45.5252155,"1915 ne everett st, portland, or 97232, usa",""
+"Roxy Heart's","A highly recommended good, gay restaurant.","Restaurants","1121 South West Stark","Portland","OR","Gaia's Guide",1981,"","1121 South West Stark, Portland, OR",-122.6824975,45.5225977,"1121 sw harvey milk st, portland, or 97205, usa",""
+"Metropolitan Community Church/Portland","Tel.(503)281-8868.The Christian Church with an outreach to the gay community. Social activities as well as religious counseling and referrals. Their publications is: THE CHALICE and they sell GAIA'S GUIDE.","Groups","N.E. 24th & Broadway, 97232","Portland","OR","Gaia's Guide",1981,"","N.E. 24th & Broadway, 97232, Portland, OR",NA,NA,NA,""
+"Rafter’s","Gay disco + EMBERS Bar & Lounge","Bars","-corner Park/Yamhill","Portland","OR","Gaia's Guide",1981,"","-corner Park/Yamhill, Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"A Woman’s Place Bookstore","Tel. (503)226-0848. Books plus periodicals, buttons, posters, records. Community referral center with bulletin board and free lending library. A good place to go when new to the scene in Portland. They sell GAIA’S GUIDE.","Feminist Bookstore","1300 South West Washington, 97205","Portland","OR","Gaia's Guide",1981,"","1300 South West Washington, 97205, Portland, OR",-122.68491,45.52206,"1300 sw washington st, portland, or 97205, usa",""
+"Mildred's Palace","An after hours disco for under 21s.","Bars","918 South West Yamhill","Portland","OR","Gaia's Guide",1981,"","918 South West Yamhill, Portland, OR",-122.6818575,45.5189426,"pythian building, 918 sw yamhill st, portland, or 97205, usa",""
+"Brian Thomas Books","Tel.222-2934.General bookstore with a separate section for
+women’s books and one for gay books. Gallery on the second floor. Open Mon-Sat. 9am-lOprajSun. nocn-opm. Also mail order service.","Bookstore","921 South West Morrison, 97205","Portland","OR","Gaia's Guide",1981,"","921 South West Morrison, 97205, Portland, OR",-122.6815207,45.5200396,"921 sw morrison st, portland, or 97205, usa",""
+"Metropolis","Tel.(503)223- 3438.The only gay place in Portland where gay people under 21 are allowed to go.""Many lesbian mothers come here with their teenage children."" Disco +special lounge section selling beer & wine for 21s & over. They sell GAIA'S GUIDE and are highly recommended.","Bar/Restaurant","One, Southwest Third, 92709","Portland","OR","Gaia's Guide",1981,"","One, Southwest Third, 92709, Portland, OR",-122.6809222,45.5000407,"sw 3rd ave, portland, or, usa",""
+"Rhondee’s","Tel.223-8620.","Restaurants","1014 South West Stark","Portland","OR","Gaia's Guide",1981,"","1014 South West Stark, Portland, OR",-122.681617,45.522011,"1014 sw harvey milk st, portland, or 97205, usa",""
+"Magic Garden","Tel.(503)234-7044.","Bars","217 N.W. 4th Avenue","Portland","OR","Gaia's Guide",1981,"","217 N.W. 4th Avenue, Portland, OR",-122.674759,45.524796,"217 nw 4th ave, portland, or 97209, usa",""
+"Commodore Hotel","Tel. 223-1686. Daily and weekly rates also PLENTY GOOD GRILLE IN BAR
+breakfast, lunch dinner and full salad bar.","Hotel","1609 South West Morrison","Portland","OR","Gaia's Guide",1981,"","1609 South West Morrison, Portland, OR",-122.6883003,45.521979,"1609 sw morrison st, portland, or 97205, usa",""
+"214 Tavern","Tel. 224-8111. Pizza, beer, wine and over 6000 original antique postcards for sale. ""Everyone Welcome!""","Bars","214 Burnside","Portland","OR","Gaia's Guide",1981,"","214 Burnside, Portland, OR",-122.6726795,45.5229004,"214 w burnside st, portland, or 97209, usa",""
+"Sunnyside Tavern","Tel.234-4118.","Bars","3330 South East Belmont","Portland","OR","Gaia's Guide",1981,"","3330 South East Belmont, Portland, OR",-122.6302213,45.5162908,"3330 se belmont st, portland, or 97214, usa",""
+"Darcelle XV Tavern","Tel.222-5338.","Bars","208 N.W. 3rd Street","Portland","OR","Gaia's Guide",1981,"","208 N.W. 3rd Street, Portland, OR",-122.6729315,45.5247845,"208 nw 3rd ave, portland, or 97209, usa",""
+"Fogelman's","Afterhours: for gay
+people only!","Restaurants","816 South West 5th","Portland","OR","Gaia's Guide",1981,"","816 South West 5th, Portland, OR",-122.6777484,45.5176943,"816 sw 5th ave, portland, or 97204, usa",""
+"Half Moon Tavern","Tel.227-3367.","Bars","122 South West Yamhill","Portland","OR","Gaia's Guide",1981,"","122 South West Yamhill, Portland, OR",-122.6745461,45.517093,"122 sw yamhill st, portland, or 97204, usa",""
+"Portland Thrift Center","Tel.232-2688","Store","4609/11 S.E. Hawthorne","Portland","OR","Gaia's Guide",1981,"","4609/11 S.E. Hawthorne, Portland, OR",-122.6148581,45.5121569,"4609 se hawthorne blvd, portland, or 97215, usa",""
+"Somebody's Place","","Bars","728 South West Ninth","Portland","OR","Gaia's Guide",1981,"","728 South West Ninth, Portland, OR",-122.681082,45.519499,"728 sw 9th ave., portland, or 97205, usa",""
+"Bon Soir","Tel.(214)651-1988","Bars","4527 Cole","Dallas","TX","Gaia's Guide",1981,"","4527 Cole, Dallas, TX",-96.7896255,32.8227541,"4527 cole ave, dallas, tx 75205, usa",""
+"Crews Inn","Tel.526-9320.","Bars","3220 Fitzhugh","Dallas","TX","Gaia's Guide",1981,"","3220 Fitzhugh, Dallas, TX",-96.7931082,32.8173322,"3220 n fitzhugh ave, dallas, tx 75204, usa",""
+"Encore II","Tel. (214) 526- 9328.Dancing/pool tables and other games. They have occalsonal entertainment and prefer a woman-only clientel — they are very highly recommended and sell GAIA’S GUIDE. Open 7 days a week: 1pm-2am. Disco from 9pm","Bars","4516 McKinney","Dallas","TX","Gaia's Guide",1981,"","4516 McKinney, Dallas, TX",-96.7878538,32.8214877,"4516 mckinney ave, dallas, tx 75205, usa",""
+"Gas Pipe","Tel.526-5982.Love products and paraphanelia","Headshop","4435 Naple","Dallas","TX","Gaia's Guide",1981,"","4435 Naple, Dallas, TX",-96.8224146,32.8109416,"4435 maple ave, dallas, tx 75219, usa",""
+"The Old Plantation","Tel.(214)651-1988.","Bars","1807 N.Harwood","Dallas","TX","Gaia's Guide",1981,"","1807 N.Harwood, Dallas, TX",-96.800825,32.787807,"1807 n harwood st, dallas, tx 75215, usa",""
+"Dimension III","Tel.741-0300.","Bars","2609 Pearl St.","Dallas","TX","Gaia's Guide",1981,"","2609 Pearl St., Dallas, TX",-96.8054444,32.7930521,"2609 n pearl st, dallas, tx 75201, usa",""
+"Entre Nuit","Tel.823-0423","Bars","3116 Live Oak","Dallas","TX","Gaia's Guide",1981,"","3116 Live Oak, Dallas, TX",-96.7855669,32.7914102,"3116 live oak st, dallas, tx 75204, usa",""
+"Sassy’s","Tel.526-9368","Bars","4516 McKinney","Dallas","TX","Gaia's Guide",1981,"","4516 McKinney, Dallas, TX",-96.7878538,32.8214877,"4516 mckinney ave, dallas, tx 75205, usa",""
+"Baja Sam’s","","Bars","2508 Maple","Dallas","TX","Gaia's Guide",1981,"","2508 Maple, Dallas, TX",-96.8034892,32.7950406,"2508 maple ave, dallas, tx 75201, usa",""
+"M.C.C./Dallas","Tel. (214)526-6221","Religious Groups","2701 Reagan","Dallas","TX","Gaia's Guide",1981,"","2701 Reagan, Dallas, TX",-96.8137749,32.8078536,"2701 reagan st, dallas, tx 75219, usa",""
+"Jug’s","Tel.526-9582","Bars","4527 Cole","Dallas","TX","Gaia's Guide",1981,"","4527 Cole, Dallas, TX",-96.7896255,32.8227541,"4527 cole ave, dallas, tx 75205, usa",""
+"Magnolia’s","Tel.522-9611.","Bars","3914 Cedar Springs","Dallas","TX","Gaia's Guide",1981,"","3914 Cedar Springs, Dallas, TX",-96.8103948,32.8105759,"3914 cedar springs rd, dallas, tx 75219, usa",""
+"T.J's","Tel.526-9368.","Bars","3307 McKinney","Dallas","TX","Gaia's Guide",1981,"","3307 McKinney, Dallas, TX",-96.7994944,32.8044838,"3307 mckinney ave, dallas, tx 75204, usa",""
+"Lady's Love Disco","Tel. 892 6522. Extremely pleasant interior lots of plants and graphics. Small comfortable and highly recommended. Sunday brunch noon-3pm.","Bars","5 W 7 Mile","Detroit","MI","Gaia's Guide",1983,"","5 W 7 Mile, Detroit, MI",-83.1025935,42.4321245,"5 w seven mile rd, highland park, mi 48203, usa",""
+"Amigas","Tel. 891 9795. Disco. Woman DJ on weekends. Open 7pm-2am (located three blocks North of 7 Mile Drive). 'Older crowd, role playing and the neighborhood is BAD.'","Bars","19326 Conant","Detroit","MI","Gaia's Guide",1983,"","19326 Conant, Detroit, MI",-83.0755854,42.4359017,"19326 conant, detroit, mi 48234, usa",""
+"Gigi's","Tel. 584 6525. 3 blocks east of Southfield and there is a disco. Upper deck for men, lower deck for women. Upper deck open from 2pm-2am. Bar for women opens at 8pm on Monday, Friday and Saturday. Friday night is the 'Gay Go-Go Gi~s·","Bars","16920 W Warren","Detroit","MI","Gaia's Guide",1983,"","16920 W Warren, Detroit, MI",-83.2112501,42.3436482,"16920 w warren ave, detroit, mi 48228, usa",""
+"Tiffany's","Mailing address PO Box 48303 17346 Woodward Ave (nr 6 Mile) Tel 956 8326. 2pm-2:30am.","Bars","17346 Woodward Ave","Detroit","MI","Gaia's Guide",1983,"","17346 Woodward Ave, Detroit, MI",-83.1052616,42.4185401,"17346 woodward ave, detroit, mi 48203, usa",""
+"The Deck","Pleasant, congenial neighborhood-type bar. Open 12 noon.","Bars","14901 E Jefferson Ave","Detroit","MI","Gaia's Guide",1983,"","14901 E Jefferson Ave, Detroit, MI",-82.9394009,42.3752009,"14901 e jefferson ave, detroit, mi 48215, usa",""
+"Incognito","Tel. 892 9303.","Bars","441 E 7 Mile","Detroit","MI","Gaia's Guide",1983,"","441 E 7 Mile, Detroit, MI",-83.0997137,42.4325686,"441 seven mile e, detroit, mi 48203, usa",""
+"Menjo's","Popular disco with outdoor patio in the summer. Women mostly on Sunday.","Bars","928 W McNichols","Detroit","MI","Gaia's Guide",1983,"","928 W McNichols, Detroit, MI",-83.1153867,42.4178367,"928 w mcnichols rd, detroit, mi 48203, usa",""
+"The Underground","Tel. 341 4423. Find it at the corner of Greenfield. Gay women. Disco: dinner and breakfast. Open 8pm-2am. Until 4am weekends. Recommended. (Slightly older crowd'.)","Bars/Restaurants","1553 W 8 Mile Dr","Detroit","MI","Gaia's Guide",1983,"","1553 W 8 Mile Dr, Detroit, MI",-83.3678316,42.4407836,"w 8 mile rd, michigan, usa",""
+"Aruba","Tel. 893 8460. Large game room/Californian decor. Women always welcome.","Bars","99 W 7 Mile","Detroit","MI","Gaia's Guide",1983,"","99 W 7 Mile, Detroit, MI",-83.1041006,42.4322512,"99 w seven mile rd, detroit, mi 48203, usa",""
+"Chosen Books","48203. Alternative bookstore with gay and lesbian titles. They sell GAIA'S GUIDE.","Bookstores","19400 Alcoy","Detroit","MI","Gaia's Guide",1983,"","19400 Alcoy, Detroit, MI",-82.9886352,42.438255,"19400 alcoy ave, detroit, mi 48205, usa",""
+"The Back Stage Deli","Tel. 892 9645. An Excellent and friendly restaurant near the bars.","Restaurant","1020 W 7 Mile","Detroit","MI","Gaia's Guide",1983,"","1020 W 7 Mile, Detroit, MI",-83.1141527,42.4323225,"1020 w seven mile rd, detroit, mi 48203, usa",""
+"Crew's Inn","Restaurant/bar combined. Dancing and good food 24 hours. Lots of women at weekends.","Bars/Restaurants","950 W McNichols","Detroit","MI","Gaia's Guide",1983,"","950 W McNichols, Detroit, MI",-83.115622,42.417889,"950 w mcnichols rd, detroit, mi 48203, usa",""
+"Club 927","Tel. 231-1606. Operated by gay woman. Game room, pool
+tables. Basically disco music. DJ at weekends. Flo\\ restaurant. Live entertainment, video
+games. Holds 150-175 people. Open 7 days a week 2pm-2,30am and till 4am Friday and Saturday (open for breakfast). Highly recommended.","Bars","927 S.E. Morrison","Portland","OR","Gaia's Guide",1983,"","927 S.E. Morrison, Portland, OR",-122.6562575,45.5174509,"napa auto parts in portland, or, usa, 927 se morrison st, portland, or 97214, usa",""
+"Wilde Oscar","Tel. 223-8620. An extremely unique bar and
+restaurant with an outdoor patio and open-air theater - woman's groups, very special
+happenings like weekend cabarets and art shows. Community minded and 'vary hospitable'.
+A highly recommended old-timer open 11 am-1 am daily.","Bar/Restuarant","318 S W 3rd Ave","Portland","OR","Gaia's Guide",1983,"","318 S W 3rd Ave, Portland, OR",-122.6741189,45.5205558,"318 sw 3rd ave, portland, or 97204, usa",""
+"Dahl & Penne's","Tel. 228-7469. Basically a man's bar. Pool tabla,
+dancing, show bar restaurant. Beer garden. During the week it's about 5% gay
+women and weekends about 20% gay women. It's open from 7am-2.30am 7 days a weak.
+The shows which are Friday and Saturday at 9pm and 11 .30pm are free.","Show Bar","604 SW Second","Portland","OR","Gaia's Guide",1983,"","604 SW Second, Portland, OR",-122.6742664,45.5185256,"604 sw 2nd ave, portland, or 97204, usa",""
+"Portland Women's Counseling Collective","Tel. 233-1759.","Centers","410 South East 12th","Portland","OR","Gaia's Guide",1983,"","410 South East 12th, Portland, OR",-122.65346,45.519901,"410 se 12th ave, portland, or 97214, usa",""
+"Darcelle XV Tavern","Tel. 222-5338. Female impersonation shows.
+Monday is burlesque night $5.00 cover. 'Incredibly delightful show bar but so popular that it's
+not all gay now. Lots of people go but still recommended.'","Show Bar","208 NW Third St","Portland","OR","Gaia's Guide",1983,"","208 NW Third St, Portland, OR",-122.6729315,45.5247845,"208 nw 3rd ave, portland, or 97209, usa",""
+"A Woman's Place Bookstore","Tel. 236-3609. Books plus
+periodicals, buttons, posters, records, community referral canter with a bulletin board and free
+lending library. They publish an excellent newspaper which costs $0.25 and they sell GAIA'S
+GUIDE. A good place to start out when you first hit Portland.","Bookstores","2349 S E Ankeny","Portland","OR","Gaia's Guide",1983,"","2349 S E Ankeny, Portland, OR",-122.6415759,45.5222755,"2349 se ankeny st, portland, or 97214, usa",""
+"Chuckles","Tel. 223-2372. Juke box. Food is served. Pool
+table. Clientele: all gay and 40% women. Open 7 days a week and recommended.","Bars","1810 North West Lovejoy Street","Portland","OR","Gaia's Guide",1983,"","1810 North West Lovejoy Street, Portland, OR",-122.6899907,45.5294769,"1810 nw lovejoy st, portland, or 97209, usa",""
+"JOQ's Tavern","Tel. 287-4210.
+Neighborhood bar for gay men and women, inter racial. Video games, pool table, no dancing.
+A real friendly place and recommended.","Bars","1422 North East Broadway","Portland","OR","Gaia's Guide",1983,"","1422 North East Broadway, Portland, OR",-122.6509477,45.5348404,"1422 ne broadway, portland, or 97232, usa",""
+"D&R's Studio West","No Phone Listing.","Bars","1532 SW Morrison","Portland","OR","Gaia's Guide",1983,"","1532 SW Morrison, Portland, OR",-122.6880426,45.5213598,"1532 sw morrison st, portland, or 97205, usa",""
+"Fogelman's","No Phone Listing. After hours: for gay people only!","Restaurant","816 SW Fifth","Portland","OR","Gaia's Guide",1983,"","816 SW Fifth, Portland, OR",-122.6777484,45.5176943,"816 sw 5th ave, portland, or 97204, usa",""
+"Hamburger Mary's","Tel. 223-0900 (Second location) 1441 NE Broadway Tel. 287-7715. Open 11am-12 midnight 7 days a weak. Bulletin board.","Restaurant","840 SW Park Avenue","Portland","OR","Gaia's Guide",1983,"","840 SW Park Avenue, Portland, OR",-122.6806815,45.5184889,"840 sw park ave, portland, or 97205, usa",""
+"Wilde Oscar","Tel. 223-8620. An unique bar and restaurant with an outdoor patio and open-air theater - women's groups, very special
+happenings like weekend cabarets and art shows. Community minded and 'very hospitable'.
+A highly recommended old-timer open 11 am-1 am daily.","Bar/Restuarant","318 S W 3rd Ava","Portland","OR","Gaia's Guide",1983,"","318 S W 3rd Ava, Portland, OR",-122.6741189,45.5205558,"318 sw 3rd ave, portland, or 97204, usa",""
+"Oregon Gay Archives","No Phone Listing.  No 506","Archives","320 SW Stark","Portland","OR","Gaia's Guide",1983,"","320 SW Stark, Portland, OR",-122.6750329,45.5202827,"oregon pioneer building, 320 sw harvey milk st, portland, or 97204, usa",""
+"Jonah's Galley & Pub","Tel. 245-2188. Casual,
+intimate, and relaxing. Steak and seafood. Brunch and dinner. Lunch 11-4.30 Dinner 4.30-11.
+Sunday Champagne Brunch - recommended.","Restaurant","7425 SW Barbur Blvd","Portland","OR","Gaia's Guide",1983,"","7425 SW Barbur Blvd, Portland, OR",-122.6862447,45.4714424,"7425 sw barbur blvd, portland, or 97219, usa",""
+"Hot Potata Cafe","Tel. 223-7573. Gay run,
+the food is _good and the waiters are very helpful, they even found us a place to stay.' Open
+11am-10pm.","Restaurant","13 St SW","Portland","OR","Gaia's Guide",1983,"","13 St SW, Portland, OR",-122.7116161,45.484946,"southwest portland, portland, or, usa",""
+"C C Slaughters","Tel. 248-9135. Country and Western Bar and Restaurant. Pinball. Open 11am-2.30am daily. Clientale mostly gay and about 15%
+gaywomen.","Bar/Restuarant","1014 SW Stark","Portland","OR","Gaia's Guide",1983,"","1014 SW Stark, Portland, OR",-122.681617,45.522011,"1014 sw harvey milk st, portland, or 97205, usa",""
+"Old Wives' Tales","Tat.
+238-0470. Saturday and Sunday Brunch/Salad Bar. Fine desserts and expresso/beer and
+wine. Children's playroom/Meeting and Banquet room. Featuring works of women musicians'.
+artists and writers. Browsing library. Open every day; Mon-Thurs 11.30am-10pm, Friday
+11.30am-11 pm. Sat 9am-11 pm, Sun. 9am-10pm. Be sure to say hi to Holly Hart from GAIA","Bar/Restuarant","1300 East Burnside","Portland","OR","Gaia's Guide",1983,"","1300 East Burnside, Portland, OR",-122.6523974,45.5226528,"old wives' tales restaurant in portland, 1300 e burnside st, portland, or 97214, usa",""
+"Old Wives' Tales","Tel. 238-0470. Saturday and Sunday Brunch/Salad Bar. Fina desserts and expresso/beer and
+wine. Children's playroom/Meeting and Banquet room. Featuring works of women musicians,
+artists and writers. Browsing library. Open every day; Mon-Thurs 1 l.30am-10pm, Fri
+11.30am-11 pm. Sat 9am-11 pm, Sun. 9am-10pm. Be sure to say hi to Holly Hart from GAIA.","Bar/Restuarant","1300 East Burnside","Portland","OR","Gaia's Guide",1983,"","1300 East Burnside, Portland, OR",-122.6523974,45.5226528,"old wives' tales restaurant in portland, 1300 e burnside st, portland, or 97214, usa",""
+"The Hunt Pub","Tel. 227-1324. Conversation bar. Pool table","Bars","1027 SW Morrison","Portland","OR","Gaia's Guide",1983,"","1027 SW Morrison, Portland, OR",-122.6827024,45.5203035,"1027 sw morrison st, portland, or 97205, usa",""
+"The Other Side of Midnight","Tat. 233-0755. Three
+pool tablas, and 3 pin-ball machines, wide screen TV. Featuring: hot and cold sandwiches,
+cracker and cheese board, and home-made soups. Summer beer gardenI.t 's owneda nd
+operated by women for woman. Hara are the directions: located under the eastbound
+off-ramp of the Hawthome Bridge. Park your car beneath the bridge. Open: 6pm-1am Sunday
+through Thursday and till 2.30am Fri & Sat. Vary highly recommended.","Bars","426 SE Hawthome Blvd","Portland","OR","Gaia's Guide",1983,"","426 SE Hawthome Blvd, Portland, OR",-122.661765,45.5122548,"426 se hawthorne blvd, portland, or 97214, usa",""
+"Looking Glass Books","Tel. 227-4760. Gay, lesbian and feminist titles.
+Bulletin board. Children's section. Open Monday, Friday and Saturday 1 Oam-6.30pm. Tuesday
+to Thursday 1 Oam-5.30pm. Closed on Sunday.","Bookstores","421 SW Taylor St","Portland","OR","Gaia's Guide",1983,"","421 SW Taylor St, Portland, OR",-122.677556,45.5173934,"421 sw taylor st, portland, or 97204, usa",""
+"Boxcar Flats","Tel. 241-1368. Small cafe, seats 60. Woman owned. Serves
+hamburgers and other sandwiches. Open 5.30pm-2am.· Extremely reasonable prices and
+recommended.","Restaurant","2344 NW 24","Portland","OR","Gaia's Guide",1983,"","2344 NW 24, Portland, OR",-122.7020894,45.5399012,"2344 nw 24th pl, portland, or 97210, usa",""
+"Portland Town Council","Tel. 227-2765. The emphasis is on the political: gay civil rights/military and veterans rights
+included. Their publication is OREGON GAY RIGHTS REPORT. Membership Is $20.00 per
+year or just $5.00 for the publication. The Lesbian Forum, sub-group, meets the third Monday
+of each month for dinner and discussion programs. Also lesbian workshops.","Service","408 SW Second Avenue","Portland","OR","Gaia's Guide",1983,"Suite 408","408 SW Second Avenue, Portland, OR",-122.6733871,45.5197244,"408 sw 2nd ave, portland, or 97204, usa",""
+"Portland Feminist Women's Health Center","Tel. 777-7044. Lesbian self-help group. Alternative fertilization program forthcoming. They
+work in coalition with other lesbian groups and are open from 9am-5pm Monday through
+Saturday.","Centers","6515 South East Foster Road","Portland","OR","Gaia's Guide",1983,"","6515 South East Foster Road, Portland, OR",-122.5413813,45.4764771,"6515 se foster pl, portland, or 97266, usa",""
+"Metropolis","Tel.. 223-3438. An excellent place for lesbian mothers to
+come with their children.","Bar/Restuarant","1 SW Third","Portland","OR","Gaia's Guide",1983,"","1 SW Third, Portland, OR",-122.673608,45.522938,"1 sw 3rd ave, portland, or 97204, usa",""
+"Sassi's","Tel. 5269328.","Bars","4516 McKinney","Dallas","TX","Gaia's Guide",1983,"","4516 McKinney, Dallas, TX",-96.7878538,32.8214877,"4516 mckinney ave, dallas, tx 75205, usa",""
+"High Country","Tel. 351 2278.","Bars","3121 Inwood Rd","Dallas","TX","Gaia's Guide",1983,"","3121 Inwood Rd, Dallas, TX",-96.8306795,32.8262963,"3121 inwood rd, dallas, tx 75235, usa",""
+"Metropolitan Community Church","Tel. 526 6221.","Religious Groups","2701 Reagan St","Dallas","TX","Gaia's Guide",1983,"","2701 Reagan St, Dallas, TX",-96.8137749,32.8078536,"2701 reagan st, dallas, tx 75219, usa",""
+"Old Plantation","Tel. 526 5590","Bars","3911 Cedar Springs Rd","Dallas","TX","Gaia's Guide",1983,"","3911 Cedar Springs Rd, Dallas, TX",-96.8110709,32.810535,"3911 cedar springs rd, dallas, tx 75219, usa",""
+"Jugs","Tel. 823 0746.","Bars","2812 North Henderson Ave","Dallas","TX","Gaia's Guide",1983,"","2812 North Henderson Ave, Dallas, TX",-96.7838189,32.8196769,"2812 n henderson ave, dallas, tx 75206, usa",""
+"Amiga'S","Many drinks specials + camera surveillance
+and guarded parking. Recommended.","Bars","19326 Conant.","Detroit","MI","Gaia's Guide",1985,"","19326 Conant., Detroit, MI",-83.0755854,42.4359017,"19326 conant, detroit, mi 48234, usa",""
+"The Pink Flamingo","","Bars","870 West McNichols.","Detroit","MI","Gaia's Guide",1985,"","870 West McNichols., Detroit, MI",-83.114139,42.417861,"870 w mcnichols rd, detroit, mi 48203, usa",""
+"The Underground","","Bars","15533 West 8 Mile Drive","Detroit","MI","Gaia's Guide",1985,"","15533 West 8 Mile Drive, Detroit, MI",-83.3214683,42.4415301,"15533 w 8 mile rd, livonia, mi 48152, usa",""
+"The Railroad Crossing","","Bars","6640 E. 8 Mile","Detroit","MI","Gaia's Guide",1985,"","6640 E. 8 Mile, Detroit, MI",-83.0355522,42.4475041,"6640 e 8 mile rd, detroit, mi 48234, usa",""
+"Gigi'S","","Bars","16920 West Warren","Detroit","MI","Gaia's Guide",1985,"","16920 West Warren, Detroit, MI",-83.2112501,42.3436482,"16920 w warren ave, detroit, mi 48228, usa",""
+"Michigan Organization","","Bars","940 West Michigan Rd","Detroit","MI","Gaia's Guide",1985,"","940 West Michigan Rd, Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Chosen Books","very well stocked with lesbian and feminist titles. They sell GAIA'S GUIDE.","Bars","940 W McNichols.","Detroit","MI","Gaia's Guide",1985,"","940 W McNichols., Detroit, MI",-83.115386,42.417851,"940 w mcnichols rd, detroit, mi 48203, usa",""
+"Just Out","Tel. 223-9652 HEALTH CENTERS/CLINICS/COUNSELLING","Services","923 South West 17th St.","Portland","OR","Gaia's Guide",1985,"","923 South West 17th St., Portland, OR",-122.6903166,45.5204382,"923 sw 17th ave, portland, or 97205, usa",""
+"Portland Women’s Feminist Health Center","Tel 777-7044. Well-woman clinic. Phone counseling","Services","6510 S.E. Foster Road","Portland","OR","Gaia's Guide",1985,"","6510 S.E. Foster Road, Portland, OR",-122.5956817,45.4889525,"6510 se foster rd, portland, or 97206, usa",""
+"Jonah’s Gallery & Pub","Tel. 245-2188 Excellent seafood
+restaurant.","Restaurants","7425 SW Barbur Blovd.","Portland","OR","Gaia's Guide",1985,"","7425 SW Barbur Blovd., Portland, OR",-122.6862447,45.4714424,"7425 sw barbur blvd, portland, or 97219, usa",""
+"Chuckles","Tel. 223-2372. Pool tables, good food, lots
+of gay women and recommended.","Bars","1810 North West Lovejoy St","Portland","OR","Gaia's Guide",1985,"","1810 North West Lovejoy St, Portland, OR",-122.6899907,45.5294769,"1810 nw lovejoy st, portland, or 97209, usa",""
+"A Woman’s Place Bookstore","Tel. 236-3609. Open noon-6pm.
+Books + posters, magazines and newspapers, jewlery, buttons, cards.
+Acknowledged local info center. Say 'hi' from GAIA","Feminist Bookstore","2349 SE Ankeny","Portland","OR","Gaia's Guide",1985,"","2349 SE Ankeny, Portland, OR",-122.6415759,45.5222755,"2349 se ankeny st, portland, or 97214, usa",""
+"Looking Glass Books","Tel.
+227-4760. General bookstore with lesbian titles/women's studies and GAIA'S GUIDE.
+CATBIRD SEAl: 913 South West Washington. Tel. 222-5817. Feminist titles.
+TWENTY THI RD AVENUE BOOKS, 1015 NW 23rd Avenue; Tel.224-5097. Lesbian/gay
+books","Bookstores","318 SW Taylor St.","Portland","OR","Gaia's Guide",1985,"","318 SW Taylor St., Portland, OR",-122.67678,45.5168928,"318 sw taylor st, portland, or 97204, usa",""
+"D's","Tel. 241-1368","Restaurants","2344 NW 24th","Portland","OR","Gaia's Guide",1985,"","2344 NW 24th, Portland, OR",-122.7020894,45.5399012,"2344 nw 24th pl, portland, or 97210, usa",""
+"MCC","Tel. 281-8868","Religious Groups","1644 NE 24th & Broadway","Portland","OR","Gaia's Guide",1985,"","1644 NE 24th & Broadway, Portland, OR",NA,NA,NA,""
+"Genoa","Tel. 238-1464. Northern Italian cuisine.","Restaurants","2832 SE Belmont;","Portland","OR","Gaia's Guide",1985,"","2832 SE Belmont;, Portland, OR",-122.6363221,45.516276,"2832 se belmont st, portland, or 97214, usa",""
+"Primary Domain","Tel. 224-4135. Full liquor license bar
+and women's restaurant. Disco, pool tables, owned and operated by gay women.
+A warm and friendly place","Bar/Restaurant","1033 N.W. Marshall;97209","Portland","OR","Gaia's Guide",1985,"","1033 N.W. Marshall;97209, Portland, OR",-122.6822004,45.5309207,"1033 nw marshall st, portland, or 97209, usa",""
+"Portland Women’s Crisis Hotline","Tel. 235-5333","Services","3020 Burnside.","Portland","OR","Gaia's Guide",1985,"","3020 Burnside., Portland, OR",-122.6344375,45.5227506,"3020 e burnside st, portland, or 97214, usa",""
+"Hamburgers Mary's","Tel. 223-0900","Restaurants","840 SW Park Ave","Portland","OR","Gaia's Guide",1985,"","840 SW Park Ave, Portland, OR",-122.6806815,45.5184889,"840 sw park ave, portland, or 97205, usa",""
+"Darcelle’s XV Tavern","Tel. 222-5338. Female impersonation shows.","Show-Bars","208 NW 3rd St","Portland","OR","Gaia's Guide",1985,"","208 NW 3rd St, Portland, OR",-122.7873187,45.5986823,"nw 3rd st, portland, or 97231, usa",""
+"JOQ’s Tavern","Tel 287-4210. Neighborhood atmosphere-no
+dancing but video games and pool tables. lnteracial clientel and recommended.","Bars","1422 NE Broadway","Portland","OR","Gaia's Guide",1985,"","1422 NE Broadway, Portland, OR",-122.6509477,45.5348404,"1422 ne broadway, portland, or 97232, usa",""
+"JR Saloon East","Tel. 231-9900","Bars","4036 SE Hawthorne Blve.","Portland","OR","Gaia's Guide",1985,"","4036 SE Hawthorne Blve., Portland, OR",-122.6208889,45.511825,"4036 se hawthorne blvd, portland, or 97214, usa",""
+"Dugan's","tel. 287-7715","Restaurants","1441 NE Broadway","Portland","OR","Gaia's Guide",1985,"","1441 NE Broadway, Portland, OR",-122.6506526,45.5351772,"1441 ne broadway, portland, or 97232, usa",""
+"Hot PotataCafe","Tel. 223-7573","Restaurants","13 St SW","Portland","OR","Gaia's Guide",1985,"","13 St SW, Portland, OR",-122.7116161,45.484946,"southwest portland, portland, or, usa",""
+"Metro Cafe","Tel. 230-1220","Restaurants","2524 SE Clinton","Portland","OR","Gaia's Guide",1985,"","2524 SE Clinton, Portland, OR",-122.639901,45.5031885,"2524 se clinton st, portland, or 97202, usa",""
+"The Other Side of Midnight","Tel. 233-1069. 3 pool
+tables/wide screen video disco. Full restaurant. Holds up to 175 people. Open 7
+days week. Sun.:rh 2pm-2:30am. Fri & Sat 3pm-4am (open for breakfast!). Say 'hi'
+from GAIA","Bars","426 SE Hawthorne Blvd","Portland","OR","Gaia's Guide",1985,"","426 SE Hawthorne Blvd, Portland, OR",-122.661765,45.5122548,"426 se hawthorne blvd, portland, or 97214, usa",""
+"Hobo Inn","Tel. 224-3285. Piano bar/cocktails.moderate prices","Bar/Restaurant","20 North West 3rd","Portland","OR","Gaia's Guide",1985,"","20 North West 3rd, Portland, OR",-122.6730917,45.5235824,"20 nw 3rd ave, portland, or 97209, usa",""
+"Old Wives Tale Restaurant and Women’s Center","Tel.
+238-0470. Meeting and banquet room, children's playroom. Featuring the work of
+women writers and musicians and artists, browsing library. Vegetarian, chicken and
+fish dishes, all excellent. Open every day from 11:30am-10/11pm.-Say'hi' from GAIA","Bar/Restaurant","1300 East Burnside","Portland","OR","Gaia's Guide",1985,"","1300 East Burnside, Portland, OR",-122.6523974,45.5226528,"old wives' tales restaurant in portland, 1300 e burnside st, portland, or 97214, usa",""
+"High Country","Tel. 351-2278","Bars","3121 Inwood Road","Dallas","TX","Gaia's Guide",1985,"","3121 Inwood Road, Dallas, TX",-96.8306795,32.8262963,"3121 inwood rd, dallas, tx 75235, usa",""
+"Crackers","Tel. 827-1600","Restaurants","2621 McKinney","Dallas","TX","Gaia's Guide",1985,"","2621 McKinney, Dallas, TX",-96.8018622,32.7972655,"2621 mckinney ave, dallas, tx 75204, usa",""
+"Contemporary Country","Tel. 631-6036","Bars","1724 West Mockingbird;","Dallas","TX","Gaia's Guide",1985,"","1724 West Mockingbird;, Dallas, TX",-96.8561047,32.8218699,"1724 w mockingbird ln, dallas, tx 75235, usa",""
+"WOK","Tel. 528-0000","Restaurants","4006 Cedar Springs","Dallas","TX","Gaia's Guide",1985,"","4006 Cedar Springs, Dallas, TX",-96.8111317,32.8113417,"4006 cedar springs rd, dallas, tx 75219, usa",""
+"Hunky's","Tel. 522-1212","Restaurants","4000 Cedar Springs;","Dallas","TX","Gaia's Guide",1985,"","4000 Cedar Springs;, Dallas, TX",-96.8111322,32.8111293,"4000 cedar springs rd, dallas, tx 75219, usa",""
+"Half the Sky","Tel.824-7866. Going over to mail order
+only. Telephone for new Info. Very helpful to GAIA'S GUIDE","Feminist Bookstore","2018 Greenville Avenue","Dallas","TX","Gaia's Guide",1985,"","2018 Greenville Avenue, Dallas, TX",-96.7700233,32.8145314,"2018 greenville ave, dallas, tx 75206, usa",""
+"Richards Cafe American","Tel. 761-014 (25th floor)","Restaurants","1222 Commerce","Dallas","TX","Gaia's Guide",1985,"","1222 Commerce, Dallas, TX",-96.8008982,32.7793886,"1222 commerce st, dallas, tx 75202, usa",""
+"Lone Star Donuts","Tel. 824-1790","Restaurants","2630 N. Fitzhugh","Dallas","TX","Gaia's Guide",1985,"","2630 N. Fitzhugh, Dallas, TX",-96.7849219,32.8140814,"2630 n fitzhugh ave, dallas, tx 75204, usa",""
+"Moondream","Tel. 528-4098","Bars","913 Cedar Springs","Dallas","TX","Gaia's Guide",1985,"","913 Cedar Springs, Dallas, TX",-96.8063368,32.7883683,"913 cedar springs rd, dallas, tx 75202, usa",""
+"Dallas Voice","Tel.521-6759/advertising: 521-3230.","Publications","3636 Lemmon, suite 450;75219","Dallas","TX","Gaia's Guide",1985,"","3636 Lemmon, suite 450;75219, Dallas, TX",-96.80371,32.8103366,"3636 lemmon ave #450, dallas, tx 75219, usa",""
+"The Unicorn","Tel. 521-4666","Bars","4125 Lemmon Ave","Dallas","TX","Gaia's Guide",1985,"","4125 Lemmon Ave, Dallas, TX",-96.8101958,32.8152799,"4125 lemmon ave, dallas, tx 75219, usa",""
+"Jugs","Tel. 823-0746. Pool
+tables and dancing. Open 12noon-2am. Say'hi' from GAIA (near Central Expressway)","Bars","2812 North Henderson Ave","Dallas","TX","Gaia's Guide",1985,"","2812 North Henderson Ave, Dallas, TX",-96.7838189,32.8196769,"2812 n henderson ave, dallas, tx 75206, usa",""
+"The North Forty","Tel. 350-6327. Lesbian
+entertainment complex. Restaurant/dancing/pool tables/entertainment. Open
+3pm-2am Th.-Sun. Say'hi' from GAIA.","Bars","6316 Denton Drive;9 (at Manor Way)","Dallas","TX","Gaia's Guide",1985,"","6316 Denton Drive;9 (at Manor Way), Dallas, TX",-96.8390816,32.8287006,"6316 denton dr #9, dallas, tx 75235, usa",""
+"Old Plantation","Tel.526-5590","Bars","3911 Cedar Springs Road","Dallas","TX","Gaia's Guide",1985,"","3911 Cedar Springs Road, Dallas, TX",-96.8110709,32.810535,"3911 cedar springs rd, dallas, tx 75219, usa",""
+"Metropolitan Community Church","Tel. 526-6221.
+GAY AND LESBIAN JEWS OF THE METROPLEX-Tel.827-9161 or 942-1599.
+AFFIRMATION, Gay & Lesbian Mormons-Tel. 559-3353","Religious Groups","2701 Reagan St","Dallas","TX","Gaia's Guide",1985,"","2701 Reagan St, Dallas, TX",-96.8137749,32.8078536,"2701 reagan st, dallas, tx 75219, usa",""
+"Gay Community Center","Tel.528-4233","Centers","3920 Cedar Springs","Dallas","TX","Gaia's Guide",1985,"","3920 Cedar Springs, Dallas, TX",-96.8104414,32.8107875,"3920 cedar springs rd, dallas, tx 75219, usa",""
+"Bentley’s","Tel. 521-8090","Restaurants","3851 Cedar Springs","Dallas","TX","Gaia's Guide",1985,"","3851 Cedar Springs, Dallas, TX",-96.8103654,32.8100057,"3851 cedar springs rd, dallas, tx 75219, usa",""
+"Gigi's","Tel. 584-6625.","Bars","16920 W Warren","Detroit","MI","Gaia's Guide",1987,"","16920 W Warren, Detroit, MI",-83.2112501,42.3436482,"16920 w warren ave, detroit, mi 48228, usa",""
+"Donna B. Grant & Leslie Anne Logan","48010- Tel.540-5977.","Attorney's","30600 Telegraph Rd","Detroit","MI","Gaia's Guide",1987,"","30600 Telegraph Rd, Detroit, MI",-83.2837656,42.5125425,"30600 telegraph rd, bingham farms, mi 48025, usa",""
+"Michigan Organization For Human Rights","Tel. 863- 7255.","Political Group","940 W Mc Nichols Rd","Detroit","MI","Gaia's Guide",1987,"","940 W Mc Nichols Rd, Detroit, MI",-83.115386,42.417851,"940 w mcnichols rd, detroit, mi 48203, usa",""
+"Orca's","Tel.839-4190. Open M-F. 4pm-2.30am/Sat. & Sun. 2pm-2.30am. Lots of free parking.","Bars","12841 E Mc Nichols Rd","Detroit","MI","Gaia's Guide",1987,"","12841 E Mc Nichols Rd, Detroit, MI",-82.992363,42.4243994,"12841 e mcnichols rd, detroit, mi 48205, usa",""
+"Laura's","Tel.368-9000, women's bar. Opened Feb.,1986.","Bars","19326 Conant","Detroit","MI","Gaia's Guide",1987,"","19326 Conant, Detroit, MI",-83.0755854,42.4359017,"19326 conant, detroit, mi 48234, usa",""
+"Chosen Books","Tel. 864-0485.","Gay/Lesbian Bookstore","940 W Mc Nichols","Detroit","MI","Gaia's Guide",1987,"","940 W Mc Nichols, Detroit, MI",-83.115386,42.417851,"940 w mcnichols rd, detroit, mi 48203, usa",""
+"Railroad Crossing","Tel. 891-1020.","Bars","6640 E 8 Mile","Detroit","MI","Gaia's Guide",1987,"","6640 E 8 Mile, Detroit, MI",-83.0355522,42.4475041,"6640 e 8 mile rd, detroit, mi 48234, usa",""
+"Amiga's","Tel. 891-9795.","Bars","19326 Conant","Detroit","MI","Gaia's Guide",1987,"","19326 Conant, Detroit, MI",-83.0755854,42.4359017,"19326 conant, detroit, mi 48234, usa",""
+"Underground","Tel.341-4423.","Bar/Restaurant","15533 W 8 Mile Dr","Detroit","MI","Gaia's Guide",1987,"","15533 W 8 Mile Dr, Detroit, MI",-83.3214683,42.4415301,"15533 w 8 mile rd, livonia, mi 48152, usa",""
+"Club Igcognito","Tel.892-9303. Security guard on duty 7 nights. Open M-Sat.7pm-2am & Sun. 2pm-2am. Dalily happy hour: 7pm-10pm.","Bars","4401 E 7 Mile Rd","Detroit","MI","Gaia's Guide",1987,"","4401 E 7 Mile Rd, Detroit, MI",-83.0596309,42.4333953,"4401 seven mile e, detroit, mi 48234, usa",""
+"Cruise Magazine","48203-Tel.(313)369-1900. Full of statewide resource info for lesbians and gay men. Very helpful to GAIA'S GUIDE. $15.00 for 6 months.","Publications","19136 N Woodward","Detroit","MI","Gaia's Guide",1987,"","19136 N Woodward, Detroit, MI",-83.114862,42.432702,"19136 woodward ave, detroit, mi 48203, usa",""
+"Genoa","Tel. 238-1464. Northern Italian cuisine.","Restaurants","2832 SE Belmont","Portland","OR","Gaia's Guide",1987,"","2832 SE Belmont, Portland, OR",-122.6363221,45.516276,"2832 se belmont st, portland, or 97214, usa",""
+"Portland Feminist Women's Health Center","Tel.777-7044. Well-woman clinic. Phone counseling.","Health Centers/Clinics/Counselling","6510 SE Foster Rd","Portland","OR","Gaia's Guide",1987,"","6510 SE Foster Rd, Portland, OR",-122.5956817,45.4889525,"6510 se foster rd, portland, or 97206, usa",""
+"The City Nightclub","Tel.224-CITY. An all age gay night club, open before hours and after hours.","Bars","624 SW 13th","Portland","OR","Gaia's Guide",1987,"","624 SW 13th, Portland, OR",-122.684731,45.52094,"624 sw 13th ave, portland, or 97205, usa",""
+"Portland Women's Crisis Hotline","Tel.235-5333","Services","3020 Burnside","Portland","OR","Gaia's Guide",1987,"","3020 Burnside, Portland, OR",-122.6344375,45.5227506,"3020 e burnside st, portland, or 97214, usa",""
+"14 Grains","S.W. 10th & Salmon; Tel. 224-7940. Emphasis on home- made and very natural food.","Restaurants","SW 10th","Portland","OR","Gaia's Guide",1987,"","SW 10th, Portland, OR",-122.688529,45.47596,"sw 10th ave, portland, or, usa",""
+"Cynthia Cumfer","518 Govemon Building, 408 SW-2nd Ave;97204- Tel.295-2456","Attorneys","408 SW 2nd Ave","Portland","OR","Gaia's Guide",1987,"","408 SW 2nd Ave, Portland, OR",-122.6733871,45.5197244,"408 sw 2nd ave, portland, or 97204, usa",""
+"Jonah's Galley & Pub","Tel. 245-2188. Excellent seafood restaurant.","Restaurants","7425 SW Barbur Rd","Portland","OR","Gaia's Guide",1987,"","7425 SW Barbur Rd, Portland, OR",-122.7035914,45.4622722,"7425 sw barbur ct, portland, or 97219, usa",""
+"Old Wives Tales","97214/(at 13th)-Tel. 238-0470. Meeting and banquet room, children's playroom. Featuring the work of women writers and musicians and artists, browsing library. Vegetarian, chicken and fish dishes, all excellent, multi-ethnic menu. Open every day from 11:30am-10/11pm.--Say 'hi' from GAIA.","Bars/Restaurants","1300 E Burnside","Portland","OR","Gaia's Guide",1987,"","1300 E Burnside, Portland, OR",-122.6523974,45.5226528,"old wives' tales restaurant in portland, 1300 e burnside st, portland, or 97214, usa",""
+"A Silent Partner","Tel.223-2372. Pool tables, good food, lots of gay women and recommended.","Bars","1810 NW Lovejoy St","Portland","OR","Gaia's Guide",1987,"","1810 NW Lovejoy St, Portland, OR",-122.6899907,45.5294769,"1810 nw lovejoy st, portland, or 97209, usa",""
+"Primary Doman","(between Lovejoy & Marshall);97209-Tel. 224-4135. Full liquor license bar and women's restaurant. Disco, pool tables, + the very best in women's entertain- ment. Lots of letters recommending this place for great food, etc. Owned and operated by gay women who emphasize networking. A warm and friendly place, open 4:30pm-2:30am. Be sure and say 'hi' from GAIA.","Bars/Restaurants","1033 NW 16th","Portland","OR","Gaia's Guide",1987,"","1033 NW 16th, Portland, OR",-122.6876963,45.5305504,"1033 nw 16th ave, portland, or 97209, usa",""
+"Catbird Seat","Tel. 222-5817. Feminist titles.","Bookstores","913 SW Broadway","Portland","OR","Gaia's Guide",1987,"","913 SW Broadway, Portland, OR",-122.6807996,45.5179029,"913 sw broadway, portland, or 97205, usa",""
+"Looking Glass Books","(between 3rd 4th);97204. Tel. 227-4760. General bookstore with lesbian titles women's studies and GAIA'S GUIDE.","Bookstores","318 SW Taylor St","Portland","OR","Gaia's Guide",1987,"","318 SW Taylor St, Portland, OR",-122.67678,45.5168928,"318 sw taylor st, portland, or 97204, usa",""
+"Phoenix Rising Foundation","(no.412); 97204-Tel.223-8299. Discussions/socials.etc.","Lesbian/Gay Service Center","408 SW 2nd","Portland","OR","Gaia's Guide",1987,"","408 SW 2nd, Portland, OR",-122.6733871,45.5197244,"408 sw 2nd ave, portland, or 97204, usa",""
+"Sandra K. Pinches","(suite7);-Tel.227-7558","Health Centers/Clinics/Counselling","1809 NW Johnson","Portland","OR","Gaia's Guide",1987,"","1809 NW Johnson, Portland, OR",-122.6897532,45.5288008,"1809 nw johnson st, portland, or 97209, usa",""
+"Darcelle XV Tavern","Tel. 222-5338. Female impersonation shows.","Show Bars","208 NW 3rd St","Portland","OR","Gaia's Guide",1987,"","208 NW 3rd St, Portland, OR",-122.7873187,45.5986823,"nw 3rd st, portland, or 97231, usa",""
+"Karen L Zumwalt","(suite 1001),Pacific Building, 520 S.W. Yamhill St;97204-Tel.227-6784","Attorneys","520 SW Yamhill St","Portland","OR","Gaia's Guide",1987,"","520 SW Yamhill St, Portland, OR",-122.6786184,45.518132,"520 sw yamhill st, portland, or 97204, usa",""
+"Ben Merrill","(suite 519); 97204-Tel.295-2456","Attorneys","408 SW 2nd","Portland","OR","Gaia's Guide",1987,"","408 SW 2nd, Portland, OR",-122.6733871,45.5197244,"408 sw 2nd ave, portland, or 97204, usa",""
+"Twenty Third Avenue Books","Tel.224-5097. Lesbian/gay books.","Bookstores","1015 NW 23rd Ave","Portland","OR","Gaia's Guide",1987,"","1015 NW 23rd Ave, Portland, OR",-122.6987429,45.5300973,"1015 nw 23rd ave, portland, or 97210, usa",""
+"A Woman's Place Bookstore","Tel. 236-3609. Open noon-6pm. Books + posters, magazines and newspapers, jewlery, buttons, cards. Acknowledged local info center. Say 'hi' from GAIA.","Restaurants","2349 SE Ankeny","Portland","OR","Gaia's Guide",1987,"","2349 SE Ankeny, Portland, OR",-122.6415759,45.5222755,"2349 se ankeny st, portland, or 97214, usa",""
+"MCC","1644 NE 24th & Broadway. Tel. 281-8868","Religious Groups","1644 NE 24th","Portland","OR","Gaia's Guide",1987,"","1644 NE 24th, Portland, OR",-122.6407976,45.5347748,"1644 ne 24th ave, portland, or 97232, usa",""
+"Hamburger Mary's","Tel. 223-0900","Restaurants","840 SW Park Ave","Portland","OR","Gaia's Guide",1987,"","840 SW Park Ave, Portland, OR",-122.6806815,45.5184889,"840 sw park ave, portland, or 97205, usa",""
+"Hobo Inn","Tel. 224-3285. Piano bar/ cocktails.moderate prices. Full bar and dinner house, open 7 days a week.","Bars/Restaurants","120 NW 3rd","Portland","OR","Gaia's Guide",1987,"","120 NW 3rd, Portland, OR",-122.6732813,45.5242541,"120 nw 3rd ave, portland, or 97209, usa",""
+"The Clinic On 21st","Tel.226-6678. Private V.D. clinic.","Health Centers/Clinics/Counselling","1216 NW 21st","Portland","OR","Gaia's Guide",1987,"","1216 NW 21st, Portland, OR",-122.6943776,45.5316102,"1216 nw 21st ave, portland, or 97209, usa",""
+"Joq's Tavern","Tel. 287-4210. Neighborhood atmosphere- -no dancing but video games and pool tables. lnteracial clientel and recommended.","Bars","1422 NE Broadway","Portland","OR","Gaia's Guide",1987,"","1422 NE Broadway, Portland, OR",-122.6509477,45.5348404,"1422 ne broadway, portland, or 97232, usa",""
+"Gay Community Center","Tel.528-4233","Gay/Lesbian Center","3920 Cedar Springs","Dallas","TX","Gaia's Guide",1987,"","3920 Cedar Springs, Dallas, TX",-96.8104414,32.8107875,"3920 cedar springs rd, dallas, tx 75219, usa",""
+"High Country","Tel.351-2278","Bars","3121 Inwood Rd","Dallas","TX","Gaia's Guide",1987,"","3121 Inwood Rd, Dallas, TX",-96.8306795,32.8262963,"3121 inwood rd, dallas, tx 75235, usa",""
+"North Forty","Tel.350-6327","Bars","6316 Denton Dr","Dallas","TX","Gaia's Guide",1987,"","6316 Denton Dr, Dallas, TX",-96.8390816,32.8287006,"6316 denton dr, dallas, tx 75235, usa",""
+"Dallas Voice","suite 105;-Tel.521-3230","Publications","2727 Oak Lawn","Dallas","TX","Gaia's Guide",1987,"","2727 Oak Lawn, Dallas, TX",-96.8115337,32.8067583,"2727 oak lawn ave, dallas, tx 75219, usa",""
+"Moondream","Tel.528-4098","Bars","3913 Cedar Springs","Dallas","TX","Gaia's Guide",1987,"","3913 Cedar Springs, Dallas, TX",-96.8110754,32.8107397,"3913 cedar springs rd, dallas, tx 75219, usa",""
+"Jugs","Tel.823-0746 ..(near Central Express- way).","Bars","2812 N Henderson","Dallas","TX","Gaia's Guide",1987,"","2812 N Henderson, Dallas, TX",-96.7838189,32.8196769,"2812 n henderson ave, dallas, tx 75206, usa",""
+"Old Plantation","Tel.526-5590.","Bars","3911 Cedar Springs Rd","Dallas","TX","Gaia's Guide",1987,"","3911 Cedar Springs Rd, Dallas, TX",-96.8110709,32.810535,"3911 cedar springs rd, dallas, tx 75219, usa",""
+"Metropolitan Community Church/Dallas","Tel.526-6221","Religious Groups","2701 Raegan St","Dallas","TX","Gaia's Guide",1987,"","2701 Raegan St, Dallas, TX",-96.8137749,32.8078536,"2701 reagan st, dallas, tx 75219, usa",""
+"Underground","-Tel. 341-4423.","Bar / Restaurants","15533 West 8 Mile Drive","Detroit","MI","Gaia's Guide",1989,"","15533 West 8 Mile Drive, Detroit, MI",-83.3214683,42.4415301,"15533 w 8 mile rd, livonia, mi 48152, usa",""
+"Murray Hill Motel","-Tel. 836-4488","Motel","6221 West 8 Mile Road","Detroit","MI","Gaia's Guide",1989,"","6221 West 8 Mile Road, Detroit, MI",-83.1419763,42.4458661,"6221 eight mile w, detroit, mi 48221, usa",""
+"Railroad Crossing","-Tel. 891-1020.","Bars","6640 East 8 Mile","Detroit","MI","Gaia's Guide",1989,"","6640 East 8 Mile, Detroit, MI",-83.0355522,42.4475041,"6640 e 8 mile rd, detroit, mi 48234, usa",""
+"Promises","Tel.892-1765.(side entrance)-Community-minded
+lesbian show-bar. Open Tu/ Th/ Sat. 6pm-2am & Sun. 3pm-2am. closed Mondays Cocktail hour: 6pm-8pm. Looks good.","Bars","19404 Sherwood","Detroit","MI","Gaia's Guide",1989,"","19404 Sherwood, Detroit, MI",-83.033851,42.4373435,"19404 sherwood st, detroit, mi 48234, usa",""
+"Chosen Books","48203 -Tel. 064-0485. As well as lesbian titles, women's studies, etc. , they have music. Local periodicals include METRA, NEW DIRECTIONS FOR WOMEN, etc. Ticket sales for local events. They sell GAIA 'S GUIDE, be sure and say 'hi' from GAIA .","Gay / Lesbian Bookstore","940 West McNichols","Detroit","MI","Gaia's Guide",1989,"","940 West McNichols, Detroit, MI",-83.115386,42.417851,"940 w mcnichols rd, detroit, mi 48203, usa",""
+"Cruise Magazine","48203 -Tel. (313)369-1900. Full of statewide resource info for lesbians and gay men. Very helpful to GAIA'S GUIDE. $15. 00 for 6 months.","Publications","19136 Woodward North","Detroit","MI","Gaia's Guide",1989,"","19136 Woodward North, Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Backstage / Manhattan Room","-Tel. 869-8535.","Bars","17630 Woodman Ave","Detroit","MI","Gaia's Guide",1989,"","17630 Woodman Ave, Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Cafe Gigi's","-Tel. 584-6625 Lower Deck.","Bars","16920 West Warren","Detroit","MI","Gaia's Guide",1989,"","16920 West Warren, Detroit, MI",-83.2112501,42.3436482,"16920 w warren ave, detroit, mi 48228, usa",""
+"Genoa","-Tel. 238-1464. Northern Italian cuisine.","Restaurants","2832 SE Belmont","Portland","OR","Gaia's Guide",1989,"","2832 SE Belmont, Portland, OR",-122.6363221,45.516276,"2832 se belmont st, portland, or 97214, usa",""
+"The City Nightclub","'-(between Morrison&Alder)-Tel. 224-CITY. An all age gay night club, open before hours and after hours.","Bars","624 SW 13th","Portland","OR","Gaia's Guide",1989,"","624 SW 13th, Portland, OR",-122.684731,45.52094,"624 sw 13th ave, portland, or 97205, usa",""
+"Indigine","Tel. 238-1470","Restaurants","3725 SE Division","Portland","OR","Gaia's Guide",1989,"","3725 SE Division, Portland, OR",-122.6250885,45.5049497,"3725 se division st, portland, or 97202, usa",""
+"Happy Harvest","-Tel 235-5358. Vegetarian cafe and natural
+food grocers.","Restaurants","2348 SE Ankeny","Portland","OR","Gaia's Guide",1989,"","2348 SE Ankeny, Portland, OR",-122.641666,45.5219715,"2348 se ankeny st, portland, or 97214, usa",""
+"Club 927","-Tel 231-1606. Full liquor license bar for women only.
+Disco, pool tables. pinball. big screen TV, food. Recommended.","Bars","927 SE Morrison","Portland","OR","Gaia's Guide",1989,"","927 SE Morrison, Portland, OR",-122.6562575,45.5174509,"napa auto parts in portland, or, usa, 927 se morrison st, portland, or 97214, usa",""
+"Portland Women's Crisis Hotline","-Tel. 235-5333","Information and Emergency Services","3020 Burnside","Portland","OR","Gaia's Guide",1989,"","3020 Burnside, Portland, OR",-122.6344375,45.5227506,"3020 e burnside st, portland, or 97214, usa",""
+"In Her Image","Tel 231 -3726 Women's arts and crafts gallery","Women's Art Gallery","233 North East 28th","Portland","OR","Gaia's Guide",1989,"","233 North East 28th, Portland, OR",-122.6375333,45.5248717,"233 ne 28th ave, portland, or 97232, usa",""
+"Embers","-Tel. 222-3082.","Bars","110 North West Broadway","Portland","OR","Gaia's Guide",1989,"","110 North West Broadway, Portland, OR",-122.6772484,45.5239795,"110 nw broadway, portland, or 97209, usa",""
+"The Clinic on 21st","-Tel. 226-6678. Private V. D. clinic.","Health Centers / Clinics / Counseling / Practitioners","1216 NW 21st St","Portland","OR","Gaia's Guide",1989,"","1216 NW 21st St, Portland, OR",-122.6943776,45.5316102,"1216 nw 21st ave, portland, or 97209, usa",""
+"Jonah's Galley & Pub","-Tel. 245-2188. Excellent seafood
+restaurant","Restaurants","7425 SW Barbur Blvd","Portland","OR","Gaia's Guide",1989,"","7425 SW Barbur Blvd, Portland, OR",-122.6862447,45.4714424,"7425 sw barbur blvd, portland, or 97219, usa",""
+"Crone Magic","-TeI 249-0444. lesbian-owned, spiritually oriented shop. They have crystals, assorted stones, jewelry, books, incense, candles, workshops,","Goddess Crafts","1405 North East Broadway","Portland","OR","Gaia's Guide",1989,"","1405 North East Broadway, Portland, OR",-122.6512729,45.5352107,"1405 ne broadway, portland, or 97232, usa",""
+"In Touch Travel","Tel 224-3580","Travel Agency","121 SW Morrison","Portland","OR","Gaia's Guide",1989,"","121 SW Morrison, Portland, OR",-122.6738434,45.5182248,"121 sw morrison st, portland, or 97204, usa",""
+"Phoenix Rising Foundation","(no. 412); 97204 -Tel. 223-8299.
+Discussions/ socials, etc","Health Centers / Clinics / Counseling / Practitioners","408 SW 2nd","Portland","OR","Gaia's Guide",1989,"","408 SW 2nd, Portland, OR",-122.6733871,45.5197244,"408 sw 2nd ave, portland, or 97204, usa",""
+"A Woman's Place Bookstore","'-Tel. 284-1110. Hours: 11-7, Mon-Sat. & 12-5 Sun. Feminist Fiction, Autobiography, Spirituality, Lesbian and Gay Men's titles, non-sexist children's books, Women's music, artwork, jewelry, and magazines. Bulletin board, and answering machine taped message of women's events, etc. -(operates 7pm-11 am). Good place to stop if you 're new in the area. 2, 200 square feet. They sell GAIA'S GUIDE, say 'hi' from GAIA.","Feminist Bookstore","1431 North East Broadway","Portland","OR","Gaia's Guide",1989,"","1431 North East Broadway, Portland, OR",-122.6508307,45.5351922,"1431 ne broadway, portland, or 97232, usa",""
+"Primary Domain","(between Lovejoy & Marshall); 97209 -Tel.
+224-4135. Full liquor license bar and women's restaurant. Disco. pool tables.","Bar / Restaurants","1033 NW 16th","Portland","OR","Gaia's Guide",1989,"","1033 NW 16th, Portland, OR",-122.6876963,45.5305504,"1033 nw 16th ave, portland, or 97209, usa",""
+"Darcelle XV Tavern","-Tel. 223-1679 .. Female impersonation
+shows.","Show-Bar","208 NW 3rd St","Portland","OR","Gaia's Guide",1989,"","208 NW 3rd St, Portland, OR",-122.7873187,45.5986823,"nw 3rd st, portland, or 97231, usa",""
+"Women with Women with Children","97212 -Tel. 282-1529 & see 'JUST OUT' & 'Lavender Network' for current details.","Organizations and Groups - Including Special Interests","2217 NE Hancock St","Portland","OR","Gaia's Guide",1989,"","2217 NE Hancock St, Portland, OR",-122.6425902,45.5367006,"2217 ne hancock st, portland, or 97212, usa",""
+"As Tacqueria","(at 10th); -Tel. 226-1946 Open 11am-10pm &
+Sun. 12 noon-6pm.","Restaurants","1001 SW Morrison","Portland","OR","Gaia's Guide",1989,"","1001 SW Morrison, Portland, OR",-122.6822168,45.5202453,"1001 sw morrison st, portland, or 97205, usa",""
+"Old Wive's Tales","97214/ (at 13th)-Tel. 238-0470.","Bar / Restaurants","1300 East Burnside","Portland","OR","Gaia's Guide",1989,"","1300 East Burnside, Portland, OR",-122.6523974,45.5226528,"old wives' tales restaurant in portland, 1300 e burnside st, portland, or 97214, usa",""
+"MCC","1644 NE 24th & Broadway -Tel. 281-8868","Religious Groups","1644 NE 24th","Portland","OR","Gaia's Guide",1989,"","1644 NE 24th, Portland, OR",-122.6407976,45.5347748,"1644 ne 24th ave, portland, or 97232, usa",""
+"Choices","-Tel. 236-4321. Food. pool tables. games. Open Mon-Sat. 4pm-2am / Sunday 2pm-Midnight. Looks good.","Bar / Restaurants","2845 SE Stark","Portland","OR","Gaia's Guide",1989,"","2845 SE Stark, Portland, OR",-122.636324,45.5195259,"2845 se stark st, portland, or 97214, usa",""
+"Champagne Claudia's","-Tel. 287-1425. Serves Sunday
+brunch, etc.","Restaurants","3728 NE Sandy Blvd","Portland","OR","Gaia's Guide",1989,"","3728 NE Sandy Blvd, Portland, OR",-122.6243871,45.5340457,"tony starlight's in portland, or, usa, 3728 ne sandy blvd, portland, or 97232, usa",""
+"Healing Crystals","-Tel 234-2224 similar to Crone
+Magic.","Goddess Crafts","8215 South East 13th Street","Portland","OR","Gaia's Guide",1989,"","8215 South East 13th Street, Portland, OR",-122.6533325,45.4633001,"8215 se 13th ave, portland, or 97202, usa",""
+"Dakota Cafe","-Tel 241-4151. Sunday brunch recommended.","Restaurants","239 SW Broadway","Portland","OR","Gaia's Guide",1989,"","239 SW Broadway, Portland, OR",-122.6784163,45.5223104,"239 sw broadway, portland, or 97205, usa",""
+"Rumours","-Tel. 828-4471","Bars","5039 Willis","Dallas","TX","Gaia's Guide",1989,"","5039 Willis, Dallas, TX",-96.785361,32.82052,"5039 willis ave, dallas, tx 75206, usa",""
+"North Forty","-Tel. 350-6327","Bars","6316 Denton Drive","Dallas","TX","Gaia's Guide",1989,"","6316 Denton Drive, Dallas, TX",-96.8390816,32.8287006,"6316 denton dr, dallas, tx 75235, usa",""
+"Theatre Gemini","75219 -Tel. 521-6331.","Theater and Music Events","3920 Cedar Springs","Dallas","TX","Gaia's Guide",1989,"","3920 Cedar Springs, Dallas, TX",-96.8104414,32.8107875,"3920 cedar springs rd, dallas, tx 75219, usa",""
+"Village Station","-Tel. 949-2398","Bars","3911 Cedar Springs","Dallas","TX","Gaia's Guide",1989,"","3911 Cedar Springs, Dallas, TX",-96.8110709,32.810535,"3911 cedar springs rd, dallas, tx 75219, usa",""
+"Dallas Gay Alliance Community Center","75219-mall to: PO Box 190712; 75219 -Tel. 528-4233.
+Switchboard service 7 days a week-11am-10pm, & 'Sapphic Singles' Say 'hi'
+from GAIA.","Lesbian / Gay Community Center","3920 Cedar Springs Road","Dallas","TX","Gaia's Guide",1989,"","3920 Cedar Springs Road, Dallas, TX",-96.8104414,32.8107875,"3920 cedar springs rd, dallas, tx 75219, usa",""
+"Community Bookstore","Crossroads Market, 3930 Cedar Springs Road;
+75219 -Tel. (800)992-6404. Full range of lesbian titles / women's studies/
+music/ T-shirts/ jewelry/ posters/ &ticket sales and MAIL ORDER SERVICE &
+bulletin board for local Information. 'Call toll-free to order or for fun /
+Information, facts'. Say 'hi' from GAIA-they sell GAIA'S GUIDE-to this
+welcome new addition to our scene.","Lesbian / Gay Bookstore","3930 Cedar Springs Road","Dallas","TX","Gaia's Guide",1989,"","3930 Cedar Springs Road, Dallas, TX",-96.8107444,32.8110753,"3930 cedar springs rd, dallas, tx 75219, usa",""
+"High Country","-Tel 350-2278","Bars","3121 Inwood Road","Dallas","TX","Gaia's Guide",1989,"","3121 Inwood Road, Dallas, TX",-96.8306795,32.8262963,"3121 inwood rd, dallas, tx 75235, usa",""
+"Round-Up Saloon","-Tel. 522-9611.","Bars","3912 Cedar Springs","Dallas","TX","Gaia's Guide",1989,"","3912 Cedar Springs, Dallas, TX",-96.8103996,32.8107459,"3912 cedar springs rd, dallas, tx 75219, usa",""
+"Curious Times","Resource Center, 4008 D Cedar Springs; 75219 -Tel.
+528-4087. Lesbian books & women's studies/ feminist titles, also jewelry
+design/ pottery/ music/ women's cards/ T-shirts & a LARGE WOMEN'S
+COMMUNITY BULLETIN BOARD for networking. A great new addition to our
+scene-they sell GAIA'S GUIDE, say 'hi' from GAIA. Open seven days a week,
+11am-7pm.","Lesbian / Gay Bookstore","4008 D Cedar Springs","Dallas","TX","Gaia's Guide",1989,"","4008 D Cedar Springs, Dallas, TX",-96.8119061,32.8117163,"parking lot, 4008 cedar springs rd, dallas, tx 75219, usa",""
+"Jugs","-Tel. 521-3474.","Bars","3414 King's Road","Dallas","TX","Gaia's Guide",1989,"","3414 King's Road, Dallas, TX",-96.8184937,32.8215823,"3414 kings rd, dallas, tx 75235, usa",""
+"Gay Liberator","12 issues for $4 in US, $5 outside of US, $8 supporting.","Publications","Box 631-A","Detroit","MI","Gaia's Guide",1975,"","Box 631-A, Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"GAY SWITCHBOARD","Tel: 871-0127","Organization and Service","","Detroit","MI","Gaia's Guide",1975,"",", Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"""Sir Karp's""","State Fair at East Outer Drive","Bars","","Detroit","MI","Gaia's Guide",1975,"",", Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"The Casbah","","Bars","Plymouth & Hubble","Detroit","MI","Gaia's Guide",1975,"","Plymouth & Hubble, Detroit, MI",-70.6672621,41.9584457,"plymouth, ma, usa",""
+"Gay Women's Lib","c/o Women's Studies, Portland State University","Organizations","Portland State University","Portland","OR","Gaia's Guide",1975,"","Portland State University, Portland, OR",-122.6833385,45.5111153,"1825 sw broadway, portland, or 97201, usa",""
+"THE DOB'R","Local news and views for gay women in the Dallas area. Tel. (214) 742-1947. (Free. but donations appreciated.)","Publications","Box 1242, Dallas, Texas","Dallas","TX","Gaia's Guide",1975,"","Box 1242, Dallas, Texas, Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"D.O.B.-- ""The Center""","""THE CENTER"", P.O. Box 1242;75221. Tel. (214) 742-1947. SWITCHBOARD. Their Publication: ""The DOB'R""","Organizations","P.O. Box 1242","Dallas","TX","Gaia's Guide",1975,"","P.O. Box 1242, Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Three Plus You","Tel. 526-9438","Bars","3014 Throckmorton at Cedar Springs.","Dallas","TX","Gaia's Guide",1975,"","3014 Throckmorton at Cedar Springs., Dallas, TX",-96.8114048,32.8106421,"3014 throckmorton st, dallas, tx 75219, usa",""
+"Metro Gay News","PO Box 445-A Tel 956 7423","Publication","","Detroit","MI","Gaia's Guide",1977,"",", Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Gay Switchboard","Tel 577 3450 6-10pm Mon-Thurs 6-11pm Fri and Sat. Volunteers needed. Feminist Women's Health Clinic","Gay Hotline","","Detroit","MI","Gaia's Guide",1977,"",", Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Integrity","Tel 577 3450 and 763 4186","Religious Group","","Detroit","MI","Gaia's Guide",1977,"",", Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Barbary Coast","Inquire locally. Rough.","Bar","","Detroit","MI","Gaia's Guide",1977,"",", Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Tramps Disco","Thursday night is your night.","Bar","Michigan Ave","Detroit","MI","Gaia's Guide",1977,"","Michigan Ave, Detroit, MI",-83.1694315,42.3240622,"michigan ave, detroit, mi, usa",""
+"Womanself Bookstore","We sell Gaia's Guides","Feminist Bookstore","University Mall 220 MAC","Detroit","MI","Gaia's Guide",1977,"","University Mall 220 MAC, Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Hamburger Mary's","","Restaurants","SW 9th and Taylor","Portland","OR","Gaia's Guide",1977,"","SW 9th and Taylor, Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"A Woman's Place","","Feminist Bookstore","13th and Washington","Portland","OR","Gaia's Guide",1977,"","13th and Washington, Portland, OR",-122.6846997,45.5224287,"455 sw 13th ave, portland, or 97205, usa",""
+"Task Force on Lesbianism","PO Box 12431","Organization","","Dallas","TX","Gaia's Guide",1977,"",", Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Old Plantation","Tel 528-6550 for information","Bar","","Dallas","TX","Gaia's Guide",1977,"",", Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Gay Switchboard","Tel. 5773450, Mon-Thurs 6pm-10pm; Fri & Sat 6pm-11pm. ""Volunteers needed.""","Service","","Detroit","MI","Gaia's Guide",1979,"",", Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"My Fair Lady","Jefferson Street. Disco. 80% gay men.","Showbar","Jefferson St","Detroit","MI","Gaia's Guide",1979,"","Jefferson St, Detroit, MI",-83.2563017,42.3030126,"jefferson st, dearborn, mi 48124, usa",""
+"Continuity Guild","contact Portland Town Council for full details. An organization designed to serve the older gay woman and man.","Organization and Service","","Portland","OR","Gaia's Guide",1979,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Gay Switchboard","Tel. 557-3450. Mon-Thurs. 6pm-10pm. 6pm-11pm Fridays and Saturdays. ""Volunteers needed"".","Services","","Detroit","MI","Gaia's Guide",1981,"",", Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Front Runners","Tel. 231-1271. Alternate phone number: 283-5926 or see NEW FOUNTAIN for details.","Outdoor Group","","Portland","OR","Gaia's Guide",1981,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"N.W. Fountain","Tel.248-1990.Gay
+monthly with bar guide and some good news but mostly male ( oriented. $6.00 per year or free in bars, etc.","Publications","P.O. Box 417, 97207","Portland","OR","Gaia's Guide",1981,"","P.O. Box 417, 97207, Portland, OR",-122.6806194,45.5211732,"portland, or 97207, usa",""
+"Rainbow's End","Just gay men?","Personal Contacts/Travel Clubs","P.O. Box 13042, 97213","Portland","OR","Gaia's Guide",1981,"","P.O. Box 13042, 97213, Portland, OR",-122.6037536,45.5352835,"portland, or 97213, usa",""
+"Gay Switchboard","Tel. 577 3450. Mon-Thurs. 6pm-10pm and 6pm-11pm Fridays and Saturdays, 'volunteers needed'.","Services","","Detroit","MI","Gaia's Guide",1983,"",", Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Gayline","Tel. 241-2251 24 hour recorded information on events and meetings in the gay
+community.","Service","","Portland","OR","Gaia's Guide",1983,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Van Nuys Travel Service, Inc","Tel. 225-0064. Open 9am-5pm 5 days a week.","Travel Agents","1600 SW Fourth Ave","Portland","OR","Gaia's Guide",1983,"","1600 SW Fourth Ave, Portland, OR",-122.6792559,45.5120512,"1600 sw 4th ave, portland, or 97201, usa",""
+"Portland Gay Hotline","Tel. 228-6785. 8pm to midnight, every night.","Service","","Portland","OR","Gaia's Guide",1983,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Keep Listening","Tel. 239-6896. Ski
+trips, biology and bicycling, rafting, backpacking and photography, outdoor leadership classes.
+NO DOGS ARE ALLOWED ON KEEP LISTENING TRIPS.","Wilderness Trips","","Portland","OR","Gaia's Guide",1983,"PO Box 14743",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Metropolitan Community Church of Portland","Tel. 281-8868. The Christian Church with an outreach to the gay community. Social activities
+as well as religious, counselling, referrals and job bank. Their publication is THE CHALICE and
+they sell GA\A'S GUIDE","Religious Groups","NE 24th and Broadway","Portland","OR","Gaia's Guide",1983,"","NE 24th and Broadway, Portland, OR",-122.6411834,45.5351048,"ne 24th ave & ne broadway, portland, or 97232, usa",""
+"Metro Times","Tel. 528 9944 (taped message).","Publication","","Dallas","TX","Gaia's Guide",1983,"PO Box 225914",", Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Gayline","Tel. 748 6790 7.30pm-12am 7 days. Serves Dallas and Fort Worth.","Service","","Dallas","TX","Gaia's Guide",1983,"",", Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Gay And Lesbian Switchboard","","Bars","","Detroit","MI","Gaia's Guide",1985,"",", Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Tenth Street Bakery","Tel. 224-7940. Emphasis on home-
+made and very natural food.","Restaurants","SW 10th & Salmon","Portland","OR","Gaia's Guide",1985,"","SW 10th & Salmon, Portland, OR",NA,NA,NA,""
+"Portland Gay Hotline","Tel. 228-6785","Services","","Portland","OR","Gaia's Guide",1985,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Gayline","Tel.368-6283 (7:30pm-midnight, 7 days a week-serving Dallas & Fort Worth","Services","","Dallas","TX","Gaia's Guide",1985,"",", Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Metro Times","Tel 528-9944","Publications","PO Box 225914;75265","Dallas","TX","Gaia's Guide",1985,"","PO Box 225914;75265, Dallas, TX",-96.8,32.78,"dallas, tx 75265, usa",""
+"Gay and Lesbian Jew of the Metroplex","Tel.827-9161 or 942-1599","Religious Groups","","Dallas","TX","Gaia's Guide",1985,"",", Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Dallas Gay Alliance","Office: 3920 Cedar Springs (next
+to Union Jack);fel. (214)528-4233","Group","P.O. Box 190712;75219","Dallas","TX","Gaia's Guide",1985,"","P.O. Box 190712;75219, Dallas, TX",-96.8109852,32.8122051,"dallas, tx 75219, usa",""
+"Affirmation","Tel. 559-3353","Religious Groups","","Dallas","TX","Gaia's Guide",1985,"",", Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Radio Cab","Tel.227-1212","Taxi Cabs","","Portland","OR","Gaia's Guide",1987,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Just Out","97215-Tel. 223-1252. Full of local resources.","Services","PO Box 15117","Portland","OR","Gaia's Guide",1987,"","PO Box 15117, Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Counseling Service for Sexual Minorities","Tel.228-6785","Services","","Portland","OR","Gaia's Guide",1987,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Minorities","Tel.228-6785","Services","","Portland","OR","Gaia's Guide",1987,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Broadway Cab","Tel.227-1234","Taxi Cabs","","Portland","OR","Gaia's Guide",1987,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Gayline","Tel. 368-6283, -7:30pm-midnight, seven days a week-- serving Dallas & Forth Worth.","Services","","Dallas","TX","Gaia's Guide",1987,"",", Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Gay and Lesbian Jews of the Metroplex","Tels.521-8288 & 827-9161","Religious Groups","","Dallas","TX","Gaia's Guide",1987,"",", Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Dallas Gay Alliance","75219-Ottice:3920 Cedar Springs (neX1to 'Union Jack' - Tel.528-4233","Political Group","PO Box 190712","Dallas","TX","Gaia's Guide",1987,"","PO Box 190712, Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Gay / Lesbian Information Center","-Tel. 345-2722.","Information Services","","Detroit","MI","Gaia's Guide",1989,"",", Detroit, MI",-83.0457538,42.331427,"detroit, mi, usa",""
+"Portland Lesbian Boarding House","Tel 281 5386 Rates start about $10.00 ring up to reserve a room","Accommodation - Guest Houses, etc.","","Portland","OR","Gaia's Guide",1989,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Apartments","One bedroom apartments to rent at SE 10th Tel 233 2833 Start about $180.00 per month","Accommodation - Guest Houses, etc.","","Portland","OR","Gaia's Guide",1989,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"The Lesbian Community Project","is Oregon's largest Lesbian organization. 'LCP' produces a wide variety of social, political and educational activities. Monthly newsletter. Many volunteer opportunities. Write: PO Box 5931, Portland, OR; 97228- -Tel. (503)233-9079. Be sure and say 'hi' from GAIA to these friendly, helpful and highly recommended people.","Lesbian Service Organization","PO Box 5931","Portland","OR","Gaia's Guide",1989,"","PO Box 5931, Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Lesbian Abuse Task Force of Portland","-Tel. 238-3504, 234-3599, 236-7963 Crisis contacts, sheller services, support groups, counseling and information for lesbians who are being battered and/ or abused by their partners","Information and Emergency Services","","Portland","OR","Gaia's Guide",1989,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Radio Cab","Tel 227 1212","Taxi Cabs","","Portland","OR","Gaia's Guide",1989,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Just Out","write: PO Box 15117; 97215 -Tel. 223-1252. Full of local resources need
+a lesbian therapist or counselor?-naturopath or acupuncturist?-chiropractor?-dentist?-lawyer?-old fashioned doctor?-JUST OUT is just full of
+information about them & many, many more local groups and other types of resources than space, here will permit pick up your copy at A WOMAN'S PLACE BOOKSTORE before starting out In the Portland area ... $12. 50 for 12 issues by sub","Publications","PO Box 15117","Portland","OR","Gaia's Guide",1989,"","PO Box 15117, Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Gay Events Tape","-Tel. 248-6969","Information and Emergency Services","","Portland","OR","Gaia's Guide",1989,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Windfire","-Tel. 223-8299, for lesbians&/ or bi-sexual women under 21. . they meet
+at OLD WIVES TALES. & see ·Just Out' & I or 'Lavender Network' for current details. TLAND PROFESSIONAL ORGANIZATION OF WOMEN-PPOW, PO Box 22821, Milwaukee. WI; 97222-A social organization","Organizations and Groups - Including Special Interests","","Portland","OR","Gaia's Guide",1989,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Counseling Services for Sexual Minorities","-Tel 228-6785","Health Centers / Clinics / Counseling / Practitioners","","Portland","OR","Gaia's Guide",1989,"",", Portland, OR",-122.6783853,45.515232,"portland, or, usa",""
+"Lesbian / Gay Political Caucus","write-PO Box 224424: 75222 -Tel
+828-9882.","Group","PO Box 224424","Dallas","TX","Gaia's Guide",1989,"","PO Box 224424, Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Little Feather Productions","PO Box 64720; 75206","Theater and Music Events","PO Box 64720","Dallas","TX","Gaia's Guide",1989,"","PO Box 64720, Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Lesbian Information Line - ""LIL""","-Tel. 528-2426. 24 hour/ seven day a week
+recording of events and services, meetings and referrals","Information Services","","Dallas","TX","Gaia's Guide",1989,"",", Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Gayline","Tel. 368-6283","Information Services","","Dallas","TX","Gaia's Guide",1989,"",", Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Lesbian Visionaries","write: PO Box 710185: 75371 -Tel. (214)528-2426. Nonprofit
+lesbian membership organization","Group","PO Box 710185","Dallas","TX","Gaia's Guide",1989,"","PO Box 710185, Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Integrity","-Tel. 739-5899 Lesbian and Gay Episcopalians","Religious Groups","","Dallas","TX","Gaia's Guide",1989,"",", Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Lesbian / Gay Unitarians","-Tel. 324-2732.","Religious Groups","","Dallas","TX","Gaia's Guide",1989,"",", Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Among Friends","write PO Box 710185: 75371. Non-membership lesbian events
+group.","Group","PO Box 710185","Dallas","TX","Gaia's Guide",1989,"","PO Box 710185, Dallas, TX",-96.7969879,32.7766642,"dallas, tx, usa",""
+"Zoo Bar","","Bars/Clubs","2629 Oak Lawn","Dallas","TX","Bob Damron's Address Book",1989,"","2629 Oak Lawn, Dallas, TX",-96.8029993,32.8096731,"oak lawn, dallas, tx, usa","(L-1980-1989)"
+"Aaron's Place","(Some L)","Bars/Clubs","4420 S.E. 39th St.","Portland","OR","Bob Damron's Address Book",1981,"","4420 S.E. 39th St., Portland, OR",-122.6226518,45.4908845,"4420 se 39th ave, portland, or 97202, usa","(PT),(L-1980-1989)"
+"Boot Camp","(L on left, guys on right)","Bars/Clubs","2508 N. Fitzhugh","Dallas","TX","Bob Damron's Address Book",1981,"","2508 N. Fitzhugh, Dallas, TX",-96.7833322,32.8126323,"2508 n fitzhugh ave, dallas, tx 75204, usa","(PT),(L-1980-1989)"
+"Highland","('Truck driver' L)","Bars/Clubs","3018 Monticello","Dallas","TX","Bob Damron's Address Book",1981,"","3018 Monticello, Dallas, TX",-96.7842177,32.8268439,"3018 monticello ave, dallas, tx 75205, usa","(L-1980-1989)"
+"Dahl & Penne","(Liquor) (Not what it used to be)","Bars/Clubs","604 S.W. 2nd at Alder","Portland","OR","Bob Damron's Address Book",1982,"","604 S.W. 2nd at Alder, OR",-122.674179,45.518676,"unclear_coded_by_hand","(L-1980-1989),(D)"
+"Mayfield","(Some M, L, B, Drags) (Disco)","Bars/Clubs","1422 Griswold","Detroit","MI","Bob Damron's Address Book",1982,"","1422 Griswold, Detroit, MI",-83.0496667,42.3342511,"1422 griswold st, detroit, mi 48226, usa","(M-1965-1989),(L-1980-1989),(B-1970-1989),(D)"
+"Annie Skinner's","","Restaurant,Bars/Clubs","S.E. 10th & Hawthorne","Portland","OR","Bob Damron's Address Book",1984,"","S.E. 10th & Hawthorne, OR",-122.655706,45.51223,"unclear_coded_by_hand","(L-1980-1989),(M-1965-1989),(R-1965-1989)"
+"Gigi's","(L-Downstairs, men upstairs) (Mon. nites ★ ((rear)","Restaurant,Bars/Clubs","16920 W. Warren nr. Southfield","Detroit","MI","Bob Damron's Address Book",1984,"","16920 W. Warren nr. Southfield, MI",-83.211238,42.343646,"unclear_coded_by_hand","(R-1965-1989),(D),(L-1980-1989)"
+"Lil Landing","(Some L)","Bars/Clubs","3136 Routh","Dallas","TX","Bob Damron's Address Book",1984,"","3136 Routh, Dallas, TX",-96.806948,32.8011249,"3136 routh st, dallas, tx 75201, usa","(L-1980-1989)"
+"Embers","(The Avenue Disco)(Some YC,L)(Adm.)(Liquor) (at Couch)","Bars/Clubs","110 N.W. Broadway","Portland","OR","Bob Damron's Address Book",1985,"","110 N.W. Broadway, OR",-122.677224,45.523984,"unclear_coded_by_hand","(*),(D),(YC),(L-1980-1989)"
+"Spring Street Gym","(Some L)","Gym","117 Spring St.","Portland","ME","Bob Damron's Address Book",1986,"","117 Spring St., Portland, ME",-70.2624351,43.6529547,"117 spring st, portland, me 04101, usa","(L-1980-1989),(PT),(D)"
+"Darcelle XV Tavern ","(Some L, 'Drags')(Touristy)","Bars/Clubs","208 N.W. 3rd St. ","Portland","OR","Bob Damron's Address Book",1980,NA,NA,-122.6729315,45.5247845,NA,"(S-1965-2002),(WE),(L-1980-1989),(M-1965-1989)"
+"Casbah","Plymouth & Hubble","Bars/Clubs","","Detroit","MI","Bob Damron's Address Book",1976,NA,NA,-83.188064,42.372936,NA,"(G),(*)"
+"George Inca Room ","(Some B)","Bars/Clubs","13314 Jenkell ","Detroit","MI","Bob Damron's Address Book",1976,NA,NA,-83.0457538,42.331427,NA,"(D),(G),(B-1970-1989)"
+"Three Plus You","","Bars/Clubs","Throckmorton at Cedar Springs","Dallas","TX","Bob Damron's Address Book",1975,"",NA,-96.811193,32.810991,NA,"(G),(D),(*)"
