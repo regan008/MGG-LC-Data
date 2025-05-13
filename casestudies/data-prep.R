@@ -1,9 +1,14 @@
 library(tidyverse)
 library(ggmap)
 
-gg <- read.csv("cs/combined_GGdata.csv") %>% select(-X, -country, -unclear.address)
+gg <- read.csv("casestudies/combined_GGdata.csv")
+gg <- gg %>% filter(is.na(unclear.address))
+
 gg$amenityfeatures <- ""
-mgg <- readRDS("cs/mgg-data.rds") %>%
+mgg <- readRDS("casestudies/mgg-data.rds") 
+detroit <- mgg %>% filter(city == "Detroit") %>% filter(Year == 1989) 
+
+%>%
   select(-ID, -status, -unclear_address) %>%
   rename(year = Year) %>%
   rename(address = streetaddress)
@@ -23,8 +28,10 @@ cat("Columns in mgg but not in gg:\n")
 print(columns_in_mgg_not_in_gg)
 
 mgg <- mgg %>%
-  filter(year == 1975:1989) %>%
-  filter(city %in% c("Dallas", "Portland", "Detroit"))
+  filter(Year > 1974 & Year < 1990) %>%
+  filter(city == "Detroit" | city == "Portland" | city == "Dallas") %>%
+  filter(state == "MI" | state == "OR" | state == "TX") %>% 
+  filter(status == "Google Verified Location" | status == "Verified Location")
 
 # Combine gg and mgg
 gg <- gg %>% mutate(lat = as.numeric(lat))
