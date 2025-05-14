@@ -1,4 +1,4 @@
-X,title,description,type,address,city,state,country,publication,year,notes,unclear.address,full.address,lon,lat,geoAddress,Status
+X,title,description,type,address,city,state,country,publication,year,notes,unclear.address,full.address,lon,lat,geoAddress,status
 1,Cafe Gigi,(near Southfield)-Tel. 831-2604,Bars,16920 West Warren,Detroit,MI,United States,Gaia's Guide,1975,,NA,"16920 West Warren, Detroit, MI",-83.2112501,42.3436482,"16920 w warren ave, detroit, mi 48228, usa",Google Verified Location
 2,Palais Bar,,Bars,655 Beaubien,Detroit,MI,United States,Gaia's Guide,1975,,NA,"655 Beaubien, Detroit, MI",-83.0415538,42.3330139,"655 beaubien blvd, detroit, mi 48226, usa",Google Verified Location
 3,Conquest Lounge,,Bars,1500 East State Fair,Detroit,MI,United States,Gaia's Guide,1975,,NA,"1500 East State Fair, Detroit, MI",-83.088758,42.4397377,"1500 e state fair ave, detroit, mi 48203, usa",Google Verified Location

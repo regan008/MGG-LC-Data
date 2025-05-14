@@ -1,18 +1,23 @@
 library(tidyverse)
 library(ggmap)
 
-gg <- read.csv("casestudies/combined_GGdata.csv")
-gg <- gg %>% filter(is.na(unclear.address))
+#read in data for Gaia's Guide case studies
+gg <- read.csv("casestudies/combined_GGdata_manual.csv")
+gg <- gg %>%
+  select(-X)
 
-gg$amenityfeatures <- ""
-mgg <- readRDS("casestudies/mgg-data.rds") 
-detroit <- mgg %>% filter(city == "Detroit") %>% filter(Year == 1989) 
+# flag for filtering out records where exact locations could not be found
+gg_unclear_locations <- gg %>% filter(Status == "Location could not be verified. General city or location coordinates used.")
 
-%>%
-  select(-ID, -status, -unclear_address) %>%
+# read in data for Bob Damron's Address Book
+mgg <- readRDS("casestudies/mgg-data.rds")
+mgg <- mgg %>%
+  select(-ID) %>%
   rename(year = Year) %>%
-  rename(address = streetaddress)
+  rename(address = streetaddress) %>%
+  rename(unclear.address = unclear_address)
 mgg$publication <- "Bob Damron's Address Book"
+
 
 # Get the columns in gg but not in mgg
 columns_in_gg_not_in_mgg <- setdiff(names(gg), names(mgg))
@@ -27,19 +32,25 @@ print(columns_in_gg_not_in_mgg)
 cat("Columns in mgg but not in gg:\n")
 print(columns_in_mgg_not_in_gg)
 
-mgg <- mgg %>%
-  filter(Year > 1974 & Year < 1990) %>%
+
+# Filter the data by date and city
+gg_filtered <- gg %>%
+  filter(year > 1974 & year < 1990) %>%
   filter(city == "Detroit" | city == "Portland" | city == "Dallas") %>%
-  filter(state == "MI" | state == "OR" | state == "TX") %>% 
-  filter(status == "Google Verified Location" | status == "Verified Location")
+  filter(state == "MI" | state == "OR" | state == "TX")
+mgg_filtered <- mgg %>%
+  filter(year > 1974 & year < 1990) %>%
+  filter(city == "Detroit" | city == "Portland" | city == "Dallas") %>%
+  filter(state == "MI" | state == "OR" | state == "TX")
 
 # Combine gg and mgg
-gg <- gg %>% mutate(lat = as.numeric(lat))
-mgg <- mgg %>% mutate(lat = as.numeric(lat))
-combined_data <- bind_rows(gg, mgg)
+gg_filtered <- gg_filtered %>% mutate(lat = as.numeric(lat))
+mgg_filtered <- mgg_filtered %>% mutate(lat = as.numeric(lat))
+combined_data <- bind_rows(gg_filtered, mgg_filtered)
+
 
 # save data frame with GG and all Damron data.
-write.csv(combined_data, "cs/all-gg-mgg-data.csv")
+# write.csv(combined_data, "cs/all-gg-mgg-data.csv")
 
 
 # Filter the data
