@@ -18,6 +18,19 @@ mgg <- mgg %>%
   rename(unclear.address = unclear_address)
 mgg$publication <- "Bob Damron's Address Book"
 
+# Manual corrections to the mgg data
+bad_coords <- mgg %>% filter(address == "2121 San Jacinto #220", year == 1989)
+mgg <- mgg %>%
+  mutate(
+    lat = ifelse(address == "2121 San Jacinto #220" & year == 1989, 32.7875205, lat),
+    lon = ifelse(address == "2121 San Jacinto #220" & year == 1989, -96.7976, lon)
+  )
+bad_coords <- mgg %>% filter(address == "519 S.W. 3rd #505", year == 1987)
+mgg <- mgg %>%
+  mutate(
+    lat = ifelse(address == "519 S.W. 3rd #505" & year == 1987, 45.519446247573555, lat),
+    lon = ifelse(address == "519 S.W. 3rd #505" & year == 1987, -122.67519297895736, lon)
+  )
 
 # Get the columns in gg but not in mgg
 columns_in_gg_not_in_mgg <- setdiff(names(gg), names(mgg))
