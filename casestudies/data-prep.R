@@ -32,14 +32,13 @@ print(columns_in_gg_not_in_mgg)
 cat("Columns in mgg but not in gg:\n")
 print(columns_in_mgg_not_in_gg)
 
-
 # Filter the data by date and city
 gg_filtered <- gg %>%
   filter(year > 1974 & year < 1990) %>%
   filter(city == "Detroit" | city == "Portland" | city == "Dallas") %>%
   filter(state == "MI" | state == "OR" | state == "TX")
 mgg_filtered <- mgg %>%
-  filter(year > 1974 & year < 1990) %>%
+  filter(year %in% unique(gg_filtered$year)) %>%
   filter(city == "Detroit" | city == "Portland" | city == "Dallas") %>%
   filter(state == "MI" | state == "OR" | state == "TX")
 
@@ -48,12 +47,11 @@ gg_filtered <- gg_filtered %>% mutate(lat = as.numeric(lat))
 mgg_filtered <- mgg_filtered %>% mutate(lat = as.numeric(lat))
 combined_data <- bind_rows(gg_filtered, mgg_filtered)
 
+# save data frame with GG and Damron data for case study cities and years
+write.csv(combined_data, "casestudies/gg-mgg-case-studies.csv", row.names = FALSE)
 
-# save data frame with GG and all Damron data.
-# write.csv(combined_data, "cs/all-gg-mgg-data.csv")
 
-
-# Filter the data
+# Filter the data for women's spaces
 filtered_data <- combined_data %>%
   filter(
     publication == "Gaia's Guide" | # Keep all entries with Gaia's Guide
@@ -63,4 +61,4 @@ filtered_data <- combined_data %>%
   )
 
 # Save the filtered data to a new CSV file
-write.csv(filtered_data, "cs/gg-mgg-women-data.csv", row.names = FALSE)
+#write.csv(filtered_data, "cs/gg-mgg-women-data.csv", row.names = FALSE)
