@@ -1,6 +1,7 @@
 library(tidyverse)
 library(ggmap)
 
+
 #read in data for Gaia's Guide case studies
 gg <- read.csv("casestudies/combined_GGdata_manual.csv")
 gg <- gg %>%
@@ -59,6 +60,18 @@ mgg_filtered <- mgg %>%
 gg_filtered <- gg_filtered %>% mutate(lat = as.numeric(lat))
 mgg_filtered <- mgg_filtered %>% mutate(lat = as.numeric(lat))
 combined_data <- bind_rows(gg_filtered, mgg_filtered)
+
+# Adding consolidated type field
+type_lookup <- read.csv("casestudies/type-consolidation.csv")
+
+# Clean up type_lookup to keep only necessary columns
+type_lookup <- type_lookup %>%
+  select(type, consolidated.type) %>%
+  distinct()
+
+# Join with combined_data to add consolidated type
+combined_data <- combined_data %>%
+  left_join(type_lookup, by = "type")
 
 # save data frame with GG and Damron data for case study cities and years
 write.csv(combined_data, "casestudies/gg-mgg-case-studies.csv", row.names = FALSE)
