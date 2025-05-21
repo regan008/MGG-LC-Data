@@ -1,5 +1,13 @@
 # MGG-LC-Data
 
+Change Log: 
+* 5/12/2025 - Created new folder, full-data-processing to start fresh with processing the data and assigning unique IDs to each transcribed record.
+ * added updated MGG-data rds file. Up to date as of 5/12/2025.
+
+
+
+
+
 New Datasets:
 
 - Contained in `final-output-data` folder
