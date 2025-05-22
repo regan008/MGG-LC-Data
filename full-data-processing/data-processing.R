@@ -13,6 +13,8 @@ empty.df <- data.frame(
   year = numeric(),
   notes = character(),
   amenityfeatures = character(),
+  stars = character(),
+  star.type = character(),
   full.address = character(),
   status = character(),
   geoAddress = character(),
