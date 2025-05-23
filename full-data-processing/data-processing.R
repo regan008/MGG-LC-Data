@@ -155,3 +155,251 @@ all.data <- fix_lat_lon_swaps(all.data)
 
 ## Write out the data
 write.csv(all.data, file = "full-data-processing/full-data-processed.csv", row.names = FALSE)
+
+
+## Type column processing
+
+# Install and load the textclean package
+if(!require(textclean)) install.packages("textclean")
+if(!require(hunspell)) install.packages("hunspell")
+library(hunspell)
+library(textclean)
+
+# Load the data for cleaning
+all.data.cleaned <- all.data
+
+# Handle null/missing values
+# Replace "null" entries with NA and decide how to handle them
+all.data.cleaned$type[all.data.cleaned$type == "null" | all.data.cleaned$type == "" | is.na(all.data.cleaned$type)] <- NA
+cat("Found", sum(is.na(all.data.cleaned$type)), "null/missing type entries\n")
+
+# Add new column type_clean, trim whitespace, convert to lowercase for consistent processing
+all.data.cleaned$type_clean <- trimws(all.data.cleaned$type)
+all.data.cleaned$type_clean <- tolower(all.data.cleaned$type_clean)
+
+# Apply text cleaning functions to standardize the type_clean column
+all.data.cleaned <- all.data.cleaned %>%
+  mutate(
+    # First create a clean version of the type column
+    type_clean = replace_non_ascii(type_clean),      # Replace non-ASCII characters
+    type_clean = replace_symbol(type_clean),         # Replace symbols with text
+    type_clean = gsub("\\s+", " ", type_clean),      # Standardize spaces
+    type_clean = trimws(type_clean)                  # Trim whitespace
+  )
+
+type_counts_original <- all.data.cleaned %>%
+  count(type, sort = TRUE) %>%
+  arrange(desc(n))
+
+type_counts_cleaned <- all.data.cleaned %>%
+  count(type_clean, sort = TRUE) %>%
+  arrange(desc(n))
+
+
+# STEP 1: Initial Setup - Extract all unique misspelled words from dataset
+cat("=== STEP 1: EXTRACTING MISSPELLED WORDS ===\n")
+
+extract_misspelled_words <- function(df, text_column) {
+  cat("Analyzing", nrow(df), "entries for misspellings...\n")
+  
+  # Extract all text from the specified column
+  all_text <- df[[text_column]]
+  
+  # Split into individual words, removing punctuation and converting to lowercase
+  all_words <- unlist(str_split(all_text, "[\\s/&,.-]+"))
+  all_words <- tolower(all_words[all_words != "" & !is.na(all_words)])
+  
+  # Get unique words only (more efficient)
+  unique_words <- unique(all_words)
+  
+  # Check spelling for all unique words
+  spelling_results <- hunspell_check(unique_words)
+  
+  # Get misspelled words
+  misspelled_words <- unique_words[!spelling_results]
+  
+  cat("Found", length(misspelled_words), "unique misspelled words out of", length(unique_words), "total unique words\n")
+  
+  return(misspelled_words)
+}
+
+# Extract misspelled words from your dataset
+misspelled_words <- extract_misspelled_words(all.data.cleaned, "type_clean")
+
+# Display sample of misspelled words
+cat("Sample of misspelled words found:\n")
+print(head(misspelled_words, 15))
+
+# STEP 2: Pre-populate CSV with hunspell suggestions
+cat("\n=== STEP 2: CREATING CORRECTION DICTIONARY CSV ===\n")
+
+create_correction_csv <- function(misspelled_words, filename) {
+  cat("Creating correction dictionary with", length(misspelled_words), "entries...\n")
+  
+  # Create empty vectors to store results
+  misspelled <- character()
+  top_suggestion <- character()
+  all_suggestions <- character()
+  confidence <- character()
+  notes <- character()
+  
+  # Process each misspelled word
+  for(word in misspelled_words) {
+    suggestions <- hunspell_suggest(word)[[1]]
+    
+    misspelled <- c(misspelled, word)
+    
+    # Get top suggestion (if available)
+    if(length(suggestions) > 0) {
+      top_suggestion <- c(top_suggestion, suggestions[1])
+      # Store up to 3 suggestions for reference
+      all_suggestions <- c(all_suggestions, paste(suggestions[1:min(3, length(suggestions))], collapse = "; "))
+      confidence <- c(confidence, ifelse(length(suggestions) >= 3, "High", "Medium"))
+    } else {
+      top_suggestion <- c(top_suggestion, word)  # Keep original if no suggestions
+      all_suggestions <- c(all_suggestions, "No suggestions")
+      confidence <- c(confidence, "Low")
+    }
+    
+    notes <- c(notes, "")  # Empty notes field for manual input
+  }
+  
+  # Create correction dictionary dataframe
+  correction_dict <- data.frame(
+    misspelled = misspelled,
+    correction = top_suggestion,
+    all_suggestions = all_suggestions,
+    confidence = confidence,
+    notes = notes,
+    stringsAsFactors = FALSE
+  )
+  
+  # Sort by misspelled word for easier manual review
+  correction_dict <- correction_dict[order(correction_dict$misspelled), ]
+  
+  # Save to CSV
+  write_csv(correction_dict, filename)
+  cat("Correction dictionary saved to:", filename, "\n")
+  cat("Please review and edit the 'correction' column manually.\n")
+  cat("You can also add notes in the 'notes' column for documentation.\n")
+  
+  return(correction_dict)
+}
+
+# Create the initial correction CSV
+misspelled_filepath <- "full-data-processing/misspelled-words-correction.csv"
+initial_corrections <- create_correction_csv(misspelled_words, misspelled_filepath)
+
+corrections_lookup.df <- read_csv("full-data-processing/misspelled-words-correction-lookup.csv", show_col_types = FALSE)
+
+sample_all.data.clean<-sample_n(all.data.cleaned, 50)
+write_csv(sample_all.data.clean, "full-data-processing/sample-all-data-clean.csv")
+
+
+# Function to apply spelling corrections with word boundary matching
+apply_spelling_corrections <- function(data, lookup_file) {
+  
+  # Read the spelling correction lookup table
+  corrections <- read_csv(lookup_file)
+  
+  # Check if the required columns exist
+  if (!all(c("misspelled", "correction") %in% names(corrections))) {
+    stop("Lookup file must contain 'misspelled' and 'correction' columns")
+  }
+  
+  # Remove any NA values from the corrections table
+  corrections <- corrections %>%
+    filter(!is.na(misspelled) & !is.na(correction))
+  
+  # Create a copy of the data to work with
+  data_corrected <- data
+  
+  # Apply each correction using word boundaries
+  for (i in seq_len(nrow(corrections))) {
+    misspelled_word <- corrections$misspelled[i]
+    correct_word <- corrections$correction[i]
+    
+    # Create regex pattern with word boundaries
+    # \b ensures we match complete words only
+    # We also need to escape special regex characters in the misspelled word
+    escaped_word <- str_escape(misspelled_word)
+    pattern <- paste0("\\b", escaped_word, "\\b")
+    
+    # Apply the correction
+    data_corrected$type_clean <- str_replace_all(
+      data_corrected$type_clean, 
+      regex(pattern, ignore_case = TRUE), 
+      correct_word
+    )
+    
+    # Print progress (optional)
+    cat("Applied correction:", misspelled_word, "->", correct_word, "\n")
+  }
+  
+  return(data_corrected)
+}
+
+# Apply the corrections
+all.data.cleaned <- apply_spelling_corrections(
+  all.data.cleaned, 
+  "full-data-processing/misspelled-words-correction-lookup.csv"
+)
+
+# Check the results
+type_counts_cleaned <- all.data.cleaned %>%
+  count(type_clean, sort = TRUE) %>%
+  arrange(desc(n))
+write_csv(type_counts_cleaned, file="full-data-processing/cleaned-types-counts.csv")
+
+
+# Simple function to pluralize specified words in type_clean column
+
+library(dplyr)
+library(stringr)
+
+# Function to pluralize a list of words
+pluralize_words <- function(data, words_to_pluralize) {
+  
+  # Create a copy to work with
+  data_updated <- data
+  
+  # Apply pluralization to each word
+  for (word in words_to_pluralize) {
+    
+    # Create the plural form (simple 's' addition)
+    plural_word <- paste0(word, "s")
+    
+    # Replace using word boundaries
+    pattern <- paste0("\\b", word, "\\b")
+    data_updated$type_clean <- str_replace_all(
+      data_updated$type_clean, 
+      pattern, 
+      plural_word
+    )
+    
+    cat("Pluralized:", word, "->", plural_word, "\n")
+  }
+  
+  return(data_updated)
+}
+
+# Define your list of words to pluralize
+words_to_pluralize <- c("bookstore", "hotel", "cafe", "publication", "restaurant", "bar")
+
+# Apply the pluralization
+all.data.cleaned <- pluralize_words(all.data.cleaned, words_to_pluralize)
+
+cat("\nPluralization complete!")
+
+# Write out the cleaned type counts for manual review
+#write.csv(type_counts_cleaned, file="full-data-processing/cleaned-types-counts.csv", row.names = FALSE)
+
+type_counts_cleaned <- all.data.cleaned %>%
+  count(type_clean, sort = TRUE) %>%
+  arrange(desc(n))
+
+## counting unique types 
+type_counts <- all.data %>%
+  count(type, name = "count") %>%
+  arrange(type)
+write.csv(type_counts, file="full-data-processing/unique-types-full-data.csv", row.names = FALSE)
