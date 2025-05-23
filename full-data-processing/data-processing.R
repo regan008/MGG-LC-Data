@@ -195,6 +195,19 @@ type_counts_cleaned <- all.data.cleaned %>%
   count(type_clean, sort = TRUE) %>%
   arrange(desc(n))
 
+type_counts_more_one <- type_counts_cleaned %>%
+  filter(n > 1) %>%
+  arrange(type_clean)
+
+write_csv(type_counts_more_one, file = "full-data-processing/cleaned-types-counts-more-one.csv")
+write_csv(type_counts_cleaned, file = "full-data-processing/cleaned-types-counts.csv")
+
+
+
+
+
+
+####### Code below was for experimenting with spell checking, standardization, etc. Don't need to implement.
 
 # STEP 1: Initial Setup - Extract all unique misspelled words from dataset
 cat("=== STEP 1: EXTRACTING MISSPELLED WORDS ===\n")
