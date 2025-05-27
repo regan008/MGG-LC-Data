@@ -1,0 +1,5 @@
+type,category,exact_match
+library/archives/research facility,Arts and Culture,True
+"theatre,cruising areas,book store",Arts and Culture,True
+gay shop,Bookstores and Retail,True
+"bars/clubs,book store",Bars and Nightlife,True
