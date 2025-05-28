@@ -9,6 +9,16 @@ from tqdm import tqdm
 # Set up OpenAI API key
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
+full_data_processed = pd.read_csv("AI-Unique-ID/full-data-processed.csv")
+
+# Filter for Colorado (state == 'CO')
+co_data = full_data_processed[full_data_processed['state'] == 'CO']
+# Optionally, inspect the result
+print(co_data.head())
+print(f"Number of rows for CO: {len(co_data)}")
+co_rand_100 =co_data.sample(100).sort_values(by='title')
+co_rand_100.to_csv("AI-Unique-ID/co-rand-100.csv", index=False)
+
 def initial_processing(input_file: str) -> Dict[str, pd.DataFrame]:
     """
     Perform initial processing on the input CSV file.
@@ -33,12 +43,6 @@ def initial_processing(input_file: str) -> Dict[str, pd.DataFrame]:
     
     print(f"✅ Data grouped into {len(grouped_dfs)} city-state combinations")
     return grouped_dfs
-
-# grouped_dfs = initial_processing("case-study-samples.csv")
-# print(grouped_dfs["Dallas_TX"])
-# print(type(grouped_dfs["Dallas_TX"]))
-    
-
 
 
 def process_with_openai(df: pd.DataFrame) -> pd.DataFrame:
@@ -96,18 +100,18 @@ Return the results as a JSON array with these columns: GROUP_ID, REASONING, and 
                 padding = pd.DataFrame([last_row] * (len(df) - len(result_df)))
                 result_df = pd.concat([result_df, padding], ignore_index=True)
         
-        # Add originalorder back to the result dataframe
-        result_df['originalorder'] = df['originalorder'].values
+        # Add record_id back to the result dataframe
+        result_df['record_id'] = df['record_id'].values
         return result_df
     except Exception as e:
         print(f"❌ Error processing OpenAI response: {e}")
         print("Response content:", response.choices[0].message.content)
-        # Return empty dataframe with originalorder and default values
+        # Return empty dataframe with record_id and default values
         empty_df = pd.DataFrame({
             'GROUP_ID': [1] * len(df),
             'REASONING': ['Error in processing'] * len(df),
             'CONFIDENCE': ['low'] * len(df),
-            'originalorder': df['originalorder'].values
+            'record_id': df['record_id'].values
         })
         return empty_df
 
@@ -136,19 +140,19 @@ def assign_global_ids(processed_dfs: Dict[str, pd.DataFrame]) -> pd.DataFrame:
     def get_global_id(row):
         return global_id_map.get((row['city_state'], row['GROUP_ID']), -1)
     
-    combined_df['city_state'] = combined_df['originalorder'].map(
+    combined_df['city_state'] = combined_df['record_id'].map(
         {order: city_state for city_state, df in processed_dfs.items() 
-         for order in df['originalorder']}
+         for order in df['record_id']}
     )
     combined_df['UNIQUE_ID'] = combined_df.apply(get_global_id, axis=1)
     
-    return combined_df[['originalorder', 'UNIQUE_ID', 'REASONING', 'CONFIDENCE']]
+    return combined_df[['record_id', 'UNIQUE_ID', 'REASONING', 'CONFIDENCE']]
 
 def main():
     print("\n🚀 Starting data processing pipeline...")
     
     # Initial processing
-    input_file = "case-study-samples.csv"
+    input_file = "AI-Unique-ID/co-rand-100.csv"
     grouped_dfs = initial_processing(input_file)
     
     # Process each group with OpenAI
@@ -163,25 +167,26 @@ def main():
     
     # Save the processed results
     print("\n💾 Saving processed results...")
-    final_df.to_csv("processed_results.csv", index=False)
+    #final_df.to_csv("processed_results.csv", index=False)
+    final_df.to_csv("AI-Unique-ID/processed_results_co_sample.csv", index=False)
     
-    # Join back to original data using originalorder
+    # Join back to original data using record_id
     print("\n🔄 Merging with original data...")
     original_df = pd.read_csv(input_file)
     final_merged_df = pd.merge(
         original_df,
         final_df,
-        on='originalorder',
+        on='record_id',
         how='left'
     )
     
     # Save the final merged results
     print("\n💾 Saving final results...")
-    final_merged_df.to_csv("final_merged_results.csv", index=False)
+    final_merged_df.to_csv("AI-Unique-ID/final_merged_results_co_rand_100.csv", index=False)
     
     print("\n✨ Processing complete! Results saved to:")
     print("  - processed_results.csv")
     print("  - final_merged_results.csv")
 
 if __name__ == "__main__":
-    main() 
+    main()

@@ -150,5 +150,12 @@ def categorize_types_one_by_one(types, model='o4-mini'):
             results.append({'type': t, 'category': 'ERROR'})
     return pd.DataFrame(results)
 
-lookup_df_one_by_one = categorize_types_one_by_one(sample_types[2:6])
+#lookup_df_one_by_one = categorize_types_one_by_one(sample_types[2:6])
+lookup_df_one_by_one = categorize_types_one_by_one(types)
 lookup_df_one_by_one
+lookup_df_one_by_one.to_csv('full-data-processing/type-to-category-lookup-one-by-one.csv', index=False)
+
+lookup_df_one_by_one_top_100 = categorize_types_one_by_one(types[0:100])
+lookup_df_one_by_one_top_100
+lookup_df_one_by_one_top_100.to_csv('full-data-processing/type-to-category-lookup-one-by-one-100.csv', index=False)
+

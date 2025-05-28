@@ -1,0 +1,101 @@
+record_id,UNIQUE_ID,REASONING,CONFIDENCE
+d-1995-01519,1,"“Double Diamond” appears only once in the dataset with a unique title, type (Bars), and address (450 S. Galena). No other record shares its name or location details.",high
+d-2001-01371,2,"“Explore Booksellers & Bistro” appears in both 2001 and 2002 with the same name, address (221 E Main, Aspen, CO), phone number, hours, and amenity features. This indicates the same entity.",high
+d-2002-03516,2,"See reasoning for record d-2001-01371. The title, address, description, and amenity features match exactly, signifying the same bookstore & bistro in consecutive years.",high
+d-1985-02660,3,"“Hyman St. Mall” is listed only once as a cruising area, with no matching entries under any other year or guidebook, making it a standalone entity.",high
+d-1996-01393,4,"“Silver Nugget” appears only once with a unique combination of name, type (Bars), address (Hyman Ave. Mall), and description of hours and restaurant features. No other record matches these details.",high
+d-2002-03515,5,“Syzygy” is uniquely listed once as a restaurant at 520 E Hyman with specific hours and phone number. There are no other entries sharing this name or address.,high
+d-1993-01426,6,"‘Adventure Bound Expeditions’ appears only once in the dataset (unique title, address, phone, type, publication, and year), so it cannot be matched to any other record.",high
+d-1969-00311,7,"‘Buff Room’ appears only once (unique name, address, type, and amenity features) and there are no other Bars/Clubs in Boulder with the same or similar title in the data.",high
+d-1997-05627,8,"‘Colorado Community Directories’ is unique in title and type (Publications) and only appears in the 1997 Damron’s guide, so it has no match.",high
+d-1990-01220,9,"‘Gay & Concerned Catholics’ appears only once (unique religious organization listing, address, phone, and year) with no counterpart in Gaia’s or other years.",high
+g-1977-00227,10,"‘Gay Liberation’ (Gaia’s Guide 1977) appears only in that publication and year, with no duplicate listing in Damron’s Guide or other Gaia years in this dataset.",high
+d-1998-06339,11,"‘Left Hand Books’ is unique (only one bookstore/retail shop entry with that exact name, address, and phone) and not repeated elsewhere.",high
+d-1982-03393,12,‘Pearl St. Mall’ is listed once as a Cruising Area in the 1982 Damron’s Guide with no other matching title or type in the dataset.,high
+d-1996-01402,13,"‘The Briar Rose’ appears only once (B&B accommodation, unique address and phone) and isn’t repeated in any other year or guide.",high
+d-1991-01296,14,"‘Yard ofAle’ is a single Bars/Clubs entry (unique name, address, hours, and features) with no duplicates in other records.",high
+d-1977-00798,15,"Only one listing was provided, so there are no other records to compare or group with. This record stands alone as a unique entity.",high
+d-1981-00259,16,"This record and the next both have the exact same title “Acacia Park,” identical type (“Cruising Areas”), and the same city/state (Colorado Springs, CO) but in different years (1981 and 1985), indicating they are the same cruising-area listing across editions.",high
+d-1985-00329,16,"Duplicate of the 1981 “Acacia Park” entry: same name, type, and location, differing only by edition year.",high
+d-1987-01294,17,"Only one listing titled “Denny’s” with matching description, type, and location appears in this dataset; no other record shares these attributes.",high
+d-1987-01297,18,"Unique listing “First Amendment Adult Book Store” appears only once, with no matches on title or address elsewhere in the data.",high
+d-1972-00454,19,"Only one record named “Gimlet Lounge” in Colorado Springs, with no duplicate titles or matching attributes.",high
+d-1987-01305,20,“Monument Valley Park” appears only once as a cruising area in this dataset; no other record shares that title.,high
+d-1983-03758,21,Only one entry for “Pikes Peak M.C.C.” (a religious institution) exists; no other record matches the name and address.,high
+d-1993-01435,22,"Only one record titled “Pikes Peak Paradise” (an accommodation) appears; it has unique phone, address, and amenity details not shared with other entries.",high
+d-1980-01032,23,"The listing “The Place in the Back” is unique in title, type, and address, with no other matching record in the set.",high
+d-1989-01335,24,Only one record for “Two Thousand One” as a bars/clubs entry; no other record shares this exact title or attributes.,high
+d-1971-00353,25,"“Wee-G’s” appears only once, with a unique address and amenity features; no duplicates exist in the data.",high
+d-1986-00415,30,‘After Dark’ at 111 S. Broadway appears only once in the dataset with that exact name and address; there are no other records with matching title or location.,high
+d-1984-00523,26,"‘B.J.'s Carousel’ (1984) and ‘BJ's Carousel’ (1995) share nearly identical names and the exact same address (1380 S. Broadway), indicating the same business across different years.",high
+d-1995-02734,26,"‘BJ's Carousel’ (1995) and ‘B.J.'s Carousel’ (1984) share the identical address and near-identical name, confirming they represent the same entity.",high
+d-1997-00884,31,‘Basix’ at 145 Broadway appears only once with that exact name and address; no other record matches.,high
+d-1989-01339,32,‘Book Gardens’ at 2625 E. 12th appears only once with that name and address; there are no duplicates.,high
+d-1991-01334,33,"‘Broadway Bar & Grill’ at 102 S. Broadway appears only once, and no other entry shares that title or address.",high
+d-1994-01350,34,"‘Broadway Bodyworks’ at 160 S. Broadway is unique in the dataset, with no other matching name/address.",high
+d-1980-00973,35,‘Broadway Cabaret’ at 1260 Broadway appears only once and is not repeated under any other title or location.,high
+d-1984-01039,36,‘Category Six’ at 909 E. Colfax appears only once with that name and address.,high
+d-1985-01180,37,‘Cheeseman Park’ is represented only once as a cruising area in Denver; no duplicate entries.,high
+d-1974-00610,38,‘Church of the Holy Sepulchre’ at 1425 Welton St. appears only once; no other church entries share that name or address.,high
+d-2002-03600,39,‘Circus Theater’ at 5580 N Federal appears only once in the dataset with that name and address.,high
+d-1982-01118,40,‘City Park’ as a cruising area appears only once; no duplicate titles or locations exist.,high
+d-1997-03506,41,"‘Club Proteus’ at 1669 Clarkson appears only once, with no other matching records.",high
+d-1973-00550,42,‘Club Steam Baths’ at 2935 Zuni St. appears only once as a baths entry; no duplicates exist.,high
+d-1999-01344,27,"The two ‘Club Stud’ entries (1999 and 2001) share identical name, address (255 S Broadway), and contact details, indicating the same establishment across years.",high
+d-2001-01403,27,"‘Club Stud’ (2001) matches the 1999 entry exactly in name, location, and description, confirming the same business.",high
+d-1984-01306,43,‘Colorado Gay & Lesbian News’ at 1436 Lafayette St. appears only once as a publication; there are no duplicates.,high
+d-1997-04926,44,‘Denver Swim Club’ at 6923 E Colfax Ave appears only once; no other entry shares that title or address.,high
+d-1990-01247,45,"‘Dicks’ at 2101 Champa St appears only once, with no other matching record.",high
+g-1989-00240,46,‘Divine Madness’ at 2727 West 6th Ave appears only once in Gaia's Guide; no duplicates.,high
+g-1983-00494,47,‘Double Standard’ at 4090 Jason appears once as a publication; no other entries match.,high
+d-1982-01631,48,‘Empire Baths’ at 6923 E. Colfax appears only once as a bathhouse entry; no duplicates.,high
+d-1965-00207,49,‘Front Door’ at 1545 Broadway appears only once under that name and address; no matches elsewhere.,high
+d-1988-01259,50,‘Gay & Lesbian Community Center’ appears only once; no other community center entry shares that title.,high
+g-1975-00747,51,‘Gay Coalition of Denver’ at 1450 Pennsylvania Ave. appears only once in Gaia's Guide; no duplicates.,high
+d-2001-06212,52,‘Gender Identity Center of Colorado (GIC)’ appears only once as an info/service listing; no duplicates.,high
+d-1970-00333,53,‘Lake Baths’ at 3540 Colfax appears only once; no other bath listing shares that address.,high
+d-2000-01677,54,‘Las Margaritas’ at 1066 Old S Gaylord St appears only once; no matching entries exist.,high
+g-1987-00419,55,‘Lipps’ at 6300 West Colfax appears only once; no other bars share that name and address.,high
+d-1979-00908,56,‘Luke Steam Baths’ at 3540 W. Colfax appears only once; no duplicates found.,high
+d-1993-01463,57,‘Maximilian's’ at 2151 Lawrence St. appears only once; no other entries share the same name or location.,high
+d-1998-05493,58,‘Mr. Bill's’ at 1027 Broadway appears only once; no duplicates exist.,high
+d-1997-02222,59,‘Newsstand Cafe’ at 630 E 6th Ave appears only once; no other record matches that name/address combination.,high
+d-1978-00875,60,‘Nineteen-Forty-Two Club’ at 1942 Broadway appears only once; no matching entries.,high
+d-1976-00731,28,"‘P.D.’ is explicitly noted as ‘Pirates Den’ and is located on Federal Blvd at 17th & Federal, matching the other two ‘Pirate's Den’ entries; same business over time.",high
+d-1968-00270,28,‘Pirate's Den’ at 17th & Federal (1968) and the later ‘P.D.’ refer to the same establishment by name and location.,high
+d-1969-00323,28,"‘Pirates Den’ at 17th & Federal (1969) and the entry for ‘P.D.’ share name and location, confirming the same entity.",high
+d-2000-01703,61,‘Pleasure Entertainment Center’ at 127 S Broadway appears only once with that name and address.,high
+d-1998-04292,62,‘Quest/H. Magazine’ at 430 S Broadway is unique; no duplicate publication listings share that name or address.,high
+d-1975-00701,63,‘Red Door’ at 1540 Welton appears once as a bars/clubs entry; no other matches.,high
+d-1972-00461,64,‘Rocky Mountain Bar’ at 7th & Water appears only once in the dataset.,high
+d-1968-00273,65,‘Sand's’ at 1523 Glenarm Pl. appears only once; no duplicates in dataset.,high
+d-2000-01679,66,‘Sfuzzi’ at 3000 E 1st Ave appears only once with that name and location.,high
+d-1994-01342,67,‘Surf City Bar & Grill’ at 1175 E. Colfax appears only once; no matching entries.,high
+d-2000-01656,68,‘The Grand’ at 538 E 17th Ave appears only once; no duplicates exist.,high
+g-1983-00506,69,‘The Grove’ at 1618 E 17th Ave appears only once in Gaia’s Guide; no other entries share that name or address.,high
+d-1984-04742,70,‘The Guide’ publication listing at P.O. Box 9469 appears only once; no duplicates.,high
+g-1975-00753,71,‘The Woman's Voice Bookstore’ at 637 South Pearl St appears only once in Gaia's Guide; no matching entries.,high
+d-1997-04127,72,‘Unique of Denver’ at 2626 E 12th appears only once as a gift shop listing; no duplicates.,high
+g-1981-00391,73,‘Velvet Hammer’ at 38th and Chestnut appears only once in Gaia’s Guide; no duplicates.,high
+d-1992-01393,29,"‘Victoria Oaks Inn’ appears twice (1992 & 2001) with identical name and nearly identical address (1575 Race St.), indicating the same B&B across years.",high
+d-2001-01395,29,"The 2001 listing for ‘Victoria Oaks Inn’ matches the 1992 entry exactly in name and address, confirming the same establishment.",high
+d-2003-00289,74,This info line/service entry has no title but a unique phone number (303/322-4440) and does not match any other record.,high
+d-1982-01677,75,"This record (d-1982-01677) is the only one with a specific organization name “F.C.H.A.G.” and a Community Center/Support Group type. No other record shares this title, type, or P.O. Box address, so it stands alone as its own entity group.",high
+d-1991-01369,76,"This record (d-1991-01369) with title “Main Mall” and type “Cruising Areas” is unique; no other listing shares the same name or description, so it forms its own group.",high
+d-1988-01303,77,"This record (d-1988-01303) titled “Narrow Gauge Tram Station” under “Cruising Areas” is distinct by name and has no counterpart in other years, so it is its own group.",high
+d-1998-00297,78,"This record (d-1998-00297) lacks a title or clear location name and only has the generic “Cruisy Areas” type with an amenity note “(AYOR)”. It cannot be matched reliably to any other entry, so it is placed in its own group.",low
+d-1996-01508,79,"There is only one record in the input. With no other entries to compare, this listing must form its own group.",high
+d-1993-01510,80,"Records d-1993-01510 and d-1996-01511 share the same core name (‘Fort Collins Travel’ vs. ‘Ft. Collins Travel’), identical street address (333 W. Mountain Ave.), matching area code and main phone number (482-5555), the same listing type (Travel/Tour Operators), and the same city/state/publication. The abbreviation ‘Ft.’ is a minor stylistic variation. These strong overlaps indicate a single business across both years.",high
+d-1996-01511,80,"Records d-1993-01510 and d-1996-01511 share the same core name (‘Fort Collins Travel’ vs. ‘Ft. Collins Travel’), identical street address (333 W. Mountain Ave.), matching area code and main phone number (482-5555), the same listing type (Travel/Tour Operators), and the same city/state/publication. The abbreviation ‘Ft.’ is a minor stylistic variation. These strong overlaps indicate a single business across both years.",high
+d-1985-02191,81,"The Gay & Lesbian Alliance listing (d-1985-02191) does not share a name, address, phone number, or type with any of the other records. It appears only in 1985 and is a distinct organization.",high
+d-1995-02784,82,"The Nightingales bar listing (d-1995-02784) has a unique name, address, phone, hours, and amenities, and does not match any other record. It stands alone as a separate entity.",high
+d-1983-03908,83,"Record d-1983-03908 lists a named bar (‘Quincy’s’) with a full street address and is categorized as Bars/Clubs. There is no overlap in title or category with the second record, and the second record lacks a matching address or title, indicating they refer to different entities.",high
+d-1998-00300,84,Record d-1998-00300 is categorized as a ‘Cruisy Area’ with no matching title or street address to the first record. Its different type and lack of a proper name or address suggest it is a distinct listing.,high
+d-1980-01009,85,"Both listings share the exact title (“Island Grove Park”), type (“Cruising Areas”), city and state (“Greeley, CO”), publication (“Bob Damron’s Address Book”), and amenityfeatures (“Cruisy Area”). The only difference is the year of the guide, indicating the same location across multiple editions.",high
+d-1996-01517,85,"Both listings share the exact title (“Island Grove Park”), type (“Cruising Areas”), city and state (“Greeley, CO”), publication (“Bob Damron’s Address Book”), and amenityfeatures (“Cruisy Area”). The only difference is the year of the guide, indicating the same location across multiple editions.",high
+d-1999-06286,86,"Only one record was provided, so it forms a unique group by itself; there are no other entries to compare for duplication.",high
+d-1999-01404,87,"The record for “Beau West B&B” (d-1999-01404) has a unique business name, street address (148 Fir Dr), and phone number (970/726-5145). None of the other records share these key identifiers, so it stands alone as its own entity.",high
+d-2002-03628,88,"The record for “Black Dog Mountaineering” (d-2002-03628) is distinct by its business name, phone number (970/726-4412), and address (78902 US Hwy 40). No other listing matches these details, indicating it is a separate entity.",high
+d-1999-01405,89,"The record for “Silverado II” (d-1999-01405) has its own unique name, address (490 Kings Crossing Rd), and phone number (970/726-5753). There are no overlaps with the other entries, so it forms its own group.",high
+d-1996-01527,90,"The first record (‘Caritas B&B Network’) has a unique name and phone numbers that do not match the second record. The address is even missing, suggesting a different listing than the Hackman House. No shared identifiers (such as name, address, or phone) link it to the second entry.",high
+d-1995-01768,91,"The second record (‘Hackman House, The’) has its own distinct name, street address (602 W. Midland Ave.), and amenities that do not appear in the first record. There are no overlapping phone numbers or matching title elements with the Caritas B&B Network.",high
