@@ -1,0 +1,11 @@
+Timestamp: 20250529_130439
+Model: o4-mini
+Group key: Studio City_CA
+Number of records: 1
+Prompt tokens: 377
+Completion tokens: 392
+Total tokens: 769
+Input cost: $0.000415
+Output cost: $0.001725
+Total cost: $0.002139
+---

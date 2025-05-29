@@ -1,0 +1,4 @@
+record_id,ENTITY_ID,REASONING,CONFIDENCE
+d-1975-00651,1,"There is only one record in the input, so it cannot be matched or merged with any other. It stands alone as its own entity group.",high
+g-1977-00246,2,"There is only one record in the dataset, so it cannot match any other listing. It is therefore its own unique group.",high
+g-1979-00338,3,"There is only one record in the input. No other listings to compare against, so it forms its own unique group.",high

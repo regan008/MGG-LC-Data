@@ -1,0 +1,11 @@
+Timestamp: 20250529_131940
+Model: o4-mini
+Group key: Boulder_UT
+Number of records: 3
+Prompt tokens: 653
+Completion tokens: 412
+Total tokens: 1065
+Input cost: $0.000718
+Output cost: $0.001813
+Total cost: $0.002531
+---

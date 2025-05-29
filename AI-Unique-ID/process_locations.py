@@ -5,19 +5,28 @@ from typing import Dict, List, Tuple
 import json
 from IPython.display import display
 from tqdm import tqdm
+from datetime import datetime
+
+# =========================
+# CONFIGURATION VARIABLES
+# =========================
+
+# Define the folder for input and output files
+DATA_FOLDER = "AI-Unique-ID/"
+
+# Define only the input file name
+INPUT_FILE_NAME = "co-data-boulder.csv"
+
+# Construct full input file path
+INPUT_FILE = os.path.join(DATA_FOLDER, INPUT_FILE_NAME)
+
+# Automatically derive output file names with suffixes in the same folder
+input_base = os.path.splitext(INPUT_FILE_NAME)[0]
+PROCESSED_RESULTS_FILE = os.path.join(DATA_FOLDER, f"{input_base}-api-return.csv")
+FINAL_MERGED_RESULTS_FILE = os.path.join(DATA_FOLDER, f"{input_base}-entity-ids.csv")
 
 # Set up OpenAI API key
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-
-full_data_processed = pd.read_csv("AI-Unique-ID/full-data-processed.csv")
-
-# Filter for Colorado (state == 'CO')
-co_data = full_data_processed[full_data_processed['state'] == 'CO']
-# Optionally, inspect the result
-print(co_data.head())
-print(f"Number of rows for CO: {len(co_data)}")
-co_rand_100 =co_data.sample(100).sort_values(by='title')
-co_rand_100.to_csv("AI-Unique-ID/co-rand-100.csv", index=False)
 
 def initial_processing(input_file: str) -> Dict[str, pd.DataFrame]:
     """
@@ -45,10 +54,11 @@ def initial_processing(input_file: str) -> Dict[str, pd.DataFrame]:
     return grouped_dfs
 
 
-def process_with_openai(df: pd.DataFrame) -> pd.DataFrame:
+def process_with_openai(df: pd.DataFrame, group_key: str = 'N/A') -> pd.DataFrame:
     """
     Process a single dataframe using OpenAI API.
     First pass: Only identify which records should be grouped together.
+    Optionally takes a group_key (e.g., city_state) for logging.
     """
     # Convert dataframe to JSON for API input
     records = df.to_dict('records')
@@ -78,6 +88,58 @@ Return the results as a JSON array with these columns: GROUP_ID, REASONING, and 
             {"role": "user", "content": prompt}
         ]
     )
+
+    # --- Token usage and cost calculation ---
+    usage = getattr(response, 'usage', None)
+    log_lines = []
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    model_name = "o4-mini"
+    num_records = len(df)
+    if usage:
+        prompt_tokens = getattr(usage, 'prompt_tokens', 0) or 0
+        completion_tokens = getattr(usage, 'completion_tokens', 0) or 0
+        total_tokens = getattr(usage, 'total_tokens', 0) or 0
+        input_cost = (prompt_tokens / 1_000_000) * 1.10
+        output_cost = (completion_tokens / 1_000_000) * 4.40
+        total_cost = input_cost + output_cost
+        print(f"\n🔢 Token usage for this call:")
+        print(f"  Prompt tokens: {prompt_tokens}")
+        print(f"  Completion tokens: {completion_tokens}")
+        print(f"  Total tokens: {total_tokens}")
+        print(f"💲 Cost for this call: ${total_cost:.6f} (input: ${input_cost:.6f}, output: ${output_cost:.6f})\n")
+        safe_group_key = group_key if group_key is not None else 'N/A'
+        log_lines = [
+            f"Timestamp: {timestamp}",
+            f"Model: {model_name}",
+            f"Group key: {safe_group_key}",
+            f"Number of records: {num_records}",
+            f"Prompt tokens: {prompt_tokens}",
+            f"Completion tokens: {completion_tokens}",
+            f"Total tokens: {total_tokens}",
+            f"Input cost: ${input_cost:.6f}",
+            f"Output cost: ${output_cost:.6f}",
+            f"Total cost: ${total_cost:.6f}",
+            "---"
+        ]
+    else:
+        print("\n⚠️ No token usage information returned by API.\n")
+        safe_group_key = group_key if group_key is not None else 'N/A'
+        log_lines = [
+            f"Timestamp: {timestamp}",
+            f"Model: {model_name}",
+            f"Group key: {safe_group_key}",
+            f"Number of records: {num_records}",
+            f"Token usage: N/A",
+            f"Cost: N/A",
+            "---"
+        ]
+    # Write log to file
+    log_dir = "AI-Unique-ID/logs"
+    os.makedirs(log_dir, exist_ok=True)
+    log_filename = f"{log_dir}/openai_log_{timestamp}.txt"
+    with open(log_filename, "w") as f:
+        f.write("\n".join(log_lines))
+    # --- End token usage and cost calculation ---
     
     # Parse the response
     try:
@@ -136,7 +198,7 @@ def assign_global_ids(processed_dfs: Dict[str, pd.DataFrame]) -> pd.DataFrame:
                 global_id_map[key] = current_global_id
                 current_global_id += 1
     
-    # Apply the mapping to create UNIQUE_ID
+    # Apply the mapping to create ENTITY_ID
     def get_global_id(row):
         return global_id_map.get((row['city_state'], row['GROUP_ID']), -1)
     
@@ -144,22 +206,21 @@ def assign_global_ids(processed_dfs: Dict[str, pd.DataFrame]) -> pd.DataFrame:
         {order: city_state for city_state, df in processed_dfs.items() 
          for order in df['record_id']}
     )
-    combined_df['UNIQUE_ID'] = combined_df.apply(get_global_id, axis=1)
+    combined_df['ENTITY_ID'] = combined_df.apply(get_global_id, axis=1)
     
-    return combined_df[['record_id', 'UNIQUE_ID', 'REASONING', 'CONFIDENCE']]
+    return combined_df[['record_id', 'ENTITY_ID', 'REASONING', 'CONFIDENCE']]
 
 def main():
     print("\n🚀 Starting data processing pipeline...")
     
     # Initial processing
-    input_file = "AI-Unique-ID/co-rand-100.csv"
-    grouped_dfs = initial_processing(input_file)
+    grouped_dfs = initial_processing(INPUT_FILE)
     
     # Process each group with OpenAI
     print("\n🤖 Processing city-state groups with OpenAI...")
     processed_dfs = {}
     for key, df in tqdm(grouped_dfs.items(), desc="Processing groups", unit="group"):
-        processed_df = process_with_openai(df)
+        processed_df = process_with_openai(df, str(key))
         processed_dfs[key] = processed_df
     
     # Assign global unique IDs
@@ -167,12 +228,11 @@ def main():
     
     # Save the processed results
     print("\n💾 Saving processed results...")
-    #final_df.to_csv("processed_results.csv", index=False)
-    final_df.to_csv("AI-Unique-ID/processed_results_co_sample.csv", index=False)
+    final_df.to_csv(PROCESSED_RESULTS_FILE, index=False)
     
     # Join back to original data using record_id
     print("\n🔄 Merging with original data...")
-    original_df = pd.read_csv(input_file)
+    original_df = pd.read_csv(INPUT_FILE)
     final_merged_df = pd.merge(
         original_df,
         final_df,
@@ -182,11 +242,11 @@ def main():
     
     # Save the final merged results
     print("\n💾 Saving final results...")
-    final_merged_df.to_csv("AI-Unique-ID/final_merged_results_co_rand_100.csv", index=False)
+    final_merged_df.to_csv(FINAL_MERGED_RESULTS_FILE, index=False)
     
     print("\n✨ Processing complete! Results saved to:")
-    print("  - processed_results.csv")
-    print("  - final_merged_results.csv")
+    print(f"  - {PROCESSED_RESULTS_FILE}")
+    print(f"  - {FINAL_MERGED_RESULTS_FILE}")
 
 if __name__ == "__main__":
     main()

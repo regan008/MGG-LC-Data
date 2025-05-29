@@ -1,0 +1,4 @@
+record_id,title,description,type,address,city,state,publication,year,notes,amenityfeatures,stars,star.type,full.address,status,geoAddress,lat,lon,UNIQUE_ID,CONFIDENCE
+g-1977-00246,Alicia's Mexican Restaurant,,Restaurants,,Denver,CO,Gaia's Guide,1977,,,*,"Bars, Clubs, Coffeehouses ",,,,,,1,medium
+g-1979-00338,Alicia's Mexican Restaurant,"Tel. 777-9904. ""Good, home-made food.""",Restaurants,278 S Downing,Denver,CO,Gaia's Guide,1979,,,*,Restaurant,,,,,,1,high
+d-1975-00651,Alicia's Mexican,,Restaurant,278 S. Downing ,Denver,CO,Bob Damron's Address Book,1975,,(R-1965-1989),,,,Google Verified Location,,39.7115264,-104.9732373,1,high

@@ -1,0 +1,11 @@
+Timestamp: 20250529_130434
+Model: o4-mini
+Group key: Los Angeles_CA
+Number of records: 1
+Prompt tokens: 365
+Completion tokens: 137
+Total tokens: 502
+Input cost: $0.000402
+Output cost: $0.000603
+Total cost: $0.001004
+---

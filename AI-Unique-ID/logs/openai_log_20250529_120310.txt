@@ -1,0 +1,11 @@
+Timestamp: 20250529_120310
+Model: o4-mini
+Group key: Denver_CO
+Number of records: 3
+Prompt tokens: 619
+Completion tokens: 1119
+Total tokens: 1738
+Input cost: $0.000681
+Output cost: $0.004924
+Total cost: $0.005605
+---
