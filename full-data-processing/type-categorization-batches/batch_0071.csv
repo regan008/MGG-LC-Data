@@ -1,0 +1,11 @@
+type,category
+"book store,cruising areas,theatre,business",Other or Unclear
+"book store,erotic shop,bars/clubs",Bars and Nightlife
+"book store,hotel",Other or Unclear
+"book store,organization",Bookstores and Retail
+"book store,theatre,baths",Other or Unclear
+"book store,theatre,cruising areas,erotic shop",Other or Unclear
+"book store,theatre,erotic shop,cruising areas",Other or Unclear
+"book stores or retail shops,erotica",Adult Entertainment
+bookcenter,Bookstores and Retail
+bookstore cafe,Restaurants and Cafes

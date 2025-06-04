@@ -1,0 +1,11 @@
+type,category
+hotels/motels/guest houses/etc,Accommodations
+women's center,"Organizations, Groups, and Community Centers"
+"business,book store",Bookstores and Retail
+"cruising areas,book store,erotic shop",Adult Entertainment
+"book store,business",Bookstores and Retail
+show-bars,Bars and Nightlife
+"book store,cruising areas,erotic shop",Adult Entertainment
+crusiy areas,Cruising Areas
+radio program,Arts and Culture
+"book store,erotic shop,cruising areas",Adult Entertainment

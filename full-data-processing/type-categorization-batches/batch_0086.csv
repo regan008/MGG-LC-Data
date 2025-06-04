@@ -1,0 +1,11 @@
+type,category
+"hotel,book store,erotic shop",
+"hotel,community center/support group",Accommodations
+"hotel,cruising areas,baths",
+"hotel,erotic shop",Accommodations
+"hotel,gym,bathhouses",Bathhouses and Men's Services
+"hotel,gym,travel service",Accommodations
+"hotel,religious institution,bars/clubs,restaurant",Restaurants and Cafes
+"hotel,restaurant,baths",Restaurants and Cafes
+"hotel,restaurant,business",Restaurants and Cafes
+"hotel,restaurant,cruising areas,bars/clubs",Restaurants and Cafes

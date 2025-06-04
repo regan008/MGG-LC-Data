@@ -6,12 +6,10 @@ Bookstores and Retail - All bookstores, gift shops, retail shops, record stores,
 Adult Entertainment - Erotica shops, adult bookstores, adult theaters, sexuality boutiques, erotic shops, sex shops
 Cruising Areas - Parks, beaches, piers, outdoor cruising locations, cruisy areas
 Information and Emergency Services - Info lines and services, hotlines, switchboards, emergency services, crisis lines, rape crisis
-Organizations, Groups, and Community Centers - Community centers, support groups, social groups, political groups, special interest groups, professional associations, gay/lesbian centers, AA and addiction support groups, discussion groups
-Health and Counseling Services - Health centers, clinics, counseling services, therapy, medical practitioners, mental health, alternative health
+Organizations, Groups, and Community Centers - Community centers, support groups, social groups, political groups, special interest groups, professional associations, gay/lesbian centers, AA and addiction support groups, discussion groups, health centers, clinics, counseling services, therapy, medical practitioners, mental health, alternative health
 Fitness and Recreation - Gyms, health clubs, fitness centers, sports facilities, recreation groups
 Religious and Spiritual - Churches, religious institutions, spiritual groups, religious organizations
 Professional Services - Legal services, travel agencies, tour operators, accountants, insurance, real estate, business services, printing/graphics, taxis
 Publications - Newspapers, magazines, newsletters, directories, guides, pamphlets
 Arts and Culture - Art galleries, theaters (non-adult), music venues, cultural organizations, music production, radio/TV programs
-Women's Spaces - Women's centers, women's land trusts, lesbian land, women's retreats, women's buildings, women-only accommodations
 Other or Unclear - NA entries, ambiguous listings, venue types that don't fit other categories, data entry artifacts

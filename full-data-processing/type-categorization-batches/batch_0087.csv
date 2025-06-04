@@ -1,0 +1,11 @@
+type,category
+"hotel,restaurant,gym,bathhouses",Restaurants and Cafes
+"hotel,restaurant,travel service",Restaurants and Cafes
+"hotel,theatre,business",Other or Unclear
+"hotel,travel service,bars/clubs",Bars and Nightlife
+"hotel,travel service,restaurant",Restaurants and Cafes
+hotel-restaurant-disco,Restaurants and Cafes
+hotel/gay complex,Accommodations
+hotel/resort/disco,Bars and Nightlife
+"hotels,bars/clubs,restaurant",Restaurants and Cafes
+"hotels/motels/guest houses/bed and breakfast, etc",Accommodations

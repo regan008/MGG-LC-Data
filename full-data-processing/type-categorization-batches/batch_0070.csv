@@ -1,0 +1,11 @@
+type,category
+"bathhouses,restaurant,hotel",Restaurants and Cafes
+"baths,bars/clubs,cruising areas",Bars and Nightlife
+"baths,bars/clubs,hotel",Bars and Nightlife
+"baths,cruising areas",Bathhouses and Men's Services
+"baths,theatre,bars/clubs",Bars and Nightlife
+bed and breakfast inn,Accommodations
+"book store,bars/clubs,erotic shop,business",Bars and Nightlife
+"book store,bathhouses,erotic shop",Other or Unclear
+"book store,cruising areas,erotic shop,theatre",Other or Unclear
+"book store,cruising areas,religious institution",

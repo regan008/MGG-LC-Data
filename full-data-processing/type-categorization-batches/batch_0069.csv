@@ -1,0 +1,11 @@
+type,category
+"bars/clubs,restaurant,business",Restaurants and Cafes
+"bars/clubs,restaurant,hotels",Restaurants and Cafes
+"bars/clubs,restaurant,theatre",Restaurants and Cafes
+"bars/clubs,theatre,baths",Bars and Nightlife
+"bars/clubs,theatre,restaurant",Restaurants and Cafes
+"bars/clubs,travel agency",Bars and Nightlife
+bars[3x],Bars and Nightlife
+"bathhouses,bars/clubs,cruising areas",Bars and Nightlife
+"bathhouses,bars/clubs,hotel",Bars and Nightlife
+"bathhouses,restaurant",Restaurants and Cafes

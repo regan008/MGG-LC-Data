@@ -1,0 +1,11 @@
+type,category
+"hotel,restaurant,bars/clubs",Restaurants and Cafes
+hotels/motels/guest houses etc.,Accommodations
+"restaurant,bars/clubs,cruising areas",Restaurants and Cafes
+coffeehouse,Restaurants and Cafes
+guest house,Accommodations
+hotels/motels/guest houses,Accommodations
+"bars/clubs,bathhouses",Bars and Nightlife
+bar/restuarant,Restaurants and Cafes
+"bars/clubs,hotels",Bars and Nightlife
+"baths,hotel",Bathhouses and Men's Services

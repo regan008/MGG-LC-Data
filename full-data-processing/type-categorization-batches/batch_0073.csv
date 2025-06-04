@@ -1,0 +1,11 @@
+type,category
+"business,bars/clubs",Bars and Nightlife
+"business,book store,erotic shop",Adult Entertainment
+"business,book store,theatre",Other or Unclear
+"business,cruising areas,book store",Bookstores and Retail
+"business,cruising areas,erotic shop",Adult Entertainment
+"business,cruising areas,restaurant",Restaurants and Cafes
+"business,erotic shop,book store",Adult Entertainment
+"business,escort service",Bathhouses and Men's Services
+"business,organizations","Organizations, Groups, and Community Centers"
+"business,travel service",Professional Services

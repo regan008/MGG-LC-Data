@@ -1,0 +1,11 @@
+type,category
+organisation and services,"Organizations, Groups, and Community Centers"
+newspaper,Publications
+"restaurant,bars/clubs,hotel",Restaurants and Cafes
+"bathhouses,hotel",Bathhouses and Men's Services
+"hotel,cruising areas",Accommodations
+community center/ support group,"Organizations, Groups, and Community Centers"
+"hotel,bars/clubs,restaurant",Restaurants and Cafes
+"hotel,bathhouses",Bathhouses and Men's Services
+"bars/clubs,book store",Bars and Nightlife
+"bars/clubs,theatre",Bars and Nightlife

@@ -1,0 +1,11 @@
+type,category
+"theatre,bars/clubs",Bars and Nightlife
+"bars/clubs,cruising areas,restaurant",Restaurants and Cafes
+"book store,theatre,cruising areas",Arts and Culture
+dentists,"Organizations, Groups, and Community Centers"
+"hotel,gym",Accommodations
+medical practitioners--including alternative,"Organizations, Groups, and Community Centers"
+"business,cruising areas",Professional Services
+counseling,"Organizations, Groups, and Community Centers"
+counseling service,"Organizations, Groups, and Community Centers"
+guest houses / bed and breakfast,Accommodations
