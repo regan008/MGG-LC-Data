@@ -19,8 +19,9 @@ empty.df <- data.frame(
   notes = character(),
   stringsAsFactors = FALSE # This ensures that string data does not get converted to factors
 )
+
 columns <- colnames(empty.df)
-years <- c(1975, 1977, 1979, 1981, 1983, 1985, 1987, 1989) ## CHANGE THIS TO ADD MORE YEARS AS NEEDED DEPENDING ON WHICH DATA IS COMPLETE
+years <- c(1975, 1977, 1979, 1981, 1983, 1985, 1987, 1989, 1991) ## CHANGE THIS TO ADD MORE YEARS AS NEEDED DEPENDING ON WHICH DATA IS COMPLETE
 
 ## Read in Gaia's Guide data
 load_gg_data <- function(df, columns, years) {
@@ -44,9 +45,9 @@ load_gg_data <- function(df, columns, years) {
   return(df)
 }
 
-## Read in MGG Data, filter it by year to match the years in the Gaia's Guide data
+## Read in MGG Data
 load_mgg_data <- function(columns) {
-  mgg.data <- readRDS(file.path("MGG-Data", "mgg-data-cleaned.rds"))
+  mgg.data <- readRDS(file.path("MGG-Data", "mgg-data.rds"))
   mgg.data <- mgg.data %>% rename(year = Year)
   mgg.data <- select(mgg.data, intersect(columns, names(mgg.data)))
   return(mgg.data)
@@ -54,10 +55,11 @@ load_mgg_data <- function(columns) {
 
 ## call all data loading functions
 gg.data <- load_gg_data(empty.df, columns, years)
-mgg.data <- load_mgg_data(columns) %>%
-  filter(year %in% years)
-all.data <- rbind(gg.data, mgg.data) %>%
-  filter(title != "" | description != "" | city != "" | state != "")
+#mgg.data <- load_mgg_data(columns) %>%
+#  filter(year %in% years)
+mgg.data <- load_mgg_data(columns)
+all.data <- rbind(gg.data, mgg.data) #%>%
+  #filter(title != "" | description != "" | city != "" | state != "")
 write.csv(all.data, file.path("data-processing-files", "all-data-precleaned.csv"), row.names = FALSE)
 
 ### Data Cleaning and Processing
@@ -194,6 +196,11 @@ unique.locations.to.geocode <- prep_geocode(all.data.cleaned, geocoding_folder)
 unique.locations.to.geocode <- geocoding_function(unique.locations.to.geocode, geocoding_folder)
 all.data.cleaned.geocoded <- merge_geocode(unique.locations.to.geocode, all.data.cleaned, geocoding_folder, output_folder)
 documentation_function("all-data-cleaned-geocoded.csv", "completed_years.md", output_folder)
+
+
+
+
+
 
 
 ### RELATIVE DATA CALCULATIONS

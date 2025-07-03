@@ -25,7 +25,7 @@ empty.df <- data.frame(
 columns <- colnames(empty.df)
 
 ## Read in Gaia's Guide data
-years <- c(1975, 1977, 1979, 1981, 1983, 1985, 1987, 1989) ## CHANGE THIS TO ADD MORE YEARS AS NEEDED DEPENDING ON WHICH DATA IS COMPLETE
+years <- c(1975, 1977, 1979, 1981, 1983, 1985, 1987, 1989, 1991) ## CHANGE THIS TO ADD MORE YEARS AS NEEDED DEPENDING ON WHICH DATA IS COMPLETE
 load_gg_data <- function(df, columns, years) {
   for (year in years) {
     gg.filename <- file.path("GG-Data", paste("gg-", year, ".csv", sep = ""))
@@ -89,6 +89,9 @@ generate_record_ids <- function(data, prefix_column, year_column, padding = 5) {
   }
   return(result_data)
 }
+
+
+
 
 ## Function to clean up coordinates - ex. swapped lat/lon values, coerce missing or incorrect values to NA, etc.
 fix_lat_lon_swaps <- function(df, lat_col = "lat", lon_col = "lon") {
