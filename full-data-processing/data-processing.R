@@ -1,5 +1,7 @@
 library(tidyverse)
 library(forcats)
+library(ggmap)
+library(ggplot2)
 
 empty.df <- data.frame(
   record_id = character(),
@@ -90,8 +92,248 @@ generate_record_ids <- function(data, prefix_column, year_column, padding = 5) {
   return(result_data)
 }
 
+#Geocoding here?
 
+### DATA CLEANING AND GEOCODING PIPELINE
 
+# Trim whitespace from all columns in data
+trim_all_columns <- function(data) {
+  data %>%
+    mutate(across(everything(), ~ str_trim(.)))
+}
+
+# Generate a list of unique locations from all the data
+generate_unique_cities_list <- function(data, output_folder) {
+  unique_cities <- data %>%
+    distinct(city, state) %>%
+    arrange(city, state)
+  write.csv(unique_cities, file.path(output_folder, "unique-cities-cleaning.csv"), row.names = FALSE)
+  return(unique_cities)
+}
+
+# Use a lookup file of replacements for cleaning up location names
+# The lookup file should be manually checked with the second column being the place to manually fix any errors in first column
+# This function creates a csv of any NEW unique locations that don't exist in the lookup file
+read_and_merge_replacements <- function(unique_cities, output_folder) {
+  # Check if replacements file exists, create empty one if not
+  replacements_file <- file.path(output_folder, "unique-cities-replacements.csv")
+  if (file.exists(replacements_file)) {
+    existing_replacements <- read.csv(replacements_file, header = TRUE)
+  } else {
+    existing_replacements <- data.frame(
+      city = character(),
+      new.city = character(),
+      state = character(),
+      stringsAsFactors = FALSE
+    )
+  }
+  
+  new_replacements <- unique_cities %>%
+    anti_join(existing_replacements, by = c("city", "state")) %>%
+    mutate(new.city = city) %>%
+    select(city, new.city, everything())
+  
+  all_replacements <- rbind(existing_replacements, new_replacements)
+  write.csv(new_replacements, file.path(output_folder, "unique-cities-replacements-new.csv"), row.names = FALSE)
+  write.csv(all_replacements, file.path(output_folder, "unique-cities-replacements.csv"), row.names = FALSE)
+  return(all_replacements)
+}
+
+# Apply the lookup data with replacement names for cities to the main data
+apply_replacements <- function(data, replacements) {
+  data.cleaned <- data %>%
+    left_join(replacements, by = c("city", "state")) %>%
+    mutate(city = if_else(!is.na(new.city), new.city, city)) %>%
+    select(-new.city)
+  return(data.cleaned)
+}
+
+### GEOCODING FUNCTIONS
+
+# Get Google API key and register with the service
+getGoogleAPI <- function() {
+  google_key <- readline(prompt = "Please enter your Google API key: ")
+  print(google_key)
+  register_google(key = google_key)
+}
+
+# Check for existing geocoded locations and prepare a list of unique locations to geocode
+prep_geocode <- function(data, geocoding_folder) {
+  # Create geocode values based on city and state
+  data$geocode.value <- ifelse(
+    is.na(data$state) | data$state == "",
+    NA,  # Return NA if no state (and no city)
+    ifelse(
+      is.na(data$city) | data$city == "" | tolower(data$city) == "statewide",
+      paste(data$state, ", United States", sep = ""),  # Geocode state for statewide/blank entries
+      paste(data$city, ", ", data$state, sep = "")     # Geocode city, state for specific cities
+    )
+  )
+  
+  # Filter out invalid entries before creating unique list
+  valid_data <- data %>%
+    filter(!is.na(state) & state != "")
+  
+  unique_geocode_values <- unique(valid_data$geocode.value) # Generate a unique list of values you want geocoded
+  
+  # Check if geocoded lookup file exists, create empty one if not
+  lookup_file <- file.path(geocoding_folder, "unique-locations-geocoded.csv")
+  if (file.exists(lookup_file)) {
+    existing_geocoded_lookup <- read.csv(lookup_file, stringsAsFactors = FALSE)
+  } else {
+    existing_geocoded_lookup <- data.frame(
+      geocode.value = character(),
+      lon = numeric(),
+      lat = numeric(),
+      geoAddress = character(),
+      stringsAsFactors = FALSE
+    )
+  }
+  
+  # Create dataframes of unique locations that have already been geocoded and unique locations that need to be geocoded
+  unique.locations.all <- data.frame(geocode.value = unique_geocode_values)
+  unique.locations.all <- unique.locations.all %>%
+    left_join(existing_geocoded_lookup, by = "geocode.value")
+  
+  unique.locations.already.geocoded <- unique.locations.all %>%
+    filter(!is.na(lon))
+  
+  unique.locations.to.geocode <- unique.locations.all %>%
+    filter(is.na(lon))
+  
+  # Filter out invalid geocode values
+  unique.locations.to.geocode <- unique.locations.to.geocode %>%
+    filter(geocode.value != "" & geocode.value != ", " & !is.na(geocode.value))
+  
+  print(paste(length(unique.locations.to.geocode$geocode.value), " entries unmatched in unique values that need to be geocoded.", sep = ""))
+  return(unique.locations.to.geocode)
+}
+
+# Function to geocode unique locations and update the lookup file
+geocoding_function <- function(unique.locations.to.geocode, all.data.cleaned, geocoding_folder, output_folder) {
+  if (nrow(unique.locations.to.geocode) == 0) {
+    cat("No new locations to geocode.\n")
+    # Still need to merge with existing data and create final output
+    return(merge_with_existing_geocoded_data(all.data.cleaned, geocoding_folder, output_folder))
+  }
+  
+  for (i in 1:nrow(unique.locations.to.geocode)) {
+    # Skip empty or invalid geocode values
+    if (is.na(unique.locations.to.geocode$geocode.value[i]) || 
+        unique.locations.to.geocode$geocode.value[i] == "" ||
+        unique.locations.to.geocode$geocode.value[i] == ", ") {
+      cat("Skipping invalid geocode value:", unique.locations.to.geocode$geocode.value[i], "\n")
+      unique.locations.to.geocode$lon[i] <- NA
+      unique.locations.to.geocode$lat[i] <- NA
+      unique.locations.to.geocode$geoAddress[i] <- NA
+      next
+    }
+    
+    result <- tryCatch(
+      geocode(unique.locations.to.geocode$geocode.value[i], output = "latlona", source = "google"), 
+      error = function(w) {
+        cat("Error geocoding:", unique.locations.to.geocode$geocode.value[i], "-", w$message, "\n")
+        data.frame(lon = NA, lat = NA, address = NA)
+      }
+    )
+    
+    # Check if result has the expected structure
+    if (ncol(result) >= 3 && !is.na(result[1]) && !is.na(result[2])) {
+      unique.locations.to.geocode$lon[i] <- as.numeric(result[1])
+      unique.locations.to.geocode$lat[i] <- as.numeric(result[2])
+      unique.locations.to.geocode$geoAddress[i] <- as.character(result[3])
+      print(paste("Geocoded:", unique.locations.to.geocode$geocode.value[i], "->", toString(result)))
+    } else {
+      unique.locations.to.geocode$lon[i] <- NA
+      unique.locations.to.geocode$lat[i] <- NA
+      unique.locations.to.geocode$geoAddress[i] <- NA
+      cat("Failed to geocode:", unique.locations.to.geocode$geocode.value[i], "\n")
+    }
+    
+    # Add a small delay to avoid hitting API rate limits
+    Sys.sleep(0.1)
+  }
+  
+  # Handle failed geocoding attempts
+  failed_geocode <- unique.locations.to.geocode %>% filter(is.na(lon))
+  if (nrow(failed_geocode) > 0) {
+    write.csv(failed_geocode, file.path(geocoding_folder, "failed-geocode.csv"), row.names = FALSE)
+    cat("Failed to geocode", nrow(failed_geocode), "locations. Check failed-geocode.csv\n")
+  }
+  
+  # Update the lookup file with successful geocoding results
+  successful_geocode <- unique.locations.to.geocode %>% filter(!is.na(lon))
+  
+  lookup_file <- file.path(geocoding_folder, "unique-locations-geocoded.csv")
+  if (file.exists(lookup_file)) {
+    existing_geocoded_lookup <- read.csv(lookup_file, stringsAsFactors = FALSE)
+  } else {
+    existing_geocoded_lookup <- data.frame(
+      geocode.value = character(),
+      lon = numeric(),
+      lat = numeric(),
+      geoAddress = character(),
+      stringsAsFactors = FALSE
+    )
+  }
+  
+  new_entries <- anti_join(successful_geocode, existing_geocoded_lookup, by = "geocode.value")
+  updated_existing_geocoded_lookup <- bind_rows(existing_geocoded_lookup, new_entries)
+  write.csv(updated_existing_geocoded_lookup, file.path(geocoding_folder, "unique-locations-geocoded.csv"), row.names = FALSE)
+  
+  cat("Updated unique-locations-geocoded.csv with", nrow(new_entries), "new entries\n")
+  
+  # Merge with main dataset and return final result
+  return(merge_with_existing_geocoded_data(all.data.cleaned, geocoding_folder, output_folder))
+}
+
+# Helper function to merge geocoded data with main dataset
+merge_with_existing_geocoded_data <- function(all.data.cleaned, geocoding_folder, output_folder) {
+  # Use the same logic as prep_geocode to create geocode.value
+  all.data.cleaned$geocode.value <- ifelse(
+    is.na(all.data.cleaned$state) | all.data.cleaned$state == "",
+    NA,  # Return NA if no state (and no city)
+    ifelse(
+      is.na(all.data.cleaned$city) | all.data.cleaned$city == "" | tolower(all.data.cleaned$city) == "statewide",
+      paste(all.data.cleaned$state, ", United States", sep = ""),  # Geocode state for statewide/blank entries
+      paste(all.data.cleaned$city, ", ", all.data.cleaned$state, sep = "")     # Geocode city, state for specific cities
+    )
+  )
+  
+  # Read the updated lookup file
+  lookup_file <- file.path(geocoding_folder, "unique-locations-geocoded.csv")
+  if (file.exists(lookup_file)) {
+    existing_geocoded_lookup <- read.csv(lookup_file, stringsAsFactors = FALSE)
+  } else {
+    existing_geocoded_lookup <- data.frame(
+      geocode.value = character(),
+      lon = numeric(),
+      lat = numeric(),
+      geoAddress = character(),
+      stringsAsFactors = FALSE
+    )
+  }
+  
+  all.data.cleaned.geocoded <- left_join(all.data.cleaned, existing_geocoded_lookup, by = "geocode.value")
+  write.csv(all.data.cleaned.geocoded, file.path(output_folder, "all-data-cleaned-geocoded.csv"), row.names = FALSE)
+  return(all.data.cleaned.geocoded)
+}
+
+# Generate a documentation file to list out completed years
+documentation_function <- function(csvFile, markdownFile, output_folder) {
+  data <- read.csv(file.path(output_folder, csvFile))
+  unique_years <- data %>%
+    distinct(year) %>%
+    arrange(year) %>%
+    pull(year)
+  md_file <- file(file.path(output_folder, markdownFile), "w")
+  writeLines("# Completed Years\n", md_file)
+  writeLines("This document lists all the years for which data cleaning and geocoding have been completed.\n", md_file)
+  for (year in unique_years) {
+    writeLines(sprintf("- %s", year), md_file)
+  }
+  close(md_file)
+}
 
 ## Function to clean up coordinates - ex. swapped lat/lon values, coerce missing or incorrect values to NA, etc.
 fix_lat_lon_swaps <- function(df, lat_col = "lat", lon_col = "lon") {
@@ -159,6 +401,33 @@ all.data <- fix_lat_lon_swaps(all.data)
 ## Write out the data
 write.csv(all.data, file = "full-data-processing/full-data-processed.csv", row.names = FALSE)
 
+### EXECUTE DATA CLEANING AND GEOCODING PIPELINE
+
+# Set up folder paths
+data_cleaning_folder <- "full-data-processing"
+geocoding_folder <- "full-data-processing/geocoding-files"
+output_folder <- "full-data-processing/final-output-data"
+
+# Create directories if they don't exist
+dir.create(geocoding_folder, recursive = TRUE, showWarnings = FALSE)
+dir.create(output_folder, recursive = TRUE, showWarnings = FALSE)
+
+# Step 1: Data cleaning
+cat("=== STEP 1: DATA CLEANING ===\n")
+all.data <- trim_all_columns(all.data)
+unique_cities <- generate_unique_cities_list(all.data, data_cleaning_folder)
+replacements <- read_and_merge_replacements(unique_cities, data_cleaning_folder)
+all.data.cleaned <- apply_replacements(all.data, replacements)
+
+# Write cleaned data
+write.csv(all.data.cleaned, file.path(data_cleaning_folder, "all-data-cleaned.csv"), row.names = FALSE)
+
+# Step 2: Geocoding (optional - uncomment if you want to geocode)
+cat("=== STEP 2: GEOCODING ===\n")
+getGoogleAPI()  # Uncomment this line when you want to geocode
+unique.locations.to.geocode <- prep_geocode(all.data.cleaned, geocoding_folder)
+all.data.cleaned.geocoded <- geocoding_function(unique.locations.to.geocode, all.data.cleaned, geocoding_folder, output_folder)
+documentation_function("all-data-cleaned-geocoded.csv", "completed_years.md", output_folder)
 
 ## Type column processing
 
@@ -205,217 +474,45 @@ type_counts_more_one <- type_counts_cleaned %>%
 write_csv(type_counts_more_one, file = "full-data-processing/cleaned-types-counts-more-one.csv")
 write_csv(type_counts_cleaned, file = "full-data-processing/cleaned-types-counts.csv")
 
+### PIPELINE USAGE INSTRUCTIONS
 
-
-
-
-
-####### Code below was for experimenting with spell checking, standardization, etc. Don't need to implement.
-
-# STEP 1: Initial Setup - Extract all unique misspelled words from dataset
-cat("=== STEP 1: EXTRACTING MISSPELLED WORDS ===\n")
-
-extract_misspelled_words <- function(df, text_column) {
-  cat("Analyzing", nrow(df), "entries for misspellings...\n")
-  
-  # Extract all text from the specified column
-  all_text <- df[[text_column]]
-  
-  # Split into individual words, removing punctuation and converting to lowercase
-  all_words <- unlist(str_split(all_text, "[\\s/&,.-]+"))
-  all_words <- tolower(all_words[all_words != "" & !is.na(all_words)])
-  
-  # Get unique words only (more efficient)
-  unique_words <- unique(all_words)
-  
-  # Check spelling for all unique words
-  spelling_results <- hunspell_check(unique_words)
-  
-  # Get misspelled words
-  misspelled_words <- unique_words[!spelling_results]
-  
-  cat("Found", length(misspelled_words), "unique misspelled words out of", length(unique_words), "total unique words\n")
-  
-  return(misspelled_words)
-}
-
-# Extract misspelled words from your dataset
-misspelled_words <- extract_misspelled_words(all.data.cleaned, "type_clean")
-
-# Display sample of misspelled words
-cat("Sample of misspelled words found:\n")
-print(head(misspelled_words, 15))
-
-# STEP 2: Pre-populate CSV with hunspell suggestions
-cat("\n=== STEP 2: CREATING CORRECTION DICTIONARY CSV ===\n")
-
-create_correction_csv <- function(misspelled_words, filename) {
-  cat("Creating correction dictionary with", length(misspelled_words), "entries...\n")
-  
-  # Create empty vectors to store results
-  misspelled <- character()
-  top_suggestion <- character()
-  all_suggestions <- character()
-  confidence <- character()
-  notes <- character()
-  
-  # Process each misspelled word
-  for(word in misspelled_words) {
-    suggestions <- hunspell_suggest(word)[[1]]
-    
-    misspelled <- c(misspelled, word)
-    
-    # Get top suggestion (if available)
-    if(length(suggestions) > 0) {
-      top_suggestion <- c(top_suggestion, suggestions[1])
-      # Store up to 3 suggestions for reference
-      all_suggestions <- c(all_suggestions, paste(suggestions[1:min(3, length(suggestions))], collapse = "; "))
-      confidence <- c(confidence, ifelse(length(suggestions) >= 3, "High", "Medium"))
-    } else {
-      top_suggestion <- c(top_suggestion, word)  # Keep original if no suggestions
-      all_suggestions <- c(all_suggestions, "No suggestions")
-      confidence <- c(confidence, "Low")
-    }
-    
-    notes <- c(notes, "")  # Empty notes field for manual input
-  }
-  
-  # Create correction dictionary dataframe
-  correction_dict <- data.frame(
-    misspelled = misspelled,
-    correction = top_suggestion,
-    all_suggestions = all_suggestions,
-    confidence = confidence,
-    notes = notes,
-    stringsAsFactors = FALSE
-  )
-  
-  # Sort by misspelled word for easier manual review
-  correction_dict <- correction_dict[order(correction_dict$misspelled), ]
-  
-  # Save to CSV
-  write_csv(correction_dict, filename)
-  cat("Correction dictionary saved to:", filename, "\n")
-  cat("Please review and edit the 'correction' column manually.\n")
-  cat("You can also add notes in the 'notes' column for documentation.\n")
-  
-  return(correction_dict)
-}
-
-# Create the initial correction CSV
-misspelled_filepath <- "full-data-processing/misspelled-words-correction.csv"
-initial_corrections <- create_correction_csv(misspelled_words, misspelled_filepath)
-
-corrections_lookup.df <- read_csv("full-data-processing/misspelled-words-correction-lookup.csv", show_col_types = FALSE)
-
-sample_all.data.clean<-sample_n(all.data.cleaned, 50)
-write_csv(sample_all.data.clean, "full-data-processing/sample-all-data-clean.csv")
-
-
-# Function to apply spelling corrections with word boundary matching
-apply_spelling_corrections <- function(data, lookup_file) {
-  
-  # Read the spelling correction lookup table
-  corrections <- read_csv(lookup_file)
-  
-  # Check if the required columns exist
-  if (!all(c("misspelled", "correction") %in% names(corrections))) {
-    stop("Lookup file must contain 'misspelled' and 'correction' columns")
-  }
-  
-  # Remove any NA values from the corrections table
-  corrections <- corrections %>%
-    filter(!is.na(misspelled) & !is.na(correction))
-  
-  # Create a copy of the data to work with
-  data_corrected <- data
-  
-  # Apply each correction using word boundaries
-  for (i in seq_len(nrow(corrections))) {
-    misspelled_word <- corrections$misspelled[i]
-    correct_word <- corrections$correction[i]
-    
-    # Create regex pattern with word boundaries
-    # \b ensures we match complete words only
-    # We also need to escape special regex characters in the misspelled word
-    escaped_word <- str_escape(misspelled_word)
-    pattern <- paste0("\\b", escaped_word, "\\b")
-    
-    # Apply the correction
-    data_corrected$type_clean <- str_replace_all(
-      data_corrected$type_clean, 
-      regex(pattern, ignore_case = TRUE), 
-      correct_word
-    )
-    
-    # Print progress (optional)
-    cat("Applied correction:", misspelled_word, "->", correct_word, "\n")
-  }
-  
-  return(data_corrected)
-}
-
-# Apply the corrections
-all.data.cleaned <- apply_spelling_corrections(
-  all.data.cleaned, 
-  "full-data-processing/misspelled-words-correction-lookup.csv"
-)
-
-# Check the results
-type_counts_cleaned <- all.data.cleaned %>%
-  count(type_clean, sort = TRUE) %>%
-  arrange(desc(n))
-write_csv(type_counts_cleaned, file="full-data-processing/cleaned-types-counts.csv")
-
-
-# Simple function to pluralize specified words in type_clean column
-
-library(dplyr)
-library(stringr)
-
-# Function to pluralize a list of words
-pluralize_words <- function(data, words_to_pluralize) {
-  
-  # Create a copy to work with
-  data_updated <- data
-  
-  # Apply pluralization to each word
-  for (word in words_to_pluralize) {
-    
-    # Create the plural form (simple 's' addition)
-    plural_word <- paste0(word, "s")
-    
-    # Replace using word boundaries
-    pattern <- paste0("\\b", word, "\\b")
-    data_updated$type_clean <- str_replace_all(
-      data_updated$type_clean, 
-      pattern, 
-      plural_word
-    )
-    
-    cat("Pluralized:", word, "->", plural_word, "\n")
-  }
-  
-  return(data_updated)
-}
-
-# Define your list of words to pluralize
-words_to_pluralize <- c("bookstore", "hotel", "cafe", "publication", "restaurant", "bar")
-
-# Apply the pluralization
-all.data.cleaned <- pluralize_words(all.data.cleaned, words_to_pluralize)
-
-cat("\nPluralization complete!")
-
-# Write out the cleaned type counts for manual review
-#write.csv(type_counts_cleaned, file="full-data-processing/cleaned-types-counts.csv", row.names = FALSE)
-
-type_counts_cleaned <- all.data.cleaned %>%
-  count(type_clean, sort = TRUE) %>%
-  arrange(desc(n))
-
-## counting unique types 
-type_counts <- all.data %>%
-  count(type, name = "count") %>%
-  arrange(type)
-write.csv(type_counts, file="full-data-processing/unique-types-full-data.csv", row.names = FALSE)
+# HOW TO ADD A NEW YEAR OF DATA TO THE PIPELINE:
+#
+# 1. ADD NEW YEAR TO THE YEARS VECTOR (line ~25):
+#    years <- c(1975, 1977, 1979, 1981, 1983, 1985, 1987, 1989, 1991, NEW_YEAR)
+#
+# 2. ENSURE DATA FILES EXIST:
+#    - For Gaia's Guide: Place "gg-NEW_YEAR.csv" in the "GG-Data" folder
+#    - For MGG: Ensure the RDS file in "MGG-Data" contains the new year
+#
+# 3. RUN THE DATA CLEANING PIPELINE:
+#    - The script will automatically generate "unique-cities-cleaning.csv" 
+#    - Review and edit "unique-cities-replacements-new.csv" for location name corrections
+#    - Copy corrected entries to "unique-cities-replacements.csv"
+#
+# 4. OPTIONAL: RUN GEOCODING:
+#    - Uncomment the geocoding section (lines ~180-185)
+#    - Provide your Google API key when prompted
+#    - The script will only geocode new locations not already in the lookup file
+#
+# 5. OUTPUT FILES:
+#    - "all-data-cleaned.csv": Cleaned data without geocoding
+#    - "all-data-cleaned-geocoded.csv": Final data with coordinates (if geocoding enabled)
+#    - "completed_years.md": Documentation of processed years
+#
+# 6. FOLDER STRUCTURE:
+#    full-data-processing/
+#    ├── geocoding-files/
+#    │   ├── unique-locations-geocoded.csv (lookup file)
+#    │   └── failed-geocode.csv (failed geocoding attempts)
+#    ├── final-output-data/
+#    │   ├── all-data-cleaned-geocoded.csv
+#    │   └── completed_years.md
+#    ├── unique-cities-cleaning.csv
+#    ├── unique-cities-replacements.csv
+#    └── unique-cities-replacements-new.csv
+#
+# NOTES:
+# - The geocoding lookup file persists between runs, so you only geocode new locations
+# - Failed geocoding attempts are saved for manual review
+# - Location name corrections are cumulative and reusable across years
