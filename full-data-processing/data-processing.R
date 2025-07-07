@@ -92,8 +92,6 @@ generate_record_ids <- function(data, prefix_column, year_column, padding = 5) {
   return(result_data)
 }
 
-#Geocoding here?
-
 ### DATA CLEANING AND GEOCODING PIPELINE
 
 # Trim whitespace from all columns in data
@@ -159,22 +157,26 @@ getGoogleAPI <- function() {
 
 # Check for existing geocoded locations and prepare a list of unique locations to geocode
 prep_geocode <- function(data, geocoding_folder) {
+  # Only consider records missing both lat and lon
+  data_to_geocode <- data %>%
+    filter((is.na(lat) | lat == "" | lat == "NA") & (is.na(lon) | lon == "" | lon == "NA"))
+  
   # Create geocode values based on city and state
-  data$geocode.value <- ifelse(
-    is.na(data$state) | data$state == "",
-    NA,  # Return NA if no state (and no city)
+  data_to_geocode$geocode.value <- ifelse(
+    is.na(data_to_geocode$state) | data_to_geocode$state == "",
+    NA,
     ifelse(
-      is.na(data$city) | data$city == "" | tolower(data$city) == "statewide",
-      paste(data$state, ", United States", sep = ""),  # Geocode state for statewide/blank entries
-      paste(data$city, ", ", data$state, sep = "")     # Geocode city, state for specific cities
+      is.na(data_to_geocode$city) | data_to_geocode$city == "" | tolower(data_to_geocode$city) == "statewide",
+      paste(data_to_geocode$state, ", United States", sep = ""),
+      paste(data_to_geocode$city, ", ", data_to_geocode$state, sep = "")
     )
   )
   
   # Filter out invalid entries before creating unique list
-  valid_data <- data %>%
+  valid_data <- data_to_geocode %>%
     filter(!is.na(state) & state != "")
   
-  unique_geocode_values <- unique(valid_data$geocode.value) # Generate a unique list of values you want geocoded
+  unique_geocode_values <- unique(valid_data$geocode.value)
   
   # Check if geocoded lookup file exists, create empty one if not
   lookup_file <- file.path(geocoding_folder, "unique-locations-geocoded.csv")
@@ -315,24 +317,15 @@ merge_with_existing_geocoded_data <- function(all.data.cleaned, geocoding_folder
   }
   
   all.data.cleaned.geocoded <- left_join(all.data.cleaned, existing_geocoded_lookup, by = "geocode.value")
+  all.data.cleaned.geocoded <- all.data.cleaned.geocoded %>%
+    mutate(
+      lat = ifelse(!is.na(lat.x), lat.x, lat.y),
+      lon = ifelse(!is.na(lon.x), lon.x, lon.y),
+      geoAddress = ifelse(!is.na(geoAddress.x) & geoAddress.x != "", geoAddress.x, geoAddress.y)
+    ) %>%
+    select(-lat.x, -lat.y, -lon.x, -lon.y, -geoAddress.x, -geoAddress.y)
   write.csv(all.data.cleaned.geocoded, file.path(output_folder, "all-data-cleaned-geocoded.csv"), row.names = FALSE)
   return(all.data.cleaned.geocoded)
-}
-
-# Generate a documentation file to list out completed years
-documentation_function <- function(csvFile, markdownFile, output_folder) {
-  data <- read.csv(file.path(output_folder, csvFile))
-  unique_years <- data %>%
-    distinct(year) %>%
-    arrange(year) %>%
-    pull(year)
-  md_file <- file(file.path(output_folder, markdownFile), "w")
-  writeLines("# Completed Years\n", md_file)
-  writeLines("This document lists all the years for which data cleaning and geocoding have been completed.\n", md_file)
-  for (year in unique_years) {
-    writeLines(sprintf("- %s", year), md_file)
-  }
-  close(md_file)
 }
 
 ## Function to clean up coordinates - ex. swapped lat/lon values, coerce missing or incorrect values to NA, etc.
@@ -427,7 +420,9 @@ cat("=== STEP 2: GEOCODING ===\n")
 getGoogleAPI()  # Uncomment this line when you want to geocode
 unique.locations.to.geocode <- prep_geocode(all.data.cleaned, geocoding_folder)
 all.data.cleaned.geocoded <- geocoding_function(unique.locations.to.geocode, all.data.cleaned, geocoding_folder, output_folder)
-documentation_function("all-data-cleaned-geocoded.csv", "completed_years.md", output_folder)
+
+
+
 
 ## Type column processing
 
@@ -438,19 +433,19 @@ library(hunspell)
 library(textclean)
 
 # Load the data for cleaning
-all.data.cleaned <- all.data
+type.cleaning <- all.data.cleaned.geocoded
 
 # Handle null/missing values
 # Replace "null" entries with NA and decide how to handle them
-all.data.cleaned$type[all.data.cleaned$type == "null" | all.data.cleaned$type == "" | is.na(all.data.cleaned$type)] <- NA
-cat("Found", sum(is.na(all.data.cleaned$type)), "null/missing type entries\n")
+type.cleaning$type[type.cleaning$type == "null" | type.cleaning$type == "" | is.na(type.cleaning$type)] <- NA
+cat("Found", sum(is.na(type.cleaning$type)), "null/missing type entries\n")
 
 # Add new column type_clean, trim whitespace, convert to lowercase for consistent processing
-all.data.cleaned$type_clean <- trimws(all.data.cleaned$type)
-all.data.cleaned$type_clean <- tolower(all.data.cleaned$type_clean)
+type.cleaning$type_clean <- trimws(type.cleaning$type)
+type.cleaning$type_clean <- tolower(type.cleaning$type_clean)
 
 # Apply text cleaning functions to standardize the type_clean column
-all.data.cleaned <- all.data.cleaned %>%
+type.cleaning <- type.cleaning %>%
   mutate(
     # First create a clean version of the type column
     type_clean = replace_non_ascii(type_clean),      # Replace non-ASCII characters
@@ -459,11 +454,11 @@ all.data.cleaned <- all.data.cleaned %>%
     type_clean = trimws(type_clean)                  # Trim whitespace
   )
 
-type_counts_original <- all.data.cleaned %>%
+type_counts_original <- type.cleaning %>%
   count(type, sort = TRUE) %>%
   arrange(desc(n))
 
-type_counts_cleaned <- all.data.cleaned %>%
+type_counts_cleaned <- type.cleaning %>%
   count(type_clean, sort = TRUE) %>%
   arrange(desc(n))
 
@@ -471,8 +466,8 @@ type_counts_more_one <- type_counts_cleaned %>%
   filter(n > 1) %>%
   arrange(type_clean)
 
-write_csv(type_counts_more_one, file = "full-data-processing/cleaned-types-counts-more-one.csv")
-write_csv(type_counts_cleaned, file = "full-data-processing/cleaned-types-counts.csv")
+write_csv(type_counts_more_one, file = "full-data-processing/final-output-data/cleaned-types-counts-more-one.csv")
+write_csv(type_counts_cleaned, file = "full-data-processing/final-output-data/cleaned-types-counts.csv")
 
 ### PIPELINE USAGE INSTRUCTIONS
 
