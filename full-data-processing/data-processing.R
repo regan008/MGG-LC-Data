@@ -392,7 +392,7 @@ all.data <- generate_record_ids(all.data, "publication", "year", padding = 5)
 all.data <- fix_lat_lon_swaps(all.data)
 
 ## Write out the data
-write.csv(all.data, file = "full-data-processing/full-data-processed.csv", row.names = FALSE)
+#write.csv(all.data, file = "full-data-processing/full-data-processed.csv", row.names = FALSE)
 
 ### EXECUTE DATA CLEANING AND GEOCODING PIPELINE
 
@@ -454,6 +454,12 @@ type.cleaning <- type.cleaning %>%
     type_clean = trimws(type_clean)                  # Trim whitespace
   )
 
+# Add category column by joining with type_category_lookup
+# Ensure the join is on type_clean (from type.cleaning) and type (from type_category_lookup)
+type.cleaning <- type.cleaning %>%
+  left_join(type_category_lookup, by = c("type_clean" = "type"))
+# Now type.cleaning$category contains the mapped category
+
 type_counts_original <- type.cleaning %>%
   count(type, sort = TRUE) %>%
   arrange(desc(n))
@@ -468,6 +474,28 @@ type_counts_more_one <- type_counts_cleaned %>%
 
 write_csv(type_counts_more_one, file = "full-data-processing/final-output-data/cleaned-types-counts-more-one.csv")
 write_csv(type_counts_cleaned, file = "full-data-processing/final-output-data/cleaned-types-counts.csv")
+
+### Type to Category mapping
+
+type_category_lookup = read.csv("full-data-processing/type-category/type-category-lookup.csv", stringsAsFactors = FALSE)
+# Add category column by joining with type_category_lookup
+type.cleaning <- type.cleaning %>%
+  left_join(type_category_lookup, by = c("type_clean" = "type"))
+
+# Replace the 'type' column with 'type_clean' values
+type.cleaning$type <- type.cleaning$type_clean
+# Remove the type_clean column
+type.cleaning$type_clean <- NULL
+
+
+# Expor the full dataframe
+full_export = type.cleaning
+write_csv(full_export, file = "full-data-processing/final-output-data/all-data-cleaned-geocoded.csv")
+
+# Filter to only include rows where year is in years list
+filtered_by_year = full_export %>% filter(year %in% years)
+write_csv(filtered_by_year, file = "full-data-processing/final-output-data/filtered-years-cleaned-geocoded.csv")
+
 
 ### PIPELINE USAGE INSTRUCTIONS
 
