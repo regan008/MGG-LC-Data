@@ -1,17 +1,17 @@
 type_clean,n
 bars/clubs,32786
 cruising areas,25909
-bars,23458
+bars,23308
 accommodations,13896
 info lines and services,10515
 restaurant,8813
 erotica,7154
-restaurants,6838
+restaurants,6849
 cruisy areas,4730
 restaurants and cafes,4327
 book store,3762
 hotel,3447
-publications,2932
+publications,2937
 nightclubs,2878
 bookstores/retail shops,1876
 bars and nightclubs,1864
@@ -35,7 +35,7 @@ spiritual groups,810
 theatre,781
 publication,732
 bar,716
-religious groups,587
+religious groups,585
 organization,566
 "book store,erotic shop",546
 travel agents,528
@@ -48,18 +48,18 @@ erotic shop,454
 "book store,cruising areas",402
 religious organization,392
 hotline,366
-feminist bookstore,359
+feminist bookstore,363
 church,346
 erotica/adult groups,337
-organizations,323
-services,294
-centers,278
+organizations,325
+services,299
+centers,275
 gyms/health clubs,267
 "cruising areas,book store",264
-NA,264
-group,257
+group,261
+NA,258
+bar/restaurant,250
 bookstore/retail shops,250
-bar/restaurant,245
 book stores or retail shops,224
 "cruising areas,theatre",207
 gym,202
@@ -70,11 +70,11 @@ hotlines,187
 travel agency,186
 book stores/retail shops,182
 information services,178
-groups,173
+groups,172
 "restaurant,hotel",170
-special interest groups,161
 "hotel,restaurant",158
-bookstore,149
+bookstore,151
+special interest groups,146
 "bars,cruising areas",131
 "restaurant,cruising areas",128
 travel agency or tour operators,128
@@ -88,10 +88,10 @@ women's centers,92
 gym/health clubs,89
 "book store,theatre",86
 bar / restaurants,80
-alternative bookstore,75
+alternative bookstore,76
 "bars,cruisy areas",74
 center,73
-health center,70
+health center,69
 attorneys,67
 health clinic,67
 women's center,66
@@ -101,13 +101,14 @@ erotica/adult books,63
 "cruising areas,organizations",62
 hotels/motels/guest houses etc.,59
 "theatre,cruising areas",59
+radio program,57
 hotels/motels/guest houses/etc,56
-radio program,55
 "business,book store",51
 "cruising areas,book store,erotic shop",51
 guest houses,51
+show-bars,51
 "book store,business",50
-show-bars,49
+guest house,50
 "book store,cruising areas,erotic shop",45
 crusiy areas,45
 "book store,erotic shop,cruising areas",44
@@ -115,27 +116,28 @@ coffeehouse,44
 "hotel,restaurant,bars/clubs",44
 hotels/motels/guest houses,43
 "restaurant,bars/clubs,cruising areas",41
-guest house,40
 "bars/clubs,bathhouses",37
 bar/restuarant,36
 "bars/clubs,hotels",36
 "baths,hotel",36
-n.o.w.,35
+n.o.w.,36
 organisation and services,35
-newspaper,32
+hotels/motels/guesthouses,33
 "restaurant,bars/clubs,hotel",32
 "bathhouses,hotel",31
 "hotel,cruising areas",31
+newspaper,31
 community center/ support group,30
 "hotel,bars/clubs,restaurant",30
 "hotel,bathhouses",29
+travel agencies,29
 alternative bookstores,28
 "bars/clubs,book store",28
 "bars/clubs,theatre",28
 no site type,28
-travel agencies,28
+coffeehouses,27
 "bars/clubs,restaurant,hotel",26
-coffeehouses,26
+gay/lesbian group,26
 resort,26
 "bars/clubs,restaurant,cruising areas",25
 "cruising areas,erotic shop",25
@@ -143,22 +145,21 @@ groups and organizations,25
 "hotel,travel service",25
 sex clubs,25
 "theatre,book store",25
-gay/lesbian group,24
+counselling/therapy,24
 "restaurant,hotel,bars/clubs",24
 retreat,24
 bars and bars / restaurants,23
-counselling/therapy,23
-hotels/motels/guesthouses,23
+gay/lesbian bookstore,23
 motels,23
 other bars--mostly gay men and mixed clientel,23
 showbar,23
 alternative / feminist bookstores,22
 archives,22
-gay/lesbian bookstore,22
 hotel/motel,22
 lesbian group,22
 religious group,22
 resorts,22
+switchboard,22
 escort service,21
 events,21
 motel,21
@@ -168,10 +169,9 @@ showbars,21
 victim / emergency services,21
 bars and bar/restaurants,20
 "business,hotel",20
-art gallery,19
 "bars/clubs,hotel,restaurant",19
 "bathhouses,gym",19
-switchboard,19
+art gallery,18
 "bars/clubs,cruising areas,hotel",18
 "cruising areas,bathhouses",18
 for review,18
@@ -196,6 +196,7 @@ counseling service,14
 dentists,14
 "hotel,gym",14
 medical practitioners--including alternative,14
+political group,14
 switchboards,14
 "business,cruising areas",13
 gay / lesbian center,13
@@ -204,15 +205,14 @@ gay/lesbian bookstores,13
 guest houses / bed and breakfast,13
 gym/health club,13
 "hotel,bars/clubs,cruising areas",13
-political group,13
+organization and services,13
 restaurant/bar,13
+women's retreat,13
 counseling and therapy,12
 "cruising areas,bars/clubs,restaurant",12
 health center/clinic/counseling,12
 health center/clinic/counselling,12
-organization and services,12
 "restaurant,book store",12
-women's retreat,12
 general bookstore,11
 hotels/guest houses/motels,11
 taxi cabs,11
@@ -223,17 +223,18 @@ taxi cabs,11
 "cruising areas,restaurant,bars/clubs",10
 herbalist,10
 lesbian / gay bookstore,10
+now,10
 organizations and groups,10
 "theatre,book store,erotic shop",10
 accommodation,9
 counselling / health / clinics / medical treatment,9
-gay center,9
 gay hotline,9
 groups/organizations,9
 hotel/motels/guest houses,9
 information and victim-emergency services,9
 lesbian center,9
 organizations. etc.,9
+outdoor group,9
 sexual boutique,9
 switchboards / hotlines / crises lines,9
 archives / libraries,8
@@ -246,12 +247,16 @@ centers / organizations / groups,8
 counseling / health / clinics / medical treatment,8
 "cruising areas,hotel,bars/clubs",8
 discussion group,8
+gay center,8
 health care,8
 information and emergency services,8
+jewelry/crafts,8
 lesbian mothers,8
-now,8
+lesbian social group,8
+mail order,8
 organizations and services,8
 "publication,book store",8
+religious,8
 roommate service,8
 sexuality boutiques,8
 women's guest house,8
@@ -276,12 +281,8 @@ hotlines/emergency services for women,7
 information services and crisis hotlines,7
 information services and groups,7
 jewelry,7
-jewelry/crafts,7
-lesbian social group,7
 library,7
-mail order,7
 martial arts,7
-outdoor group,7
 radio programs,7
 "religious institution,community center/support group",7
 "restaurant,business",7
@@ -290,6 +291,7 @@ store,7
 "theatre,restaurant",7
 travel,7
 "travel agency,hotel",7
+a.a.,6
 "bars/clubs,theatre,cruising areas",6
 battered lesbians,6
 bookshop,6
@@ -315,13 +317,13 @@ printing/graphics,6
 room mate service,6
 social club,6
 spa,6
+student group,6
 theater/art,6
 theaters,6
 travel agencies and clubs,6
 "travel service,hotel",6
 victim services,6
 women's building,6
-a.a.,5
 apartments/cottages,5
 "archives/libraries,etc.",5
 attorney,5
@@ -346,6 +348,7 @@ health centers and counseling,5
 "hotel,book store",5
 "hotels,bars/clubs",5
 "hotline,religious institution",5
+ice cream shop,5
 information services/organizations,5
 introduction services,5
 legal aid,5
@@ -359,12 +362,10 @@ pier,5
 printing,5
 production company,5
 radio and television programs,5
-religious,5
 resort/rental cottages,5
 resorts/hotels/guest houses,5
 self defense,5
 sexuality boutique,5
-student group,5
 television/radio/cable tv,5
 theater/arts center,5
 unlisted,5
@@ -372,6 +373,7 @@ vacations,5
 women's bookstore,5
 women's land trust,5
 womyn's hostels / guest houses / retreats,5
+aa,4
 "accommodations,cruisy areas",4
 "bars/clubs,erotic shop",4
 "bars/clubs,restaurants and cafes",4
@@ -404,22 +406,24 @@ herbal medicine and psychic skills,4
 "hotel,travel agency",4
 "hotels / guest houses, etc",4
 "hotels/guest houses,etc",4
-ice cream shop,4
 lawyer,4
 lesbian / gay community center,4
 lesbian groups,4
 lesbian organization,4
 media,4
 occult supplies,4
+occult/astrology,4
 open house,4
 other bookstores,4
 other guest houses,4
 printers,4
+resort/hotel,4
 resorts / guest houses,4
 resources and references,4
 "restaurant,hotels",4
 social groups,4
 social groups and events,4
+special interests,4
 sports,4
 theater and music events,4
 "therapists-counseling, etc.",4
@@ -427,7 +431,6 @@ tour operators,4
 tv show,4
 women's land,4
 womyn's hostels/guest houses/retreats,4
-aa,3
 "accommodation - guest houses, etc.",3
 accountants,3
 adventure vacations,3
@@ -454,6 +457,7 @@ counseling services/therapy/massage,3
 "cruising areas,religious institution",3
 dating services,3
 directory,3
+disco night,3
 "entertainment and recreation,cruisy areas",3
 "erotic shop,bars/clubs",3
 "erotic shop,cruising areas,book store",3
@@ -464,7 +468,6 @@ feminist shops,3
 fitness center,3
 gay complex / resort,3
 gay complex/resort,3
-gay/lesbian restaurant,3
 gay/lesbian/feminist bookstore,3
 graphic design,3
 groups / organizations and services,3
@@ -492,10 +495,10 @@ music producers and promoters,3
 newsletter,3
 "nightclubs,cruisy areas",3
 occult services,3
-occult/astrology,3
 "organization,religious institution",3
 "organizations,hotel",3
 outdoor trips,3
+personal contact club,3
 personal contacts/housing,3
 political action groups,3
 private healthcare,3
@@ -508,11 +511,9 @@ radio program and television,3
 ranch,3
 rape crisis,3
 record shop,3
-religious groups and helpline,3
 "religious groups/churches, etc",3
 "religious institution,hotline",3
 resort and bar,3
-resort/hotel,3
 "restaurant,bars/clubs,theatre",3
 "restaurant,cruising areas,bars/clubs",3
 "restaurants and cafes, etc.",3
@@ -522,13 +523,13 @@ rooming house,3
 rural communities,3
 sea charters,3
 secretarial typing services,3
-special interests,3
 sport,3
 switchboard services,3
 theater,3
 "theatre,book store,cruising areas",3
 third world group,3
 university,3
+vacation ranch,3
 victim/emergency services and legal advice,3
 women only bed and breakfast guest house,3
 women's centres,3
@@ -542,7 +543,6 @@ action group,2
 activist groups,2
 acupuncture,2
 adventure,2
-alcoholism center,2
 "alcoholism, chemical dependency, drug abuse counseling",2
 alternative bookshop,2
 alternative health clinic,2
@@ -564,6 +564,7 @@ bed and breakfast for women,2
 "book store,erotic shop,bathhouses",2
 "book store,erotic shop,theatre",2
 "book store,publication",2
+bookstore cafe,2
 bookstore/coffeehouse,2
 bookstores / cafe,2
 business and trade organization,2
@@ -582,6 +583,7 @@ centers and organizations,2
 chemical dependency association,2
 club,2
 coffeehouse / cafe,2
+coffeehouse/cafe,2
 "community center/ support group,hotline",2
 "community center/ support group,religious institution",2
 "community center/support group,organization",2
@@ -591,7 +593,6 @@ counseling and psychotherapy,2
 counseling centers,2
 counseling/therapy/health centers,2
 counselling and therapy,2
-counselling institute,2
 "counselors / therapists / psychologists, etc.",2
 country b and b,2
 "cruising areas,bars",2
@@ -601,7 +602,6 @@ country b and b,2
 cultural organizations,2
 dating service,2
 delicatessen,2
-disco night,2
 doctors,2
 draper world travel,2
 drug/alcohol services,2
@@ -627,6 +627,7 @@ gay resort,2
 gay switchboard,2
 gay/lesbian organization,2
 gay/lesbian political group,2
+gay/lesbian restaurant,2
 general and alternative bookstores,2
 general bookstores,2
 graphic consultant,2
@@ -692,7 +693,6 @@ other bookshops / videos,2
 other centers,2
 other services,2
 pamphlet and periodoical outlet,2
-personal contact club,2
 political/legislative,2
 private club,2
 private parties,2
@@ -701,6 +701,7 @@ public relations,2
 real estate agent,2
 records/music,2
 recreational retreat,2
+religious groups and helpline,2
 religious groups and organizations,2
 "religious institution,community center/ support group",2
 "restaurant,bars/clubs,bathhouses",2
@@ -715,6 +716,7 @@ roommate matching services,2
 sail boat charters,2
 salon tea,2
 sauna,2
+sauna/gym,2
 self-defense school,2
 sex shops,2
 social event,2
@@ -731,7 +733,6 @@ theater/restaurant,2
 "theatre,cruising areas,book store",2
 therapists,2
 vacation and recreation,2
-vacation ranch,2
 walking tour,2
 wilderness trips,2
 women's art gallery,2
@@ -765,6 +766,7 @@ advertising agency,1
 advertising specialties / promotional items / trophies and awards / buttons / t-shirts,1
 aikido school,1
 alcoholics anonymous,1
+alcoholism center,1
 all-gay guest house,1
 alternative / spirituality bookstore,1
 alternative bookstore / cafe / local info.,1
@@ -838,7 +840,6 @@ black women,1
 "book stores or retail shops,erotica",1
 bookcenter,1
 bookclub,1
-bookstore cafe,1
 bookstore/art gallery,1
 bookstore/cafe,1
 bookstore/feminist specialty shop,1
@@ -885,7 +886,6 @@ coffee house nights,1
 coffee-bars and cafes,1
 coffeebar,1
 coffeehouse/bar,1
-coffeehouse/cafe,1
 coffeehouse/cultural center,1
 committee,1
 "community center/ support group,publication",1
@@ -902,6 +902,7 @@ counseling and therapy-private,1
 counseling and therapy-private and community,1
 counseling center,1
 counseling/health services,1
+counselling institute,1
 counselling/health,1
 country trips,1
 craft market,1
@@ -950,6 +951,7 @@ feminist library,1
 feminist library and newsletter,1
 feminist organization and networking center,1
 feminist periodical,1
+feminist psychotherapy,1
 feminist restaurant and bookstore,1
 feminist retreat,1
 feminist school,1
@@ -1169,6 +1171,7 @@ resort and campground,1
 resort/campsite,1
 resort/dsico,1
 resort/motel,1
+resources/references,1
 "restaurant,bars/clubs,business",1
 "restaurant,baths,bars/clubs",1
 "restaurant,book store,business",1
@@ -1191,7 +1194,6 @@ roller disco,1
 room-mate service,1
 rural community,1
 sailing,1
-sauna/gym,1
 savings bank,1
 sea cruise,1
 self-defense,1
@@ -1214,12 +1216,13 @@ special lesbian and gay events,1
 specialty bookstore,1
 specialty watch co,1
 spirituality,1
+sports group,1
+sportswear and accessories,1
 stage door,1
 state college,1
 steam baths,1
 student group/counselling,1
 student organization,1
-student's grou,1
 supper club,1
 supperclub,1
 t shirts,1

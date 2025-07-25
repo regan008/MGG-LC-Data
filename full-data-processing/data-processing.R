@@ -422,8 +422,6 @@ unique.locations.to.geocode <- prep_geocode(all.data.cleaned, geocoding_folder)
 all.data.cleaned.geocoded <- geocoding_function(unique.locations.to.geocode, all.data.cleaned, geocoding_folder, output_folder)
 
 
-
-
 ## Type column processing
 
 # Install and load the textclean package
@@ -473,7 +471,7 @@ type_counts_more_one <- type_counts_cleaned %>%
   arrange(type_clean)
 
 write_csv(type_counts_more_one, file = "full-data-processing/final-output-data/cleaned-types-counts-more-one.csv")
-write_csv(type_counts_cleaned, file = "full-data-processing/final-output-data/cleaned-types-counts.csv")
+write_csv(type_counts_cleaned, file = "full-data-processing/final-output-data/cleaned-types-counts.csv")  
 
 ### Type to Category mapping
 
