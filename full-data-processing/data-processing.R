@@ -383,6 +383,18 @@ fix_lat_lon_swaps <- function(df, lat_col = "lat", lon_col = "lon") {
   return(fixed_df)
 }
 
+add_regions <- function(df) {
+  # Read the lookup table
+  region_lookup <- read.csv("full-data-processing/geocoding-files/state_census_region_division.csv", stringsAsFactors = FALSE)
+  # Ensure column names are lowercase for join
+  colnames(region_lookup) <- tolower(colnames(region_lookup))
+  # Join on state column
+  df <- df %>%
+    left_join(region_lookup, by = c("state" = "state")) %>%
+    rename(region = region, division = division)
+  return(df)
+}
+
 ## Reading in data and applying functions
 
 gg.data <- load_gg_data(empty.df, columns, years)
@@ -390,6 +402,7 @@ mgg.data <- load_mgg_data(columns)
 all.data <- rbind(gg.data, mgg.data)
 all.data <- generate_record_ids(all.data, "publication", "year", padding = 5)
 all.data <- fix_lat_lon_swaps(all.data)
+all.data <- add_regions(all.data)
 
 ## Write out the data
 write.csv(all.data, file = "full-data-processing/full-data-processed.csv", row.names = FALSE)
