@@ -392,7 +392,7 @@ all.data <- generate_record_ids(all.data, "publication", "year", padding = 5)
 all.data <- fix_lat_lon_swaps(all.data)
 
 ## Write out the data
-#write.csv(all.data, file = "full-data-processing/full-data-processed.csv", row.names = FALSE)
+write.csv(all.data, file = "full-data-processing/full-data-processed.csv", row.names = FALSE)
 
 ### EXECUTE DATA CLEANING AND GEOCODING PIPELINE
 
@@ -486,7 +486,7 @@ type.cleaning$type <- type.cleaning$type_clean
 type.cleaning$type_clean <- NULL
 
 
-# Expor the full dataframe
+# Export the full dataframe
 full_export = type.cleaning
 write_csv(full_export, file = "full-data-processing/final-output-data/all-data-cleaned-geocoded.csv")
 
@@ -494,6 +494,74 @@ write_csv(full_export, file = "full-data-processing/final-output-data/all-data-c
 filtered_by_year = full_export %>% filter(year %in% years)
 write_csv(filtered_by_year, file = "full-data-processing/final-output-data/filtered-years-cleaned-geocoded.csv")
 
+
+### RELATIVE DATA CALCULATIONS
+
+## This section calculates relative data for locations in each publication on a year-by-year basis and for all years aggregated together.
+
+#change for subsets of data - ex. all data, filtered data by year, etc.
+incoming_file <- "filtered-years-cleaned-geocoded.csv" #"all-data-cleaned-geocoded.csv"  #
+outgoing_file <- "filtered-years-relative-location-by-year.csv" #"all-data-relative-location-by-year.csv" #
+
+## Exporting a csv file that contains relative data for locations in each publication on year by year basis
+relative.data.by.year <- function(incoming_file, outgoing_file) {
+  all.data <- read.csv(file = file.path(output_folder, incoming_file))
+  # strip out all variations of cruising areas from MGG types.
+  # all.data <- all.data %>% filter(!grepl(",Cruising Areas", all.data$type, fixed = TRUE) &
+  #   !grepl("Cruising Areas,", all.data$type, fixed = TRUE) &
+  #   !grepl("Cruising Areas", all.data$type, fixed = TRUE) &
+  #   !grepl("Cruisy Areas", all.data$type, fixed = TRUE) &
+  #   !grepl("Crusiy Areas", all.data$type, fixed = TRUE))
+  # calculating relative values of locations in each publication on a year by year basis
+  total.per.year <- all.data %>%
+    group_by(publication, year) %>%
+    summarize(total.locations = n())
+  total.per.loc.byyear <- all.data %>%
+    group_by(publication, year, geocode.value) %>%
+    summarize(count = n())
+  relative.count <- full_join(total.per.year, total.per.loc.byyear)
+  relative.count <- relative.count %>% mutate(relative.percentage = count / total.locations * 100)
+  relative.count <- relative.count %>%
+    group_by(year, publication) %>%
+    mutate(location_rank = dense_rank(desc(count))) %>% #add a rank column
+    ungroup()
+  write.csv(relative.count, file = file.path(output_folder, outgoing_file), row.names = FALSE)
+}
+relative.data.by.year(incoming_file, outgoing_file)
+
+### Calculating relative percentage and ranks aggregating across entire data from a single publication (not year by year)
+
+#change for subsets of data - ex. all data, filtered data by year, etc.
+incoming_file <- "filtered-years-cleaned-geocoded.csv" #"all-data-cleaned-geocoded.csv" #
+outgoing_file <- "filtered-years-relative-location-by-publication-total.csv" #  "all-data-relative-location-all-years.csv" #
+
+## Exporting a csv file that contains relative data for locations in each publication, with all years aggregated together
+relative.data.all.years <- function(incoming_file, outgoing_file) {
+  all.data <- read.csv(file = file.path(output_folder, incoming_file))
+  # strip out all variations of cruising areas from MGG types.
+  # all.data <- all.data %>% filter(!grepl(",Cruising Areas", all.data$type, fixed = TRUE) &
+  #   !grepl("Cruising Areas,", all.data$type, fixed = TRUE) &
+  #   !grepl("Cruising Areas", all.data$type, fixed = TRUE) &
+  #   !grepl("Cruisy Areas", all.data$type, fixed = TRUE) &
+  #   !grepl("Crusiy Areas", all.data$type, fixed = TRUE))
+  # calculating relative values of locations on a year by year basis
+  total <- all.data %>%
+    group_by(publication) %>%
+    summarize(total.locations = n())
+  total.per.loc <- all.data %>%
+    group_by(publication, geocode.value) %>%
+    summarize(count = n())
+  relative.count <- full_join(total, total.per.loc)
+  relative.count <- relative.count %>% 
+    mutate(relative.percentage = count / total.locations * 100) %>%
+    select(publication, geocode.value, count, relative.percentage)
+  relative.count <- relative.count %>%
+    group_by(publication) %>%
+    mutate(location_rank = dense_rank(desc(count))) %>% #add a rank column
+    ungroup()
+  write.csv(relative.count, file = file.path(output_folder, outgoing_file), row.names = FALSE)
+}
+relative.data.all.years(incoming_file, outgoing_file)
 
 ### PIPELINE USAGE INSTRUCTIONS
 
