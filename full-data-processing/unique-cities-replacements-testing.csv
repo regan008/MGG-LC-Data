@@ -1,0 +1,3760 @@
+city,city_new,state,state_new,n
+Anchorage,,AK,,506
+Auke Bay,,AK,,1
+Chugiak,,AK,,1
+Clam Gulch,,AK,,1
+Douglas,,AK,,1
+Eagle River,,AK,,6
+Eureka Springs,,AK,,11
+Fairbanks,,AK,,184
+Fayetteville,,AK,,5
+Fort Smith,,AK,,3
+Ft. Smith,Fort Smith,AK,,1
+Helena,,AK,,1
+Homer,,AK,,24
+Hot Springs,,AK,,4
+Juneau,,AK,,83
+Ketchikan,,AK,,29
+Kodiak,,AK,,1
+Kodiak Island,,AK,,2
+Little Rock,,AK,,25
+Prairie Creek,,AK,,1
+Russellville,,AK,,1
+Seward,,AK,,6
+Sitka,,AK,,17
+Texarkana,,AK,,1
+Walcott,,AK,,1
+,,AK,,6
+Anniston,,AL,,60
+Atmore,,AL,,4
+Aubrun,,AL,,1
+Auburn,,AL,,66
+Autaugaville,,AL,,13
+Birmingham,,AL,,689
+Decatur,,AL,,96
+Dotham,,AL,,2
+Dothan,,AL,,33
+Fayetteville,,AL,,1
+Florence,,AL,,60
+Gadsden,,AL,,15
+Gadsen,,AL,,4
+Gasden,,AL,,3
+Geneva,,AL,,5
+Gordo,,AL,,1
+Heflin,,AL,,1
+Huntsville,,AL,,162
+Jackson,,AL,,1
+Jacksonville,,AL,,41
+Lafayette,,AL,,2
+Mobile,,AL,,282
+Montgomery,,AL,,224
+Opelika,,AL,,7
+Phenix City,,AL,,13
+Prattville,,AL,,8
+Selma,,AL,,15
+Tuscalloosa,,AL,,1
+Tuscaloosa,,AL,,144
+Waverly,,AL,,1
+,,AL,,10
+Batesville,,AR,,5
+Conway,,AR,,4
+Crosses,,AR,,3
+Crossett,,AR,,4
+El Dorado,,AR,,9
+Eureka Springs,,AR,,259
+Fayatteville,,AR,,5
+Fayetteville,,AR,,160
+Fort Smith,,AR,,20
+Ft. Smith,,AR,,110
+Helena,,AR,,2
+Hot Springs,,AR,,102
+Huntsville,,AR,,4
+Jonesboro,,AR,,5
+Little Rock,,AR,,418
+Morgan,,AR,,5
+North Little Rock,,AR,,1
+Ozark,,AR,,8
+Prairie Creek,,AR,,4
+Rogers,,AR,,6
+Russellville,,AR,,9
+Texarcana,,AR,,18
+Texarkana,,AR,,28
+Walcott,,AR,,7
+,,AR,,4
+Apache Junction,,AZ,,5
+Bisbee,,AZ,,30
+Bullhead City,,AZ,,15
+Casa Grande,,AZ,,9
+Cave Creek,,AZ,,2
+Cottonwood,,AZ,,7
+Douglas,,AZ,,1
+Flagstaff,,AZ,,142
+Fort Mohave,,AZ,,5
+Fountain Hills,,AZ,,2
+Ft. Huachuca,,AZ,,9
+FT. Huachuca,,AZ,,1
+Glendale,,AZ,,23
+Golden Valley,,AZ,,2
+Huachuca,,AZ,,1
+Jerome,,AZ,,14
+Kingman,,AZ,,16
+Lake Havasu City,,AZ,,13
+Lake Powell,,AZ,,2
+Lower Lake Pleasant,,AZ,,2
+Mesa,,AZ,,53
+Mohave Valley,,AZ,,5
+Phoenix,,AZ,,1607
+Prescott,,AZ,,27
+Quartzite,,AZ,,1
+Rimrock,,AZ,,1
+Scottsdale,,AZ,,95
+Sedona,,AZ,,74
+Sierra Vista,,AZ,,5
+St Paul,,AZ,,1
+St. Paul,,AZ,,1
+Tempe,,AZ,,130
+Toltec,,AZ,,5
+Tombstone,,AZ,,15
+Tucson,,AZ,,857
+Tuscon,Tucson,AZ,,84
+Vail,,AZ,,1
+Wickenburg,,AZ,,3
+Wilcox,,AZ,,4
+Willcox,,AZ,,1
+Winslow,,AZ,,5
+Yuma,,AZ,,126
+,,AZ,,4
+Ahwahnee,,CA,,6
+Alameda,,CA,,7
+Albany,,CA,,12
+Albion,,CA,,8
+Alhambra,,CA,,22
+Alleghanny,,CA,,2
+Alleghany,,CA,,5
+Altadena,,CA,,2
+Amador City,,CA,,1
+Anaheim,,CA,,82
+Angeles Nat'l Forest,,CA,,9
+Angeles National Forest,,CA,,6
+Angels Camp,,CA,,1
+Apple Valley,,CA,,2
+Aptos,,CA,,1
+Arcadia,,CA,,5
+Arcata,,CA,,12
+Arnold,,CA,,3
+Atascadero,,CA,,17
+Auberry,,CA,,1
+Auburn,,CA,,28
+Azusa,,CA,,2
+Bakersfield,,CA,,285
+Balboa,,CA,,6
+Baldwin Park,,CA,,1
+Barstow,,CA,,13
+Bass Lake,,CA,,2
+Bell Gardens,,CA,,5
+Bellflower,,CA,,4
+Benecia,,CA,,1
+Benicia,,CA,,5
+Berkeley,,CA,,313
+Berkley,,CA,,2
+Berkley/Oakland,,CA,,2
+Bernal Heights,,CA,,6
+Beverly Hills,,CA,,13
+Big Bear,,CA,,23
+Big Bear Lake,,CA,,58
+Big Sur,,CA,,6
+Bishop,,CA,,14
+Bloomington,,CA,,1
+Boonville,,CA,,6
+Boyle Heights,,CA,,1
+Bradley,,CA,,3
+Brawley,,CA,,5
+Brea,,CA,,21
+Brentwood,,CA,,3
+Bryte,,CA,,29
+Buena Park,,CA,,26
+Burbank,,CA,,48
+Burlingame,,CA,,9
+Calexico,,CA,,10
+Caliente,,CA,,4
+Calistoga,,CA,,3
+Cambria,,CA,,7
+Campbell,,CA,,12
+Canoga Park,,CA,,5
+Capistrano Beach,,CA,,2
+Carmel,,CA,,34
+Carmichael,,CA,,4
+Castro Village,,CA,,84
+Castro Village- S.F.,,CA,,12
+Castroville,,CA,,8
+Cathedral City,,CA,,183
+Cazadero,,CA,,5
+Century City,,CA,,1
+Chico,,CA,,92
+Chula Vista,,CA,,24
+Claremont,,CA,,3
+Clear Lake,,CA,,95
+Clear Lake Oaks,,CA,,3
+Clearlake,,CA,,41
+Clearlake Oaks,,CA,,6
+Cloverdale,,CA,,10
+Clovis,,CA,,8
+Columbia,,CA,,2
+Compton,,CA,,1
+Concord,,CA,,40
+Corona,,CA,,3
+Corona Del Mar,,CA,,9
+Corte Madera,,CA,,12
+Costa Mesa,,CA,,133
+Cotati,,CA,,4
+Covelo,,CA,,1
+Covina,,CA,,3
+Crescent City,,CA,,1
+Culber City,,CA,,1
+Culver City,,CA,,28
+Cupertino,,CA,,54
+Daly CIty,,CA,,1
+Dana Point,,CA,,23
+Davis,,CA,,49
+Decanso,,CA,,2
+Descanso,,CA,,10
+Desert Hot Springs,,CA,,4
+Dorrington,,CA,,2
+Duarte,,CA,,11
+Duncan Mills,,CA,,6
+Duncans Mills,,CA,,1
+Durham,,CA,,1
+Dutch Flat,,CA,,7
+Eagle Rock,,CA,,2
+East Bay,,CA,,108
+East Hollywood,,CA,,1
+Echo Park,,CA,,9
+El Cajon,,CA,,53
+El Centro,,CA,,43
+El Monte,,CA,,48
+El Segundo,,CA,,7
+El Sobrante,,CA,,6
+Emeryville,,CA,,1
+Encinitas,,CA,,1
+Encino,,CA,,10
+Escondido,,CA,,52
+Eureka,,CA,,174
+Fairfax,,CA,,11
+Fairfield,,CA,,21
+Ferndale,,CA,,7
+Fish Camp,,CA,,1
+Folsom,,CA,,33
+Folsom- S.F.,,CA,,7
+Fontana,,CA,,23
+Forestville,,CA,,35
+Fort Bragg,,CA,,54
+Fremont,,CA,,47
+Fresno,,CA,,475
+Fullerton,,CA,,22
+Garberville,,CA,,7
+Garden Grove,,CA,,366
+Gardena,,CA,,37
+Gaviota State Beach,,CA,,22
+Geyserville,,CA,,6
+Glen Ellen,,CA,,4
+Glendale,,CA,,12
+Glendora,,CA,,3
+Glenhaven,,CA,,9
+Grass Valley,,CA,,25
+Grover City,,CA,,5
+Gualala,,CA,,7
+Guerneville,,CA,,405
+Guernewood Park,,CA,,5
+Guerneyville,,CA,,2
+"Haight, Filmore & West- S.F.",,CA,,22
+Half Moon Bay,,CA,,26
+Hathaway Pines/Murphy's,,CA,,2
+Hawthorne,,CA,,44
+Hawthrone,,CA,,1
+Hayward,,CA,,181
+Healdsburg,,CA,,29
+Hemet,,CA,,32
+Hermosa Beach,,CA,,39
+Herndon,,CA,,1
+Highland,,CA,,3
+Highland Park,,CA,,24
+Hillcrest,,CA,,1
+Hillsborough,,CA,,23
+Hollywood,,CA,,1267
+Hollywood & North Hollywood,,CA,,14
+Hollywood Station,,CA,,1
+Hollywood West,,CA,,210
+Hopland/Talmadge,,CA,,1
+Huntington Beach,,CA,,22
+Huntington Park,,CA,,60
+Idyllwild,,CA,,22
+Idylwild,,CA,,5
+Imperial Beach,,CA,,20
+Indio,,CA,,12
+Inglewood,,CA,,74
+Irvine,,CA,,3
+Isla Vista,,CA,,4
+Joshua Tree,,CA,,2
+Joshua Tree Nat'l Park,,CA,,3
+Kearney Mesa,,CA,,1
+Kearny Mesa,,CA,,1
+Kelseyville,,CA,,3
+Kensington,,CA,,2
+Kenwood,,CA,,1
+Kernville,,CA,,1
+Kingsburg,,CA,,1
+Klamath,,CA,,4
+La Jolla,,CA,,24
+La Mesa,,CA,,4
+La Quinta,,CA,,5
+La Selva,,CA,,1
+Lafayette,,CA,,3
+Lafeyette,,CA,,1
+Laguna Beach,,CA,,675
+Laguna Hills,,CA,,11
+Laguna Nigel,,CA,,1
+Laguna Niguel,,CA,,2
+Lake Arrowhead,,CA,,1
+Lake Elsinore,,CA,,2
+Lake Tahoe,,CA,,128
+Lakeport,,CA,,8
+Lampoc,,CA,,1
+Lancaster,,CA,,33
+Larkspur,,CA,,1
+Lawndale,,CA,,1
+Lemon Grove,,CA,,1
+Leucadia,,CA,,1
+Little River,,CA,,12
+Lomita,,CA,,12
+Lompoc,,CA,,8
+Long Beach,,CA,,1254
+Longvale,,CA,,2
+Los Altos,,CA,,6
+Los Angeles,,CA,,3673
+Los Feliz,,CA,,1
+Los Gatos,,CA,,14
+Los Osos,,CA,,6
+Lucerne,,CA,,2
+Lynwood,,CA,,4
+Malibu,,CA,,6
+Manhattan,,CA,,1
+Manhattan Beach,,CA,,33
+Mar Vista,,CA,,3
+Marin County,,CA,,13
+Marina Del Rey,,CA,,1
+Marina del Rey,,CA,,1
+Marino Del Rey,,CA,,1
+Marysville,,CA,,49
+Matthews,,CA,,1
+Mendocino,,CA,,128
+Menlo Park,,CA,,7
+Merced,,CA,,16
+Middletown,,CA,,2
+Midpines,,CA,,1
+Midtown,,CA,,43
+Midtown- Los Angeles,,CA,,9
+Midway City,,CA,,14
+Mill Valley,,CA,,8
+Miracle Mile,,CA,,1
+Mission Beach,,CA,,12
+Mission District,,CA,,17
+Mission Valley,,CA,,3
+Mission Viejo,,CA,,28
+Modesto,,CA,,157
+Monrovia,,CA,,1
+Montara,,CA,,7
+Montclair,,CA,,5
+Monte Rio,,CA,,28
+Monte Vista,,CA,,1
+Montebello,,CA,,23
+Monterey,,CA,,213
+Morro Bay,,CA,,47
+Mount Shasta,,CA,,1
+Mountain View,,CA,,29
+Mt. Shasta,,CA,,1
+Mt. Washington,,CA,,2
+Myers Flat,,CA,,6
+N. Hollywood,,CA,,36
+Napa,,CA,,40
+Napa Valley,,CA,,18
+Navarro,,CA,,1
+Nevada City,,CA,,33
+New Almdaden,,CA,,1
+New Monterey,,CA,,4
+Newport Beach,,CA,,1
+Nice,,CA,,6
+Nicolaus,,CA,,2
+Nob Hill,,CA,,2
+Noe Valley,,CA,,14
+North Beach,,CA,,3
+North Highlands,,CA,,1
+North Hollywood,,CA,,347
+Northridge,,CA,,2
+Norwalk,,CA,,4
+Novato,,CA,,3
+Oakhurst,,CA,,1
+Oakland,,CA,,498
+Occidental,,CA,,5
+Ocean Beach,,CA,,14
+Ocean Park Beach,,CA,,2
+Oceanside,,CA,,126
+Old Town,,CA,,2
+Olympic Valley,,CA,,2
+Ontario,,CA,,16
+Orange,,CA,,10
+Orange County,,CA,,7
+Orland,,CA,,5
+Oroville,,CA,,2
+Oxnard,,CA,,55
+Pacific Beach,,CA,,20
+Pacific Grove,,CA,,14
+Palm Desert,,CA,,2
+Palm Springs,,CA,,1409
+Palmdale,,CA,,5
+Palms,,CA,,1
+Palo Alto,,CA,,163
+Panorama City,,CA,,4
+Paramount,,CA,,1
+Pasadena,,CA,,245
+Pescadero,,CA,,16
+Petaluma,,CA,,9
+Philipsville,,CA,,1
+"Philipsville, Humbolt County",,CA,,1
+Phillipsville,,CA,,3
+Philo,,CA,,1
+Pico Rivera,,CA,,1
+Pinedale,,CA,,1
+Pismo Beach,,CA,,9
+Placerville,,CA,,9
+Playa del Rey,,CA,,2
+Pleasant Hill,,CA,,13
+Plymouth,,CA,,4
+Point Loma,,CA,,4
+Point Richmond,,CA,,1
+Polk Street Area,,CA,,18
+Polk Street Area- S.F.,,CA,,5
+Pomona,,CA,,251
+Port Costa,,CA,,1
+Port Reyes Station,,CA,,1
+Porterville,,CA,,4
+Portola Valley,,CA,,1
+Portrero Hill,,CA,,3
+Potrero Hill,,CA,,3
+Pozo,,CA,,2
+Rancho Cordova,,CA,,3
+Rancho Mirage,,CA,,27
+Rancho Palos Verdes,,CA,,1
+Red Bluff,,CA,,42
+Red Buff,,CA,,2
+Redding,,CA,,135
+Redlands,,CA,,3
+Redondo Beach,,CA,,137
+Redwood City,,CA,,145
+Redwood CIty,,CA,,1
+Rendondo Beach,,CA,,1
+Reseda,,CA,,23
+Reyes Station,,CA,,1
+Rialto,,CA,,3
+Richmond,,CA,,2
+Rio Nido,,CA,,1
+Riverside,,CA,,153
+Riverton,,CA,,6
+Rohnert Park,,CA,,2
+Rubdoux,,CA,,1
+Rubidoux,,CA,,5
+Running Springs,,CA,,8
+Russian River,,CA,,286
+Russian RIver,,CA,,2
+Sacramento,,CA,,1098
+Salinas,,CA,,55
+San Anselmo,,CA,,2
+San Bernadino,,CA,,2
+San Bernardino,,CA,,263
+San Carlos,,CA,,3
+San Clemente,,CA,,59
+San Diego,,CA,,2631
+San Francisco,,CA,,8455
+San Francsico,,CA,,1
+San Gabrael,,CA,,1
+San Gabriel,,CA,,5
+San Gregorio,,CA,,9
+San Jose,,CA,,590
+San Leandro,,CA,,17
+San Lorenzo,,CA,,5
+San Luis Obispo,,CA,,216
+San Mateo,,CA,,63
+San Pablo,,CA,,6
+San Pedro,,CA,,1
+San Rafael,,CA,,85
+San Ysidro,,CA,,10
+Santa Ana,,CA,,37
+Santa Anna,,CA,,1
+Santa Barbara,,CA,,477
+Santa Clara,,CA,,87
+Santa Clarita Valley,,CA,,1
+Santa Cruz,,CA,,339
+Santa Margarita,,CA,,2
+Santa Maria,,CA,,83
+Santa Monica,,CA,,254
+Santa Monica Beach,,CA,,3
+Santa Rosa,,CA,,150
+Sausalito,,CA,,68
+Seal Beach,,CA,,1
+Seaside,,CA,,1
+Sebastopol,,CA,,4
+Sepulveda,,CA,,1
+Sequoia Nat'l Park,,CA,,2
+Shell Beach,,CA,,4
+Sherman Oaks,,CA,,79
+Silver Lake,,CA,,64
+Silverlake,Silver Lake,CA,,202
+Sky Forest,,CA,,1
+Sonoma,,CA,,15
+Sonoma County,,CA,,2
+Sonora,,CA,,2
+Soquel,,CA,,1
+South El Monte,,CA,,7
+South Laguna,,CA,,1
+South Lake Tahoe,,CA,,25
+South Pasadena,,CA,,7
+South Sacramento,,CA,,1
+South San Gabriel,,CA,,9
+Springville,,CA,,2
+Squaw Valley,,CA,,1
+St Helena,,CA,,6
+St. Helena,,CA,,6
+St.Helena,,CA,,3
+Stanford,,CA,,2
+Stockton,,CA,,154
+Studio City,,CA,,294
+Sunland,,CA,,4
+Sunnyvale,,CA,,12
+Sunset Beach,,CA,,18
+Sylmar,,CA,,1
+Tahoe City,,CA,,4
+Tahoe Vista,,CA,,1
+Tarzana,,CA,,11
+Temecula,,CA,,5
+Tenderloin,,CA,,36
+Tenderloin to North Beach- S.F.,,CA,,8
+The Castro,,CA,,24
+Thousand Oaks,,CA,,4
+Three Rivers,,CA,,3
+Tiburon,,CA,,7
+Tijuana,,CA,,10
+Tomales,,CA,,1
+Topanga,,CA,,2
+Topanga Canyon,,CA,,2
+Torrance,,CA,,19
+Truckee,,CA,,3
+Tujunga,,CA,,3
+Tulare,,CA,,2
+Turlock,,CA,,4
+Tustin,,CA,,4
+Twenty Nine Palms,,CA,,2
+Twentynine Palms,,CA,,1
+Ukiah,,CA,,57
+Universal City,,CA,,1
+Upland,,CA,,45
+Vacaville,,CA,,32
+Vallejo,,CA,,61
+Valley,,CA,,132
+Van Nuys,,CA,,103
+Van Nuys - Sherman Oaks,,CA,,2
+Venice,,CA,,118
+Venice Beach,,CA,,3
+Ventura,,CA,,179
+Victorville,,CA,,57
+Visalia,,CA,,22
+Vista,,CA,,2
+Walnut,,CA,,1
+Walnut Creek,,CA,,104
+Watsonville,,CA,,3
+West Covina,,CA,,16
+West Hollywood,,CA,,808
+West Los Angeles,,CA,,51
+West Sacramento,,CA,,6
+Westminster,,CA,,1
+White Hall,,CA,,6
+Whitehorn,,CA,,1
+Whitter,,CA,,1
+Whittier,,CA,,16
+Willits,,CA,,53
+Wilmington,,CA,,16
+Woodacre,,CA,,1
+Woodland Hills,,CA,,9
+Yosemite,,CA,,12
+Yosemite Nat'l Park,,CA,,15
+Yosemite National Park,,CA,,7
+Yreka,,CA,,2
+Yuba City,,CA,,3
+,,CA,,11
+Alamosa,,CO,,7
+Aspen,,CO,,161
+Aurora,,CO,,2
+Bailey,,CO,,3
+Beckenridge,,CO,,1
+Boulder,,CO,,279
+Breckenridge,,CO,,47
+Buena Vista,,CO,,1
+Chipita Park,,CO,,1
+Colorado Springs,,CO,,371
+Crested Butte,,CO,,3
+Denver,,CO,,2085
+Dillon,,CO,,8
+Durango,,CO,,72
+East Alamosa,,CO,,2
+Estes Park,,CO,,5
+Fort Collins,,CO,,71
+Golden,,CO,,7
+Grand Junction,,CO,,68
+Grand Lake,,CO,,2
+Greeley,,CO,,57
+Green Mountain Falls,,CO,,5
+Hotchkiss,,CO,,2
+Idaho Falls,,CO,,1
+Idaho Springs,,CO,,5
+Keystone,,CO,,2
+Lakewood,,CO,,4
+Louisville,,CO,,4
+Mancos,,CO,,3
+Manitou Springs,,CO,,4
+Pueblo,,CO,,123
+Saguache,,CO,,1
+Springfield,,CO,,3
+Statewide,,CO,,1
+Steamboat Springs,,CO,,16
+Telluride,,CO,,4
+Trinidad,,CO,,1
+Vail,,CO,,55
+Wheat Ridge,,CO,,1
+Wheatridge,,CO,,3
+Winter Park,,CO,,32
+Woodland Hills,,CO,,1
+Woodland Park,,CO,,9
+,,CO,,9
+Avon,,CT,,1
+Bethel,,CT,,12
+Black Rock,,CT,,3
+Branford,,CT,,5
+Bridgeport,,CT,,154
+Bristol,,CT,,13
+Brookfield,,CT,,7
+Collinsville,,CT,,4
+Danbury,,CT,,58
+Darien,,CT,,4
+E. Hartford,,CT,,1
+East Hartford,,CT,,17
+East Haven,,CT,,1
+East Windsor,,CT,,11
+Ellington,,CT,,1
+Enfield,,CT,,22
+Fairfield,,CT,,1
+Falls Village,,CT,,2
+Farmington,,CT,,10
+Glastonbury,,CT,,3
+Glenbrook,,CT,,2
+Greenwhich,,CT,,1
+Greenwich,,CT,,11
+Groton,,CT,,14
+Hamden,,CT,,6
+Hammonasset,,CT,,19
+Hartford,,CT,,653
+Litchfield,,CT,,1
+Long Wharf,,CT,,1
+Manchester,,CT,,23
+Meriden,,CT,,28
+Meridien,,CT,,7
+Merritt Parkway,,CT,,1
+Middleton,,CT,,1
+Middletown,,CT,,10
+Milford,,CT,,10
+Milldale,,CT,,6
+Mystic,,CT,,5
+New Bedford,,CT,,3
+New Britain,,CT,,43
+New Haven,,CT,,417
+New London,,CT,,150
+New Milford,,CT,,23
+Newington,,CT,,2
+Newtown,,CT,,6
+Norfolk,,CT,,11
+North Haven,,CT,,3
+Norwalk,,CT,,38
+Norwich,,CT,,16
+Old Saybrook,,CT,,3
+Orange,,CT,,10
+Plantsville,,CT,,1
+Pomfret,,CT,,12
+Portland,,CT,,7
+Preston,,CT,,1
+Prospect,,CT,,1
+Ridgefield,,CT,,11
+Rocky Hill,,CT,,3
+Sandy Hook,,CT,,3
+South Norwalk,,CT,,1
+South Windsor,,CT,,4
+Southbury,,CT,,1
+Southington,,CT,,5
+Stamford,,CT,,69
+Storrs,,CT,,8
+Torrington,,CT,,6
+Trumbell,,CT,,1
+Trumbull,,CT,,4
+W. Hartford,,CT,,1
+Wallingford,,CT,,6
+Washington Depot,,CT,,4
+Waterbury,,CT,,92
+Waterford,,CT,,6
+West Hartford,,CT,,8
+West Haven,,CT,,1
+West Windsor,,CT,,1
+Westhaven,,CT,,1
+Westport,,CT,,81
+Wethersfield,,CT,,10
+Williamantic,,CT,,12
+Willimantic,,CT,,21
+,,CT,,2
+Georgetown,,DC,,8
+Washington,,DC,,2732
+Bethany Beach,,DE,,53
+Bethany Village,,DE,,2
+Claymont,,DE,,3
+Dewey Beach,,DE,,3
+Dover,,DE,,38
+Greenville,,DE,,2
+Lewes,,DE,,2
+New Castle,,DE,,9
+Newark,,DE,,10
+Reheboth Beach,,DE,,4
+Rehoboth Beach,,DE,,481
+Statewide,,DE,,2
+Wilmington,,DE,,288
+,,DE,,6
+Albany,,FL,,2
+Alligator Point,,FL,,2
+Altamonte Springs,,FL,,1
+Amelia Island,,FL,,25
+Athens,,FL,,2
+Atlanta,,FL,,51
+Auburndale,,FL,,1
+Augusta,,FL,,3
+Bal Harbour,,FL,,3
+Boca Grande,,FL,,3
+Boca Ration,,FL,,3
+Boca Raton,,FL,,68
+Bonita Springs,,FL,,1
+Boynton Beach,,FL,,2
+Bradenton,,FL,,63
+Bradenton Beach,,FL,,5
+Brandon,,FL,,2
+Broward County,,FL,,3
+Cape Canaveral,,FL,,30
+Cape Coral,,FL,,7
+Casselberry,,FL,,1
+Clearwater,,FL,,153
+Coca,,FL,,1
+Cocoa,,FL,,5
+Cocoa Beach,,FL,,127
+Coconut Grove,,FL,,14
+College Park,,FL,,1
+Columbus,,FL,,3
+Coral Gables,,FL,,8
+Cottondale,,FL,,3
+Crescent City,,FL,,11
+Crestview,,FL,,9
+Dade City,,FL,,5
+Dade County,,FL,,1
+Dania,,FL,,15
+Dania Beach,,FL,,2
+Davenport,,FL,,4
+Daytona,,FL,,18
+Daytona Beach,,FL,,371
+Deland,,FL,,4
+Delray Beach,,FL,,15
+Deltona,,FL,,1
+Destin,,FL,,2
+Dunedin,,FL,,36
+Dunepin,,FL,,1
+Fernandina Beach,,FL,,9
+Fort Lauderdale,,FL,,814
+Fort Lauderdale Beach,,FL,,2
+Fort Myers,,FL,,102
+Fort Myers Beach,,FL,,1
+Fort Walton Beach,,FL,,11
+Ft. Lauderdale,Fort Lauderdale,FL,,1075
+Ft. Lauderdale Beach,,FL,,2
+Ft. Launderdale,Fort Lauderdale,FL,,67
+Ft. McCoy,,FL,,5
+Ft. Myers,Fort Myers,FL,,203
+Ft. Pierce,,FL,,10
+Ft. Walton Beach,Fort Walton Beach,FL,,67
+Gainesville,,FL,,237
+Gainseville,,FL,,1
+Gainsville,Gainesville,FL,,61
+Gulfport,,FL,,7
+Hallandale,,FL,,48
+Hallendale,,FL,,7
+Hialeah,,FL,,24
+Hilaleah,,FL,,5
+Holiday,,FL,,6
+Holly Hill,,FL,,1
+Hollywood,,FL,,172
+Homestead,,FL,,4
+Inverness,,FL,,5
+Jacksonville,,FL,,490
+Jacksonville Beach,,FL,,83
+Jasper,,FL,,4
+Key Biscayne,,FL,,3
+Key West,,FL,,2121
+Kissimmee,,FL,,3
+Lake  Worth,,FL,,1
+Lake Alfred,,FL,,4
+Lake Buena Vista,,FL,,2
+Lake Worth,,FL,,74
+Lakeland,,FL,,84
+Lantana,,FL,,1
+Largo,,FL,,8
+Lauderdale-by-the-Sea,,FL,,2
+Leesburg,,FL,,7
+Lithia,,FL,,1
+Los Angeles,,FL,,5
+Macon,,FL,,5
+Madeira,,FL,,2
+Madeira Beach,,FL,,44
+Maderia Beach,,FL,,2
+Madison,,FL,,5
+Maitland,,FL,,6
+Marathon,,FL,,5
+Margate,,FL,,1
+Marianna,,FL,,4
+Medeira Beach,,FL,,8
+Melbourne,,FL,,103
+Merritt Island,,FL,,6
+Miami,,FL,,1429
+miami,,FL,,14
+Miami Beach,,FL,,855
+Miami Beach/South Beach,,FL,,141
+Miami/Miami Beach,,FL,,26
+Monticello,,FL,,1
+Mt. Dora,,FL,,1
+Naples,,FL,,129
+Naranja,,FL,,1
+Narnaja,,FL,,4
+Navarre Beach,,FL,,2
+Neptune Beach,,FL,,3
+New Port Richey,,FL,,6
+New Smyrna Beach,,FL,,12
+North Lauderdale,,FL,,1
+North Miami,,FL,,10
+North Miami Beach,,FL,,32
+Ocala,,FL,,28
+Ocoee,,FL,,1
+Old Northwood,,FL,,1
+Opa-Locka,,FL,,1
+Orlando,,FL,,868
+Ormond Beach,,FL,,6
+Palatka,,FL,,1
+Palm Bay,,FL,,1
+Palm Beach,,FL,,17
+Palm Beach Gardens,,FL,,9
+Palm Springs,,FL,,5
+Panama City,,FL,,144
+Panama City Beach,,FL,,4
+Pansacola,,FL,,10
+Pass-a-Grille Beach,,FL,,1
+Pembroke Park,,FL,,2
+Pembroke Pines,,FL,,5
+Pensacola,,FL,,365
+Pineallis Park,,FL,,1
+Pineland,,FL,,3
+Pinellas County,,FL,,3
+Pinellas Park,,FL,,8
+Pinellis Park,,FL,,14
+Plantation,,FL,,6
+Pompano,,FL,,1
+Pompano Beach,,FL,,24
+Ponce De Leon,,FL,,1
+Ponce de Leon,,FL,,1
+Port Charlotte,,FL,,5
+Port Orange,,FL,,4
+Port Richey,,FL,,8
+Port Salerno,,FL,,5
+Port St. Lucie,,FL,,11
+Punta Gorda,,FL,,11
+Reddick,,FL,,1
+Riviera Beach,,FL,,4
+Ruskin,,FL,,4
+S. Daytona Beach,,FL,,1
+Sarasota,,FL,,335
+Satellite Beach,,FL,,18
+Savannah,,FL,,3
+Seaview,,FL,,3
+Sebastian,,FL,,1
+Siesta Key,,FL,,4
+South Beach,,FL,,41
+South Miami,,FL,,3
+Spring Hill,,FL,,1
+St Augustin's,,FL,,10
+St Augustine,,FL,,3
+St Augustine's,,FL,,2
+St Petersburg,St. Petersburg,FL,,115
+St Petersburg Beach,,FL,,3
+St. Augustin's,,FL,,1
+St. Augustine,,FL,,16
+St. Cloud,,FL,,1
+St. Petersburg,,FL,,376
+St. Petersburg Beach,,FL,,33
+St. Petersburgh,,FL,,4
+St. Simon's Isle,,FL,,1
+Statewide,,FL,,2
+Stuart,,FL,,3
+Sunny Isles Beach,,FL,,1
+Sunrise,,FL,,3
+Tallahassee,,FL,,209
+Tampa,,FL,,931
+Tampa Springs,,FL,,2
+Titusville,,FL,,22
+Treasure Island,,FL,,7
+Valdosta,,FL,,1
+Valpariso,,FL,,1
+Venice,,FL,,36
+Vero Beach,,FL,,2
+Virginia Beach,,FL,,4
+West Palm Beach,,FL,,468
+Wilton Manor,,FL,,7
+Wilton Manors,,FL,,7
+Winter Park,,FL,,78
+Winter Springs,,FL,,1
+Ybor City,,FL,,23
+,,FL,,9
+Albany,,GA,,46
+Ansley Square,,GA,,1
+Athens,,GA,,254
+Atlanta,,GA,,2225
+Augusta,,GA,,99
+Bowden,,GA,,2
+Buckhead,,GA,,2
+Butler,,GA,,1
+Canon,,GA,,1
+Carrollton,,GA,,13
+College Park,,GA,,10
+Columbus,,GA,,181
+Dahlonega,,GA,,25
+Dalton,,GA,,10
+Decatur,,GA,,15
+Dewy Rose,,GA,,7
+Gainesville,,GA,,9
+Hiawassee,,GA,,2
+Hilton Head,,GA,,2
+Lake Lanier,,GA,,2
+Macon,,GA,,94
+Marietta,,GA,,9
+Mountain City,,GA,,6
+Norcross,,GA,,2
+Roswell,,GA,,1
+Sandy Springs,,GA,,1
+Savannah,,GA,,333
+Savannah Beach,,GA,,38
+St. Simons Island,,GA,,4
+Statewide,,GA,,3
+Summers,,GA,,1
+Valdosta,,GA,,22
+,,GA,,7
+Agana,,GU,,8
+Asan,,GU,,1
+Maite,,GU,,1
+Tumon Bay,,GU,,35
+Aiea,,HI,,7
+"Aiea, Oahu",,HI,,12
+Anahola,,HI,,6
+"Anahola, Kauai",,HI,,40
+Captain Cook,,HI,,31
+"Captain Cook, Hawaii",,HI,,24
+"Coconut Plantation, Kauai",,HI,,1
+"Haena, Kauai",,HI,,4
+Haiku,,HI,,12
+"Haiku, Maui",,HI,,21
+Hamakua Coast,,HI,,2
+Hana,,HI,,9
+"Hana, Maui",,HI,,32
+Hanalei,,HI,,5
+"Hanalei, Kauai",,HI,,24
+Hawaii,,HI,,4
+"Hawi, Hawaii",,HI,,6
+Hilo,,HI,,90
+"Hilo, Hawaii",Hilo,HI,,33
+Honaunau-Kona,,HI,,5
+Honokaa,,HI,,8
+"Honokaa, Hawaii",,HI,,7
+Honolulu,,HI,,269
+"Honolulu, Oahu",Honolulu,HI,,591
+Honomu,,HI,,1
+Huelo,,HI,,3
+"Huelo, Maui",,HI,,6
+Kaanapali,,HI,,4
+Kahana,,HI,,2
+Kahului,,HI,,3
+"Kahului, Maui",,HI,,3
+Kahulul,,HI,,1
+Kailau,,HI,,1
+Kailua,,HI,,15
+Kailua-Kona,,HI,,98
+"Kailua-Kona, Hawaii",,HI,,34
+"Kailua, Oahu",,HI,,29
+Kalaheo,,HI,,1
+"Kalaheo, Kauai",,HI,,17
+"Kalakapei Beach, Kauai",,HI,,2
+Kalapana,,HI,,1
+Kalapana Beach,,HI,,1
+"Kalapana Beach, Hawaii",,HI,,2
+"Kalua Koi, Molokai",,HI,,1
+Kamalo,,HI,,1
+Kamuela,,HI,,1
+Kane'ohe,,HI,,1
+Kaneohe,,HI,,6
+"Kaneohe, Hawaii",,HI,,2
+"Kaneohe, Oahu",,HI,,6
+Kapaa,,HI,,60
+"Kapaa-Wailua, Kauai",,HI,,10
+"Kapaa, Kauai",,HI,,53
+Kauai,,HI,,10
+Kauia,,HI,,1
+Kaunakakai,,HI,,1
+"Kaunakakai, Molokai",,HI,,9
+Kihei,,HI,,37
+"Kihei, Maui",,HI,,66
+Kilauea,,HI,,11
+Kilauea-Maui,,HI,,1
+"Kilauea, Kauai",,HI,,33
+Kohala Coast,,HI,,1
+"Kohala Coast, Hawaii",,HI,,1
+Koloa,,HI,,2
+Kona,,HI,,5
+Kula,,HI,,2
+"Kula, Maui",,HI,,11
+Kuritstown,,HI,,1
+Kurtistown,,HI,,1
+Lahaina,,HI,,32
+"Lahaina, Maui",,HI,,97
+"Lahina, Maui",,HI,,10
+Lihue,,HI,,9
+Lihue-Kauai,,HI,,1
+"Lihue, Kauai",,HI,,7
+Makawao,,HI,,8
+"Makawao, Maui",,HI,,25
+Makena,,HI,,4
+"Makena, Maui",,HI,,18
+Maui,,HI,,26
+Maui Island,,HI,,13
+Molokai,,HI,,1
+"Mountain View, Hawaii",,HI,,1
+Nawiliwili,,HI,,5
+"Nawiliwili, Kauai",,HI,,7
+Oahu,,HI,,22
+Ocean View,,HI,,4
+Pahala,,HI,,2
+Pahoa,,HI,,44
+"Pahoa, Hawaii",,HI,,34
+Paia,,HI,,3
+"Paia, Maui",,HI,,7
+Papaikou,,HI,,1
+"Papaikou, Hilo",,HI,,1
+Poipu,,HI,,3
+Poipu Beach,,HI,,2
+"Poipu, Kauai",,HI,,2
+Pukalani,,HI,,3
+"Pukalani, Maui",,HI,,1
+Puunene,,HI,,5
+"Puunene, Kauai",,HI,,1
+Tumon Bay,,HI,,2
+Volcano Village,,HI,,15
+"Volcano Village, Hawaii",,HI,,5
+Wahiawa,,HI,,5
+Waikiki,,HI,,138
+Waikiki Beach,,HI,,90
+"Waikiki Beach, Oahu",,HI,,232
+Wailea,,HI,,2
+"Wailea, Maui",,HI,,5
+Wailua,,HI,,7
+"Wailua, Kauai",,HI,,2
+Wailuku,,HI,,6
+"Wailuku, Maui",,HI,,23
+Windward Coast,,HI,,2
+"Windward Coast, Oahu",,HI,,1
+,,HI,,9
+Ames,,IA,,125
+Bettendorf,,IA,,16
+Boone,,IA,,28
+Burlington,,IA,,50
+Cedar Falls,,IA,,8
+Cedar Rapids,,IA,,192
+Cherokee,,IA,,1
+Clinton,,IA,,12
+Coralville,,IA,,8
+Council Bluffs,,IA,,71
+Davenport,,IA,,152
+Decorah,,IA,,1
+Des Moines,,IA,,540
+Dubuque,,IA,,64
+Fairfield,,IA,,5
+Fort Dodge,,IA,,15
+Ft. Dodge,,IA,,6
+Grinnell,,IA,,10
+Iowa City,,IA,,194
+Jefferson,,IA,,7
+Lansing,,IA,,4
+Marshalltown,,IA,,20
+Mason City,,IA,,34
+Muscatine,,IA,,3
+Newton,,IA,,9
+Ottumwa,,IA,,15
+Pacific Jet,,IA,,1
+Pella,,IA,,9
+Sioux City,,IA,,36
+Spencer,,IA,,2
+Statewide,,IA,,2
+Waterloo,,IA,,149
+West Des Moines,,IA,,5
+,,IA,,4
+Ashton,,ID,,1
+Boise,,ID,,313
+Caldwell,,ID,,18
+Cascade,,ID,,3
+Ceour d'Alene,,ID,,1
+Coeur D'alene,,ID,,14
+Coeur D'Alene,,ID,,1
+Coeur d'Alene,,ID,,1
+Driggs,,ID,,6
+Fruitland,,ID,,2
+Garden City,,ID,,2
+Hayden Lake,,ID,,3
+Idaho Falls,,ID,,95
+Ketchum,,ID,,5
+Lava Hot Springs,,ID,,30
+Lewiston,,ID,,27
+Lower Stanley,,ID,,2
+McColl,,ID,,1
+Moscow,,ID,,88
+Pocatello,,ID,,117
+Powell,,ID,,4
+Sand Point,,ID,,23
+Stanley,,ID,,4
+Statewide,,ID,,2
+Sun Valley,,ID,,7
+Twin Falls,,ID,,37
+,,ID,,6
+Albion,,IL,,1
+Alton,,IL,,23
+Antioch,,IL,,3
+Atkinson,,IL,,5
+Aurora,,IL,,33
+Belleville,,IL,,13
+Bellville,,IL,,3
+Benton,,IL,,8
+Berwin,,IL,,2
+Berwyn,,IL,,3
+Bloomington,,IL,,104
+Blue Island,,IL,,15
+Brooklyn,,IL,,3
+Buckley,,IL,,4
+Calumet City,,IL,,195
+Carbondale,,IL,,106
+Carbondle,,IL,,4
+Centralia,,IL,,1
+Centreville,,IL,,3
+Champaign,,IL,,173
+Champaign / Urbana,,IL,,7
+Champaign/Urbana,,IL,,62
+Chicago,,IL,,4051
+Chicago Heights,,IL,,1
+Chicago- Near North Side,,IL,,4
+Chicago- New Town,,IL,,4
+Chicago-North Side,,IL,,4
+Chicago-South Side,,IL,,10
+Chicago–Near North,,IL,,35
+Chicago–New Town,,IL,,56
+Chicago–North Side,,IL,,26
+Chicago–South Side,,IL,,5
+Cicero,,IL,,2
+Crestwood,,IL,,10
+Danville,,IL,,43
+De Kalb,,IL,,7
+Decatur,,IL,,65
+Dekalb,,IL,,2
+Des Plaines,,IL,,6
+Des Plains,,IL,,7
+Dixmore,,IL,,11
+Downers Grove,,IL,,14
+Du Quoin,,IL,,3
+East St Louis,,IL,,46
+East St. Louis,,IL,,53
+Effingham,,IL,,7
+Elgin,,IL,,22
+Elk Grove,,IL,,3
+Elk Grove Village,,IL,,22
+Evanston,,IL,,72
+Evanstown,,IL,,7
+Evansville,,IL,,3
+Forest Park,,IL,,73
+Fox Lake,,IL,,2
+Frankfort,,IL,,1
+Franklin Park,,IL,,19
+Freeport,,IL,,1
+Galesburg,,IL,,34
+Glenview,,IL,,3
+Granite City,,IL,,18
+Hindale,,IL,,2
+Hinsdale,,IL,,12
+Hoffman Estates,,IL,,5
+Hyde Park,,IL,,3
+Ina,,IL,,5
+Jacksonville,,IL,,19
+Joilet,,IL,,1
+Joliet,,IL,,70
+Jonesboro,,IL,,1
+Kankakee,,IL,,20
+Kenosha,,IL,,2
+La Grange,,IL,,24
+La Salle,,IL,,11
+LaGrange,,IL,,5
+Lake County,,IL,,2
+Lansing,,IL,,6
+Leroy,,IL,,6
+Lincolnwood,,IL,,6
+Lombard,,IL,,3
+Lyons,,IL,,4
+Macomb,,IL,,23
+Marion,,IL,,8
+Marseille,,IL,,5
+Marseilles,,IL,,11
+Marshall,,IL,,5
+Melrose Park,,IL,,1
+Monee,,IL,,3
+Monmouth,,IL,,28
+Monroe City,,IL,,2
+Morris,,IL,,5
+Mt. Vernon,,IL,,5
+Naperville,,IL,,3
+Nashville,,IL,,2
+Nauvoo,,IL,,8
+New Town,,IL,,6
+Niles,,IL,,1
+Normal,,IL,,34
+Oak Park,,IL,,24
+Ottawa,,IL,,26
+Ozark,,IL,,2
+Palatine,,IL,,3
+Paris,,IL,,7
+Peoria,,IL,,270
+Pleasanton,,IL,,2
+Prospect Heights,,IL,,5
+Quincy,,IL,,113
+Richmond,,IL,,1
+Ridgeland,,IL,,1
+River North,,IL,,2
+Rock Island,,IL,,159
+Rockford,,IL,,164
+Roselle,,IL,,3
+Schiller Park,,IL,,12
+Shiller Park,,IL,,2
+South Holland,,IL,,1
+Springfield,,IL,,267
+St. Louis,,IL,,4
+Statewide,,IL,,1
+Sterling,,IL,,4
+Stickney,,IL,,3
+Stoy,,IL,,3
+Streamwood,,IL,,1
+Sullivan,,IL,,3
+Urbaba,,IL,,1
+Urbana,,IL,,42
+Villa Park,,IL,,1
+Waukegan,,IL,,67
+Wheeling,,IL,,1
+Wood River,,IL,,30
+Zion,,IL,,2
+,,IL,,3
+Anderson,,IN,,26
+Andrews,,IN,,3
+Beverly Shores,,IN,,13
+Bloomington,,IN,,270
+Brazil,,IN,,6
+Chesterson,,IN,,1
+Chesterton,,IN,,6
+Clarksville,,IN,,8
+Columbia City,,IN,,1
+Columbus,,IN,,27
+Crown Point,,IN,,16
+Elkhart,,IN,,73
+Evansville,,IN,,256
+Farmersbury,,IN,,2
+Fishers,,IN,,1
+Fort Wayne,,IN,,99
+Fountain City,,IN,,5
+Ft. Wayne,,IN,,214
+Gary,,IN,,77
+Gas City,,IN,,1
+Hammond,,IN,,58
+Indianapolis,,IN,,983
+Jefferson,,IN,,1
+Jeffersonville,,IN,,2
+Knightstown,,IN,,11
+Kokomo,,IN,,45
+La Porte,,IN,,24
+Lafayette,,IN,,134
+Lagro,,IN,,2
+Lake Station,,IN,,4
+Leroy,,IN,,15
+Logansport,,IN,,11
+Madison,,IN,,67
+Marion,,IN,,5
+Merrillville,,IN,,19
+Michigan City,,IN,,13
+Mishawaka,,IN,,45
+Monroe City,,IN,,20
+Muncie,,IN,,150
+New Carlisle,,IN,,3
+New Lebanon,,IN,,5
+Osceola,,IN,,14
+Peru,,IN,,12
+Richmond,,IN,,39
+Rolling Prairie,,IN,,1
+South Bend,,IN,,294
+Terre Haute,,IN,,106
+Valparaiso,,IN,,23
+Vicennes,,IN,,3
+Vincennes,,IN,,80
+Wanatah,,IN,,8
+West Lafayette,,IN,,5
+Whiting,,IN,,1
+Young America,,IN,,12
+Zionsville,,IN,,1
+,,IN,,2
+Abilene,,KS,,6
+Augusta,,KS,,9
+Blue Rapids,,KS,,17
+Coffeyville,,KS,,1
+Colony,,KS,,2
+Dodge City,,KS,,23
+Downs,,KS,,3
+Emporia,,KS,,6
+Ford,,KS,,1
+Fort Scott,,KS,,5
+Fort Scott-Pleasanton,,KS,,4
+Great Bend,,KS,,15
+Hamilton,,KS,,9
+Harper,,KS,,11
+Hays,,KS,,1
+Humboldt,,KS,,2
+Hutchinson,,KS,,12
+Independence,,KS,,2
+Junction City,,KS,,25
+Kansas City,,KS,,85
+Kensington,,KS,,11
+Lawrence,,KS,,166
+Liberal,,KS,,3
+Louisville,,KS,,1
+Luray,,KS,,20
+Lyons,,KS,,13
+Manhattan,,KS,,39
+Manhatten,,KS,,1
+Maple Hill,,KS,,5
+McPherson,,KS,,11
+Neodesha,,KS,,5
+Newton,,KS,,2
+Norton,,KS,,16
+Oberlin,,KS,,4
+Olathe,,KS,,13
+Osborne,,KS,,19
+Overland Park,,KS,,22
+Parsons,,KS,,17
+Pittsburgh,,KS,,7
+Salina,,KS,,37
+Shawnee,,KS,,1
+Spearville,,KS,,3
+Stafford,,KS,,4
+Statewide,,KS,,2
+Topeka,,KS,,256
+Wakarusa,,KS,,9
+Walton,,KS,,9
+Wichita,,KS,,557
+Winfield,,KS,,19
+Yates Center,,KS,,3
+,,KS,,4
+Lexington,,KT,KY,3
+Louisville,,KT,,3
+Ashland,,KY,,15
+Bowling Green,,KY,,40
+Campbellsville,,KY,,41
+Cave City,,KY,,3
+Covington,,KY,,92
+Edmonton,,KY,,1
+Elizabethtown,,KY,,3
+Florence,,KY,,17
+Fort Campbell,,KY,,7
+Fort Knox,,KY,,1
+Harned,,KY,,4
+Harrodsburg,,KY,,1
+Hazard,,KY,,7
+Henderson,,KY,,17
+Jamestown,,KY,,16
+Lexington,,KY,,374
+Louisville,,KY,,795
+Madisonville,,KY,,10
+Morehead,,KY,,1
+Newport,,KY,,24
+Owensboro,,KY,,32
+Paducah,,KY,,40
+Paris Pike,,KY,,1
+Paucah,,KY,,1
+Petersburg,,KY,,7
+Prestonburg,,KY,,17
+Radcliff,,KY,,25
+Reed,,KY,,3
+Russellville,,KY,,3
+Somerset,,KY,,21
+Statewide,,KY,,2
+Upton,,KY,,1
+Versailles,,KY,,4
+Zebulon,,KY,,2
+,,KY,,8
+Abbeyville,,LA,,2
+Alexandra,,LA,,1
+Alexandria,,LA,,99
+Arcadia,,LA,,12
+Baton Rouge,,LA,,343
+Bossier City,,LA,,11
+Dodson,,LA,,1
+Folsom,,LA,,2
+Grenta,,LA,,1
+Gretna,,LA,,10
+Hammond,,LA,,4
+Harvey,,LA,,4
+Houma,,LA,,61
+Kenner,,LA,,11
+Lafayette,,LA,,216
+Lake Charles,,LA,,76
+Madisonville,,LA,,1
+Marrero,,LA,,3
+Metaire,,LA,,5
+Metairie,,LA,,15
+Metarie,,LA,,2
+Monroe,,LA,,150
+Morgan City,,LA,,12
+New Iberia,,LA,,3
+New Orleans,,LA,,3137
+Opelousas,,LA,,5
+Ruston,,LA,,18
+Sherveport,,LA,,6
+Shreveport,,LA,,200
+Slidell,,LA,,18
+Statewide,,LA,,4
+Vinton,,LA,,10
+W. Monroe,,LA,,1
+,,LA,,9
+Acton,,MA,,6
+Allston,,MA,,12
+Amherst,,MA,,88
+Andover,,MA,,7
+Arlington,,MA,,10
+Arlington Heights,,MA,,2
+Ashby,,MA,,1
+Ashfield,,MA,,5
+Athol,,MA,,1
+Attleboro,,MA,,20
+Avon,,MA,,5
+Barre,,MA,,20
+Beacon Hill,,MA,,1
+Bedford,,MA,,4
+Belmont,,MA,,1
+Berkshires,,MA,,14
+Boston,,MA,,2091
+Boston/Cambridge,,MA,,1
+Bourne,,MA,,9
+Brewster,,MA,,1
+Brockton,,MA,,20
+Brookline,,MA,,1
+Byfield,,MA,,2
+Cambridge,,MA,,264
+Cape Cod,,MA,,23
+Cape Cod Area,,MA,,1
+Charlemont,,MA,,10
+Chelsea,,MA,,7
+Cherry Hill,,MA,,1
+Cherry Valley,,MA,,1
+Chicopee,,MA,,9
+Colrain,,MA,,2
+Cuttyhunk Island,,MA,,4
+Dartmouth,,MA,,4
+Dedham,,MA,,11
+Dennis,,MA,,22
+Dorchester,,MA,,1
+Duxbury,,MA,,6
+Easthampton,,MA,,4
+Edgartown,,MA,,1
+Fairhaven,,MA,,7
+Fall River,,MA,,10
+Falls River,,MA,,1
+Falmouth,,MA,,4
+Fitchburg,,MA,,12
+Florence,,MA,,3
+Gloucester,,MA,,13
+Glouchester,,MA,,4
+Goshen,,MA,,2
+Great Barrington,,MA,,4
+Greenfield,,MA,,38
+GreenField,,MA,,3
+Hadley,,MA,,3
+Harwich,,MA,,9
+Haverhill,,MA,,18
+Havherill,,MA,,1
+Holyoke,,MA,,38
+Hyannis,,MA,,62
+Ipswich,,MA,,36
+Jamaica Plain,,MA,,2
+Kingboro,,MA,,1
+Lancaster,,MA,,3
+Lawrence,,MA,,19
+Lennox,,MA,,3
+Lenox,,MA,,34
+Leominster,,MA,,15
+Lincoln,,MA,,4
+Lowell,,MA,,90
+Lynn,,MA,,86
+Malden,,MA,,1
+Marblehead,,MA,,16
+Marlborough,,MA,,3
+Marshall-Pembroke,,MA,,1
+Marshfield,,MA,,3
+Marshfield-Pembroke,,MA,,9
+Martha's Vineyard,,MA,,92
+Martha's Vineyard Island,,MA,,7
+Medford,,MA,,10
+Methuen,,MA,,4
+Milford,,MA,,14
+Milton,,MA,,24
+Nantucket,,MA,,74
+New Bedford,,MA,,108
+Newbury,,MA,,3
+Newburyport,,MA,,9
+North Adams,,MA,,2
+North Amherst,,MA,,1
+North Dartmouth,,MA,,1
+North Hampton,,MA,,2
+North Plymouth,,MA,,1
+North Quincy,,MA,,4
+Northampton,,MA,,239
+Northborough,,MA,,6
+Northhampton,,MA,,10
+NorthHampton,,MA,,7
+Oak Bluffs,,MA,,9
+Oxford,,MA,,3
+Peabody,,MA,,8
+Petersham,,MA,,4
+Pittsefield,,MA,,2
+Pittsfield,,MA,,107
+Plymouth,,MA,,13
+Plympton,,MA,,1
+Portsmouth,,MA,,1
+Princeton,,MA,,1
+Provincetown,,MA,,3020
+Quincy,,MA,,2
+Randolph,,MA,,32
+Reading,,MA,,3
+Revere Beach,,MA,,11
+Roxbury,,MA,,4
+Sagamore,,MA,,1
+Salem,,MA,,6
+Sandwich,,MA,,23
+Saugus,,MA,,6
+Scituate,,MA,,1
+Seekonk,,MA,,9
+Sheffield,,MA,,4
+Shelburne Falls,,MA,,1
+Somerville,,MA,,21
+South Amherst,,MA,,1
+South Attleboro,,MA,,2
+South Barre,,MA,,1
+South Hadley,,MA,,4
+Southboro,,MA,,1
+Springfield,,MA,,299
+Statewide,,MA,,2
+Stockbridge,,MA,,35
+Stoneham,,MA,,14
+Sturbridge,,MA,,5
+Sudbury,,MA,,3
+Swansea,,MA,,13
+Taunton,,MA,,12
+Tynesboro,,MA,,1
+Tyngsboro,,MA,,25
+Upton,,MA,,1
+Uxbridge,,MA,,13
+Vineyard Haven,,MA,,6
+Wakefield,,MA,,1
+Waltham,,MA,,16
+Ware,,MA,,21
+Watertown,,MA,,7
+Wellfleet,,MA,,2
+West Springfield,,MA,,10
+Weston,,MA,,1
+Westport,,MA,,2
+Weymouth,,MA,,17
+Williamsburg,,MA,,1
+Williamstown,,MA,,29
+Winthrop,,MA,,2
+Woods Hole,,MA,,3
+Worcester,,MA,,206
+Worchester,,MA,,5
+Yamouth Port,,MA,,1
+Yarmouth Port,,MA,,4
+,,MA,,11
+Abingdon,,MD,,2
+Annapolis,,MD,,109
+Baltimore,,MD,,1545
+Beltsville,,MD,,21
+Bethesda,,MD,,5
+Bowie,,MD,,2
+Burtonsville,,MD,,10
+Catonsville,,MD,,1
+Cockeysville,,MD,,2
+College Park,,MD,,33
+Columbia,,MD,,13
+Cumberland,,MD,,44
+Eastport,,MD,,3
+Edgewater,,MD,,3
+Edgewood,,MD,,1
+Ellicott City,,MD,,1
+Fells Point,,MD,,3
+Frederick,,MD,,21
+Freeport,,MD,,4
+Frostburg,,MD,,3
+Gaithersburg,,MD,,3
+Greenbelt,,MD,,30
+Hagerstown,,MD,,69
+Havre de Grace,,MD,,5
+Hyattsville,,MD,,9
+Jessup,,MD,,6
+Largo,,MD,,3
+Laurel,,MD,,35
+Linthicum,,MD,,1
+Montgomery,,MD,,1
+Montgomery County,,MD,,1
+North Beach,,MD,,18
+Ocean City,,MD,,23
+Owings Mills,,MD,,3
+Oxon Hill,,MD,,3
+Parkton,,MD,,3
+Pasadena,,MD,,1
+Potomac,,MD,,8
+Randallstown,,MD,,1
+Rock Hall,,MD,,2
+Rockville,,MD,,37
+Salisbury,,MD,,41
+Silver Lake,,MD,,1
+Silver Spring,,MD,,38
+Silver Springs,,MD,,10
+Simpson,,MD,,1
+Smith Island,,MD,,6
+Statewide,,MD,,1
+Towson,,MD,,13
+Uxen Hill,,MD,,1
+Wheaton,,MD,,5
+,,MD,,2
+Arundel,,ME,,2
+Auburn,,ME,,5
+Augusta,,ME,,70
+Bailey Island,,ME,,1
+Bangor,,ME,,114
+Bar Habor,,ME,,1
+Bar Harbor,,ME,,35
+Bath,,ME,,13
+Belfast,,ME,,13
+Berwick,,ME,,1
+Bethel,,ME,,2
+Biddeford,,ME,,5
+Blaine,,ME,,1
+Booth Bay Harbor,,ME,,1
+Boothbay,,ME,,2
+Boothbay Harbor,,ME,,4
+Brewer,,ME,,1
+Brunswick,,ME,,53
+Calais,,ME,,2
+Camden,,ME,,10
+Cape Elizabeth,,ME,,1
+Caribou,,ME,,44
+Colrain,,ME,,1
+Corea,,ME,,8
+Corea Harbor,,ME,,6
+Deer Isle,,ME,,2
+Dexter,,ME,,10
+Durham,,ME,,4
+Eliot,,ME,,1
+Ellsworth,,ME,,5
+Farmington,,ME,,5
+Freeport,,ME,,13
+Hallowell,,ME,,3
+Hancock,,ME,,4
+Kennebunckport,,ME,,5
+Kennebunk,,ME,,2
+Kennebunkport,,ME,,34
+Kittery,,ME,,16
+Kittery Point,,ME,,2
+Lewiston,,ME,,79
+Lewsiton,,ME,,1
+Liberty,,ME,,11
+Lincolnville Beach,,ME,,16
+Lovell,,ME,,3
+Magset,,ME,,1
+Milbridge,,ME,,2
+Naples,,ME,,6
+Newcastle,,ME,,2
+Northport,,ME,,1
+Ogunquit,,ME,,498
+Old Orchard Beach,,ME,,16
+Old Town,,ME,,1
+Orland,,ME,,2
+Orono,,ME,,31
+Pembroke,,ME,,4
+Penobscot,,ME,,2
+Portland,,ME,,525
+Portsmouth,,ME,,2
+Presque Isle,,ME,,3
+Raymond,,ME,,3
+Readfield,,ME,,1
+Richmond,,ME,,2
+Rockland,,ME,,8
+Rockport,,ME,,14
+Sanford,,ME,,6
+Scaborough,,ME,,1
+Scarborough,,ME,,2
+Sebago Lake,,ME,,17
+South China,,ME,,8
+South Chino,,ME,,3
+South Portland,,ME,,1
+Statewide,,ME,,2
+Stonington,,ME,,7
+Tenants Harbor,,ME,,16
+Tennants Harbor,,ME,,5
+Waterville,,ME,,48
+Wells,,ME,,14
+White Mtns,,ME,,4
+Windham,,ME,,1
+Winter Harbor,,ME,,2
+Wiscasset,,ME,,1
+York,,ME,,3
+York Beach,,ME,,1
+York Harbor,,ME,,26
+,,ME,,9
+Ciudad Juarez,,Mexico,,7
+Renosa,,Mexico,,4
+Tijuana,,Mexico,,1
+Adrian,,MI,,3
+Ann Arbor,,MI,,353
+Atwood,,MI,,7
+Battle Creek,,MI,,46
+Bay City,,MI,,27
+Bellaire,,MI,,5
+Belleville,,MI,,14
+Beverly Hills,,MI,,1
+Big Bay,,MI,,2
+Big Rapids,,MI,,47
+Birmingham,,MI,,3
+Brooklyn,,MI,,13
+Canton,,MI,,1
+Clare,,MI,,11
+Clinton,,MI,,2
+Clinton Township,,MI,,5
+Clio,,MI,,1
+Coldwater,,MI,,4
+Coloma,,MI,,8
+Detroit,,MI,,1733
+Douglas,,MI,,9
+E. Lansing,,MI,,1
+East Lancing,,MI,,2
+East Lansing,,MI,,9
+Ellsworth,,MI,,2
+Escanaba,,MI,,8
+Fennville,,MI,,5
+Ferndale,,MI,,28
+Fernnville,,MI,,1
+Flint,,MI,,183
+Gaylord,,MI,,4
+Glenn,,MI,,1
+Grand Haven,,MI,,17
+Grand haven,,MI,,1
+Grand Rapids,,MI,,358
+Harmonie Park,,MI,,2
+Haslett,,MI,,1
+Hazel Park,,MI,,1
+Higgins Lake,,MI,,1
+Highland Park,,MI,,1
+Holland,,MI,,18
+Honor,,MI,,1
+Houghton,,MI,,6
+Houghton Lake,,MI,,2
+Howell,,MI,,1
+Inkster,,MI,,3
+Interlochen,,MI,,7
+Ironwood,,MI,,1
+Jackson,,MI,,26
+Kalamazoo,,MI,,190
+Lancing,,MI,,1
+Lansing,,MI,,276
+Liberty,,MI,,2
+Livonia,,MI,,7
+Marquette,,MI,,106
+Melvindale,,MI,,1
+Midland,,MI,,9
+Monroe,,MI,,1
+Mount Clemens,,MI,,48
+Mount Pleasant,,MI,,29
+Mt Clemens,,MI,,3
+MT Clemens,,MI,,1
+Mt. Clemens,,MI,,4
+Mt. Pleasant,,MI,,3
+Muskegon,,MI,,72
+Muskegon Heights,,MI,,1
+New Buffalo,,MI,,3
+New Richmond,,MI,,1
+Okemos,,MI,,4
+Ortonville,,MI,,1
+Owendale,,MI,,2
+Petoskey,,MI,,28
+Plainwell,,MI,,3
+Plymouth,,MI,,2
+Pontiac,,MI,,100
+Port Huron,,MI,,82
+Redford,,MI,,3
+Rochester,,MI,,33
+Royal Oak,,MI,,17
+Sagatuck,,MI,,1
+Saginaw,,MI,,85
+Salute Ste. Marie,,MI,,1
+Saugatuck,,MI,,324
+Sault Ste Marie,,MI,,1
+Sault Ste-Marie,,MI,,2
+Sault Ste. Marie,,MI,,13
+Sault Ste–Marie,,MI,,2
+Saulte Ste. Marie,,MI,,1
+Sawyer,,MI,,2
+South Haven,,MI,,8
+Southfield,,MI,,17
+St Clair,,MI,,1
+St. Clair,,MI,,2
+Statewide,,MI,,5
+Taylor,,MI,,1
+Traverse,,MI,,5
+Traverse City,,MI,,112
+Troy,,MI,,77
+Union Pier,,MI,,8
+Walhala,,MI,,1
+Wayne,,MI,,1
+Western Michigan University,,MI,,1
+Westland,,MI,,18
+White Pigeon,,MI,,5
+Williamston,,MI,,2
+Wixom,,MI,,1
+Wixon,,MI,,1
+Wyandotte,,MI,,2
+Wyanotte,,MI,,1
+Ypsilanti,,MI,,43
+,,MI,,2
+Afton,,MN,,2
+Anoka,,MN,,17
+Anoke,,MN,,1
+Bemedji,,MN,,1
+Bemidji,,MN,,57
+Brainerd,,MN,,1
+Castle Danger,,MN,,1
+Detriot Lakes,,MN,,1
+Detroit Lakes,,MN,,11
+Dorset,,MN,,2
+Duluth,,MN,,141
+Edina,,MN,,3
+Ely,,MN,,6
+Forest Lake,,MN,,1
+Full City,,MN,,1
+Grand Marais,,MN,,4
+Grand Portage,,MN,,3
+Hastings,,MN,,10
+Hill City,,MN,,8
+Hinckley,,MN,,10
+Kenyon,,MN,,8
+Mankato,,MN,,41
+Minneapolis,,MN,,1224
+Minneapolis/St Paul,,MN,,1
+Minneapolis/St. Paul,,MN,,1
+Moorhead,,MN,,69
+Nevis,,MN,,3
+Remer,,MN,,2
+Rochester,,MN,,103
+Rosedale,,MN,,3
+Rushford,,MN,,9
+Rushton,,MN,,1
+Saint Paul,,MN,,5
+St Paul,,MN,,68
+St. Cloud,,MN,,16
+St. Paul,,MN,,220
+St. Peter,,MN,,4
+Stillwater,,MN,,4
+Two Harbors,,MN,,9
+Winona,,MN,,8
+Wiona,,MN,,3
+Wolverton,,MN,,13
+,,MN,,15
+Ava,,MO,,3
+Bagnell,,MO,,2
+Boonville,,MO,,4
+Branson,,MO,,8
+Bridgeton,,MO,,5
+Cape Girardeau,,MO,,24
+Clayton,,MO,,3
+Columbia,,MO,,230
+Huntsville,,MO,,3
+Imperial,,MO,,1
+Independence,,MO,,1
+Jefferson City,,MO,,24
+Joplin,,MO,,133
+Kansas City,,MO,,1241
+Lawrence,,MO,,2
+Mission,,MO,,1
+Moberly,,MO,,49
+New Madrid,,MO,,5
+Noel,,MO,,6
+Overland,,MO,,4
+Overland Park,,MO,,4
+Poplar Bluff,,MO,,3
+Saint Louis,,MO,,26
+Springfield,,MO,,192
+St Joseph,,MO,,1
+St Louis,,MO,,141
+St Peters,,MO,,1
+St. Joseph,,MO,,86
+St. Louis,,MO,,1287
+Statewide,,MO,,1
+Steelville,,MO,,5
+Sunrise Beach,,MO,,3
+Asheville,,MS,,2
+Batesville,,MS,,13
+Biloxi,,MS,,253
+Brookhaven,,MS,,10
+Columbus,,MS,,20
+Crest,,MS,,1
+Enterprise,,MS,,1
+Florence,,MS,,3
+Forest,,MS,,13
+Greenville,,MS,,3
+Gulfport,,MS,,52
+Hattiesburg,,MS,,48
+Hernando,,MS,,11
+Holly Springs,,MS,,8
+Jackson,,MS,,301
+Magee,,MS,,5
+Meridian,,MS,,68
+Mississippi,,MS,,1
+Morton,,MS,,14
+Moss Point,,MS,,1
+Natchez,,MS,,10
+Ovett,,MS,,6
+Oxford,,MS,,82
+Pascagoula,,MS,,38
+Shannon,,MS,,2
+Statewide,,MS,,4
+Tupelo,,MS,,49
+Vicksberg,,MS,,5
+Vicksburg,,MS,,49
+,,MS,,2
+Belt,,MT,,3
+Billings,,MT,,123
+Boulder,,MT,,24
+Bozeman,,MT,,79
+Butte,,MT,,85
+Corwin Springs,,MT,,3
+Emigrant,,MT,,4
+Gardiner,,MT,,1
+Great Falls,,MT,,124
+Helena,,MT,,65
+Kalispell,,MT,,36
+Livingston,,MT,,5
+Missoula,,MT,,237
+Ovando,,MT,,6
+Roman,,MT,,1
+Ronan,,MT,,28
+Three Forks,,MT,,4
+West Yellowstone,,MT,,2
+,,MT,,1
+Arden,,NC,,4
+Asheville,,NC,,389
+Ashville,,NC,,13
+Atlantic Beach,,NC,,2
+Bakersville,,NC,,2
+Barnardsville,,NC,,3
+Bat Cave,,NC,,9
+Beaufort,,NC,,2
+Biltmore Village,,NC,,1
+Bismarck,,NC,,1
+Black Mountain,,NC,,1
+Blowing Rock,,NC,,13
+Boone,,NC,,4
+Candler,,NC,,2
+Cashiers,,NC,,1
+Chapel Hill,,NC,,158
+Chapman,,NC,,1
+Charlotte,,NC,,802
+Charlottesville,,NC,,31
+Columbia,,NC,,3
+Duck,,NC,,6
+Durham,,NC,,278
+Elizabethtown,,NC,,2
+Fairview,,NC,,3
+Fargo,,NC,,4
+Fayetteville,,NC,,197
+Franklin,,NC,,10
+Gastonia,,NC,,48
+Goldsboro,,NC,,3
+Grand Forks,,NC,,1
+Greensboro,,NC,,363
+Greenville,,NC,,54
+Hendersonville,,NC,,6
+Hertford,,NC,,1
+Hickory,,NC,,42
+High Point,,NC,,16
+Holden,,NC,,3
+Hot Springs,,NC,,14
+Inman,,NC,,1
+Jacksonville,,NC,,51
+Kannapolis,,NC,,7
+Kure Beach,,NC,,1
+Lexington,,NC,,12
+Manteo,,NC,,1
+Mars Hill,,NC,,2
+McLeansville,,NC,,2
+Minot,,NC,,1
+Mocksville,,NC,,3
+Morehead,,NC,,21
+Morehead City,,NC,,1
+New Bern,,NC,,4
+Oanoke Rapids,,NC,,1
+Ocracoke,,NC,,1
+Outer Banks,,NC,,1
+Pruce Pine,,NC,,1
+Raleigh,,NC,,432
+Raonoke Rapids,,NC,,3
+Roanoke Rapids,,NC,,21
+Salisbury,,NC,,11
+Sanford,,NC,,13
+Shelby,,NC,,1
+South Kure Beach,,NC,,1
+Spruce Pine,,NC,,13
+Statesville,,NC,,3
+Statewide,,NC,,4
+Sylva,,NC,,1
+Willington,,NC,,1
+Wilmington,,NC,,182
+Winston,,NC,,3
+Winston-Salem,,NC,,152
+Wrightsville,,NC,,1
+Wrightsville Beach,,NC,,6
+,,NC,,13
+Bismarck,,ND,,20
+Bismark,,ND,,1
+Dickenson,,ND,,21
+Fargo,,ND,,199
+Grand Forks,,ND,,116
+Leonard,,ND,,2
+Mandan,,ND,,8
+Mekinock,,ND,,1
+Minot,,ND,,28
+Bellevue,,NE,,23
+Belluve,,NE,,1
+Columbus,,NE,,5
+Gering,,NE,,2
+Grand Island,,NE,,114
+Grandisland,,NE,,1
+Hastings,,NE,,5
+Imperial,,NE,,1
+Kearney,,NE,,32
+Las Vegas,,NE,,3
+Lexington,,NE,,2
+Lincoln,,NE,,405
+McCook,,NE,,5
+Norfolk,,NE,,21
+Omaha,,NE,,566
+Reno,,NE,,3
+Scotts Bluff,,NE,,1
+Scottsbluff,,NE,,8
+Statewide,,NE,,1
+,,NE,,1
+Allenstown,,NH,,2
+Ashland Village,,NH,,3
+Barrington,,NH,,2
+Bath,,NH,,2
+Bath Village,,NH,,8
+Bethlehem,,NH,,16
+Bridgewater,,NH,,7
+Center Harbor,,NH,,2
+Centre Harbor,,NH,,12
+Charlestown,,NH,,1
+Chocorua,,NH,,18
+Colebrook,,NH,,3
+Columbia Hills,,NH,,1
+Concord,,NH,,58
+Contocook,,NH,,1
+Contoocook,,NH,,3
+Contookook,,NH,,4
+Conway,,NH,,10
+Derry,,NH,,1
+Dover,,NH,,23
+Durham,,NH,,14
+Exeter,,NH,,1
+Fitzwilliam,,NH,,5
+Franconia,,NH,,36
+Franklin,,NH,,3
+Glen,,NH,,10
+Greenland,,NH,,3
+Hampton,,NH,,28
+Hanover,,NH,,34
+Hart's Location,,NH,,3
+Hillsborough,,NH,,3
+Intervale,,NH,,5
+Jackson,,NH,,18
+Keene,,NH,,17
+Laconia,,NH,,9
+Lancaster,,NH,,1
+Lebanon,,NH,,18
+Littleton,,NH,,2
+Littletown,,NH,,1
+Londonderry,,NH,,1
+Madison,,NH,,7
+Manchester,,NH,,178
+Nashua,,NH,,44
+Newfound Lake,,NH,,1
+North Conway,,NH,,26
+North Hampton,,NH,,1
+Northwood,,NH,,3
+Penacook,,NH,,3
+Peterborough,,NH,,3
+Plymouth,,NH,,2
+Portsmouth,,NH,,186
+Randolph,,NH,,3
+Salem,,NH,,9
+Somersworth,,NH,,1
+Statewide,,NH,,7
+Sugar Hill,,NH,,3
+Sullivan,,NH,,2
+Sunapee,,NH,,2
+Suncook,,NH,,2
+Surry,,NH,,1
+Walpole,,NH,,9
+Warren,,NH,,1
+West Lebanon,,NH,,6
+White Mtns,,NH,,26
+Wilton,,NH,,1
+,,NH,,5
+Asbury Park,,NJ,,346
+Asbury Park/Ocean Grove,,NJ,,12
+Ashbury Park,,NJ,,7
+Ashbury Park/Ocean Grove,,NJ,,5
+Atlantic City,,NJ,,603
+Avenel,,NJ,,3
+Barnegat Light,,NJ,,10
+Bayonne,,NJ,,1
+Belleville,,NJ,,8
+Bellmawr,,NJ,,2
+Belmar,,NJ,,30
+Belvidere,,NJ,,2
+Berlin,,NJ,,17
+Bethlehem,,NJ,,3
+Blackwood,,NJ,,4
+Bloomingdale,,NJ,,1
+Boonton,,NJ,,7
+Bordentown,,NJ,,4
+Brick Town,,NJ,,2
+Bricktown,,NJ,,6
+Butler,,NJ,,4
+Camden,,NJ,,65
+Cape May,,NJ,,21
+Cherry Hill,,NJ,,60
+Cliffside Park,,NJ,,8
+Clifton,,NJ,,20
+Collingswood,,NJ,,14
+Collingwood,,NJ,,1
+Convent Station,,NJ,,9
+Covent Station,,NJ,,1
+Denville,,NJ,,17
+Deptford,,NJ,,1
+Dover,,NJ,,13
+Dumont,,NJ,,1
+Eaglewood Cliffs,,NJ,,1
+East Brunswick,,NJ,,1
+East Orange,,NJ,,33
+East Patterson,,NJ,,1
+East Rutherford,,NJ,,3
+Eatontown,,NJ,,27
+Edison,,NJ,,30
+Egg Harbor City,,NJ,,17
+Elizabeth,,NJ,,38
+Elmwood Park,,NJ,,1
+Engelwood,,NJ,,1
+Englewood,,NJ,,3
+Englewood Cliffs,,NJ,,1
+Fairview,,NJ,,3
+Fanwood,,NJ,,2
+Florence,,NJ,,17
+Forked River,,NJ,,1
+Fort Lee,,NJ,,6
+Freehold,,NJ,,3
+Ft. Lee,,NJ,,4
+Garwood,,NJ,,2
+Glassboro,,NJ,,1
+Glasser,,NJ,,1
+Guttenberg,,NJ,,5
+Hackensack,,NJ,,6
+Hackettstown,,NJ,,6
+Hazlet,,NJ,,2
+Highland Park,,NJ,,17
+Highlands,,NJ,,14
+Highlands Park,,NJ,,1
+Hoboken,,NJ,,40
+Hopatcong,,NJ,,1
+Howell,,NJ,,16
+Ironbound,,NJ,,1
+Irvington,,NJ,,2
+Jefferson Township,,NJ,,2
+Jersey City,,NJ,,73
+Kenvil,,NJ,,8
+Kingston,,NJ,,13
+Lake Hopatcong,,NJ,,2
+Lake Hoptacong,,NJ,,1
+Lakewood,,NJ,,5
+Lambertville,,NJ,,61
+Landisville,,NJ,,6
+Linden,,NJ,,1
+Little Silver,,NJ,,3
+Livingston,,NJ,,3
+Long Beach,,NJ,,2
+Long Branch,,NJ,,25
+Lyndhurst,,NJ,,3
+Mahwah,,NJ,,1
+Maplecrest,,NJ,,2
+Maplewood,,NJ,,6
+Marlton,,NJ,,2
+Mays Landing,,NJ,,7
+Maywood,,NJ,,1
+Mine Hill,,NJ,,13
+Montclair,,NJ,,18
+Montgomery,,NJ,,2
+Morris County,,NJ,,2
+Morris Plains,,NJ,,1
+Morris Township,,NJ,,2
+Morristown,,NJ,,30
+Mt. Holly,,NJ,,1
+Neptune,,NJ,,7
+New Brunswick,,NJ,,174
+Newark,,NJ,,125
+Newton,,NJ,,4
+Northfield,,NJ,,1
+Oak Ridge,,NJ,,13
+Oakland,,NJ,,1
+Oaklyn,,NJ,,2
+Oakridge,,NJ,,1
+Ocean City,,NJ,,14
+Orange,,NJ,,71
+Palisades Park,,NJ,,2
+Paramus,,NJ,,30
+Pasaic,,NJ,,3
+Passaic,,NJ,,5
+Passaic Park,,NJ,,1
+Paterson,,NJ,,32
+Patterson,,NJ,,12
+Paulsboro,,NJ,,6
+Perth Amboy,,NJ,,24
+Phillipsburg,,NJ,,22
+Plainfield,,NJ,,51
+Plainsboro,,NJ,,5
+Princeton,,NJ,,86
+Rahway,,NJ,,24
+Red Bank,,NJ,,17
+Ringwood,,NJ,,2
+River Edge,,NJ,,21
+River Ridge,,NJ,,8
+Riveredge,,NJ,,2
+Rocky Hill,,NJ,,5
+Roselle,,NJ,,34
+Rosemont,,NJ,,9
+Sandy Hook,,NJ,,18
+Sayerville,,NJ,,1
+Sayreville,,NJ,,11
+Seaside Heights,,NJ,,19
+Sergeantsville,,NJ,,2
+Sergeantville,,NJ,,1
+Skillman,,NJ,,2
+Somerdale,,NJ,,2
+Somerset,,NJ,,12
+Somerville,,NJ,,6
+South Amboy,,NJ,,2
+South River,,NJ,,13
+Statewide,,NJ,,2
+Stockton,,NJ,,12
+Sussex,,NJ,,3
+Teaneck,,NJ,,8
+Toms River,,NJ,,22
+Trenton,,NJ,,164
+Turnersville,,NJ,,2
+Union,,NJ,,9
+Union City,,NJ,,35
+Vineland,,NJ,,2
+Voorhees,,NJ,,3
+Wall Township,,NJ,,3
+Wallington,,NJ,,4
+Washington,,NJ,,7
+Wayne,,NJ,,4
+West New York,,NJ,,8
+West Paterson,,NJ,,19
+Westville,,NJ,,3
+Willingboro,,NJ,,1
+Wood Bridge,,NJ,,3
+Woodbridge,,NJ,,26
+Woodbury,,NJ,,6
+Wrightstown,,NJ,,2
+,,NJ,,23
+Alamagordo,,NM,,8
+Alamogordo,,NM,,16
+Albuquerque,,NM,,823
+Albuquerquee,,NM,,23
+Alburquerque,,NM,,33
+Alto,,NM,,1
+Bernalillo,,NM,,5
+Carlsbad,,NM,,6
+Cedar Crest,,NM,,2
+Chimayo,,NM,,5
+Cloudcroft,,NM,,2
+Clovis,,NM,,33
+Corrales,,NM,,4
+Deming,,NM,,3
+El Prado,,NM,,1
+Farmington,,NM,,15
+Galisteo,,NM,,5
+Gallup,,NM,,1
+Hobbs,,NM,,29
+Las Cruces,,NM,,43
+Lordsburg,,NM,,4
+Madrid,,NM,,18
+Minneapolis,,NM,,1
+NM,,NM,,1
+Pecos,,NM,,5
+Placitas,,NM,,2
+Radium Springs,,NM,,2
+Roswell,,NM,,4
+Ruidoso,,NM,,8
+San Juan Pueblo,,NM,,1
+Sandia Park,,NM,,2
+Santa Fe,,NM,,440
+Silver City,,NM,,1
+Statewide,,NM,,2
+Taos,,NM,,48
+Thoreau,,NM,,6
+Vallecitos,,NM,,3
+Veguita,,NM,,1
+Vequita,,NM,,2
+,,NM,,3
+Carson City,,NV,,35
+Elko,,NV,,8
+Henderson,,NV,,1
+Lake Mead,,NV,,1
+Lake Tahoe,,NV,,52
+Las Vegas,,NV,,930
+Reno,,NV,,538
+Sparks,,NV,,6
+Stateline,,NV,,10
+Virginia City,,NV,,17
+Winnemuca,,NV,,6
+2520 Merrick Rd.,,NY,,1
+Adirondack,,NY,,7
+Adirondack Mtns,,NY,,12
+Adirondack Mtns.,,NY,,7
+Albany,,NY,,557
+Amagansett,,NY,,2
+Amherst,,NY,,30
+Andes,,NY,,1
+Angelica,,NY,,10
+Annandale-on-Hudson,,NY,,6
+Annandale-On-Hudson,,NY,,1
+Armherst,,NY,,1
+Astoria,,NY,,5
+Athol,,NY,,4
+Babylon,,NY,,16
+"Babylon, L.I",,NY,,1
+"Babylon, L.I.",,NY,,1
+Baldwin,,NY,,2
+"Baldwin, L.I.",,NY,,1
+Bay Ridge,,NY,,2
+Bay Shore,,NY,,17
+Bayshore,,NY,,12
+Bayville,,NY,,17
+"Bayville, L.I.",,NY,,2
+Beacon,,NY,,4
+beacon,,NY,,1
+Bellmore,,NY,,45
+"Bellmore, L.I.",,NY,,1
+Bellport,,NY,,1
+Berne,,NY,,2
+Binghampton,,NY,,45
+Binghamton,,NY,,267
+Black River,,NY,,5
+Bloomingdale,,NY,,2
+Blue Point,,NY,,1
+Boerum Hill,,NY,,2
+Bohemia,,NY,,7
+Brentwood,,NY,,4
+Brewster,,NY,,4
+Briarwood,,NY,,1
+Bridgehampton,,NY,,11
+Bronx,,NY,,21
+Brooklyn,,NY,,169
+Brooklyn Heights,,NY,,29
+Broome County,,NY,,1
+Buffalo,,NY,,722
+Canaseraga,,NY,,4
+Canton,,NY,,3
+Capital District,,NY,,28
+Carle Place,,NY,,1
+Carrier Circle,,NY,,1
+Catskill Mtns,,NY,,37
+Catskill Mtns.,,NY,,7
+Catskills,,NY,,21
+Center Moriches,,NY,,1
+Central Islip,,NY,,1
+Chautauqua County,,NY,,1
+Chelsea,,NY,,1
+Cherry Grove,,NY,,8
+Cherry Valley,,NY,,3
+Chittango,,NY,,1
+Chittenango,,NY,,5
+Clarence Center,,NY,,1
+Clifton Park,,NY,,13
+Cold Spring,,NY,,2
+Commack,,NY,,1
+Coney Island,,NY,,1
+Congers,,NY,,16
+Cooperstown,,NY,,17
+Copaigue,,NY,,1
+Copiague,,NY,,2
+Copiaque,,NY,,3
+Corning,,NY,,6
+Cortland,,NY,,7
+Craryville,,NY,,1
+Crofton Falls,,NY,,3
+Croton Falls,,NY,,1
+Croton-on-Hudson,,NY,,1
+Cuba,,NY,,7
+Deep Park,,NY,,3
+Deer Park,,NY,,13
+"Deer Park, L.I.",,NY,,3
+Dunkirk,,NY,,1
+E. Meadow,,NY,,2
+E. Northport,,NY,,7
+East Hampton,,NY,,57
+East Islip,,NY,,1
+East Meadow,,NY,,3
+East Village,,NY,,2
+East Windham,,NY,,2
+East Worcester,,NY,,1
+Easthampton,,NY,,30
+Elizabethtown,,NY,,1
+Elmhurst,,NY,,3
+Elmira,,NY,,95
+Elmont,,NY,,1
+Endicott,,NY,,3
+Esopus,,NY,,3
+Farmingdale,,NY,,2
+Farmingville,,NY,,1
+Fire Island,,NY,,525
+"Fire Island, L.I.",,NY,,15
+Fishkill,,NY,,1
+Fleischmanns,,NY,,2
+Floral Park,,NY,,18
+"Floral Park, L.I.",,NY,,3
+Flushing,,NY,,6
+Forest Hill,,NY,,1
+Forest Hills,,NY,,4
+Forrest Hill,,NY,,2
+Garrison,,NY,,3
+Genesee Valley,,NY,,1
+Geneseo,,NY,,3
+Genessee,,NY,,3
+Geneva,,NY,,2
+Ghent,,NY,,3
+Glen Cove,,NY,,2
+Glen Falls,,NY,,14
+Glen Oaks,,NY,,1
+Glenford,,NY,,1
+Glens Falls,,NY,,30
+Greenwich Village,,NY,,1607
+Greenwich Village & Chelsea,,NY,,202
+Greenwich Village/ Chelsea,,NY,,68
+Greenwood Lake,,NY,,16
+Hauppauge,,NY,,2
+"Hauppauge, L.I.",,NY,,1
+Hempstead,,NY,,31
+Hermon,,NY,,4
+Hicksville,,NY,,5
+High Falls,,NY,,2
+Highland,,NY,,29
+Highland Park,,NY,,3
+Holbrook,,NY,,2
+Hollis,,NY,,2
+Hudson,,NY,,10
+Hudson Valley,,NY,,9
+Huntington,,NY,,15
+Huntington Sation,,NY,,1
+Huntington Station,,NY,,3
+"Huntington, L.I.",,NY,,1
+Island Park,,NY,,4
+Islip,,NY,,1
+Ithaca,,NY,,215
+Jackson Heights,,NY,,37
+Jamaica,,NY,,8
+Jamestown,,NY,,82
+Johnson City,,NY,,10
+Kenmore,,NY,,8
+Kerhonkson,,NY,,1
+Kew Gardens,,NY,,17
+Kingston,,NY,,29
+Kirkwood,,NY,,3
+Lackawanna,,NY,,2
+Lake George,,NY,,59
+Lake Monroe,,NY,,1
+Lake Placid,,NY,,70
+Lake Ronkonkoma,,NY,,20
+"Lake Ronkonkoma, L.I.",,NY,,2
+Lake Ronkonkona,,NY,,1
+Lake Ronkonnoma,,NY,,2
+Lake Ronkonoma,,NY,,3
+Lancaster,,NY,,2
+Latham,,NY,,4
+Liberty,,NY,,1
+Lindenhurst,,NY,,15
+Little Neck,,NY,,2
+Liverpool,,NY,,2
+Livingston Manor,,NY,,7
+Lockport,,NY,,3
+Long Beach,,NY,,3
+Long Island,,NY,,147
+Long Island City,,NY,,1
+Long Island–Nassau County,,NY,,6
+Long Island–Suffolk County,,NY,,16
+Long Island/Nassau Co.,,NY,,14
+Long Island/Nassau CO.,,NY,,6
+Long Island/Suffolk Co.,,NY,,48
+Long Island/Suffolk CO.,,NY,,13
+Malverne,,NY,,2
+Manhattan,,NY,,902
+Manhatten,,NY,,17
+Maspeth,,NY,,1
+Massapequa,,NY,,3
+Medford,,NY,,2
+Merrick,,NY,,2
+Middletown,,NY,,27
+Midtown,,NY,,730
+Mineola,,NY,,5
+Monroe,,NY,,5
+Montauk Hwy,,NY,,1
+Mt Tremper,,NY,,1
+Mt. Tremper,,NY,,1
+N. Bellmore,,NY,,1
+N. Utica,,NY,,1
+N.Y.C - Midtown,,NY,,45
+N.Y.C - Queens,,NY,,12
+N.Y.C. - Brooklyn,,NY,,5
+N.Y.C. - Long Island/Nassau County,,NY,,2
+N.Y.C. - Long Island/Suffolk County,,NY,,10
+N.Y.C. - Staten Island,,NY,,2
+N.Y.C. - Uptown,,NY,,15
+Nanuet,,NY,,4
+Naples,,NY,,2
+Nassau County,,NY,,6
+New City,,NY,,3
+New Paltz,,NY,,34
+New Rochelle,,NY,,10
+New York,,NY,,599
+New York City,,NY,,2293
+Niagara Falls,,NY,,87
+Niagra Falls,,NY,,3
+North Bellmore,,NY,,6
+"North Bellmore, L.I.",,NY,,1
+North Hudson,,NY,,1
+North Merrick,,NY,,4
+North Salem,,NY,,10
+Northpoint,,NY,,1
+Northport,,NY,,1
+Nyack,,NY,,64
+Odessa,,NY,,1
+Old Forge,,NY,,4
+Old Roslyn Village,,NY,,4
+Old Rosyln Village,,NY,,2
+Old Westbury,,NY,,1
+Olean,,NY,,18
+Oneonta,,NY,,1
+Orange County,,NY,,13
+Orangeburg,,NY,,3
+Ossining,,NY,,1
+Oswego,,NY,,4
+Owego,,NY,,2
+Palenville,,NY,,3
+Park Slope,,NY,,2
+Patchoque,,NY,,4
+Piermont,,NY,,8
+Pine City,,NY,,5
+Pine HIll,,NY,,2
+Plattsburg,,NY,,44
+Plattsburgh,,NY,,7
+Port Chester,,NY,,17
+Portchester,,NY,,4
+Pougheepsie,,NY,,2
+Poughkeepsie,,NY,,97
+Poughquag,,NY,,1
+Queens,,NY,,219
+Richmond Hill,,NY,,7
+Ridgewood,,NY,,5
+Riverdale,,NY,,1
+Rochester,,NY,,834
+Rock Hill,,NY,,3
+Rockaway,,NY,,3
+Rockland,,NY,,1
+Rockland Lake,,NY,,2
+Rodchester,,NY,,1
+Rome,,NY,,11
+Ronkonkoma,,NY,,3
+Ronkonkona,,NY,,1
+Rosendale,,NY,,1
+Roslyn,,NY,,2
+Sag Harbor,,NY,,2
+Saranac Lake,,NY,,8
+Saratoga Springs,,NY,,29
+Sayville,,NY,,66
+"Sayville, L.I.",,NY,,3
+Scarsdale,,NY,,1
+Schenectady,,NY,,83
+Schroon Lake,,NY,,2
+Seaford,,NY,,12
+Selden,,NY,,1
+Seldon,,NY,,3
+Seneca Falls,,NY,,12
+Sharon Springs,,NY,,27
+Shelter Island,,NY,,3
+Shirley,,NY,,2
+Smithtown,,NY,,9
+"Smithtown, L.I.",,NY,,2
+Somers,,NY,,3
+South Beach,,NY,,2
+South Fallsburg,,NY,,2
+South Farmingdale,,NY,,5
+South Farmington,,NY,,1
+South Hampton,,NY,,1
+Southampton,,NY,,9
+Southhampton,,NY,,1
+Sparkill,,NY,,1
+Spring Valley,,NY,,1
+St. Huntington,,NY,,1
+St. James,,NY,,1
+Stanfordville,,NY,,2
+Stapleton,,NY,,2
+Staten Island,,NY,,51
+Stone Ridge,,NY,,3
+Stuyvesant,,NY,,2
+Suffern,,NY,,3
+Suffolk County,,NY,,21
+Sunnyside,,NY,,2
+Sylvan Beach,,NY,,2
+Syosset,,NY,,4
+Syracuse,,NY,,490
+Tannersville,,NY,,1
+The Bronx,,NY,,13
+The Hamptons,,NY,,52
+The Pines,,NY,,2
+Tivoli,,NY,,4
+Tonawanda,,NY,,1
+Troy,,NY,,33
+Tupper Lake,,NY,,11
+Uniondale,,NY,,2
+Upper Nyack,,NY,,1
+Uptown,,NY,,419
+Uptown- N.Y.C.,,NY,,15
+Utica,,NY,,122
+Valhalla,,NY,,3
+Valley Stream,,NY,,1
+Wainscott,,NY,,2
+Walloomsac,,NY,,1
+Wantagh,,NY,,15
+"Wantagh, L.I.",,NY,,1
+Wappingers Falls,,NY,,1
+Warrensburg,,NY,,2
+Washingtonville,,NY,,3
+Watermill,,NY,,3
+Watertown,,NY,,18
+Webster,,NY,,1
+West Babylon,,NY,,12
+West Hempstead,,NY,,20
+"West Hempstead, L.I.",,NY,,1
+West Hempsted,,NY,,1
+West Islip,,NY,,2
+West Kill,,NY,,1
+West Park,,NY,,5
+West Wainscott,,NY,,1
+Westbury,,NY,,2
+"Westbury, L.I.",,NY,,1
+Westchester,,NY,,2
+Westchester County,,NY,,1
+Westpark,,NY,,1
+Westtown,,NY,,14
+Wheatfield,,NY,,7
+White Lake,,NY,,2
+White Plains,,NY,,65
+White-Plains,,NY,,1
+Whitestone,,NY,,2
+Williamsburg,,NY,,1
+Williston,,NY,,1
+Windham,,NY,,2
+Woodbury,,NY,,5
+Woodside,,NY,,6
+Woodstock,,NY,,60
+Yonkers,,NY,,31
+Yorktown,,NY,,9
+Yorkville,,NY,,1
+,,NY,,5
+Akron,,OH,,480
+Amherst,,OH,,4
+Ashtabula,,OH,,6
+Athens,,OH,,53
+Barberton,,OH,,4
+Beachwood,,OH,,8
+Beavercreek,,OH,,3
+Berea,,OH,,2
+Bowling Green,,OH,,1
+Bradford,,OH,,2
+Brunswick,,OH,,5
+Bucyrus,,OH,,2
+Canton,,OH,,233
+Carthegena,,OH,,7
+Carthegna,,OH,,1
+Chauncey,,OH,,1
+Chester,,OH,,1
+Chillicothe,,OH,,8
+Cincinatti,,OH,,29
+Cincinnati,,OH,,885
+Cleveland,,OH,,1466
+Cleveland Heights,,OH,,17
+Cleveland Hts,,OH,,2
+Clifton,,OH,,4
+Clyde,,OH,,1
+Columbia,,OH,,1
+Columbus,,OH,,1119
+Conneaut,,OH,,1
+Coshocton,,OH,,90
+Dayton,,OH,,519
+Dublin,,OH,,2
+Elyria,,OH,,1
+Erie,,OH,,1
+Fairview Park,,OH,,1
+Findlay,,OH,,58
+Fremont,,OH,,15
+Gahanna,,OH,,1
+Geneva on the Lake,,OH,,5
+Glenford,,OH,,14
+Grandview,,OH,,1
+Hamilton,,OH,,4
+Heath,,OH,,3
+Hillsboro,,OH,,3
+Kent,,OH,,32
+Kettering,,OH,,10
+Lakeshore,,OH,,1
+Lakewood,,OH,,33
+Lancaster,,OH,,5
+Lebanon,,OH,,11
+Lima,,OH,,57
+Logan,,OH,,18
+Lorain,,OH,,57
+Loraine,,OH,,5
+Manfield,,OH,,3
+Mansfield,,OH,,52
+Marblehead,,OH,,6
+Marengo,,OH,,4
+Marion,,OH,,11
+Marysville,,OH,,3
+Mentor,,OH,,7
+Miamisburg,,OH,,3
+Monroe,,OH,,12
+Newark,,OH,,7
+Niles,,OH,,18
+Oberlin,,OH,,13
+Owens,,OH,,1
+Oxford,,OH,,18
+Painesville,,OH,,11
+Painsville,,OH,,6
+Parma Heights,,OH,,4
+Parma Hts.,,OH,,1
+Piketon,,OH,,2
+Piqua,,OH,,40
+Pittsburgh,,OH,,1
+Port Clinton,,OH,,1
+Portsmouth,,OH,,5
+Quaker City,,OH,,4
+Richfield,,OH,,4
+Rockbridge,,OH,,15
+Saint Mary's,,OH,,4
+Saint Marys,,OH,,2
+Salem,,OH,,1
+Sandusky,,OH,,68
+Shaker Heights,,OH,,6
+South Euclid,,OH,,3
+Springfield,,OH,,137
+St. Claire,,OH,,1
+Statewide,,OH,,5
+Steubenville,,OH,,52
+Stow,,OH,,1
+Stowe,,OH,,2
+Strasburg,,OH,,7
+Stubenville,,OH,,1
+Tiffin,,OH,,1
+Toledo,,OH,,539
+Tremont,,OH,,3
+Warren,,OH,,104
+Washington Court House,,OH,,4
+Westlake,,OH,,1
+Woodville,,OH,,4
+Wooster,,OH,,6
+Yellow Springs,,OH,,55
+Youngstown,,OH,,213
+,,OH,,4
+Ada,,OK,,1
+Bartlesville,,OK,,10
+Claremore,,OK,,8
+Edmond,,OK,,1
+El Reno,,OK,,12
+Enid,,OK,,22
+Hugo,,OK,,6
+Lawton,,OK,,78
+Lexington,,OK,,3
+Norman,,OK,,103
+Oklahoma City,,OK,,857
+Shawnee,,OK,,18
+Statewide,,OK,,3
+Stillwater,,OK,,16
+Sulphur,,OK,,2
+Talequah,,OK,,8
+Thackerville,,OK,,7
+Thackkerville,,OK,,1
+Tulsa,,OK,,734
+Watonga,,OK,,19
+,,OK,,2
+Albany,,OR,,4
+Aloha,,OR,,1
+Ashford-Medford-Grants Pass,,OR,,1
+Ashland,,OR,,159
+Astoria,,OR,,13
+Aurora,,OR,,2
+Baker City,,OR,,4
+Beaverton,,OR,,11
+Bend,,OR,,59
+Blue River,,OR,,7
+Burns,,OR,,4
+Coos Bay,,OR,,66
+Coos Bay--North Bend,,OR,,2
+Coos Bay-North Bend,,OR,,4
+Corvallis,,OR,,94
+Cresson,,OR,,1
+Days Creek,,OR,,4
+Duncansville,,OR,,1
+Erie,,OR,,1
+Estacada,,OR,,2
+Eugene,,OR,,400
+Forest Grove,,OR,,1
+Germantown,,OR,,1
+Gladstone,,OR,,4
+Grant's Pass,,OR,,3
+Grants Pass,,OR,,46
+Hermiston,,OR,,2
+Klamath Fall,,OR,,1
+Klamath Falls,,OR,,43
+La Grande,,OR,,5
+La Pine,,OR,,2
+Lake Oswego,,OR,,1
+Lincoln City,,OR,,40
+March's Hook,,OR,,1
+McMinneville,,OR,,1
+Medford,,OR,,102
+Multnomah,,OR,,1
+Myrtle Creek,,OR,,5
+Nazareth,,OR,,1
+New Hope,,OR,,1
+Newport,,OR,,42
+North Bend,,OR,,8
+O'Brien,,OR,,2
+Ontario,,OR,,3
+Port Orford,,OR,,14
+Port Oxford,,OR,,1
+Portland,,OR,,2135
+Richland,,OR,,2
+Rockaway Beach,,OR,,3
+Rogue River,,OR,,9
+Roseburg,,OR,,70
+Salem,,OR,,176
+Sandy,,OR,,4
+Seaside,,OR,,50
+Sheridan,,OR,,7
+Springfield,,OR,,5
+Statewide,,OR,,4
+Sunny Valley,,OR,,3
+Sunnyvale,,OR,,1
+Sunriver,,OR,,2
+Sutherlin,,OR,,1
+Talent,,OR,,2
+Tigard,,OR,,4
+Tillamook,,OR,,3
+Tiller,,OR,,7
+Waldport,,OR,,12
+Warrenton,,OR,,4
+Welches,,OR,,1
+Wheeler,,OR,,1
+Wilsonville,,OR,,1
+Wolf Creek,,OR,,6
+Yachats,,OR,,50
+,,OR,,4
+Adamstown,,PA,,2
+Allenstown,,PA,,3
+Allentown,,PA,,216
+Altoona,,PA,,76
+Apollo,,PA,,2
+Ardmore,,PA,,1
+Atoona,,PA,,1
+Bangor,,PA,,1
+Beaver Falls,,PA,,12
+Bellwood,,PA,,4
+Berwick,,PA,,10
+Bethel Park,,PA,,3
+Bethlehem,,PA,,49
+Blairsville,,PA,,9
+Boyers,,PA,,3
+Bradford,,PA,,1
+Bridgeport,,PA,,38
+Bridgeville,,PA,,7
+Bristol,,PA,,52
+Brookline,,PA,,2
+Butler,,PA,,22
+Carbondale,,PA,,3
+Carversville,,PA,,1
+Chambersburg,,PA,,14
+Charlestown Village,,PA,,1
+Chester,,PA,,9
+Collegeville,,PA,,7
+Conneaut Lake,,PA,,5
+Conshohoken,,PA,,3
+Coopersburg,,PA,,1
+Cooperstoown,,PA,,1
+Cooperstown,,PA,,1
+Cornwell Heights,,PA,,2
+Cornwells Heights,,PA,,6
+Cresson,,PA,,14
+Danville,,PA,,5
+Downingtown,,PA,,1
+Doyalstown,,PA,,1
+Doyleston,,PA,,1
+Doylestown,,PA,,3
+Duncansville,,PA,,7
+Duryea,,PA,,3
+East Stroudsberg,,PA,,2
+East Stroudsburg,,PA,,37
+Easton,,PA,,44
+Edgemont,,PA,,18
+Edinboro,,PA,,11
+Edwardsville,,PA,,7
+Elizabeth,,PA,,4
+Emlenton,,PA,,7
+Emmaus,,PA,,1
+Ephrata,,PA,,5
+Erie,,PA,,283
+Exeter,,PA,,1
+Galeton,,PA,,1
+Gettysburg,,PA,,9
+Gibson,,PA,,3
+Greenburg,,PA,,3
+Greencastle,,PA,,7
+Greensburg,,PA,,73
+Hamburg,,PA,,2
+Harford,,PA,,1
+Harrisburg,,PA,,416
+Havertown,,PA,,1
+Hazelton,,PA,,1
+Hazleton,,PA,,4
+Hegins,,PA,,2
+Homestead,,PA,,2
+Hostetter,,PA,,1
+Hummelstown,,PA,,1
+Indiana,,PA,,25
+Johnstown,,PA,,75
+Kingston,,PA,,6
+Kuhnsville,,PA,,5
+Kutztown,,PA,,11
+Lambertsville,,PA,,2
+Lancaster,,PA,,237
+Landisville,,PA,,2
+Lansdale,,PA,,17
+Larksville,,PA,,3
+Lebanon,,PA,,30
+Levittown,,PA,,5
+Lewisburg,,PA,,2
+Line Lexington,,PA,,4
+Longhorn,,PA,,3
+Mahanoy City,,PA,,7
+Mahoney City,,PA,,2
+Malvern,,PA,,4
+Manheim,,PA,,5
+Marcus Hook,,PA,,9
+Marietta,,PA,,17
+Marrietta,,PA,,1
+Marshalls Creek,,PA,,8
+McKees Rocks,,PA,,2
+Meadville,,PA,,3
+Mercer,,PA,,7
+Milanville,,PA,,1
+Milford,,PA,,1
+Millbourne,,PA,,2
+Monroeville,,PA,,18
+Montclaire,,PA,,4
+Monteclair,,PA,,1
+Montgomery,,PA,,5
+Montgomeryville,,PA,,16
+Montrose,,PA,,2
+Mountville,,PA,,2
+Mt Pleasant,,PA,,4
+Mt. Pleasant,,PA,,7
+Narbeth,,PA,,3
+Natrona Heights,,PA,,6
+Nescopeck,,PA,,14
+New Castle,,PA,,18
+New Hope,,PA,,487
+New Kensington,,PA,,13
+New Milford,,PA,,19
+Norristown,,PA,,3
+Northumberland,,PA,,4
+Oakland,,PA,,4
+Pendel,,PA,,4
+Penn Hills,,PA,,2
+Philadelphia,,PA,,2338
+Philipsburg,,PA,,19
+Phoenixville,,PA,,4
+Pine Grove,,PA,,71
+Pipersville,,PA,,2
+Pitman,,PA,,3
+Pittsburgh,,PA,,1144
+Pocono Mountains,,PA,,22
+Pocono Mts.,,PA,,25
+Poconos,,PA,,19
+Port Richmond,,PA,,1
+Pottstown,,PA,,6
+Pottsville,,PA,,8
+Progress,,PA,,1
+Quakerstown,,PA,,12
+Quakertown,,PA,,6
+Reading,,PA,,134
+Reinholds,,PA,,1
+Rochester,,PA,,27
+Roxborough,,PA,,2
+Schaefferstown,,PA,,4
+Schenley,,PA,,12
+Scotrun,,PA,,4
+Scranton,,PA,,135
+Selingsgrove,,PA,,1
+Selinsgrove,,PA,,4
+Shamokin Dam,,PA,,9
+Sharon,,PA,,8
+Shawnee-On-The-Delaware,,PA,,1
+Shawnee-on-the-Delaware,,PA,,1
+Shippensburg,,PA,,3
+Shohola,,PA,,2
+Soudertown,,PA,,1
+Spring Grove,,PA,,5
+Springfield,,PA,,2
+State College,,PA,,163
+Stroudsburg,,PA,,18
+Stroundsburg,,PA,,1
+Sunbury,,PA,,26
+Susquehanna,,PA,,1
+Tannersville,,PA,,11
+Uniontown,,PA,,9
+Upper Darby,,PA,,19
+Valley Forge,,PA,,17
+Verona,,PA,,1
+Warminster,,PA,,1
+Washington,,PA,,2
+Waterford,,PA,,1
+Wayne,,PA,,1
+West Chester,,PA,,30
+White Haven,,PA,,3
+Wilkes-Barre,,PA,,124
+Williamsport,,PA,,58
+Willow Grove,,PA,,6
+Yardley,,PA,,1
+York,,PA,,152
+,,PA,,4
+Aguada,,PR,,16
+Aguadilla,,PR,,15
+Aguas Buenas,,PR,,8
+Bayamón,,PR,,6
+Bayamon,,PR,,6
+Boquerón,,PR,,1
+Cabo Rojo,,PR,,2
+Caguas,,PR,,8
+Coamo,,PR,,6
+Condado,,PR,,99
+Corozal,,PR,,2
+Eujasco,,PR,,3
+Fajardo,,PR,,2
+Hato Ray,,PR,,4
+Hato Rey,,PR,,2
+Hormigueros,,PR,,5
+Isabela,,PR,,12
+Isla Verde,,PR,,1
+Lajas,,PR,,2
+Loiza,,PR,,4
+Luquillo,,PR,,4
+Luquillo Beach,,PR,,1
+Manati,,PR,,3
+Mayagüez,,PR,,2
+Mayaguez,,PR,,51
+Miramar,,PR,,5
+Ocean Park,,PR,,7
+Old San Juan,,PR,,18
+Patillas,,PR,,1
+Ponce,,PR,,31
+Puerto Nuevo,,PR,,2
+Ricon,,PR,,1
+Rio Pedras,,PR,,1
+Rio Piedras,,PR,,1
+San German,,PR,,21
+San Juan,,PR,,846
+Santurce,,PR,,19
+Statewide,,PR,,1
+Vieques,,PR,,1
+Vieques Island,,PR,,18
+,,PR,,2
+Aiken,,RI,,1
+Bristol,,RI,,1
+Central Fall,,RI,,1
+Central Falls,,RI,,18
+Charlestown,,RI,,5
+Columbia,,RI,,4
+Cranston,,RI,,2
+East Greenwich,,RI,,11
+East Providence,,RI,,1
+Florence,,RI,,1
+Greenville,,RI,,5
+Hilton Head,,RI,,2
+Johnston,,RI,,7
+Little Compton,,RI,,2
+Middletown,,RI,,2
+Myrtle Beach,,RI,,2
+N. Smithfield,,RI,,2
+Narragansett,,RI,,4
+Newport,,RI,,196
+North Kingston,,RI,,1
+North Kingstown,,RI,,9
+North Smithfield,,RI,,1
+Pawtucket,,RI,,14
+Providence,,RI,,957
+Smithfield,,RI,,26
+Smithsfield,,RI,,2
+Spartanburg,,RI,,1
+Statewide,,RI,,5
+Warwick,,RI,,28
+Westerly,,RI,,35
+Woonsocket,,RI,,48
+,,RI,,2
+Aiken,,SC,,3
+Anderson,,SC,,3
+Bowman,,SC,,1
+Camden,,SC,,2
+Cayce,,SC,,1
+Charleston,,SC,,439
+Charlestown,,SC,,16
+Columbia,,SC,,428
+Dillon,,SC,,16
+Fayetteville,,SC,,2
+Florence,,SC,,79
+Folly Beach,,SC,,2
+Fort Mill,,SC,,1
+Gaffney,,SC,,12
+Goose Creek,,SC,,1
+Greenville,,SC,,187
+Greenwood,,SC,,5
+Hilton Head,,SC,,34
+Hodges,,SC,,5
+Inman,,SC,,1
+Johns Island,,SC,,1
+Moncks Corner,,SC,,1
+Myrtle Beach,,SC,,136
+N. Charleston,,SC,,4
+North Charleston,,SC,,3
+Rock Hill,,SC,,12
+Santee,,SC,,1
+Spartanburg,,SC,,54
+St John Island,,SC,,1
+St Johns Island,,SC,,1
+Statewide,,SC,,4
+Travelers Rest,,SC,,1
+Walhalla,,SC,,3
+,,SC,,2
+Aberdeen,,SD,,50
+Batesland,,SD,,5
+Belle Fourche,,SD,,3
+Brookings,,SD,,19
+Hill City,,SD,,1
+Hot Springs,,SD,,3
+Pierre,,SD,,30
+Rapid City,,SD,,112
+Salem,,SD,,3
+Sioux City,,SD,,5
+Sioux Falls,,SD,,157
+Spearfish,,SD,,4
+Statewide,,SD,,1
+Yankton,,SD,,3
+,,SD,,4
+Ashland City,,TN,,1
+Bristol,,TN,,14
+Chatanooga,,TN,,22
+Chattanooga,,TN,,232
+Clarksville,,TN,,59
+Cleveland,,TN,,3
+Counce,,TN,,3
+Cowan,,TN,,1
+Dandridge,,TN,,9
+Dowelltown,,TN,,2
+Doweltown,,TN,,1
+Gaitlinburg,,TN,,1
+Gatlinburg,,TN,,13
+Gatlingburg,,TN,,1
+Gray,,TN,,1
+Greeneville,,TN,,5
+Greenville,,TN,,11
+Haley,,TN,,10
+Jackson,,TN,,68
+Jamestown,,TN,,4
+Joelton,,TN,,1
+Johnson City,,TN,,110
+Jonesborough,,TN,,1
+Kingsport,,TN,,28
+Knoxville,,TN,,420
+Liberty,,TN,,12
+Memphis,,TN,,851
+Murpheesboro,,TN,,38
+Nashville,,TN,,762
+Newport,,TN,,7
+Oak Ridge,,TN,,4
+Oak Ridge Farm,,TN,,1
+Paris,,TN,,3
+Pigeon Forge,,TN,,3
+Rogersville,,TN,,13
+Saltillo,,TN,,6
+Seiverville,,TN,,1
+Sewanee,,TN,,14
+Shelbyville,,TN,,1
+St. Andrews,,TN,,2
+Statewide,,TN,,4
+White Pine,,TN,,4
+,,TN,,3
+Abilene,,TX,,93
+Addison,,TX,,2
+Amarillo,,TX,,301
+Angleton,,TX,,1
+Arlington,,TX,,105
+Armarillo,,TX,,1
+Athens,,TX,,2
+Austin,,TX,,1056
+Bastrop,,TX,,6
+Beaumont,,TX,,116
+Big Spring,,TX,,3
+Brownsville,,TX,,37
+Bryan,,TX,,17
+Bryan - College Station,,TX,,1
+Caldwell,,TX,,3
+Calvert,,TX,,1
+Canton,,TX,,1
+Canutillo,,TX,,4
+Canyon,,TX,,6
+Ciudad Juarez,,TX,,3
+College Station,,TX,,45
+Columbus,,TX,,8
+Conroe,,TX,,9
+Corpus Christi,,TX,,239
+Corpus Christie,,TX,,2
+"Cuidad Juarez, Mexico",,TX,,5
+Dalhart,,TX,,14
+Dallas,,TX,,2014
+Del Valle,,TX,,1
+Denison,,TX,,10
+Denton,,TX,,82
+Donna,,TX,,1
+El Paso,,TX,,559
+Fabens,,TX,,10
+Fort Worth,,TX,,153
+Forth Worth,,TX,,1
+Fredericksburg,,TX,,6
+Ft Worth,,TX,,1
+Ft. Worth,,TX,,383
+Gainesville,,TX,,9
+Gainsville,,TX,,2
+Galveston,,TX,,254
+Glen Rose,,TX,,9
+Glenrose,,TX,,1
+Granbury,,TX,,6
+Grapevine Lake,,TX,,8
+Groesbeck,,TX,,6
+Gun Barrel City,,TX,,15
+Harker Heights,,TX,,1
+Harlingen,,TX,,8
+Henrietta,,TX,,5
+Hewitt,,TX,,1
+Hillsboro,,TX,,1
+Houston,,TX,,2520
+Humble,,TX,,5
+Irving,,TX,,8
+Katy,,TX,,5
+Killeen,,TX,,11
+Lampasas,,TX,,17
+Laredo,,TX,,82
+Logan,,TX,,1
+Longview,,TX,,79
+Lubbock,,TX,,228
+Marshall,,TX,,4
+McAllen,,TX,,104
+Merkel,,TX,,2
+Midland,,TX,,14
+Monahans,,TX,,10
+Montrose,,TX,,3
+Mount Vernon,,TX,,10
+Mt Vernon,,TX,,1
+Mt. Vernon,,TX,,1
+Nacogdoches,,TX,,9
+Nacogdochies,,TX,,1
+Odessa,,TX,,77
+Odessa - Midland,,TX,,3
+Odessa/Midland,,TX,,31
+Ogden,,TX,,2
+Plainview,,TX,,8
+Port Aransas,,TX,,11
+Port Isabel,,TX,,1
+Rio Grande Valley,,TX,,7
+Rockport,,TX,,4
+Rowlett,,TX,,1
+Salt Lake City,,TX,,7
+San Angelo,,TX,,30
+San Antonio,,TX,,1149
+San Marcos,,TX,,6
+Shelbyville,,TX,,3
+Sherman,,TX,,5
+South Padre Island,,TX,,106
+Statewide,,TX,,5
+Sweet Water,,TX,,1
+Sweetwater,,TX,,9
+Temple,,TX,,20
+Temple- Killeen,,TX,,2
+Temple-Killeen,,TX,,2
+Terrel,,TX,,3
+Texarkana,,TX,,32
+Tyler,,TX,,62
+Victoria,,TX,,16
+Waco,,TX,,179
+Weatherford,,TX,,6
+Wichita Falls,,TX,,147
+Willis,,TX,,2
+Wimberley,,TX,,6
+Witchita Falls,,TX,,2
+,,TX,,9
+Bicknell,,UT,,2
+Boulder,,UT,,3
+Brigham City,,UT,,1
+Capitol Reef,,UT,,11
+Escalante,,UT,,10
+Kanab,,UT,,1
+La Sal,,UT,,2
+Lake Powell,,UT,,1
+Logan,,UT,,19
+Moab,,UT,,9
+Monument Valley,,UT,,5
+Ogden,,UT,,151
+Ogen,,UT,,7
+Orem,,UT,,4
+Panish Fork Canyon,,UT,,1
+Park City,,UT,,31
+Provo,,UT,,45
+Salt Lake City,,UT,,838
+Spanish Fork Canyon,,UT,,6
+Spanish Fort Canyon,,UT,,1
+Spring City,,UT,,5
+Springdale,,UT,,4
+Torrey,,UT,,4
+Zion Nat'l Park,,UT,,4
+Abingdon,,VA,,4
+Alexandria,,VA,,53
+Annadale,,VA,,2
+Arlington,,VA,,116
+Ashland,,VA,,3
+Bedford,,VA,,1
+Blacksburg,,VA,,13
+Bland,,VA,,2
+Bristol,,VA,,16
+Cape Charles,,VA,,30
+Charlottesville,,VA,,122
+Charlottsville,,VA,,3
+Chesterfield,,VA,,3
+Christiansburg,,VA,,2
+Clarksburg,,VA,,2
+Clifton Forge,,VA,,3
+Colonial Beach,,VA,,6
+Culpeper,,VA,,1
+Culpepper,,VA,,2
+Danville,,VA,,45
+Fairfax,,VA,,13
+Falls Church,,VA,,4
+Fredericksburg,,VA,,7
+Ft. Belvoir,,VA,,4
+Glen Allen,,VA,,3
+Hampton,,VA,,27
+Harrisonburg,,VA,,3
+Luray,,VA,,4
+Lynchburg,,VA,,61
+Manassas,,VA,,3
+Nellysford,,VA,,7
+New Market,,VA,,6
+Newport News,,VA,,27
+Norfolk,,VA,,613
+Oakton,,VA,,8
+Petersburg,,VA,,40
+Quantico,,VA,,3
+Reston,,VA,,6
+Richmond,,VA,,526
+Riner,,VA,,1
+Roanoke,,VA,,182
+Shenandoah Valley,,VA,,19
+Springfield,,VA,,4
+Statewide,,VA,,8
+Staunton,,VA,,1
+Sterling,,VA,,1
+Tysons Corner,,VA,,4
+Vienna,,VA,,1
+Virginia Beach,,VA,,117
+Williamsburg,,VA,,23
+Willimsburg,,VA,,2
+Wilmington,,VA,,2
+Winchester,,VA,,2
+Windsor,,VA,,1
+,,VA,,10
+Charlotte Amalie,,VI,,23
+"Charlotte Amalie, St. Thomas",,VI,,139
+Charlottte Amalie,,VI,,3
+Christensted,,VI,,1
+Christiansted,,VI,,5
+"Christiansted, St Croix",,VI,,2
+"Christiansted, St. Croix",,VI,,33
+"Cruz Bay, St. John",,VI,,5
+Fredericksted,,VI,,2
+Frederiksted,,VI,,22
+"Frederiksted, St Croix",,VI,,5
+"Frederiksted, St. Croix",,VI,,53
+"Nassau, Bahamas",,VI,,2
+Saint Croix,,VI,,1
+St Croix,,VI,,31
+St John,,VI,,9
+St Thomas,,VI,,12
+St. Barts,,VI,,6
+St. Croix,,VI,,13
+St. John,,VI,,34
+St. Thomas,,VI,,39
+Tortola,,VI,,5
+"Tortola, British Virgin Islands",,VI,,2
+Saint Croix,,Virgin Islands,,1
+St Thomas,,Virgin Islands,,1
+Andover,,VT,,9
+Arlington,,VT,,31
+Ascutney,,VT,,2
+Ascutney Valley,,VT,,1
+Athens,,VT,,3
+Barre,,VT,,3
+Bellows Falls,,VT,,13
+Belmont,,VT,,2
+Bennington,,VT,,13
+Berlin,,VT,,6
+Brandon,,VT,,2
+Brattleboro,,VT,,81
+Brattlebro,,VT,,5
+Brattlesboro,,VT,,2
+Bridgewater Corners,,VT,,4
+Burlington,,VT,,329
+Chester,,VT,,3
+Chesterfield,,VT,,2
+Derby,,VT,,1
+Dorset,,VT,,11
+Dummerston,,VT,,3
+East Barnet,,VT,,13
+East Drummerston,,VT,,1
+East Dummerston,,VT,,1
+East Hardwick,,VT,,4
+East Middlebury,,VT,,2
+Essex Junction,,VT,,2
+Essex Juntion,,VT,,1
+Ferrisburg,,VT,,1
+Hartland Four Corners,,VT,,4
+Hinesburg,,VT,,2
+Hyde Park,,VT,,7
+Killington,,VT,,6
+Lebanon,,VT,,2
+Ludlow,,VT,,25
+Lyndonville,,VT,,6
+Manchester,,VT,,28
+Manchester Center,,VT,,5
+Manchester Village,,VT,,1
+Marlboro,,VT,,8
+Middlebury,,VT,,7
+Montgomery Center,,VT,,9
+Montpelier,,VT,,50
+Newfane,,VT,,3
+Norwich,,VT,,8
+Plainfield,,VT,,6
+Pownal,,VT,,4
+Putney,,VT,,3
+Quechee,,VT,,2
+Richmond,,VT,,3
+Ruthland,,VT,,2
+Rutland,,VT,,76
+Shaftesbury,,VT,,2
+Shaftsbury,,VT,,7
+South Burlington,,VT,,1
+Springfield,,VT,,21
+St Albans,,VT,,3
+St. Johnsbury,,VT,,4
+Statewide,,VT,,6
+Stowe,,VT,,44
+Stratton Mountain,,VT,,1
+Taftsville,,VT,,2
+Townshend,,VT,,1
+Waitsfield,,VT,,2
+Walden,,VT,,4
+Warren,,VT,,5
+Waterbury,,VT,,22
+Wells River,,VT,,3
+West Dover,,VT,,1
+West Rutland,,VT,,1
+White River Junction,,VT,,11
+Wiliston,,VT,,1
+Williston,,VT,,2
+Wilmington,,VT,,2
+Windham,,VT,,1
+Winooksi,,VT,,1
+Winooski,,VT,,8
+Woodstock,,VT,,24
+,,VT,,5
+Aberdeen,,WA,,12
+Anacortes,,WA,,8
+Auburn,,WA,,22
+Ballard,,WA,,2
+Bellevue,,WA,,11
+Bellingham,,WA,,227
+Blaine,,WA,,43
+Bremerton,,WA,,79
+Brinnon,,WA,,4
+Centralia,,WA,,4
+Chelan,,WA,,9
+Cle Elum,,WA,,2
+Deming,,WA,,1
+Edmonds,,WA,,23
+Ellensburg,,WA,,9
+Everett,,WA,,102
+Fairhaven,,WA,,2
+Glacier,,WA,,2
+Home Valley,,WA,,1
+Hoquiam,,WA,,2
+Index,,WA,,18
+Issaquah,,WA,,8
+Kennewick,,WA,,18
+Kent,,WA,,26
+Kirkland,,WA,,2
+La Conner,,WA,,12
+Langley,,WA,,20
+Little Rock,,WA,,1
+Long Beach,,WA,,2
+Long Beach Peninsula,,WA,,3
+Longview,,WA,,9
+Lopez Island,,WA,,9
+Lopez Island/San Juan Islands,,WA,,1
+Lynnewood,,WA,,13
+Lynnwood,,WA,,13
+Mt Vernon,,WA,,23
+Mt. Vernon,,WA,,56
+North Beach Peninsula,,WA,,5
+Oak Harbor,,WA,,4
+Ocean Park,,WA,,5
+Olympia,,WA,,121
+Orcas Island,,WA,,1
+Pasco,,WA,,24
+Pomeroy,,WA,,13
+Port Angeles,,WA,,4
+Port Townsend,,WA,,22
+Poulsbo,,WA,,1
+Pullman,,WA,,34
+Redmond,,WA,,1
+Richland,,WA,,6
+San Juan Islands,,WA,,19
+Seattle,,WA,,2681
+Seaview,,WA,,10
+Sequim,,WA,,1
+Shelton,,WA,,3
+Snohomish,,WA,,2
+Spokane,,WA,,506
+Suquamish,,WA,,3
+Tacoma,,WA,,380
+Tri-Cities,,WA,,3
+Tukwila,,WA,,7
+Vancouver,,WA,,28
+Vashon Island,,WA,,3
+Walla Walla,,WA,,75
+Wenatchee,,WA,,36
+Westport,,WA,,5
+Whidbey Island,,WA,,5
+Winthrop,,WA,,3
+Yakima,,WA,,41
+"Washington, D.C.",,"Washington, D.C.",DC,36
+Appleton,,WI,,116
+Appletown,,WI,,6
+Ashland,,WI,,12
+Aztalan,,WI,,4
+Baileys Harbor,,WI,,2
+Beaver Dam,,WI,,14
+Beloit,,WI,,10
+Blue Mounds,,WI,,3
+Clinton,,WI,,3
+Delavan,,WI,,2
+Eagle River,,WI,,6
+Eau Claire,,WI,,54
+Fond Du Lac,,WI,,19
+Fond-Du-Lac,,WI,,1
+Fort Atkinson,,WI,,4
+Fox Valley,,WI,,3
+Geneva Lake,,WI,,6
+Geneva Lakes,,WI,,14
+Green Bay,,WI,,259
+Hales Corners,,WI,,1
+Hayward,,WI,,4
+Hazel Green,,WI,,3
+Hazelhurst,,WI,,11
+Hurley,,WI,,5
+Jackson,,WI,,3
+Janesville,,WI,,11
+Kenosha,,WI,,79
+Kimberly,,WI,,5
+La Crosse,,WI,,156
+La Farge,,WI,,8
+LaCrosse,,WI,,6
+Lake Geneva,,WI,,53
+lake Geneva,,WI,,1
+Lake Mills,,WI,,2
+Laona,,WI,,7
+Lodi,,WI,,4
+Madison,,WI,,667
+Maiden Rock,,WI,,12
+Manitowac,,WI,,3
+Manitowoc,,WI,,1
+Menasha,,WI,,1
+Menomonee Falls,,WI,,1
+Milton,,WI,,9
+Milwaukee,,WI,,1539
+Mineral Point,,WI,,25
+Neenah,,WI,,2
+Norwalk,,WI,,3
+Oconto,,WI,,2
+Onalaska,,WI,,2
+Oshikosh,,WI,,3
+Oshkosh,,WI,,94
+Pence,,WI,,6
+Platteville,,WI,,1
+Portage,,WI,,4
+Prairie Du Chien,,WI,,6
+Racine,,WI,,101
+Rhinelander,,WI,,3
+Shawano,,WI,,1
+Shawano Lake,,WI,,9
+Sheboygan,,WI,,74
+Somerset,,WI,,5
+Statewide,,WI,,2
+Stevens Point,,WI,,14
+Stone Lake,,WI,,3
+Stoughton,,WI,,3
+Sturgeon Bay,,WI,,20
+Superior,,WI,,99
+Viroqua,,WI,,1
+Wascott,,WI,,1
+Wausau,,WI,,36
+Wauwatosa,,WI,,1
+West Allis,,WI,,3
+Westby,,WI,,1
+Willard,,WI,,1
+Winter,,WI,,14
+Wisconsin Rapids,,WI,,1
+,,WI,,1
+Barboursville,,WV,,2
+Beckley,,WV,,26
+Berkeley,,WV,,2
+Berkeley Springs,,WV,,11
+Bluefield,,WV,,60
+Charleston,,WV,,245
+Charlestown,,WV,,57
+Charlestown (WV),,WV,,3
+Clarksburg,,WV,,10
+Clarksburg (WV),,WV,,1
+Elkin,,WV,,2
+Elkins,,WV,,2
+Galloway,,WV,,1
+Grandview Pike,,WV,,1
+Harpers Ferry,,WV,,7
+Huntington,,WV,,174
+Huntington (WV),,WV,,1
+Lewisburg,,WV,,2
+Lost River,,WV,,11
+Martainsburg,,WV,,1
+Martinsburg,,WV,,15
+Martinsville,,WV,,5
+Milton,,WV,,4
+Mineral Wells,,WV,,4
+Morgantown,,WV,,78
+Nimitz,,WV,,2
+Parkerburg,,WV,,3
+Parkersburg,,WV,,82
+Parksburg,,WV,,2
+Princeton,,WV,,3
+Proctor,,WV,,6
+Shepherdstown,,WV,,3
+Statewide,,WV,,1
+Summersville,,WV,,12
+Upper Tract,,WV,,2
+Vienna,,WV,,4
+Wheeling,,WV,,83
+,,WV,,3
+Big Horn Basis,,WY,,1
+Casper,,WY,,58
+Cheyenne,,WY,,160
+Douglas,,WY,,1
+Etna,,WY,,7
+Evansville,,WY,,1
+Fort Collins,,WY,,1
+Freedom,,WY,,1
+Gillette,,WY,,1
+Jackson,,WY,,78
+Jackson Hole,,WY,,1
+Laramie,,WY,,20
+Rawlins,,WY,,29
+Riverton,,WY,,10
+Rock Springs,,WY,,10
+Thermopolis,,WY,,4
+,,WY,,1
+,,,,17
