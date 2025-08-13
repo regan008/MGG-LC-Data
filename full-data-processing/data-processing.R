@@ -100,50 +100,68 @@ trim_all_columns <- function(data) {
     mutate(across(everything(), ~ str_trim(.)))
 }
 
-# Generate a list of unique locations from all the data
-generate_unique_cities_list <- function(data, output_folder) {
-  unique_cities <- data %>%
-    distinct(city, state) %>%
-    arrange(city, state)
-  write.csv(unique_cities, file.path(output_folder, "unique-cities-cleaning.csv"), row.names = FALSE)
-  return(unique_cities)
+# Function to apply city name corrections using a lookup table
+apply_city_corrections <- function(data, lookup_file) {
+  
+  # Read the lookup table
+  lookup <- read.csv(lookup_file, stringsAsFactors = FALSE)
+  
+  # Remove any rows where new.city or new.state is blank/NA
+  lookup_clean <- lookup %>%
+    filter(!is.na(new.city) & new.city != "" & 
+           !is.na(new.state) & new.state != "")
+  
+  cat("Loaded", nrow(lookup_clean), "valid corrections from lookup file\n")
+  
+  # Apply corrections to the main dataset
+  data_corrected <- data %>%
+    left_join(lookup_clean, by = c("city", "state")) %>%
+    mutate(
+      # Replace city if there's a correction available
+      city = if_else(!is.na(new.city), new.city, city),
+      # Replace state if there's a correction available  
+      state = if_else(!is.na(new.state), new.state, state)
+    ) %>%
+    select(-new.city, -new.state)  # Remove the temporary columns
+  
+  # Count how many corrections were applied
+  corrections_applied <- sum(!is.na(lookup_clean$new.city))
+  cat("Applied", corrections_applied, "city name corrections\n")
+  
+  return(data_corrected)
 }
 
-# Use a lookup file of replacements for cleaning up location names
-# The lookup file should be manually checked with the second column being the place to manually fix any errors in first column
-# This function creates a csv of any NEW unique locations that don't exist in the lookup file
-read_and_merge_replacements <- function(unique_cities, output_folder) {
-  # Check if replacements file exists, create empty one if not
-  replacements_file <- file.path(output_folder, "unique-cities-replacements.csv")
-  if (file.exists(replacements_file)) {
-    existing_replacements <- read.csv(replacements_file, header = TRUE)
-  } else {
-    existing_replacements <- data.frame(
-      city = character(),
-      new.city = character(),
-      state = character(),
-      stringsAsFactors = FALSE
-    )
+# Function to show what corrections would be applied (without changing the data)
+preview_corrections <- function(data, lookup_file) {
+  
+  # Read the lookup table
+  lookup <- read.csv(lookup_file, stringsAsFactors = FALSE)
+  
+  # Remove any rows where new.city or new.state is blank/NA
+  lookup_clean <- lookup %>%
+    filter(!is.na(new.city) & new.city != "" & 
+           !is.na(new.state) & new.state != "")
+  
+  # Show what corrections would be applied
+  cat("Preview of corrections that would be applied:\n")
+  cat("=============================================\n")
+  
+  for (i in 1:nrow(lookup_clean)) {
+    cat(sprintf("%s, %s → %s, %s\n", 
+                lookup_clean$city[i], 
+                lookup_clean$state[i],
+                lookup_clean$new.city[i], 
+                lookup_clean$new.state[i]))
   }
   
-  new_replacements <- unique_cities %>%
-    anti_join(existing_replacements, by = c("city", "state")) %>%
-    mutate(new.city = city) %>%
-    select(city, new.city, everything())
+  # Count matches in the data
+  data_with_corrections <- data %>%
+    left_join(lookup_clean, by = c("city", "state"))
   
-  all_replacements <- rbind(existing_replacements, new_replacements)
-  write.csv(new_replacements, file.path(output_folder, "unique-cities-replacements-new.csv"), row.names = FALSE)
-  write.csv(all_replacements, file.path(output_folder, "unique-cities-replacements.csv"), row.names = FALSE)
-  return(all_replacements)
-}
-
-# Apply the lookup data with replacement names for cities to the main data
-apply_replacements <- function(data, replacements) {
-  data.cleaned <- data %>%
-    left_join(replacements, by = c("city", "state")) %>%
-    mutate(city = if_else(!is.na(new.city), new.city, city)) %>%
-    select(-new.city)
-  return(data.cleaned)
+  matches_found <- sum(!is.na(data_with_corrections$new.city))
+  cat("\nTotal matches found in data:", matches_found, "\n")
+  
+  return(lookup_clean)
 }
 
 ### GEOCODING FUNCTIONS
