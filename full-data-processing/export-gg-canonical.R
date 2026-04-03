@@ -108,6 +108,20 @@ for (yr in YEARS) {
   out$transcription.method[is.na(out$transcription.method) |
                            out$transcription.method == ""] <- "manual"
 
+  # Normalise checkbox columns to TRUE/FALSE for Google Sheets compatibility.
+  # Airtable exports these as "checked" or blank; Sheets expects TRUE/FALSE.
+  checkbox_cols <- c("unclear.address", "statewide.address",
+                     "mentions.race", "mentions.disability")
+  for (col in checkbox_cols) {
+    if (col %in% colnames(out)) {
+      out[[col]] <- ifelse(
+        tolower(trimws(as.character(out[[col]]))) %in% c("checked", "true", "yes", "1"),
+        "TRUE",
+        "FALSE"
+      )
+    }
+  }
+
   write.csv(out, outfile, row.names = FALSE, na = "")
 
   cat(sprintf("OK    %d — %d rows → %s\n", yr, nrow(out), outfile))
