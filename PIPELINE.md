@@ -187,11 +187,11 @@ For new Gaia's Guide years, use the canonical column schema defined in `GG-Data/
 | Column | Type | Notes |
 |---|---|---|
 | `title` | text | Name of the listing |
-| `type` | text | Use controlled vocabulary where possible (see type-category-lookup.csv) |
+| `description` | text | Descriptive text from the guide |
 | `address` | text | Street address |
 | `city` | text | City name |
 | `state` | text | 2-letter state code (use dropdown validation in Sheets) |
-| `description` | text | Descriptive text from the guide |
+| `type` | text | Use controlled vocabulary where possible (see type-category-lookup.csv) |
 | `stars` | text | Star rating symbol(s) as printed |
 | `star.type` | text | Type of star rating (e.g. D, \*, PT) |
 | `notes` | text | Transcriber notes |

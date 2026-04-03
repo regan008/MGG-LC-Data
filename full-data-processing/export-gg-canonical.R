@@ -24,8 +24,8 @@ OUTPUT_DIR <- "GG-Data/canonical"
 # Canonical columns in the order they should appear in the output CSV.
 # This matches gg-template.csv exactly.
 CANONICAL_COLS <- c(
-  "title", "type", "address", "city", "state",
-  "description", "stars", "star.type", "notes", "year",
+  "title", "description", "address", "city", "state",
+  "type", "stars", "star.type", "notes", "year",
   "unclear.address", "statewide.address",
   "mentions.race", "mentions.disability",
   "transcription.method"
